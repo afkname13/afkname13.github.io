@@ -23,56 +23,56 @@
   "packs": [
     {
       "id": "cp01-opening-title-route",
-      "source": "art-source/cinematic-v20/generated/cp01-opening-title-route-atlas-source.png",
-      "sourceSha256": "b7641d0c6ebb28ba9c33765a8e9c436d7c8f9a6c73512a1f8f8e9f43f9d8f958",
+      "source": "art-source/cinematic-v20/generated/cp01-opening-title-route-atlas-source-v2.png",
+      "sourceSha256": "bb921aafb679898a59588ba97cbdeaeadf21a5654c7045b03ba5272e5eb5c668",
       "sourceSize": [
-        1672,
-        940
+        3200,
+        720
       ],
       "normalizedGridSize": [
-        1672,
-        940
+        3200,
+        720
       ],
       "sourceGrid": [
-        2,
+        5,
         2
       ],
       "sourceCellSize": [
-        836,
-        470
+        640,
+        360
       ],
       "cropWithinCell": [
         0,
         0,
-        836,
-        470
+        640,
+        360
       ],
       "normalization": "minimal-aspect-crop-nearest-neighbor",
       "sources": [
         {
-          "source": "art-source/cinematic-v20/generated/cp01-opening-title-route-atlas-source.png",
-          "sourceSha256": "b7641d0c6ebb28ba9c33765a8e9c436d7c8f9a6c73512a1f8f8e9f43f9d8f958",
+          "source": "art-source/cinematic-v20/generated/cp01-opening-title-route-atlas-source-v2.png",
+          "sourceSha256": "bb921aafb679898a59588ba97cbdeaeadf21a5654c7045b03ba5272e5eb5c668",
           "sourceSize": [
-            1672,
-            940
+            3200,
+            720
           ],
           "normalizedGridSize": [
-            1672,
-            940
+            3200,
+            720
           ],
           "sourceGrid": [
-            2,
+            5,
             2
           ],
           "sourceCellSize": [
-            836,
-            470
+            640,
+            360
           ],
           "cropWithinCell": [
             0,
             0,
-            836,
-            470
+            640,
+            360
           ],
           "normalization": "minimal-aspect-crop-nearest-neighbor"
         }
@@ -93,6 +93,30 @@
         [
           0,
           3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
         ]
       ],
       "frameSize": [
@@ -100,7 +124,7 @@
         360
       ],
       "fps": 4,
-      "reducedMotionFrame": 3,
+      "reducedMotionFrame": 9,
       "actorComposite": false,
       "compositeRoles": [],
       "shotBindings": [
@@ -119,31 +143,53 @@
         {
           "shotId": "OPN-01-S02",
           "frameIndices": [
-            1
+            1,
+            2,
+            3
           ],
-          "playback": "hold",
-          "frameDurationMs": 250,
+          "playback": "once",
+          "frameDurationMs": 420,
           "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
+            "perceptualChangeRatios": [
+              0.000955,
+              0.000981
+            ],
+            "meanAbsoluteDeltas": [
+              0.044596,
+              0.049447
+            ]
           }
         },
         {
           "shotId": "OPN-01-S03",
           "frameIndices": [
-            2
+            4,
+            5,
+            6,
+            7,
+            8
           ],
-          "playback": "hold",
-          "frameDurationMs": 250,
+          "playback": "once",
+          "frameDurationMs": 380,
           "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
+            "perceptualChangeRatios": [
+              0.000738,
+              0.000686,
+              0.000595,
+              0.000221
+            ],
+            "meanAbsoluteDeltas": [
+              0.04522,
+              0.037597,
+              0.035842,
+              0.016937
+            ]
           }
         },
         {
           "shotId": "OPN-01-S04",
           "frameIndices": [
-            3
+            9
           ],
           "playback": "hold",
           "frameDurationMs": 250,
@@ -157,33 +203,75 @@
         {
           "index": 0,
           "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/01.png",
-          "sha256": "d2f1b35f9c66e169cff3e0dab9eb458c04f81ce9bbd460500985d41c1fb93d92"
+          "sha256": "1ecb4da26c192de38aa498d31560ab0e527af0c91572ede53766531935d028ea"
         },
         {
           "index": 1,
           "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/02.png",
-          "sha256": "6a7f67587a10c39b03ab5728533d80c5067e989687161708cba5f85c31e9a0c9"
+          "sha256": "dbc1d7f8ac9f460a4479383bcc69b1b7294de00b9a58e9757ea4fa9d15b1a660"
         },
         {
           "index": 2,
           "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/03.png",
-          "sha256": "aeacda1571db453f33908bed078dde00f531f11afa71039b2b73d73788a08c90"
+          "sha256": "0f043f97dd07c69af0193516ba85bcd26f40f89fbabd59543a3e069f6895d782"
         },
         {
           "index": 3,
           "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/04.png",
-          "sha256": "bafff517179cb039f30ac60ba5bbd898fb1f94f34fc8bdf7b1a2ee77982242a6"
+          "sha256": "9fba20e4fff17b81756dae37ba23786b67095ebed5645c43aaa3e73a37d4d2a0"
+        },
+        {
+          "index": 4,
+          "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/05.png",
+          "sha256": "a30fdf73ec2bb9bfb2f1d531b755a3db0929caa942dda3e0d3fa30dd4fa547bb"
+        },
+        {
+          "index": 5,
+          "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/06.png",
+          "sha256": "67f1b5fc32959e9eba165f9f74c42b6a93a76f12d86d2ca11b2011f5229fe7b4"
+        },
+        {
+          "index": 6,
+          "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/07.png",
+          "sha256": "db1087e294d61ef5b31412c14ea1b0583c75418d20b1fe2a1aab1d1c5ad6210c"
+        },
+        {
+          "index": 7,
+          "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/08.png",
+          "sha256": "4d1ebd90df6cd79d83ac15bacfdca48aa6da9e58d27d16400cb884a2de824bac"
+        },
+        {
+          "index": 8,
+          "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/09.png",
+          "sha256": "de580bf2daeac20199469d2ec7c668f04d1247e16687139903fb8f828200c95a"
+        },
+        {
+          "index": 9,
+          "url": "/assets/cinematic-v20/frames/cp01-opening-title-route/10.png",
+          "sha256": "061467bc90371ce1f8f66297be90cdd936078184d45e371df62814c1c39149f7"
         }
       ],
       "adjacentFramePerceptualChangeRatios": [
-        0.131107,
-        0.183581,
-        0.147582
+        0.000799,
+        0.000955,
+        0.000981,
+        0.000829,
+        0.000738,
+        0.000686,
+        0.000595,
+        0.000221,
+        0.000299
       ],
       "adjacentFrameMeanAbsoluteDeltas": [
-        8.465256,
-        10.008804,
-        8.463899
+        0.041599,
+        0.044596,
+        0.049447,
+        0.043083,
+        0.04522,
+        0.037597,
+        0.035842,
+        0.016937,
+        0.014709
       ]
     },
     {
