@@ -6,6 +6,15 @@
       "width": 640,
       "height": 360
     },
+    "actorLayout": {
+      "footline": 228,
+      "maxScale": {
+        "caregiver": 1.12,
+        "child": 1.02,
+        "staff": 1.12
+      },
+      "reason": "stable-floor-no-closeup-enlargement"
+    },
     "runtimeMay": [
       "select",
       "hold",
@@ -405,13 +414,13 @@
       "actorLayout": {
         "caregiver": {
           "x": 125,
-          "footline": 318,
+          "footline": 228,
           "scale": 1.08,
           "facing": "right"
         },
         "child": {
           "x": 220,
-          "footline": 318,
+          "footline": 228,
           "scale": 1.02,
           "facing": "right"
         }
@@ -855,14 +864,14 @@
           "actorLayout": {
             "caregiver": {
               "x": 210,
-              "footline": 235,
-              "scale": 1.42,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             },
             "child": {
               "x": 365,
-              "footline": 235,
-              "scale": 1.3,
+              "footline": 228,
+              "scale": 1.02,
               "facing": "left"
             }
           }
@@ -884,8 +893,8 @@
           "actorLayout": {
             "caregiver": {
               "x": 315,
-              "footline": 235,
-              "scale": 1.72,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             }
           }
@@ -908,14 +917,14 @@
           "actorLayout": {
             "caregiver": {
               "x": 200,
-              "footline": 326,
-              "scale": 1.18,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             },
             "child": {
               "x": 305,
-              "footline": 326,
-              "scale": 1.1,
+              "footline": 228,
+              "scale": 1.02,
               "facing": "left"
             }
           }
@@ -1247,19 +1256,19 @@
       "actorLayout": {
         "caregiver": {
           "x": 170,
-          "footline": 323,
+          "footline": 228,
           "scale": 1.0,
           "facing": "right"
         },
         "child": {
           "x": 265,
-          "footline": 323,
+          "footline": 228,
           "scale": 0.96,
           "facing": "right"
         },
         "staff": {
           "x": 505,
-          "footline": 323,
+          "footline": 228,
           "scale": 1.0,
           "facing": "left"
         }
@@ -1318,14 +1327,14 @@
           "actorLayout": {
             "caregiver": {
               "x": 225,
-              "footline": 235,
-              "scale": 1.25,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             },
             "child": {
               "x": 365,
-              "footline": 235,
-              "scale": 1.16,
+              "footline": 228,
+              "scale": 1.02,
               "facing": "left"
             }
           }
@@ -2526,13 +2535,13 @@
           "actorLayout": {
             "caregiver": {
               "x": 285,
-              "footline": 326,
+              "footline": 228,
               "scale": 0.9,
               "facing": "right"
             },
             "child": {
               "x": 370,
-              "footline": 326,
+              "footline": 228,
               "scale": 0.86,
               "facing": "right"
             }
@@ -2561,13 +2570,13 @@
           "actorLayout": {
             "caregiver": {
               "x": 190,
-              "footline": 326,
+              "footline": 228,
               "scale": 0.94,
               "facing": "right"
             },
             "child": {
               "x": 280,
-              "footline": 326,
+              "footline": 228,
               "scale": 0.9,
               "facing": "right"
             }
@@ -3927,20 +3936,20 @@
       "actorLayout": {
         "caregiver": {
           "x": 112,
-          "footline": 334,
-          "scale": 1.45,
+          "footline": 228,
+          "scale": 1.12,
           "facing": "right"
         },
         "child": {
           "x": 230,
-          "footline": 334,
-          "scale": 1.26,
+          "footline": 228,
+          "scale": 1.02,
           "facing": "right"
         },
         "staff": {
           "x": 500,
-          "footline": 334,
-          "scale": 1.42,
+          "footline": 228,
+          "scale": 1.12,
           "facing": "left"
         }
       },
@@ -4131,20 +4140,20 @@
           "actorLayout": {
             "caregiver": {
               "x": 140,
-              "footline": 235,
-              "scale": 1.18,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             },
             "child": {
               "x": 255,
-              "footline": 235,
-              "scale": 1.08,
+              "footline": 228,
+              "scale": 1.02,
               "facing": "right"
             },
             "staff": {
               "x": 500,
-              "footline": 235,
-              "scale": 1.2,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "left"
             }
           }
@@ -4869,14 +4878,14 @@
       "actorLayout": {
         "caregiver": {
           "x": 120,
-          "footline": 330,
-          "scale": 2.05,
+          "footline": 228,
+          "scale": 1.12,
           "facing": "right"
         },
         "child": {
           "x": 275,
-          "footline": 330,
-          "scale": 1.72,
+          "footline": 228,
+          "scale": 1.02,
           "facing": "right"
         }
       },
@@ -4968,8 +4977,8 @@
           "actorLayout": {
             "child": {
               "x": 245,
-              "footline": 235,
-              "scale": 1.85,
+              "footline": 228,
+              "scale": 1.02,
               "facing": "right"
             }
           }
@@ -4991,8 +5000,8 @@
           "actorLayout": {
             "child": {
               "x": 245,
-              "footline": 235,
-              "scale": 1.55,
+              "footline": 228,
+              "scale": 1.02,
               "facing": "right"
             }
           }
@@ -5151,13 +5160,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 175,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.98,
                   "facing": "right"
                 },
                 "child": {
                   "x": 255,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.94,
                   "facing": "right"
                 }
@@ -5167,13 +5176,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 205,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.98,
                   "facing": "right"
                 },
                 "child": {
                   "x": 290,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.94,
                   "facing": "right"
                 }
@@ -5183,13 +5192,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 225,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.98,
                   "facing": "right"
                 },
                 "child": {
                   "x": 315,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.94,
                   "facing": "right"
                 }
@@ -5215,13 +5224,13 @@
           "actorLayout": {
             "caregiver": {
               "x": 225,
-              "footline": 315,
+              "footline": 228,
               "scale": 0.98,
               "facing": "right"
             },
             "child": {
               "x": 315,
-              "footline": 315,
+              "footline": 228,
               "scale": 0.94,
               "facing": "left"
             }
@@ -5378,13 +5387,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 390,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 480,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5394,13 +5403,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 335,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 425,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5410,13 +5419,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 280,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 370,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5426,13 +5435,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 220,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 305,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5471,13 +5480,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 390,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 480,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5487,13 +5496,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 335,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 425,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5503,13 +5512,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 280,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 370,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5519,13 +5528,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 220,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "left"
                 },
                 "child": {
                   "x": 305,
-                  "footline": 315,
+                  "footline": 228,
                   "scale": 0.92,
                   "facing": "left"
                 }
@@ -5697,13 +5706,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 485,
-                  "footline": 316,
+                  "footline": 228,
                   "scale": 0.9,
                   "facing": "left"
                 },
                 "child": {
                   "x": 560,
-                  "footline": 316,
+                  "footline": 228,
                   "scale": 0.86,
                   "facing": "left"
                 }
@@ -5713,13 +5722,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 470,
-                  "footline": 316,
+                  "footline": 228,
                   "scale": 0.9,
                   "facing": "left"
                 },
                 "child": {
                   "x": 545,
-                  "footline": 316,
+                  "footline": 228,
                   "scale": 0.86,
                   "facing": "left"
                 }
@@ -5729,13 +5738,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 420,
-                  "footline": 316,
+                  "footline": 228,
                   "scale": 0.86,
                   "facing": "left"
                 },
                 "child": {
                   "x": 485,
-                  "footline": 316,
+                  "footline": 228,
                   "scale": 0.82,
                   "facing": "left"
                 }
@@ -5869,12 +5878,12 @@
       "actorLayout": {
         "caregiver": {
           "x": 365,
-          "footline": 270,
+          "footline": 228,
           "scale": 1.0
         },
         "child": {
           "x": 455,
-          "footline": 270,
+          "footline": 228,
           "scale": 1.0
         }
       },
@@ -6025,12 +6034,12 @@
       "actorLayout": {
         "caregiver": {
           "x": 270,
-          "footline": 270,
+          "footline": 228,
           "scale": 1.0
         },
         "child": {
           "x": 350,
-          "footline": 270,
+          "footline": 228,
           "scale": 1.0
         }
       },
@@ -6255,13 +6264,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 155,
-                  "footline": 320,
+                  "footline": 228,
                   "scale": 1.0,
                   "facing": "right"
                 },
                 "child": {
                   "x": 235,
-                  "footline": 320,
+                  "footline": 228,
                   "scale": 0.96,
                   "facing": "right"
                 }
@@ -6271,13 +6280,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 215,
-                  "footline": 311,
+                  "footline": 228,
                   "scale": 0.9,
                   "facing": "right"
                 },
                 "child": {
                   "x": 285,
-                  "footline": 311,
+                  "footline": 228,
                   "scale": 0.86,
                   "facing": "right"
                 }
@@ -6287,13 +6296,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 270,
-                  "footline": 300,
+                  "footline": 228,
                   "scale": 0.8,
                   "facing": "right"
                 },
                 "child": {
                   "x": 332,
-                  "footline": 300,
+                  "footline": 228,
                   "scale": 0.76,
                   "facing": "right"
                 }
@@ -6303,13 +6312,13 @@
               "actorLayout": {
                 "caregiver": {
                   "x": 315,
-                  "footline": 285,
+                  "footline": 228,
                   "scale": 0.7,
                   "facing": "right"
                 },
                 "child": {
                   "x": 370,
-                  "footline": 285,
+                  "footline": 228,
                   "scale": 0.68,
                   "facing": "right"
                 }
@@ -6335,13 +6344,13 @@
           "actorLayout": {
             "caregiver": {
               "x": 285,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.82,
               "facing": "right"
             },
             "child": {
               "x": 350,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.78,
               "facing": "right"
             }
@@ -6366,19 +6375,19 @@
           "actorLayout": {
             "caregiver": {
               "x": 285,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.82,
               "facing": "right"
             },
             "child": {
               "x": 350,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.78,
               "facing": "right"
             },
             "staff": {
               "x": 430,
-              "footline": 210,
+              "footline": 228,
               "scale": 0.68,
               "facing": "left"
             }
@@ -6403,19 +6412,19 @@
           "actorLayout": {
             "caregiver": {
               "x": 285,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.82,
               "facing": "right"
             },
             "child": {
               "x": 350,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.78,
               "facing": "right"
             },
             "staff": {
               "x": 430,
-              "footline": 210,
+              "footline": 228,
               "scale": 0.68,
               "facing": "left"
             }
@@ -6439,13 +6448,13 @@
           "actorLayout": {
             "caregiver": {
               "x": 240,
-              "footline": 235,
+              "footline": 228,
               "scale": 1.12,
               "facing": "right"
             },
             "child": {
               "x": 350,
-              "footline": 235,
+              "footline": 228,
               "scale": 1.02,
               "facing": "left"
             }
@@ -6469,13 +6478,13 @@
           "actorLayout": {
             "caregiver": {
               "x": 240,
-              "footline": 235,
+              "footline": 228,
               "scale": 1.12,
               "facing": "right"
             },
             "child": {
               "x": 350,
-              "footline": 235,
+              "footline": 228,
               "scale": 1.02,
               "facing": "left"
             }
@@ -6499,13 +6508,13 @@
           "actorLayout": {
             "caregiver": {
               "x": 285,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.82,
               "facing": "left"
             },
             "child": {
               "x": 350,
-              "footline": 300,
+              "footline": 228,
               "scale": 0.78,
               "facing": "left"
             }
@@ -6875,8 +6884,8 @@
           "actorLayout": {
             "staff": {
               "x": 160,
-              "footline": 338,
-              "scale": 1.5,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             }
           }
@@ -6911,8 +6920,8 @@
           "actorLayout": {
             "caregiver": {
               "x": 590,
-              "footline": 338,
-              "scale": 1.25,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "left"
             }
           }
@@ -6971,8 +6980,8 @@
           "actorLayout": {
             "staff": {
               "x": 160,
-              "footline": 338,
-              "scale": 1.5,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             }
           }
@@ -7345,14 +7354,14 @@
           "actorLayout": {
             "caregiver": {
               "x": 230,
-              "footline": 235,
-              "scale": 1.18,
+              "footline": 228,
+              "scale": 1.12,
               "facing": "right"
             },
             "child": {
               "x": 365,
-              "footline": 235,
-              "scale": 1.08,
+              "footline": 228,
+              "scale": 1.02,
               "facing": "left"
             }
           }
@@ -7727,13 +7736,13 @@
       "actorLayout": {
         "caregiver": {
           "x": 175,
-          "footline": 330,
+          "footline": 228,
           "scale": 0.96,
           "facing": "right"
         },
         "child": {
           "x": 270,
-          "footline": 330,
+          "footline": 228,
           "scale": 0.92,
           "facing": "right"
         }
@@ -7948,12 +7957,12 @@
       "actorLayout": {
         "caregiver": {
           "x": 455,
-          "footline": 280,
+          "footline": 228,
           "scale": 1.0
         },
         "child": {
           "x": 535,
-          "footline": 280,
+          "footline": 228,
           "scale": 1.0
         }
       },
@@ -8130,12 +8139,12 @@
           "actorLayout": {
             "caregiver": {
               "x": 240,
-              "footline": 260,
+              "footline": 228,
               "scale": 1.0
             },
             "child": {
               "x": 325,
-              "footline": 260,
+              "footline": 228,
               "scale": 1.0
             }
           }
@@ -8154,12 +8163,12 @@
           "actorLayout": {
             "caregiver": {
               "x": 350,
-              "footline": 250,
+              "footline": 228,
               "scale": 1.0
             },
             "child": {
               "x": 435,
-              "footline": 250,
+              "footline": 228,
               "scale": 1.0
             }
           }
@@ -8286,13 +8295,13 @@
       "actorLayout": {
         "caregiver": {
           "x": 425,
-          "footline": 282,
+          "footline": 228,
           "scale": 0.94,
           "facing": "right"
         },
         "child": {
           "x": 520,
-          "footline": 282,
+          "footline": 228,
           "scale": 0.9,
           "facing": "right"
         }

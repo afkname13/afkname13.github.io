@@ -1,0 +1,3165 @@
+{
+  "version": "20-hd",
+  "contract": {
+    "lineage": "exact complete cells from independently generated V19 identity atlases",
+    "designChanges": "none",
+    "logicalDensity": 2,
+    "frame": {
+      "width": 256,
+      "height": 256,
+      "contactRow": 243
+    },
+    "logicalProjection": {
+      "width": 128,
+      "height": 128,
+      "contactEdge": 122
+    },
+    "normalization": [
+      "reuse V19 authored foreground extraction",
+      "reuse V19 bounded exterior matte cleanup",
+      "crop complete atlas cells",
+      "nearest-neighbour scale complete cells",
+      "bottom-centre complete cells",
+      "pack four complete frames into sheets"
+    ],
+    "forbidden": [
+      "image generation",
+      "redrawing",
+      "palette swap",
+      "anatomical recoloring",
+      "head/body composite",
+      "runtime tint",
+      "cross-identity fallback"
+    ]
+  },
+  "assets": [
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-1",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-female-tone-1.png",
+      "sha256": "1b90be82f492ea9931932d8eda9d874e168509fc434a69e29544bdc4f5518e46",
+      "source": "art-source/characters-v19/caregiver-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-1",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-female-tone-1.png",
+      "sha256": "aff12128f10106ce6d2ffc2ac656e7fef43bbe00b2101235e966dd8cab123f0b",
+      "source": "art-source/characters-v19/caregiver-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 79,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 59,
+          "top": 24,
+          "right": 196,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 58,
+          "top": 24,
+          "right": 197,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-1",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-1.png",
+      "sha256": "74a2cf056fc5001db687f0afbde7e7d5486037e9519d8443ac0fa2eda073e36f",
+      "source": "art-source/characters-v19/caregiver-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 80,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 178,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-1",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-female-tone-1.png",
+      "sha256": "8f6827571bfae15a44f02e1f22143a166467145fa9eb7d16acca73ab1660fb50",
+      "source": "art-source/characters-v19/caregiver-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 61,
+          "top": 24,
+          "right": 193,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 24,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 60,
+          "top": 24,
+          "right": 195,
+          "bottom": 243
+        },
+        {
+          "left": 58,
+          "top": 24,
+          "right": 197,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-2",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-female-tone-2.png",
+      "sha256": "53cc4c32c14dfff9b7f2df57fc353b17f0f999473da714a0d63a18052690bcd4",
+      "source": "art-source/characters-v19/caregiver-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-2",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-female-tone-2.png",
+      "sha256": "6d16ccc8aaef1ca8bedb83c0f9ee3a7e7c942dc11b0d0b0d63e29a570a53c345",
+      "source": "art-source/characters-v19/caregiver-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 62,
+          "top": 24,
+          "right": 192,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 61,
+          "top": 24,
+          "right": 194,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-2",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-2.png",
+      "sha256": "9157aa211035224788605c048a2c0321ac2c13739dd4254a8773961d129032d8",
+      "source": "art-source/characters-v19/caregiver-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 25,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-2",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-female-tone-2.png",
+      "sha256": "753a3ae7aeff27379f3ef89629869b8cbbbbf76dae0e869b92f130f59f8f6b00",
+      "source": "art-source/characters-v19/caregiver-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 65,
+          "top": 24,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 65,
+          "top": 24,
+          "right": 190,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-3",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-female-tone-3.png",
+      "sha256": "7b1e5e1479e94ffeff79d3c299aaecec358e602a636ced7eba838f6e39ac424a",
+      "source": "art-source/characters-v19/caregiver-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-3",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-female-tone-3.png",
+      "sha256": "719f53f3cc737b0229adb79d800df3195e00223a63b98ff3217bf4b8e9994ae6",
+      "source": "art-source/characters-v19/caregiver-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 83,
+          "top": 24,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 63,
+          "top": 24,
+          "right": 192,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 24,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 61,
+          "top": 24,
+          "right": 194,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-3",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-3.png",
+      "sha256": "8ad5abd44047c9241c052261faa719bdc04de088b688ea7ce934d61a6cc70a67",
+      "source": "art-source/characters-v19/caregiver-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 24,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-3",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-female-tone-3.png",
+      "sha256": "eac34af1c26e8f0e4c14abdd823da9aa0ed8d9e72cf69e8300a3dd49bd8eb24c",
+      "source": "art-source/characters-v19/caregiver-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 65,
+          "top": 24,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 24,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 63,
+          "top": 24,
+          "right": 192,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-4",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-female-tone-4.png",
+      "sha256": "8b7800e0cb4aadcc3387343e5749a343772691cc6856d9746bbcf43f776cad9a",
+      "source": "art-source/characters-v19/caregiver-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-4",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-female-tone-4.png",
+      "sha256": "44f2066c46ba9b7a81396786c1434e318010f5ee1d5de79244fcf5a8f697ea7d",
+      "source": "art-source/characters-v19/caregiver-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 64,
+          "top": 24,
+          "right": 191,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 63,
+          "top": 24,
+          "right": 192,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-4",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-4.png",
+      "sha256": "bd93f0e6ab4d9171b4a51063cf6ca18089c1794f47c78c6c68a8fb28a2a62230",
+      "source": "art-source/characters-v19/caregiver-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 24,
+          "right": 175,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-4",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-female-tone-4.png",
+      "sha256": "2e53208a6aabd4635be5d8ecef9cdd3ab72b998bc7df45dfd01acd86bf4ca272",
+      "source": "art-source/characters-v19/caregiver-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 65,
+          "top": 24,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 186,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 64,
+          "top": 24,
+          "right": 190,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-5",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-female-tone-5.png",
+      "sha256": "6a1e6eb5694006e6ed12b7d8dab849e2512871c2fc85c9cc9b6f40e6639681dc",
+      "source": "art-source/characters-v19/caregiver-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 25,
+          "right": 172,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-5",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-female-tone-5.png",
+      "sha256": "24429dcedd051cdf68b6111011fc1e2afad9dd3d4c934a638c0d3a1517d62358",
+      "source": "art-source/characters-v19/caregiver-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 61,
+          "top": 24,
+          "right": 193,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 25,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 60,
+          "top": 24,
+          "right": 194,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-5",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-5.png",
+      "sha256": "4d8fa801129ae0b8b4412c0c05cfc0313d938f4164853913b562b6c39f4126aa",
+      "source": "art-source/characters-v19/caregiver-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 25,
+          "right": 175,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-female-tone-5",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-female-tone-5.png",
+      "sha256": "a4dd662fdc3ce04fae26291915eb0a298431ba7f7661acac367686e8e130ca38",
+      "source": "art-source/characters-v19/caregiver-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 65,
+          "top": 25,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 24,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 65,
+          "top": 24,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 60,
+          "top": 24,
+          "right": 193,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-1",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-male-tone-1.png",
+      "sha256": "7c9a36fd6b3fa7faf20100fd300c0983a3d53e9c4365aca61811b2d65856b063",
+      "source": "art-source/characters-v19/caregiver-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-1",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-male-tone-1.png",
+      "sha256": "f63eb29bbad9a5386e185a92ba8bf5a1d5ad0f19eb2de0f135672df6477ad05e",
+      "source": "art-source/characters-v19/caregiver-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 52,
+          "top": 24,
+          "right": 203,
+          "bottom": 243
+        },
+        {
+          "left": 57,
+          "top": 24,
+          "right": 197,
+          "bottom": 243
+        },
+        {
+          "left": 37,
+          "top": 24,
+          "right": 217,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-1",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-1.png",
+      "sha256": "c1b792a2224ca1e7bea4358ca3883e00263f66eca9078a5b238e7b8449b71aeb",
+      "source": "art-source/characters-v19/caregiver-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 75,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-1",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-male-tone-1.png",
+      "sha256": "ebab2c99a81ad8f71f6ea2ffa285e3535ed36402105f9dbb26b1ba066d206edc",
+      "source": "art-source/characters-v19/caregiver-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 24,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-2",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-male-tone-2.png",
+      "sha256": "8bda9b6d1fc9ebd44724ef34046793f979f5976780536513fd384e90c6420c85",
+      "source": "art-source/characters-v19/caregiver-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-2",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-male-tone-2.png",
+      "sha256": "b08797d6200c4f8dbea97d059be32bcea6aeb645f4ccf6493671c0974c0134b6",
+      "source": "art-source/characters-v19/caregiver-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 52,
+          "top": 25,
+          "right": 202,
+          "bottom": 243
+        },
+        {
+          "left": 57,
+          "top": 24,
+          "right": 197,
+          "bottom": 243
+        },
+        {
+          "left": 36,
+          "top": 25,
+          "right": 218,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-2",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-2.png",
+      "sha256": "495d2f64a2b27fb57bda42dff0010a23a893144cdf9cb267c186defc5dcf71c9",
+      "source": "art-source/characters-v19/caregiver-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 75,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 186,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-2",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-male-tone-2.png",
+      "sha256": "e1d82ba6170d9c0f3b802685171dacb8f5679e7a893ea8af00188eb92bed369c",
+      "source": "art-source/characters-v19/caregiver-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 24,
+          "right": 182,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-3",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-male-tone-3.png",
+      "sha256": "3c1652ac88a02e5b03d5c779a1e28d24cb0540cd76699fa5f43c1ebd934d84b8",
+      "source": "art-source/characters-v19/caregiver-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-3",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-male-tone-3.png",
+      "sha256": "9d021073454294f1cec73ee2e05302909b4782981dd0b8631d6b66cc28a86bcf",
+      "source": "art-source/characters-v19/caregiver-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 53,
+          "top": 24,
+          "right": 201,
+          "bottom": 243
+        },
+        {
+          "left": 58,
+          "top": 24,
+          "right": 197,
+          "bottom": 243
+        },
+        {
+          "left": 38,
+          "top": 24,
+          "right": 218,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-3",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-3.png",
+      "sha256": "e2a17149ff986349e22956539874190f85cd2cf4b80e9b586895901ccd932f21",
+      "source": "art-source/characters-v19/caregiver-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 25,
+          "right": 186,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-3",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-male-tone-3.png",
+      "sha256": "d971df2a5cb6c5954aa3dde84dc5a140aa21d819c7ded9217e96cf2ee7331020",
+      "source": "art-source/characters-v19/caregiver-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 69,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 24,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-4",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-male-tone-4.png",
+      "sha256": "fe3cc860af2e69068e1d1eb00acebc1b9457fdcbbfc0be293733abe05c27aecd",
+      "source": "art-source/characters-v19/caregiver-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 25,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-4",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-male-tone-4.png",
+      "sha256": "6c0266da7fdb5dff9ac710c675da67449b96ba8764692f0ed450d31e20f60f4a",
+      "source": "art-source/characters-v19/caregiver-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 54,
+          "top": 24,
+          "right": 201,
+          "bottom": 243
+        },
+        {
+          "left": 58,
+          "top": 24,
+          "right": 197,
+          "bottom": 243
+        },
+        {
+          "left": 38,
+          "top": 25,
+          "right": 217,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-4",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-4.png",
+      "sha256": "1b1a8e9815d2e5ad46c2c27d1828825d057852050a39fd4a993bd5a793090f10",
+      "source": "art-source/characters-v19/caregiver-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 24,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-4",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-male-tone-4.png",
+      "sha256": "7b1e9785fdedf9408804b7bb62803a0d1a69ac54a08d1c3909e04a8d33f4b202",
+      "source": "art-source/characters-v19/caregiver-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 68,
+          "top": 24,
+          "right": 186,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 24,
+          "right": 182,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-5",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/caregiver-idle-male-tone-5.png",
+      "sha256": "0e05f9662a41d22fd6539109501b2cc672f3088e7d7b17f86d760e90472e1b51",
+      "source": "art-source/characters-v19/caregiver-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 81,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-5",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/caregiver-talk-male-tone-5.png",
+      "sha256": "9c7d4466af934f17ce0ed366f9654c113f4c1b9f55a7f10e52022ef3c869cfac",
+      "source": "art-source/characters-v19/caregiver-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 53,
+          "top": 25,
+          "right": 201,
+          "bottom": 243
+        },
+        {
+          "left": 58,
+          "top": 24,
+          "right": 197,
+          "bottom": 243
+        },
+        {
+          "left": 37,
+          "top": 24,
+          "right": 218,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 176,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-5",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-5.png",
+      "sha256": "1da79b6476a5c004437829eb49fdda4d4613e4827ae6ef7a10a1c4c5a4a57258",
+      "source": "art-source/characters-v19/caregiver-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 75,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "caregiver-male-tone-5",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/caregiver-walk-male-tone-5.png",
+      "sha256": "04baa9f98244833a857da755d539ac17e4bbd6b1633063c73cf56edbd571aea3",
+      "source": "art-source/characters-v19/caregiver-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 68,
+          "top": 25,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 24,
+          "right": 182,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-1",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-female-tone-1.png",
+      "sha256": "b07b43047585b6688d4f6cd870a016999dc2ff53de340576e6a1b9f6b1b5e269",
+      "source": "art-source/characters-v19/child-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 77,
+          "top": 44,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 45,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 44,
+          "right": 179,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-1",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-female-tone-1.png",
+      "sha256": "1e9d91b485a245c383c51954665ac3f6f96236e09a0db39eed34991e6d9a36cd",
+      "source": "art-source/characters-v19/child-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 64,
+          "top": 44,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 44,
+          "right": 186,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 44,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 44,
+          "right": 187,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-1",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-female-tone-1.png",
+      "sha256": "81e53559ca664683138e906fcdb391fd4f1d6e60fa79d0a72a253ba7feed04f1",
+      "source": "art-source/characters-v19/child-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-1",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-female-tone-1.png",
+      "sha256": "1896ef3e0acbf5eb3b722530bb3e9636f99b1210694a88b5b632422ee1fa78e0",
+      "source": "art-source/characters-v19/child-female/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 70,
+          "top": 44,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 69,
+          "top": 44,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-2",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-female-tone-2.png",
+      "sha256": "b96dd966362783fca6385fdfea869853382613052297afff2c15439ac207188d",
+      "source": "art-source/characters-v19/child-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 77,
+          "top": 45,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 44,
+          "right": 179,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-2",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-female-tone-2.png",
+      "sha256": "0ea91a6ebb5dfdfb3b782a29733a67d09de0b16d0402089e1dafd808c061020b",
+      "source": "art-source/characters-v19/child-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 64,
+          "top": 45,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 44,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 44,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 44,
+          "right": 186,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-2",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-female-tone-2.png",
+      "sha256": "f8a9b6c88a5ead22efa83a8749a40ec86e842577c235390d7b62ca488dd37521",
+      "source": "art-source/characters-v19/child-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-2",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-female-tone-2.png",
+      "sha256": "f8b46270240b41d4de12b129ce89c1af87583bf0466808708848712090d49ea2",
+      "source": "art-source/characters-v19/child-female/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 70,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 70,
+          "top": 44,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-3",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-female-tone-3.png",
+      "sha256": "0e1facbcce937f8e2aa021980b636a1ace0d532d3efcc8fdf31cd4d99b3d2671",
+      "source": "art-source/characters-v19/child-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 44,
+          "right": 179,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-3",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-female-tone-3.png",
+      "sha256": "c8290d2c610bc0a398e72790d0f5e9ff31e85720841a6fccbd75e6baff1f029d",
+      "source": "art-source/characters-v19/child-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 64,
+          "top": 45,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 44,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 45,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 44,
+          "right": 187,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-3",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-female-tone-3.png",
+      "sha256": "d6434e7b7486f2f6c5c4bd548880c71fdc49ae8cb49e024b3e0a58e3812a39ab",
+      "source": "art-source/characters-v19/child-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 45,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-3",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-female-tone-3.png",
+      "sha256": "876d4c847bbaca3eba18926ee343fb3048395456b734f1887ca48fc1f356ff46",
+      "source": "art-source/characters-v19/child-female/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 70,
+          "top": 44,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 70,
+          "top": 44,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-4",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-female-tone-4.png",
+      "sha256": "1d7439ca0eb14f703b75d6d6554d0ab57aa312a677b6c999984c841f403ee094",
+      "source": "art-source/characters-v19/child-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 44,
+          "right": 179,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-4",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-female-tone-4.png",
+      "sha256": "73abda211f2369f71125802798cf0b9448304f2484d07391ce73d967d9875a04",
+      "source": "art-source/characters-v19/child-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 64,
+          "top": 44,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 67,
+          "top": 44,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 44,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 45,
+          "right": 186,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-4",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-female-tone-4.png",
+      "sha256": "e5cf07d32ef6533ace741eb248f1f78c58cc61bf0817ed1e7649d9142a063767",
+      "source": "art-source/characters-v19/child-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-4",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-female-tone-4.png",
+      "sha256": "59531ea52ee4b22d7f58d655961f9bc6f401a58952820019859b1adaf28b7548",
+      "source": "art-source/characters-v19/child-female/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 70,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-5",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-female-tone-5.png",
+      "sha256": "0500e96f602d0c098d6db2e057609965505d1bfc8f3e08cf6628454bda4f478f",
+      "source": "art-source/characters-v19/child-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 76,
+          "top": 44,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-5",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-female-tone-5.png",
+      "sha256": "646c582dc568bcb78752880c77c84c471702cd846420d28138f6763416a8ffc4",
+      "source": "art-source/characters-v19/child-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 64,
+          "top": 45,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 44,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 45,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 69,
+          "top": 44,
+          "right": 186,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-5",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-female-tone-5.png",
+      "sha256": "495906dba0aafe918d639a615e8e3e933e4affceee7ee5f769e5ee049ac24b1e",
+      "source": "art-source/characters-v19/child-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 77,
+          "top": 45,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 44,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 78,
+          "top": 44,
+          "right": 177,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-female-tone-5",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-female-tone-5.png",
+      "sha256": "79ce86c645aa927600d604ef3b3a328bc7236a965d3fdd888a028b0517970efd",
+      "source": "art-source/characters-v19/child-female/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 70,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 70,
+          "top": 45,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 69,
+          "top": 44,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-1",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-male-tone-1.png",
+      "sha256": "2fa31118b5f9b0b428dc3e98debbbfcf544b3a52590a489e2b727daf2d6a3b45",
+      "source": "art-source/characters-v19/child-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 87,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 86,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 166,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-1",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-male-tone-1.png",
+      "sha256": "2892c1228df688ce370ef35f3e11691ed6cc65effe897423843e770f9d9b8a17",
+      "source": "art-source/characters-v19/child-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 86,
+          "top": 45,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 65,
+          "top": 44,
+          "right": 189,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 45,
+          "right": 183,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 44,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-1",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-male-tone-1.png",
+      "sha256": "ac3d63d7e26672b79217d5d4dffc5a684cc742b42368f9f1a7ffac48af208262",
+      "source": "art-source/characters-v19/child-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 44,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 44,
+          "right": 170,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 44,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 166,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-1",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-male-tone-1.png",
+      "sha256": "97c76f517f9b0417159d096b1143253ddac702a4278437cae04de367354be73b",
+      "source": "art-source/characters-v19/child-male/tone-1-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 79,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 83,
+          "top": 44,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 45,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-2",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-male-tone-2.png",
+      "sha256": "eb19d88bb16d3ffc2a52f6078c32f1c52807934c0490a0305acc232492347d6a",
+      "source": "art-source/characters-v19/child-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 87,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 86,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 88,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 166,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-2",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-male-tone-2.png",
+      "sha256": "07addec5bdec2a59fc88983b7a6d33c1045efa30826c1cee0850fa9eaf1e28ed",
+      "source": "art-source/characters-v19/child-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 86,
+          "top": 45,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 44,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 45,
+          "right": 183,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 44,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-2",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-male-tone-2.png",
+      "sha256": "5787cf59289abd7f78273501d99ab381597d9fa7edea33e85c0f6688037dae54",
+      "source": "art-source/characters-v19/child-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 83,
+          "top": 44,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 44,
+          "right": 170,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-2",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-male-tone-2.png",
+      "sha256": "c5777a8926036f7e12c3a371faddc7adb919c27dcc2bb609a1f7cd1cb77a9f62",
+      "source": "art-source/characters-v19/child-male/tone-2-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 79,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 83,
+          "top": 44,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 45,
+          "right": 175,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-3",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-male-tone-3.png",
+      "sha256": "becedbe773aef3e206b1e94e745ebeb84a3628574a95a784e4ff3c94bb4b4349",
+      "source": "art-source/characters-v19/child-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 87,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 86,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 88,
+          "top": 45,
+          "right": 167,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-3",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-male-tone-3.png",
+      "sha256": "e8c8c02871a256b1b89dfaf503bcb2c557ed5138f9e3b3fa91f53b67022d94c6",
+      "source": "art-source/characters-v19/child-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 85,
+          "top": 44,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 65,
+          "top": 44,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 73,
+          "top": 45,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-3",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-male-tone-3.png",
+      "sha256": "6fd9558e3184242f858fe57b5b24a0c56b3f9d785db18d3bde3baa6c5c14064c",
+      "source": "art-source/characters-v19/child-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 83,
+          "top": 44,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 44,
+          "right": 170,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 44,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 88,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-3",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-male-tone-3.png",
+      "sha256": "2d4224db9ac9812140891ea26f69b838743cb3927a5ad18d399ad0d27042a7b0",
+      "source": "art-source/characters-v19/child-male/tone-3-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 79,
+          "top": 44,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 83,
+          "top": 44,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-4",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-male-tone-4.png",
+      "sha256": "b6153ba8200553d4e473b1604711f4037c2f6e29015bfa0a2e639220d4c4ce03",
+      "source": "art-source/characters-v19/child-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 87,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 86,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 166,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-4",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-male-tone-4.png",
+      "sha256": "43a0ab8eeb23e63d2913b27a4afd88acb5d5dba0e84b54c11a1d84bd76be7082",
+      "source": "art-source/characters-v19/child-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 85,
+          "top": 44,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 64,
+          "top": 44,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 44,
+          "right": 184,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 44,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-4",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-male-tone-4.png",
+      "sha256": "f47106fdcad8f182a1fba394c89b2c436842f318d11a34968498de348d9f2aa3",
+      "source": "art-source/characters-v19/child-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 83,
+          "top": 44,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 44,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 88,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-4",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-male-tone-4.png",
+      "sha256": "a87b4872b59dc7afa44a2d2bd1700342ed82438d7a4130e493302db535c4a8a6",
+      "source": "art-source/characters-v19/child-male/tone-4-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 79,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 44,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 174,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-5",
+      "motion": "idle",
+      "path": "/assets/sprites-v20-hd/child-idle-male-tone-5.png",
+      "sha256": "f3c5d18a43917b01114c1435b2cc50f0289fb8986a4b0e3e0156563550abdbef",
+      "source": "art-source/characters-v19/child-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 87,
+          "top": 44,
+          "right": 168,
+          "bottom": 243
+        },
+        {
+          "left": 86,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        },
+        {
+          "left": 87,
+          "top": 44,
+          "right": 166,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-5",
+      "motion": "talk",
+      "path": "/assets/sprites-v20-hd/child-talk-male-tone-5.png",
+      "sha256": "a345cdd91a1210f1f68b873dba9c265b01e115dd93f1d2a36f278d27fd22dc30",
+      "source": "art-source/characters-v19/child-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 86,
+          "top": 45,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 65,
+          "top": 44,
+          "right": 190,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 45,
+          "right": 183,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 44,
+          "right": 183,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-5",
+      "motion": "reaction",
+      "path": "/assets/sprites-v20-hd/child-reaction-male-tone-5.png",
+      "sha256": "ea4f246cc4955d575c7086cafa7436b86923c3f10d10332dfab3fcdd4fae3def",
+      "source": "art-source/characters-v19/child-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 83,
+          "top": 44,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 44,
+          "right": 170,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 44,
+          "right": 176,
+          "bottom": 243
+        },
+        {
+          "left": 88,
+          "top": 44,
+          "right": 167,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "family-sprite-sheet",
+      "identity": "child-male-tone-5",
+      "motion": "walk",
+      "path": "/assets/sprites-v20-hd/child-walk-male-tone-5.png",
+      "sha256": "399559f40d77ee87c812d442c15260e5fc691daf42fc39d213e4c81affd203bb",
+      "source": "art-source/characters-v19/child-male/tone-5-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 79,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 83,
+          "top": 44,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 80,
+          "top": 44,
+          "right": 175,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-clinician",
+      "motion": "idle",
+      "path": "/assets/staff-v20-hd/staff-clinician-idle.png",
+      "sha256": "5d37d674945175fd61a1c2b618bf79021738bcaeb8bdc3fa2f7b1206d73280a2",
+      "source": "art-source/characters-v19/staff/clinician-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 85,
+          "top": 24,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 86,
+          "top": 24,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 85,
+          "top": 24,
+          "right": 169,
+          "bottom": 243
+        },
+        {
+          "left": 85,
+          "top": 24,
+          "right": 170,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-clinician",
+      "motion": "talk",
+      "path": "/assets/staff-v20-hd/staff-clinician-talk.png",
+      "sha256": "ff3de56a7a6bbb0ec2224a4a69787d8262bbd7ca3d0f912b40f094916e104e83",
+      "source": "art-source/characters-v19/staff/clinician-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 73,
+          "top": 24,
+          "right": 182,
+          "bottom": 243
+        },
+        {
+          "left": 68,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        },
+        {
+          "left": 69,
+          "top": 24,
+          "right": 186,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 24,
+          "right": 187,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-clinician",
+      "motion": "walk",
+      "path": "/assets/staff-v20-hd/staff-clinician-walk.png",
+      "sha256": "cb8d46ca98ce15b398fc56fe5210eb5336dce53e6d053ca15b3a2125fbcf2712",
+      "source": "art-source/characters-v19/staff/clinician-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 77,
+          "top": 24,
+          "right": 177,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 75,
+          "top": 24,
+          "right": 178,
+          "bottom": 243
+        },
+        {
+          "left": 77,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-navigator",
+      "motion": "idle",
+      "path": "/assets/staff-v20-hd/staff-navigator-idle.png",
+      "sha256": "a4fe17c9a8249d66af57c96a48f747eb3c3e90e8bb70e9840d4cd919e91af723",
+      "source": "art-source/characters-v19/staff/navigator-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 84,
+          "top": 24,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 83,
+          "top": 24,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 83,
+          "top": 24,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 83,
+          "top": 24,
+          "right": 172,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-navigator",
+      "motion": "talk",
+      "path": "/assets/staff-v20-hd/staff-navigator-talk.png",
+      "sha256": "c2a6851bdd972cbbf6471247856fbf699b15a842dc91fa6d90900e8e86cb3982",
+      "source": "art-source/characters-v19/staff/navigator-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 62,
+          "top": 24,
+          "right": 192,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 25,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 59,
+          "top": 24,
+          "right": 196,
+          "bottom": 243
+        },
+        {
+          "left": 60,
+          "top": 24,
+          "right": 196,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-navigator",
+      "motion": "walk",
+      "path": "/assets/staff-v20-hd/staff-navigator-walk.png",
+      "sha256": "8be3c20ffc85a830013c0d107120b056d7ce4c30a3bc77c7ec10104033c2e81b",
+      "source": "art-source/characters-v19/staff/navigator-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 75,
+          "top": 24,
+          "right": 180,
+          "bottom": 243
+        },
+        {
+          "left": 73,
+          "top": 24,
+          "right": 182,
+          "bottom": 243
+        },
+        {
+          "left": 71,
+          "top": 24,
+          "right": 183,
+          "bottom": 243
+        },
+        {
+          "left": 70,
+          "top": 24,
+          "right": 185,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-cardiologist",
+      "motion": "idle",
+      "path": "/assets/staff-v20-hd/staff-cardiologist-idle.png",
+      "sha256": "723d9dba4573cca6910b104374a1f7f1c865eb59f2f2dbcb39fe317ee8c4313d",
+      "source": "art-source/characters-v19/staff/cardiologist-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 82,
+          "top": 24,
+          "right": 172,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 25,
+          "right": 174,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 173,
+          "bottom": 243
+        },
+        {
+          "left": 82,
+          "top": 24,
+          "right": 172,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-cardiologist",
+      "motion": "talk",
+      "path": "/assets/staff-v20-hd/staff-cardiologist-talk.png",
+      "sha256": "a21c4a3765b93553c4c066f35bc19df1f394ac73f3eb70f295d25d131ad96ad0",
+      "source": "art-source/characters-v19/staff/cardiologist-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 65,
+          "top": 24,
+          "right": 191,
+          "bottom": 243
+        },
+        {
+          "left": 72,
+          "top": 24,
+          "right": 182,
+          "bottom": 243
+        },
+        {
+          "left": 79,
+          "top": 24,
+          "right": 175,
+          "bottom": 243
+        },
+        {
+          "left": 60,
+          "top": 24,
+          "right": 195,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-cardiologist",
+      "motion": "walk",
+      "path": "/assets/staff-v20-hd/staff-cardiologist-walk.png",
+      "sha256": "df5430ec3f4118b215eb328d5e6a661d6f03120fc9650ca1db62d3ff9ddd0abb",
+      "source": "art-source/characters-v19/staff/cardiologist-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 69,
+          "top": 24,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 69,
+          "top": 24,
+          "right": 186,
+          "bottom": 243
+        },
+        {
+          "left": 70,
+          "top": 24,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 69,
+          "top": 24,
+          "right": 186,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-technician",
+      "motion": "idle",
+      "path": "/assets/staff-v20-hd/staff-technician-idle.png",
+      "sha256": "230875ff99aebbb26048fc30d13d88713158bc54062ae389be84f781309de53f",
+      "source": "art-source/characters-v19/staff/technician-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 84,
+          "top": 24,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 24,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 24,
+          "right": 171,
+          "bottom": 243
+        },
+        {
+          "left": 84,
+          "top": 25,
+          "right": 170,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-technician",
+      "motion": "talk",
+      "path": "/assets/staff-v20-hd/staff-technician-talk.png",
+      "sha256": "faf3e07c2738a25abdcd497b90f4f0dd75b2426fb1e78754d882d5a1e8e4584e",
+      "source": "art-source/characters-v19/staff/technician-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 63,
+          "top": 24,
+          "right": 192,
+          "bottom": 243
+        },
+        {
+          "left": 69,
+          "top": 24,
+          "right": 185,
+          "bottom": 243
+        },
+        {
+          "left": 66,
+          "top": 24,
+          "right": 188,
+          "bottom": 243
+        },
+        {
+          "left": 70,
+          "top": 25,
+          "right": 185,
+          "bottom": 243
+        }
+      ]
+    },
+    {
+      "kind": "staff-sprite-sheet",
+      "identity": "staff-technician",
+      "motion": "walk",
+      "path": "/assets/staff-v20-hd/staff-technician-walk.png",
+      "sha256": "0cce4cdcf75edf8587e5ead6f57dda6b3ade3d4e4007e7f83d3e97a7e3b0c4ab",
+      "source": "art-source/characters-v19/staff/technician-atlas-source.png",
+      "frameBounds": [
+        {
+          "left": 75,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        },
+        {
+          "left": 76,
+          "top": 24,
+          "right": 179,
+          "bottom": 243
+        }
+      ]
+    }
+  ]
+}
