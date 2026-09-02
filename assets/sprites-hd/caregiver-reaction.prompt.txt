@@ -1,0 +1,15 @@
+Use the accepted high-readability caregiver as the exact identity, face, scale,
+palette, clothing, satchel, and rendering reference. Create one coherent
+four-frame non-looping CAREGIVER REACTION SEQUENCE in an exact 2x2 grid:
+attentive listening with one hand near the satchel strap; hand comes toward the
+heart in a small reassuring response; the same hand extends into a calm open
+palm toward the child; then lowers into a quiet supportive settle. Every frame
+must visibly follow from the previous one. Preserve medium-deep brown skin,
+dark low bun, readable eyes, lavender overshirt, yellow top, navy pants, coral
+shoes, and turquoise satchel. Fixed standing-equivalent scale and camera,
+shared feet line, centered root, and shared silhouette envelope. Full-body
+three-quarter side view facing right, roughly 82-86% of cell height. Crisp
+handcrafted pixel art with no antialiasing or blur. Perfectly flat #FF00FF
+background; no borders, labels, UI, text, bubbles, phone, paper, props, floor,
+shadows, extra characters, cell-edge crossing, abrupt turns, or teleporting
+limbs.

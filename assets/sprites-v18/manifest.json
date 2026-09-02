@@ -1,0 +1,6047 @@
+{
+  "version": 18,
+  "scope": "isolated family gameplay sprites only",
+  "source": "public/assets/sprites-v16 whole-strip family outputs; V17 is never read",
+  "frame": {
+    "width": 128,
+    "height": 128,
+    "footlineRow": 121,
+    "minimumHeadClearance": 6,
+    "anchor": "bottom-center",
+    "runtimeScale": 1,
+    "childNativeOpaqueHeight": 94,
+    "resampling": "nearest-neighbor at build time only; integer runtime scale",
+    "alpha": [
+      0,
+      255
+    ],
+    "connectivity": "exactly one four-connected opaque component"
+  },
+  "stateContract": {
+    "gender": [
+      "female",
+      "male"
+    ],
+    "skinTone": [
+      "tone-1",
+      "tone-2",
+      "tone-3",
+      "tone-4",
+      "tone-5"
+    ],
+    "caregiverKey": "caregiver-{motion}-{gender}-{skinTone}",
+    "childKey": "child-{motion}-{gender}-{skinTone}"
+  },
+  "safety": {
+    "skin": "only explicit per-frame anatomical coordinates vary across swatches",
+    "presentation": "only exact clothing/accessory palette pixels are recolored; alpha immutable",
+    "headNeck": "no rectangle clear/fill operation exists in this pipeline",
+    "childSemanticRepairs": [
+      "orange footwear palette removed from ear/head",
+      "turquoise jacket palette removed from lower-body trouser region",
+      "old rigid pointing reaction replaced by local expression on clean bent-arm pose"
+    ],
+    "caregiverSemanticRepairs": [
+      "foreign child orange/yellow undershirt pixels mapped into caregiver teal",
+      "male jacket uses a narrow coral yoke and hem with no broad edge recolor"
+    ]
+  },
+  "fixedClothing": {
+    "caregiver": "coral jacket, teal undershirt, navy trousers, blue crossbody bag",
+    "child": "turquoise jacket, coral shirt, navy trousers, coral backpack, orange shoes"
+  },
+  "skinRamps": {
+    "tone-1": [
+      [
+        40,
+        27,
+        29
+      ],
+      [
+        66,
+        40,
+        38
+      ],
+      [
+        103,
+        63,
+        51
+      ],
+      [
+        147,
+        96,
+        73
+      ]
+    ],
+    "tone-2": [
+      [
+        59,
+        36,
+        34
+      ],
+      [
+        91,
+        52,
+        45
+      ],
+      [
+        132,
+        80,
+        62
+      ],
+      [
+        176,
+        119,
+        88
+      ]
+    ],
+    "tone-3": [
+      [
+        82,
+        47,
+        41
+      ],
+      [
+        122,
+        70,
+        55
+      ],
+      [
+        168,
+        105,
+        75
+      ],
+      [
+        211,
+        151,
+        106
+      ]
+    ],
+    "tone-4": [
+      [
+        105,
+        58,
+        48
+      ],
+      [
+        151,
+        88,
+        67
+      ],
+      [
+        198,
+        132,
+        94
+      ],
+      [
+        236,
+        181,
+        135
+      ]
+    ],
+    "tone-5": [
+      [
+        126,
+        72,
+        58
+      ],
+      [
+        174,
+        109,
+        82
+      ],
+      [
+        218,
+        158,
+        118
+      ],
+      [
+        249,
+        207,
+        166
+      ]
+    ]
+  },
+  "family": [
+    {
+      "key": "caregiver-idle-female-tone-1",
+      "path": "/assets/sprites-v18/caregiver-idle-female-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-1.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "20b3a2685bd63c49fa66fecc1e8662c8dea273d04113b14198ceedee14d58439",
+      "stylePixelsPerFrame": [
+        552,
+        552,
+        552,
+        552
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-2",
+      "path": "/assets/sprites-v18/caregiver-idle-female-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-2.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "b4a1f4490f0e8634c202419328bf0a35542b686adecfe9683170ec666a326090",
+      "stylePixelsPerFrame": [
+        552,
+        552,
+        552,
+        552
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-3",
+      "path": "/assets/sprites-v18/caregiver-idle-female-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-3.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "00309003a748022ab8519d51799c33258d989b74d73ec03c07468a6f42ef3f8e",
+      "stylePixelsPerFrame": [
+        552,
+        552,
+        552,
+        552
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-4",
+      "path": "/assets/sprites-v18/caregiver-idle-female-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-4.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "3861b16d9c2cf5772eb1bb4403238d159c81563b04ec9408ffd72234382cedb6",
+      "stylePixelsPerFrame": [
+        552,
+        552,
+        552,
+        552
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-5",
+      "path": "/assets/sprites-v18/caregiver-idle-female-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-5.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "34a10c9c0a8f9eac33756d6fd6609865efa727f716414e764b038e7dfd88d312",
+      "stylePixelsPerFrame": [
+        552,
+        552,
+        552,
+        552
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-1",
+      "path": "/assets/sprites-v18/caregiver-talk-female-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-1.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "625af9fc068294c830bfedf9e10a863445d3fc8c062a683d2e9eb3328aa9f24c",
+      "stylePixelsPerFrame": [
+        723,
+        723,
+        723,
+        723
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 38,
+          "right": 68,
+          "bottom": 41,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-2",
+      "path": "/assets/sprites-v18/caregiver-talk-female-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-2.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "a299b1fedfbd022211664d138a27da71f7b634b9bdbf7806fbfcbe4d658c4626",
+      "stylePixelsPerFrame": [
+        723,
+        723,
+        723,
+        723
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 38,
+          "right": 68,
+          "bottom": 41,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-3",
+      "path": "/assets/sprites-v18/caregiver-talk-female-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-3.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "b02040d5da981f456be8434bb0b326606dd4d345224a55699a59ed3300418210",
+      "stylePixelsPerFrame": [
+        723,
+        723,
+        723,
+        723
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 38,
+          "right": 68,
+          "bottom": 41,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-4",
+      "path": "/assets/sprites-v18/caregiver-talk-female-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-4.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "7e85e704163277ce3046a63a4c48e8f28c21a0f5f23f11a95eebed3e618fd002",
+      "stylePixelsPerFrame": [
+        723,
+        723,
+        723,
+        723
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 38,
+          "right": 68,
+          "bottom": 41,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-5",
+      "path": "/assets/sprites-v18/caregiver-talk-female-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-5.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "37d54be6354939d7633c9fd3da65081850ef82987db16f7d07a93b39f2b2d9b9",
+      "stylePixelsPerFrame": [
+        723,
+        723,
+        723,
+        723
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 38,
+          "right": 68,
+          "bottom": 41,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-1",
+      "path": "/assets/sprites-v18/caregiver-reaction-female-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-1.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "e8fe2fb0fab8214ad3ebe965fee7f777083fcd009a306ecf03f39138303b5325",
+      "stylePixelsPerFrame": [
+        919,
+        919,
+        919,
+        919
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-2",
+      "path": "/assets/sprites-v18/caregiver-reaction-female-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-2.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "fbdf7dc5bc8cb69e2d616272292f3fe19c77ee4bb44a40c7549d44dc368e1c87",
+      "stylePixelsPerFrame": [
+        919,
+        919,
+        919,
+        919
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-3",
+      "path": "/assets/sprites-v18/caregiver-reaction-female-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-3.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "a3c9661425b148f64e480a7413c893b2fd9a32e6021bd77769c8a343213f5d5f",
+      "stylePixelsPerFrame": [
+        919,
+        919,
+        919,
+        919
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-4",
+      "path": "/assets/sprites-v18/caregiver-reaction-female-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-4.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "165d2fc24c3a07b2ae12bb779fd8607588e31131d62729bc4e411aab233fc0c0",
+      "stylePixelsPerFrame": [
+        919,
+        919,
+        919,
+        919
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-5",
+      "path": "/assets/sprites-v18/caregiver-reaction-female-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-5.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "de3f9dde5b71184baa9298d9409b4694a37354bdd670330b68776eee0219692a",
+      "stylePixelsPerFrame": [
+        919,
+        919,
+        919,
+        919
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-1",
+      "path": "/assets/sprites-v18/caregiver-walk-female-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-1.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "9878d6df335e677f39a0947a4a591317c02290e459df4e3c2d95ff66117fc399",
+      "stylePixelsPerFrame": [
+        661,
+        692,
+        683,
+        694,
+        588,
+        573
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 988
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-2",
+      "path": "/assets/sprites-v18/caregiver-walk-female-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-2.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "d064ce6478209938b41e11e8a07c1fc6fba7f6c8b9ced160c5dcdaf3a2a66e3f",
+      "stylePixelsPerFrame": [
+        661,
+        692,
+        683,
+        694,
+        588,
+        573
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 988
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-3",
+      "path": "/assets/sprites-v18/caregiver-walk-female-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-3.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "40c0fa7605f8abcf74560def95e983193da355bace6fa95dc19d7ec4580278de",
+      "stylePixelsPerFrame": [
+        661,
+        692,
+        683,
+        694,
+        588,
+        573
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 988
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-4",
+      "path": "/assets/sprites-v18/caregiver-walk-female-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-4.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "0596cd369eb6bf5604af242c34725a144c911f0f32dd99a425ce87d4ad0e1f4e",
+      "stylePixelsPerFrame": [
+        661,
+        692,
+        683,
+        694,
+        588,
+        573
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 988
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-5",
+      "path": "/assets/sprites-v18/caregiver-walk-female-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-female-tone-5.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "81e239684e9448a3d4cde945d5954f6b89f5a81522f1a1e733a6d0f6bbb688e1",
+      "stylePixelsPerFrame": [
+        661,
+        692,
+        683,
+        694,
+        588,
+        573
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 988
+        }
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-1",
+      "path": "/assets/sprites-v18/caregiver-idle-male-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-1.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "15ea1157d465200490758d43aefe9c04c7946bff4a96afdb1eaea0c294122385",
+      "stylePixelsPerFrame": [
+        646,
+        646,
+        646,
+        646
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-2",
+      "path": "/assets/sprites-v18/caregiver-idle-male-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-2.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "8dcf0f3df6f1be944563626d970aed19c6f80d9e29b39e37cc94e947933de055",
+      "stylePixelsPerFrame": [
+        646,
+        646,
+        646,
+        646
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-3",
+      "path": "/assets/sprites-v18/caregiver-idle-male-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-3.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "f5584cf9f8fd28d62912da034fcb9240e859e3abd5f0bc27235cd44ba2ab1c4c",
+      "stylePixelsPerFrame": [
+        646,
+        646,
+        646,
+        646
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-4",
+      "path": "/assets/sprites-v18/caregiver-idle-male-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-4.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "69b0b4b698b67900e5fba0f6277278018fb09153d72c47e7841a38b743d47848",
+      "stylePixelsPerFrame": [
+        646,
+        646,
+        646,
+        646
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-5",
+      "path": "/assets/sprites-v18/caregiver-idle-male-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-5.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "68b2823858e8b0f2ed32ad409d0ff7360a8b582c36a17b1af8a747006d97b471",
+      "stylePixelsPerFrame": [
+        646,
+        646,
+        646,
+        646
+      ],
+      "anatomicalPixelsPerFrame": [
+        472,
+        472,
+        510,
+        472
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-1",
+      "path": "/assets/sprites-v18/caregiver-talk-male-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-1.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "650dc2e4cfc039c5181e7d53638898f3697e2ed0d69afceff0d062a4c2f005c8",
+      "stylePixelsPerFrame": [
+        704,
+        704,
+        704,
+        704
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 67,
+          "top": 38,
+          "right": 68,
+          "bottom": 42,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-2",
+      "path": "/assets/sprites-v18/caregiver-talk-male-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-2.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "ed229df12f8457ee9d63285aa73660ff06c94b5311780a40ea39ee952221597b",
+      "stylePixelsPerFrame": [
+        704,
+        704,
+        704,
+        704
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 67,
+          "top": 38,
+          "right": 68,
+          "bottom": 42,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-3",
+      "path": "/assets/sprites-v18/caregiver-talk-male-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-3.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "49be27c7ba29aea3be404c491cd1ca7cbcb91fedca0ea8ed7c4662e8e323a3c4",
+      "stylePixelsPerFrame": [
+        704,
+        704,
+        704,
+        704
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 67,
+          "top": 38,
+          "right": 68,
+          "bottom": 42,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-4",
+      "path": "/assets/sprites-v18/caregiver-talk-male-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-4.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "e8e98e6a02ee08d7b64b4bc33345b303e81fdc66fe9883e9512a0eeb48e53459",
+      "stylePixelsPerFrame": [
+        704,
+        704,
+        704,
+        704
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 67,
+          "top": 38,
+          "right": 68,
+          "bottom": 42,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-5",
+      "path": "/assets/sprites-v18/caregiver-talk-male-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-5.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "77215f8e63ed681e3f3f7b881530de4c3aaef112180eda111b5353bcd93a1639",
+      "stylePixelsPerFrame": [
+        704,
+        704,
+        704,
+        704
+      ],
+      "anatomicalPixelsPerFrame": [
+        452,
+        452,
+        452,
+        452
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 67,
+          "top": 38,
+          "right": 68,
+          "bottom": 42,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-1",
+      "path": "/assets/sprites-v18/caregiver-reaction-male-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-1.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "5c35b15dce11566d71903421bb26b5469c263e2e579435f063aff60c9c2fa0c5",
+      "stylePixelsPerFrame": [
+        878,
+        878,
+        878,
+        878
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-2",
+      "path": "/assets/sprites-v18/caregiver-reaction-male-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-2.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "2db104f8cbb7ee04b23a28d83ae7ac44fa44654d50792b93eb5e9facc599e357",
+      "stylePixelsPerFrame": [
+        878,
+        878,
+        878,
+        878
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-3",
+      "path": "/assets/sprites-v18/caregiver-reaction-male-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-3.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "9f1d43ecbaeddf2509f9d9d67da3b245ad914fb97e66a65c4681f322d68a75cb",
+      "stylePixelsPerFrame": [
+        878,
+        878,
+        878,
+        878
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-4",
+      "path": "/assets/sprites-v18/caregiver-reaction-male-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-4.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "f08b9375b1baf1dfd28c8a3220d44c61d65c67a7a9a57503023c7c7c5c372c40",
+      "stylePixelsPerFrame": [
+        878,
+        878,
+        878,
+        878
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-5",
+      "path": "/assets/sprites-v18/caregiver-reaction-male-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-5.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "518f7a7afd756b5e4c01b58759ce363c97f998c2788ca18ece303acf07b6e513",
+      "stylePixelsPerFrame": [
+        878,
+        878,
+        878,
+        878
+      ],
+      "anatomicalPixelsPerFrame": [
+        458,
+        458,
+        458,
+        458
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 66,
+          "top": 28,
+          "right": 67,
+          "bottom": 38,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-1",
+      "path": "/assets/sprites-v18/caregiver-walk-male-tone-1.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-1.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "8bfc2a731321ab94337c0e62013c0bc7efaca8962bf840cf61d5b2c5b39cf205",
+      "stylePixelsPerFrame": [
+        725,
+        701,
+        742,
+        708,
+        706,
+        676
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 983
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-2",
+      "path": "/assets/sprites-v18/caregiver-walk-male-tone-2.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-2.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "02721d984ed5bff8291aa6c687ee09303465e9006223f80011005b4c2e07bd41",
+      "stylePixelsPerFrame": [
+        725,
+        701,
+        742,
+        708,
+        706,
+        676
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 983
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-3",
+      "path": "/assets/sprites-v18/caregiver-walk-male-tone-3.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-3.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "16e6a4043cb8cc39d1031f754fde4d34fe9d12b426ad71c9fa6de9e4e323a5f7",
+      "stylePixelsPerFrame": [
+        725,
+        701,
+        742,
+        708,
+        706,
+        676
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 983
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-4",
+      "path": "/assets/sprites-v18/caregiver-walk-male-tone-4.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-4.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "012105f8c6ccabfe394cad2c77ff58998ed0bec6e2d67588f2503d21c4148eae",
+      "stylePixelsPerFrame": [
+        725,
+        701,
+        742,
+        708,
+        706,
+        676
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 983
+        }
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-5",
+      "path": "/assets/sprites-v18/caregiver-walk-male-tone-5.png",
+      "source": "public/assets/sprites-v16/caregiver-{sourceMotion}-male-tone-5.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "3b063d1baacd9c5eec199635837690a87f5e7c7f1baa3534417ba08a4b33b038",
+      "stylePixelsPerFrame": [
+        725,
+        701,
+        742,
+        708,
+        706,
+        676
+      ],
+      "anatomicalPixelsPerFrame": [
+        450,
+        450,
+        450,
+        450,
+        450,
+        450
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 36,
+          "top": 87,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 983
+        }
+      }
+    },
+    {
+      "key": "child-idle-female-tone-1",
+      "path": "/assets/sprites-v18/child-idle-female-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-1.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "0aed551fca99a6b4c5f8343b75496b8d706d5cd25ddc04f9dceafbfe9240b18a",
+      "stylePixelsPerFrame": [
+        213,
+        213,
+        213,
+        213
+      ],
+      "anatomicalPixelsPerFrame": [
+        393,
+        393,
+        438,
+        393
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-female-tone-2",
+      "path": "/assets/sprites-v18/child-idle-female-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-2.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "15ee1c6e10e98ec40b99bd18417890ba29b8fcf7a7514913c6830fa1b772d633",
+      "stylePixelsPerFrame": [
+        213,
+        213,
+        213,
+        213
+      ],
+      "anatomicalPixelsPerFrame": [
+        393,
+        393,
+        438,
+        393
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-female-tone-3",
+      "path": "/assets/sprites-v18/child-idle-female-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-3.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "a13b994ff2b1b012ce1ab13168b31c6affa123d9dfc5737e79b25a45676efb4a",
+      "stylePixelsPerFrame": [
+        213,
+        213,
+        213,
+        213
+      ],
+      "anatomicalPixelsPerFrame": [
+        393,
+        393,
+        438,
+        393
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-female-tone-4",
+      "path": "/assets/sprites-v18/child-idle-female-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-4.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "b10de7512924e4ec98073912fad6c310d87b4ecb6f1eb25f9ff24f94102015fc",
+      "stylePixelsPerFrame": [
+        213,
+        213,
+        213,
+        213
+      ],
+      "anatomicalPixelsPerFrame": [
+        393,
+        393,
+        438,
+        393
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-female-tone-5",
+      "path": "/assets/sprites-v18/child-idle-female-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-5.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "b9c88075fd85b5cccf4e00a25aef691bfe0c71a2b9dfd833c163d84035a78c54",
+      "stylePixelsPerFrame": [
+        213,
+        213,
+        213,
+        213
+      ],
+      "anatomicalPixelsPerFrame": [
+        393,
+        393,
+        438,
+        393
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 28,
+            "right": 85,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-talk-female-tone-1",
+      "path": "/assets/sprites-v18/child-talk-female-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-1.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "7a82caa5f6afbab33c117c23349ba7d7509b62065e385eb89bfed37c1505d9b9",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 57,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-female-tone-2",
+      "path": "/assets/sprites-v18/child-talk-female-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-2.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "9d0f00bc7a8efe01c97297c7e895f546eb73fca67d9157c45ab8f54e2196cb89",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 57,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-female-tone-3",
+      "path": "/assets/sprites-v18/child-talk-female-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-3.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "04ec46568be0916eed447e8d25e55771ac3850f8999ae134f9b30e76122e8425",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 57,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-female-tone-4",
+      "path": "/assets/sprites-v18/child-talk-female-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-4.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "075abad5f8e0a05236976c915f364eb1680cd159090078b306c5fc76fe8acc1e",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 57,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-female-tone-5",
+      "path": "/assets/sprites-v18/child-talk-female-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-5.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "67ecfa9c69151a308839be3e54de89355da2cc982c58929261f2e25a9e1d47c9",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 57,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-1",
+      "path": "/assets/sprites-v18/child-reaction-female-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-1.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "6ec221d6ba65cf12b6aae6d8e415c3ffb3a8054e4fb302839a4a12a2d3233127",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-2",
+      "path": "/assets/sprites-v18/child-reaction-female-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-2.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "3c1384d932e3414380eb1e0c6e2067d3e9e60f25e915a13517fa0529692899de",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-3",
+      "path": "/assets/sprites-v18/child-reaction-female-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-3.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "966302d5f9b4d6214b3c1fe44c28964ce88d55b4d84f2dda854fb6b43505f130",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-4",
+      "path": "/assets/sprites-v18/child-reaction-female-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-4.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "9d68d3cdf6ebc62ef41947487ed5cc5ffea7d0d19e36ae27e74b2fcb59bb3228",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-5",
+      "path": "/assets/sprites-v18/child-reaction-female-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-5.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "e07b002a3a6c21c9220cea6f3b306e430dbb62426f619d93d0d99fb16630bdf7",
+      "stylePixelsPerFrame": [
+        301,
+        301,
+        301,
+        301
+      ],
+      "anatomicalPixelsPerFrame": [
+        464,
+        464,
+        464,
+        464
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 35,
+            "top": 28,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 75,
+          "bottom": 59,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-walk-female-tone-1",
+      "path": "/assets/sprites-v18/child-walk-female-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-1.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "d02e92c7ca18f733e976410f40322aca5db73d1c24f03c34fb23769ffad30bc0",
+      "stylePixelsPerFrame": [
+        272,
+        264,
+        249,
+        253,
+        202,
+        256
+      ],
+      "anatomicalPixelsPerFrame": [
+        406,
+        399,
+        407,
+        399,
+        414,
+        409
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 42,
+          "top": 92,
+          "right": 90,
+          "bottom": 122,
+          "changedPixels": 688
+        }
+      }
+    },
+    {
+      "key": "child-walk-female-tone-2",
+      "path": "/assets/sprites-v18/child-walk-female-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-2.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "1f2656a08872564781469641ce6d1a23ba6e897ff27cc88c9d2be964df1f131d",
+      "stylePixelsPerFrame": [
+        272,
+        264,
+        249,
+        253,
+        202,
+        256
+      ],
+      "anatomicalPixelsPerFrame": [
+        406,
+        399,
+        407,
+        399,
+        414,
+        409
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 42,
+          "top": 92,
+          "right": 90,
+          "bottom": 122,
+          "changedPixels": 688
+        }
+      }
+    },
+    {
+      "key": "child-walk-female-tone-3",
+      "path": "/assets/sprites-v18/child-walk-female-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-3.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "97f64e3b181ef91ec3dcabdf7115909e916661955071e10f546fea20147feaf9",
+      "stylePixelsPerFrame": [
+        272,
+        264,
+        249,
+        253,
+        202,
+        256
+      ],
+      "anatomicalPixelsPerFrame": [
+        406,
+        399,
+        407,
+        399,
+        414,
+        409
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 42,
+          "top": 92,
+          "right": 90,
+          "bottom": 122,
+          "changedPixels": 688
+        }
+      }
+    },
+    {
+      "key": "child-walk-female-tone-4",
+      "path": "/assets/sprites-v18/child-walk-female-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-4.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "97b22073f107427929e9afb55a09651dc435a64a9982b2ddebe507c8ada0b031",
+      "stylePixelsPerFrame": [
+        272,
+        264,
+        249,
+        253,
+        202,
+        256
+      ],
+      "anatomicalPixelsPerFrame": [
+        406,
+        399,
+        407,
+        399,
+        414,
+        409
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 42,
+          "top": 92,
+          "right": 90,
+          "bottom": 122,
+          "changedPixels": 688
+        }
+      }
+    },
+    {
+      "key": "child-walk-female-tone-5",
+      "path": "/assets/sprites-v18/child-walk-female-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-female-tone-5.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "c31eb7bcff1b7a9976967f9e710b940e271c5a88ccec0b4dd4d79bc584f3ad52",
+      "stylePixelsPerFrame": [
+        272,
+        264,
+        249,
+        253,
+        202,
+        256
+      ],
+      "anatomicalPixelsPerFrame": [
+        406,
+        399,
+        407,
+        399,
+        414,
+        409
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 42,
+          "top": 92,
+          "right": 90,
+          "bottom": 122,
+          "changedPixels": 688
+        }
+      }
+    },
+    {
+      "key": "child-idle-male-tone-1",
+      "path": "/assets/sprites-v18/child-idle-male-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-1.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "9651a947be14b83bda15e5df847b88cd07a6a7f93fc7bc34e1be1805ac72eb5a",
+      "stylePixelsPerFrame": [
+        455,
+        455,
+        455,
+        455
+      ],
+      "anatomicalPixelsPerFrame": [
+        419,
+        419,
+        465,
+        419
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-male-tone-2",
+      "path": "/assets/sprites-v18/child-idle-male-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-2.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "b0f8ac5cc22a218fb19df104e9b05df157711775a61f6a03d86dfeef5c738b6a",
+      "stylePixelsPerFrame": [
+        455,
+        455,
+        455,
+        455
+      ],
+      "anatomicalPixelsPerFrame": [
+        419,
+        419,
+        465,
+        419
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-male-tone-3",
+      "path": "/assets/sprites-v18/child-idle-male-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-3.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "dff2da05b84b1fd0e68de7a5b39951036ef09f3978caf885020dbfb14e87ad07",
+      "stylePixelsPerFrame": [
+        455,
+        455,
+        455,
+        455
+      ],
+      "anatomicalPixelsPerFrame": [
+        419,
+        419,
+        465,
+        419
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-male-tone-4",
+      "path": "/assets/sprites-v18/child-idle-male-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-4.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "6dd4273e23741e35be11c1df55f499f11ce501947e6b4b90a4ca38ac58dc41d7",
+      "stylePixelsPerFrame": [
+        455,
+        455,
+        455,
+        455
+      ],
+      "anatomicalPixelsPerFrame": [
+        419,
+        419,
+        465,
+        419
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-idle-male-tone-5",
+      "path": "/assets/sprites-v18/child-idle-male-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-5.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "7260660a8f4d5bfe674a307466978d6451f39a7ff62fdfadf7beef0606cff277",
+      "stylePixelsPerFrame": [
+        455,
+        455,
+        455,
+        455
+      ],
+      "anatomicalPixelsPerFrame": [
+        419,
+        419,
+        465,
+        419
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 28,
+            "right": 83,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": null
+      }
+    },
+    {
+      "key": "child-talk-male-tone-1",
+      "path": "/assets/sprites-v18/child-talk-male-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-1.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "89a7e5af57d99f2c65b4881f7595fe0df11d6f91d8dc6ca25ec170734c7de657",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 58,
+          "right": 75,
+          "bottom": 60,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-male-tone-2",
+      "path": "/assets/sprites-v18/child-talk-male-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-2.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "9fb85b4d7a117ec3b7d0e8a931cc711110295ba3796be306922ce933d489dc45",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 58,
+          "right": 75,
+          "bottom": 60,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-male-tone-3",
+      "path": "/assets/sprites-v18/child-talk-male-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-3.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "d27b0562472acf8b2928418aea86bdea32564fbd80dfb9a25ffa8b943142b800",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 58,
+          "right": 75,
+          "bottom": 60,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-male-tone-4",
+      "path": "/assets/sprites-v18/child-talk-male-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-4.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "f393e75f965cc53530355ea47a702da14e4863e2a45747410266f471af5845b9",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 58,
+          "right": 75,
+          "bottom": 60,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-talk-male-tone-5",
+      "path": "/assets/sprites-v18/child-talk-male-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-5.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "d9d842ff2a0f188da69e87ad28ce0109eaf34f9d738129ab24e8c9310bcbf49c",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 73,
+          "top": 58,
+          "right": 75,
+          "bottom": 60,
+          "changedPixels": 3
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-1",
+      "path": "/assets/sprites-v18/child-reaction-male-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-1.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "aa954381d3dbba6be95c3d6d257e0256f8b84d2ee73bb8ccb55576247d57b249",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 74,
+          "bottom": 60,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-2",
+      "path": "/assets/sprites-v18/child-reaction-male-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-2.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "c1724f912d8e77223171bb1abcdb66f74886a9ed32345d0ec6021fc8bc90af89",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 74,
+          "bottom": 60,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-3",
+      "path": "/assets/sprites-v18/child-reaction-male-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-3.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "cba825b019e6727390473a3db9989b8401e7bc7f411919f7854753cf7cd1c621",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 74,
+          "bottom": 60,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-4",
+      "path": "/assets/sprites-v18/child-reaction-male-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-4.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "33d837e0f2b85450b45b679f5c35eba0687349b3499c5e766a031669f7791fde",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 74,
+          "bottom": 60,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-5",
+      "path": "/assets/sprites-v18/child-reaction-male-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-5.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "bc46e34d1717893ba3f696fe76cb1b5e020d204320a8029ac8fb2a7dfe8ecf5c",
+      "stylePixelsPerFrame": [
+        531,
+        531,
+        531,
+        531
+      ],
+      "anatomicalPixelsPerFrame": [
+        457,
+        457,
+        457,
+        457
+      ],
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 72,
+          "top": 47,
+          "right": 74,
+          "bottom": 60,
+          "changedPixels": 4
+        }
+      }
+    },
+    {
+      "key": "child-walk-male-tone-1",
+      "path": "/assets/sprites-v18/child-walk-male-tone-1.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-1.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "9fdb1f2e7fb1dc2155b8035c1e9dd5ed1f29d92020a849aac0eb9302702fadc6",
+      "stylePixelsPerFrame": [
+        474,
+        546,
+        570,
+        527,
+        414,
+        478
+      ],
+      "anatomicalPixelsPerFrame": [
+        426,
+        417,
+        404,
+        417,
+        429,
+        426
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 40,
+          "top": 92,
+          "right": 88,
+          "bottom": 122,
+          "changedPixels": 640
+        }
+      }
+    },
+    {
+      "key": "child-walk-male-tone-2",
+      "path": "/assets/sprites-v18/child-walk-male-tone-2.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-2.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "fe7c0d3306d1c879880925f01e6367b69def7f9f9a7c963d3ca8cae85f39eff2",
+      "stylePixelsPerFrame": [
+        474,
+        546,
+        570,
+        527,
+        414,
+        478
+      ],
+      "anatomicalPixelsPerFrame": [
+        426,
+        417,
+        404,
+        417,
+        429,
+        426
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 40,
+          "top": 92,
+          "right": 88,
+          "bottom": 122,
+          "changedPixels": 640
+        }
+      }
+    },
+    {
+      "key": "child-walk-male-tone-3",
+      "path": "/assets/sprites-v18/child-walk-male-tone-3.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-3.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "e6426e9b1bcd0135b01485fa3eac8eadd695f66b19a8e36542e5fee8ae3798ac",
+      "stylePixelsPerFrame": [
+        474,
+        546,
+        570,
+        527,
+        414,
+        478
+      ],
+      "anatomicalPixelsPerFrame": [
+        426,
+        417,
+        404,
+        417,
+        429,
+        426
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 40,
+          "top": 92,
+          "right": 88,
+          "bottom": 122,
+          "changedPixels": 640
+        }
+      }
+    },
+    {
+      "key": "child-walk-male-tone-4",
+      "path": "/assets/sprites-v18/child-walk-male-tone-4.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-4.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "c379dc1d19b0302314ade7f21cd0b2fcafffe00bf1e3e7bb575effd3f4b4cf7b",
+      "stylePixelsPerFrame": [
+        474,
+        546,
+        570,
+        527,
+        414,
+        478
+      ],
+      "anatomicalPixelsPerFrame": [
+        426,
+        417,
+        404,
+        417,
+        429,
+        426
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 40,
+          "top": 92,
+          "right": 88,
+          "bottom": 122,
+          "changedPixels": 640
+        }
+      }
+    },
+    {
+      "key": "child-walk-male-tone-5",
+      "path": "/assets/sprites-v18/child-walk-male-tone-5.png",
+      "source": "public/assets/sprites-v16/child-{sourceMotion}-male-tone-5.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "109de583b8a8116244976ade658da43bfc1209144bf731d9604d21ac245562b5",
+      "stylePixelsPerFrame": [
+        474,
+        546,
+        570,
+        527,
+        414,
+        478
+      ],
+      "anatomicalPixelsPerFrame": [
+        426,
+        417,
+        404,
+        417,
+        429,
+        426
+      ],
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 28,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 40,
+            "top": 28,
+            "right": 88,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          28,
+          28,
+          28,
+          28,
+          28,
+          28
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "localChangeBox": {
+          "left": 40,
+          "top": 92,
+          "right": 88,
+          "bottom": 122,
+          "changedPixels": 640
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Mode: Deterministic production derivation from the approved image-generated
+family motion masters in public/assets/sprites-hd.
+
+The approved masters were generated as dedicated idle, talk, reaction, and
+walk sheets for one caregiver and one 9-10-year-old child. Each sheet preserves
+one identity, fixed camera, centerline, body scale, and feet line; uses complete
+full-body three-quarter silhouettes facing right; and keeps motion to readable
+connected pixel-cluster changes. The intended rendering is crisp handcrafted
+pixel art with no text, UI, props, scenery, blur, or antialiasing.
+
+scripts/build-sprite-v10.py applies explicit appearance ramps for Sunrise,
+Meadow, and Starlight while preserving each accepted motion silhouette. It
+repairs cyan contamination inside face regions, locks a consistent skin and
+hair ramp per preset, and confines the child's five favorite colors to the
+outer backpack accent mask. Favorite color is not permitted to recolor eyes,
+skin, hair, face shadows, or the whole character. Every exported frame remains
+on the shared 128 by 128 logical grid and y=121 footline.

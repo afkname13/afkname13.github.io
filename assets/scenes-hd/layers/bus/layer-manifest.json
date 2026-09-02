@@ -1,0 +1,18 @@
+{
+  "canvas": { "width": 640, "height": 360 },
+  "base": "../../bus.png",
+  "foreground": "interior-foreground.png",
+  "windowMask": "window-mask.png",
+  "windowMaskMeaning": "white pixels are panorama-visible window interiors",
+  "renderOrder": [
+    "scrolling-landscape",
+    "interior-foreground",
+    "actors",
+    "dialogue"
+  ],
+  "motionHint": {
+    "landscapePixelsPerSecond": 18,
+    "foregroundSuspensionAmplitudePixels": 1,
+    "foregroundSuspensionPeriodMs": 1400
+  }
+}

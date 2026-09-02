@@ -1,0 +1,14 @@
+Create a single ultra-wide side-scrolling pixel-art landscape panorama for the
+windows of a moving bus in a warm, hopeful story game. Native composition
+should be approximately 16:3, with enough horizontal variety to scroll:
+sunrise sky, soft clouds, distant lavender-blue hills, green fields, occasional
+small colorful houses, roadside trees and fence posts, all seen perfectly
+side-on. Use crisp deliberate square pixel clusters, hard edges, selective dark
+ink outlines, 32–48 harmonious colors, and large readable forms rather than
+noisy micro-texture. Light comes from upper left. The strip must feel calm and
+continuous and its left and right edges should be visually tile-friendly. No
+bus interior, no window frames, no people, no characters, no vehicles, no
+readable text, no UI, no logos, no blur, no antialiasing, no photorealism, no
+3D, no painterly gradients.
+
+Processed to 1280×240 RGB with 48 colors using work/process_baked_scene.py.

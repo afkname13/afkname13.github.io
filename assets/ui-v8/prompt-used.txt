@@ -1,0 +1,15 @@
+Mode: Built-in image generation, new assets.
+
+The generated UI art is original and uses only high-level cozy story-RPG
+readability cues. It does not copy any existing game's exact interface,
+palette, symbols, or ornament. All generated frames intentionally contain no
+text. The game overlays names, dialogue, labels, controls, and accessibility
+content as real DOM text.
+
+The source kit requested a chroma-key pixel-art sheet containing a wide
+portrait dialogue frame, compact three-part journey status frame, menu button,
+and blank story panel. Separate generations requested one upright menu frame
+and one wide character-introduction frame. Shared direction: warm honey wood,
+cream woven paper, coral and turquoise inlays, deep navy-brown outlines,
+restrained leaf and stitched-road motifs, crisp hard pixels, no blur, no
+gradients, no mock screenshot, and large clear text-safe regions.

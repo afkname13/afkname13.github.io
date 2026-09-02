@@ -1,0 +1,15 @@
+V17 deterministic family gameplay sprite redesign.
+Whole-strip sources: original 128px public/assets/sprites-v15 family sheets.
+Only public/assets/sprites-v17 is written by this builder.
+Staff gameplay sheets and dialogue portraits were not read or modified.
+Female/male options are two character presentations, not universal gender claims.
+They differ in face clusters, jacket cut/collar/hem, trousers, footwear,
+and bag/backpack geometry while sharing one immutable clothing palette per role.
+No source frame is resized; canonical motion alignment uses integer x shifts.
+Reaction and walk loops add only bounded hand/cuff, expression, garment, and strap beats.
+No complete reaction or walk frame is translated to simulate animation.
+All five skin ramps are inherited exactly from the V16 state contract.
+Maya's torso has a full coral shirt in every frame and tone.
+All sheets use binary alpha, a bottom-center anchor, y=121 footline,
+and at least seven transparent rows above the head.
+Machine contracts and SHA-256 hashes are in manifest.json.

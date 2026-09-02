@@ -1,0 +1,12 @@
+V18 isolated family gameplay sprite recovery.
+Reads only public/assets/sprites-v16 caregiver/child sheets.
+Never reads or inherits V17 output.
+Writes only public/assets/sprites-v18 and output/sprite-v18-family-audit.
+Staff, dialogue portraits, application/runtime code, and tests are untouched.
+Five anonymous swatches alter only explicit anatomical pixels.
+Presentation styling alters only exact clothing/accessory palette pixels.
+Caregiver art contains zero child orange/yellow palette pixels.
+No fixed rectangle is cleared or painted through skin, head, ear, or neck.
+Child art is natively 94 opaque pixels tall for integer runtime scale 1.
+All frames are binary-alpha, bottom-center anchored, four-connected,
+and end on footline row 121.

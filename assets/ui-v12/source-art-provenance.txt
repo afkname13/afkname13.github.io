@@ -1,0 +1,62 @@
+V12 uses image-generated decorative source art with deterministic geometry.
+All player-facing text is live DOM text; no generated text is used.
+
+Mode: Built-in image generation plus deterministic asset extraction.
+
+Generation direction for work/generated-art-v10/ui-component-atlas-v10.png:
+
+Create one original, text-free pixel-art UI component atlas for a warm,
+child-centered healthcare journey game. Use large readable shapes inspired by
+cozy story RPG interfaces without copying any existing game's layout,
+ornament, characters, or symbols. The atlas must include a wide dialogue
+frame, separate portrait frame, nameplate, wide and compact buttons, one
+choice-card frame, a three-part journey-status frame, a compact status strip,
+and an information card. Keep generous uninterrupted text-safe interiors.
+Visual language: honey-colored wood, warm cream paper, turquoise and coral
+inlays, restrained leaf and stitched-route details, deep navy-brown outlines,
+crisp intentional pixel clusters, and consistent corner treatment. No words,
+letters, numbers, icons that resemble text, screenshots, scenes, characters,
+blur, gradients, or soft drop shadows. Arrange separated components on a flat
+chroma-magenta background with clear extraction gutters.
+
+scripts/process-ui-v10.mjs crops the generated components, removes only
+edge-connected chroma pixels plus exact chroma remnants, trims transparent
+padding, and exports RGBA PNGs. setup-panel.png, menu-panel.png,
+story-ribbon.png, and menu-button.png retain the approved earlier
+image-generated art because those source panels already match the same
+text-free production direction. All visible labels and controls remain live
+DOM text so names, keyboard focus, screen readers, and localization cannot
+corrupt or stretch generated decoration.
+
+Staff animation strips: Codex built-in image generation, 2026-08-08.
+Each existing in-game staff sprite was used as the identity, clothing, palette,
+proportion, and facing-direction seed. Complete four-pose walk, idle/blink,
+and calm speaking cycles were generated per role as 2-by-2 grids on flat
+chroma-magenta backgrounds. The prompts required alternating arms and feet for
+walking; planted feet, a natural blink, and restrained hand/mouth gestures for
+conversation; one shared footline and scale; crisp pixel clusters; no scenery,
+text, shadows, or extra characters. The chroma-key helper removed the
+background; scripts/normalize-generated-staff-walk.mjs then applied one scale
+per strip and a shared bottom-center anchor. The shipped staff-*-walk.png files
+under public/assets/staff-v11/ sit beside their matching idle and talk strips.
+
+Dialogue staff portraits: Codex built-in image generation, 2026-08-09.
+The approved family portrait was used as the pixel-density, face-scale, warm
+palette, and three-quarter-facing style reference. Each previous role portrait
+and, where available, its matching in-scene staff sprite supplied only the
+identity, clothing, and role details. Six separate prompts produced the
+clinician, patient navigator, pediatric cardiologist, test technician,
+children's-center phone staff member, and scheduler on flat chroma-magenta
+plates with no scenery, text, UI, or shadows. The prompts required every face
+to look right toward the dialogue copy and prohibited cropped hair, shoulders,
+cyan skin, blue eye corruption, blur, and fine anti-aliased rendering.
+scripts/normalize-generated-portrait.mjs removes edge-connected chroma and
+magenta spill, clears RGB under transparency, uses nearest-neighbour scaling,
+and applies the shared 384px content area plus 24px safe padding. Rebuildable
+normalized masters live in art-source/ui-v12/portraits/; the six shipped
+portraits under public/assets/ui-v12/ are direct deterministic copies.
+
+The caregiver, child, and narrator portraits are also copied byte-for-byte
+from their approved 432px V11 masters. The V12 build must not resize or
+palette-quantize those files: changing a favorite-color accent is never
+allowed to alter a face, skin tone, eye, hair, or clothing pixel.

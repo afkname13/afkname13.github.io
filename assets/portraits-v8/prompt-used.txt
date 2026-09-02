@@ -1,0 +1,21 @@
+Mode: Built-in image generation, new assets.
+
+The staff portrait source requested one coherent 3 by 2 chroma-key sheet with
+six original modern healthcare workers at the same camera distance and pixel
+scale: neighborhood clinician, children's-center phone staff, scheduler,
+hospital navigator, pediatric cardiologist, and pediatric test technician.
+The direction required warm expressions, varied identities and skin tones,
+clean continuous silhouettes, no split-color faces, no text, and no copied
+characters.
+
+The narrator source requested a square open route notebook icon with a simple
+home-to-clinic-to-hospital dotted path, pencil, and page tab. It intentionally
+uses an object instead of inventing a narrator character.
+
+stage-staff.png is not a generated replacement character. It is a deterministic
+nearest-neighbor portrait crop of the first 128 by 128 frame in
+sprites-hd/staff-idle.png: source rectangle x=32, y=0, width=64, height=64,
+scaled exactly 3x to 192 by 192, with alpha deterministically snapped at 128 to
+retain hard pixel edges. This keeps the dialogue portrait identical to the
+clinician, patient navigator, cardiologist, and technician actor visible in the
+scene.

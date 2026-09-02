@@ -1,0 +1,15 @@
+Use the two reference images as follows: Image 1 is the visual style and palette reference from the warm HD kitchen scene. Image 2 is a layout-only 2×2 geometry guide. Use Image 2 only to understand four equal invisible cells, centering, spacing, and safe padding. Do not reproduce any guide boxes, safe-area rectangles, center marks, labels, borders, or guide background.
+
+Create one production-ready 2×2 pixel-art animation sheet containing exactly four sequential frames of a small warm kettle-steam loop for a 640×360 side-view dialogue game. The final frames will be processed into 64×64 transparent cells.
+
+Effect identity: one narrow, soft cream-and-pale-lavender steam plume rising from the same invisible kettle spout point in every frame. Match the visible kitchen’s crisp contemporary pixel art, restrained palette, hard square pixels, selective ink-free edges, large clean clusters, and warm morning light. The steam should be subtle and readable, not a smoke cloud.
+
+Frame order, read left-to-right across the top row and then left-to-right across the bottom row:
+1. a short gentle curl just above the fixed emission point;
+2. the same curl lengthens upward into a small S shape;
+3. the plume reaches its tallest point and briefly divides into two close wisps;
+4. the wisps settle inward to a compact curl close in silhouette and height to frame 1 so the loop closes smoothly.
+
+Lock one shared emission/baseline coordinate at 50% of each cell width and 80% of each cell height. Keep the lowest steam pixel fixed at that coordinate. Keep the plume centered and inside the central 45% width and 58% height of every cell. Preserve the same camera distance, plume width, cluster size, and palette in all four frames. Tip-height variation is animation; the emission point may not drift. No baked kettle, cup, counter, floor, glow halo, contact shadow, detached droplets, sparkles, or scenery.
+
+Background: 100% solid flat #FF00FF in every cell, with no gradients, texture, shadows, lighting variation, or grid separators. Do not use #FF00FF in the steam. No text, labels, UI, borders, watermark, poster layout, antialiasing, painterly blur, 3D, or noisy dithering. Leave generous flat-magenta padding on every side, and do not let any steam pixel cross a cell edge.

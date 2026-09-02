@@ -1,0 +1,57 @@
+{
+  "version": 15,
+  "assets": [
+    {
+      "id": "semantic-banner",
+      "path": "/assets/ui-v15/semantic-banner.png",
+      "width": 720,
+      "height": 176,
+      "alphaBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 176
+      },
+      "sha256": "73d7608ea03558429a4b64f31740b4d4d5685b8a5424cc762d9687a6b7ccee68"
+    },
+    {
+      "id": "limit-banner",
+      "path": "/assets/ui-v15/limit-banner.png",
+      "width": 720,
+      "height": 176,
+      "alphaBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 176
+      },
+      "sha256": "845012f6ec07f5a3b4f740814364f46ef7c4a536f3880833ba24f996c7ab2a89"
+    },
+    {
+      "id": "reflection-banner",
+      "path": "/assets/ui-v15/reflection-banner.png",
+      "width": 720,
+      "height": 176,
+      "alphaBounds": {
+        "x": 0,
+        "y": 0,
+        "width": 720,
+        "height": 176
+      },
+      "sha256": "622a7bf5f0842897df45605b5c32ce5e1af161a4bb486e5c805049f24eeb93b0"
+    },
+    {
+      "id": "selection-check-glyph",
+      "path": "/assets/ui-v15/selection-check-glyph.png",
+      "width": 40,
+      "height": 40,
+      "alphaBounds": {
+        "x": 5,
+        "y": 2,
+        "width": 29,
+        "height": 36
+      },
+      "sha256": "81c3c0ab04a48f7f93a269ac8c858515f623b9f59522a26ce07cbf5dd1ac0a82"
+    }
+  ]
+}

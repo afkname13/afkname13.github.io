@@ -1,0 +1,14 @@
+Use the approved child sprite as the exact identity, palette, clothing, face,
+and silhouette reference. Create one dedicated four-frame CHILD TALK LOOP in
+an exact 2x2 grid: relaxed mouth closed with hand near torso, mouth slightly
+open with a very small wrist rise, mouth a little wider with a gentle eyebrow
+lift and palm turn, then mouth and hand easing back toward frame one. Preserve
+the same 9-10-year-old child, medium-brown skin, short dark curls, large readable
+eyes, turquoise jacket, coral shirt, navy pants, yellow shoes, and backpack.
+Full-body three-quarter side view facing right; fixed camera, root, centerline,
+scale, and feet line; subject fills roughly 82-86% of each cell height.
+Adjacent frames change only mouth, eyebrows, wrist, and a tiny shoulder shift:
+no walking, waving, pointing, head turn, arm sweep, pose jump, or emotion jump.
+Polished handcrafted pixel art with crisp clusters and no antialiasing or blur.
+Exactly four invisible equal cells on perfectly flat #FF00FF; no borders,
+labels, text, props, floor, shadows, UI, extra characters, or edge crossing.

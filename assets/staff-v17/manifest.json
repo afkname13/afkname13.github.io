@@ -1,0 +1,3998 @@
+{
+  "version": 17,
+  "scope": "staff-gameplay-sprites-only",
+  "frame": {
+    "width": 128,
+    "height": 128,
+    "footlineRow": 121,
+    "minimumHeadClearance": 8,
+    "anchor": "bottom-center with cross-motion head alignment",
+    "alpha": [
+      0,
+      255
+    ],
+    "resampled": false
+  },
+  "roles": [
+    "clinician",
+    "navigator",
+    "cardiologist",
+    "technician"
+  ],
+  "motions": [
+    "idle",
+    "talk",
+    "walk"
+  ],
+  "canonicalOutlinePalette": {
+    "clinician": {
+      "canonical": [
+        19,
+        14,
+        13,
+        255
+      ],
+      "normalizedSourceColors": [
+        [
+          22,
+          14,
+          13,
+          255
+        ],
+        [
+          18,
+          11,
+          9,
+          255
+        ],
+        [
+          122,
+          35,
+          104,
+          255
+        ]
+      ]
+    },
+    "navigator": {
+      "canonical": [
+        24,
+        16,
+        9,
+        255
+      ],
+      "normalizedSourceColors": [
+        [
+          28,
+          17,
+          11,
+          255
+        ],
+        [
+          18,
+          12,
+          8,
+          255
+        ],
+        [
+          112,
+          12,
+          92,
+          255
+        ]
+      ]
+    },
+    "cardiologist": {
+      "canonical": [
+        16,
+        11,
+        12,
+        255
+      ],
+      "normalizedSourceColors": [
+        [
+          17,
+          10,
+          10,
+          255
+        ],
+        [
+          21,
+          13,
+          13,
+          255
+        ]
+      ]
+    },
+    "technician": {
+      "canonical": [
+        16,
+        8,
+        7,
+        255
+      ],
+      "normalizedSourceColors": [
+        [
+          17,
+          9,
+          8,
+          255
+        ],
+        [
+          14,
+          6,
+          6,
+          255
+        ],
+        [
+          117,
+          9,
+          97,
+          255
+        ]
+      ]
+    }
+  },
+  "openEyeBoxes": {
+    "clinician/idle": [
+      [
+        60,
+        24,
+        66,
+        30
+      ],
+      [
+        70,
+        24,
+        78,
+        30
+      ]
+    ],
+    "clinician/talk": [
+      [
+        60,
+        23,
+        66,
+        29
+      ],
+      [
+        71,
+        23,
+        76,
+        29
+      ]
+    ],
+    "clinician/walk": [
+      [
+        60,
+        23,
+        66,
+        30
+      ],
+      [
+        70,
+        24,
+        76,
+        31
+      ]
+    ],
+    "navigator/idle": [
+      [
+        62,
+        24,
+        69,
+        30
+      ],
+      [
+        73,
+        24,
+        78,
+        30
+      ]
+    ],
+    "navigator/talk": [
+      [
+        63,
+        22,
+        68,
+        28
+      ],
+      [
+        73,
+        22,
+        79,
+        28
+      ]
+    ],
+    "navigator/walk": [
+      [
+        63,
+        21,
+        68,
+        27
+      ],
+      [
+        73,
+        22,
+        78,
+        27
+      ]
+    ],
+    "cardiologist/idle": [
+      [
+        60,
+        25,
+        66,
+        31
+      ],
+      [
+        71,
+        25,
+        77,
+        32
+      ]
+    ],
+    "cardiologist/talk": [
+      [
+        60,
+        23,
+        66,
+        29
+      ],
+      [
+        71,
+        23,
+        76,
+        29
+      ]
+    ],
+    "cardiologist/walk": [
+      [
+        60,
+        26,
+        66,
+        31
+      ],
+      [
+        72,
+        26,
+        77,
+        31
+      ]
+    ],
+    "technician/idle": [
+      [
+        50,
+        26,
+        56,
+        32
+      ],
+      [
+        59,
+        26,
+        66,
+        32
+      ]
+    ],
+    "technician/talk": [
+      [
+        51,
+        26,
+        56,
+        31
+      ],
+      [
+        61,
+        27,
+        67,
+        32
+      ]
+    ],
+    "technician/walk": [
+      [
+        50,
+        28,
+        56,
+        33
+      ],
+      [
+        59,
+        28,
+        66,
+        34
+      ]
+    ]
+  },
+  "knownSourceArtifactRemoval": {
+    "navigator/idle": [
+      [
+        80,
+        33
+      ]
+    ],
+    "cardiologist/talk": [
+      [
+        113,
+        56
+      ],
+      [
+        113,
+        57
+      ]
+    ]
+  },
+  "approvedDetachedComponents": {
+    "navigator/walk": [
+      [
+        [
+          45,
+          25
+        ]
+      ]
+    ]
+  },
+  "faceGrammar": {
+    "clinician": {
+      "headBounds": {
+        "left": 42,
+        "top": 9,
+        "right": 83,
+        "bottom": 58
+      },
+      "headMeasurementBandBottomExclusive": 58,
+      "fullBodyHeight": 113,
+      "headToBodyHeightRatio": 0.4336,
+      "eyes": [
+        {
+          "left": 62,
+          "top": 25,
+          "right": 66,
+          "bottom": 29,
+          "aperturePixels": 16,
+          "lightPixels": 6,
+          "darkPixels": 10
+        },
+        {
+          "left": 72,
+          "top": 25,
+          "right": 78,
+          "bottom": 29,
+          "aperturePixels": 17,
+          "lightPixels": 3,
+          "darkPixels": 14
+        }
+      ],
+      "eyeSeparationPixels": 11.0,
+      "totalEyeAperturePixels": 33,
+      "eyeApertureToHeadArea": 0.01643
+    },
+    "navigator": {
+      "headBounds": {
+        "left": 40,
+        "top": 9,
+        "right": 85,
+        "bottom": 58
+      },
+      "headMeasurementBandBottomExclusive": 58,
+      "fullBodyHeight": 113,
+      "headToBodyHeightRatio": 0.4336,
+      "eyes": [
+        {
+          "left": 62,
+          "top": 24,
+          "right": 69,
+          "bottom": 29,
+          "aperturePixels": 23,
+          "lightPixels": 7,
+          "darkPixels": 16
+        },
+        {
+          "left": 73,
+          "top": 24,
+          "right": 78,
+          "bottom": 29,
+          "aperturePixels": 13,
+          "lightPixels": 4,
+          "darkPixels": 9
+        }
+      ],
+      "eyeSeparationPixels": 10.0,
+      "totalEyeAperturePixels": 36,
+      "eyeApertureToHeadArea": 0.01633
+    },
+    "cardiologist": {
+      "headBounds": {
+        "left": 41,
+        "top": 9,
+        "right": 84,
+        "bottom": 58
+      },
+      "headMeasurementBandBottomExclusive": 58,
+      "fullBodyHeight": 113,
+      "headToBodyHeightRatio": 0.4336,
+      "eyes": [
+        {
+          "left": 60,
+          "top": 25,
+          "right": 65,
+          "bottom": 30,
+          "aperturePixels": 16,
+          "lightPixels": 6,
+          "darkPixels": 10
+        },
+        {
+          "left": 71,
+          "top": 25,
+          "right": 76,
+          "bottom": 31,
+          "aperturePixels": 18,
+          "lightPixels": 4,
+          "darkPixels": 14
+        }
+      ],
+      "eyeSeparationPixels": 11.0,
+      "totalEyeAperturePixels": 34,
+      "eyeApertureToHeadArea": 0.01614
+    },
+    "technician": {
+      "headBounds": {
+        "left": 43,
+        "top": 8,
+        "right": 88,
+        "bottom": 58
+      },
+      "headMeasurementBandBottomExclusive": 58,
+      "fullBodyHeight": 114,
+      "headToBodyHeightRatio": 0.4386,
+      "eyes": [
+        {
+          "left": 50,
+          "top": 26,
+          "right": 55,
+          "bottom": 32,
+          "aperturePixels": 24,
+          "lightPixels": 4,
+          "darkPixels": 20
+        },
+        {
+          "left": 59,
+          "top": 26,
+          "right": 66,
+          "bottom": 31,
+          "aperturePixels": 23,
+          "lightPixels": 7,
+          "darkPixels": 16
+        }
+      ],
+      "eyeSeparationPixels": 10.0,
+      "totalEyeAperturePixels": 47,
+      "eyeApertureToHeadArea": 0.02089
+    }
+  },
+  "staff": [
+    {
+      "key": "staff-clinician-idle",
+      "path": "/assets/staff-v17/staff-clinician-idle.png",
+      "source": "public/assets/staff-v15/staff-clinician-idle.png",
+      "role": "clinician",
+      "motion": "idle",
+      "sha256": "a79a501edace76d42de25999c7ecbbae98bdffa52c3e32e84351d6c09aa303b2",
+      "anchorShiftX": 0,
+      "perFrameShiftX": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 41,
+            "top": 9,
+            "right": 86,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3917,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.1411,
+          "components": [
+            {
+              "pixels": 3917,
+              "left": 41,
+              "top": 9,
+              "right": 86,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 41,
+            "top": 9,
+            "right": 86,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3917,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.1411,
+          "components": [
+            {
+              "pixels": 3917,
+              "left": 41,
+              "top": 9,
+              "right": 86,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 41,
+            "top": 9,
+            "right": 86,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3917,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.1411,
+          "components": [
+            {
+              "pixels": 3917,
+              "left": 41,
+              "top": 9,
+              "right": 86,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 41,
+            "top": 9,
+            "right": 86,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3917,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.1411,
+          "components": [
+            {
+              "pixels": 3917,
+              "left": 41,
+              "top": 9,
+              "right": 86,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "blinkBoxes": [
+          {
+            "left": 62,
+            "top": 25,
+            "right": 66,
+            "bottom": 29,
+            "changedPixels": 13
+          },
+          {
+            "left": 72,
+            "top": 25,
+            "right": 78,
+            "bottom": 29,
+            "changedPixels": 15
+          }
+        ],
+        "aperturePixels": [
+          16,
+          17
+        ],
+        "changedPixels": 28
+      },
+      "outlineContract": {
+        "canonical": [
+          19,
+          14,
+          13,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            22,
+            14,
+            13,
+            255
+          ],
+          [
+            18,
+            11,
+            9,
+            255
+          ],
+          [
+            122,
+            35,
+            104,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          269,
+          269,
+          258,
+          269
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  24,
+                  66,
+                  30
+                ],
+                "lightPixels": 8,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  70,
+                  24,
+                  78,
+                  30
+                ],
+                "lightPixels": 5,
+                "darkPixels": 23
+              }
+            ],
+            "minimumLightBalance": 0.625
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  24,
+                  66,
+                  30
+                ],
+                "lightPixels": 8,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  70,
+                  24,
+                  78,
+                  30
+                ],
+                "lightPixels": 5,
+                "darkPixels": 23
+              }
+            ],
+            "minimumLightBalance": 0.625
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  24,
+                  66,
+                  30
+                ],
+                "lightPixels": 8,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  70,
+                  24,
+                  78,
+                  30
+                ],
+                "lightPixels": 5,
+                "darkPixels": 23
+              }
+            ],
+            "minimumLightBalance": 0.625
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-clinician-talk",
+      "path": "/assets/staff-v17/staff-clinician-talk.png",
+      "source": "public/assets/staff-v15/staff-clinician-talk.png",
+      "role": "clinician",
+      "motion": "talk",
+      "sha256": "d8f09ea414c1878799f6c09ece2864a15c07cf0d3a92d588b8a267be8ed3bbaf",
+      "anchorShiftX": 10,
+      "perFrameShiftX": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 107,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4123,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.0476,
+          "components": [
+            {
+              "pixels": 4123,
+              "left": 40,
+              "top": 8,
+              "right": 107,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 107,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4123,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.0476,
+          "components": [
+            {
+              "pixels": 4123,
+              "left": 40,
+              "top": 8,
+              "right": 107,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 107,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4123,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.0476,
+          "components": [
+            {
+              "pixels": 4123,
+              "left": 40,
+              "top": 8,
+              "right": 107,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 107,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4123,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.0476,
+          "components": [
+            {
+              "pixels": 4123,
+              "left": 40,
+              "top": 8,
+              "right": 107,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "mouthBox": {
+          "left": 77,
+          "top": 43,
+          "right": 81,
+          "bottom": 48,
+          "changedPixels": 12
+        },
+        "changedPixels": 12
+      },
+      "outlineContract": {
+        "canonical": [
+          19,
+          14,
+          13,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            22,
+            14,
+            13,
+            255
+          ],
+          [
+            18,
+            11,
+            9,
+            255
+          ],
+          [
+            122,
+            35,
+            104,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          311,
+          311,
+          311,
+          311
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 10
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 10
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 10
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 10
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-clinician-walk",
+      "path": "/assets/staff-v17/staff-clinician-walk.png",
+      "source": "public/assets/staff-v15/staff-clinician-walk.png",
+      "role": "clinician",
+      "motion": "walk",
+      "sha256": "01ceaf5e4754f8619e3559dea7363d1307d0af377c766906d2958817b413d14a",
+      "anchorShiftX": 2,
+      "perFrameShiftX": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 38,
+            "top": 9,
+            "right": 94,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 4159,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5052,
+          "components": [
+            {
+              "pixels": 4159,
+              "left": 38,
+              "top": 9,
+              "right": 94,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 37,
+            "top": 9,
+            "right": 95,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 4245,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5052,
+          "components": [
+            {
+              "pixels": 4245,
+              "left": 37,
+              "top": 9,
+              "right": 95,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 91,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 4018,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5052,
+          "components": [
+            {
+              "pixels": 4018,
+              "left": 40,
+              "top": 9,
+              "right": 91,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 37,
+            "top": 9,
+            "right": 95,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3823,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5052,
+          "components": [
+            {
+              "pixels": 3823,
+              "left": 37,
+              "top": 9,
+              "right": 95,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "motionRegions": [
+          [
+            32,
+            50,
+            53,
+            88
+          ],
+          [
+            74,
+            50,
+            96,
+            88
+          ],
+          [
+            55,
+            51,
+            73,
+            83
+          ]
+        ],
+        "motionBox": {
+          "left": 37,
+          "top": 50,
+          "right": 95,
+          "bottom": 122,
+          "changedPixels": 2704
+        },
+        "headChangedPixels": 0,
+        "upperBodyChangedPixels": 1546,
+        "lowerBodyChangedPixels": 1158,
+        "upperBodyChangedPixelsAcrossFrames": 2978,
+        "lowerBodyChangedPixelsAcrossFrames": 2128,
+        "measurement": "final normalized output-byte difference; no per-frame global translation",
+        "motionSource": "public/assets/staff-v14/staff-clinician-walk.png"
+      },
+      "outlineContract": {
+        "canonical": [
+          19,
+          14,
+          13,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            22,
+            14,
+            13,
+            255
+          ],
+          [
+            18,
+            11,
+            9,
+            255
+          ],
+          [
+            122,
+            35,
+            104,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          293,
+          312,
+          300,
+          266
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  30
+                ],
+                "lightPixels": 10,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  70,
+                  24,
+                  76,
+                  31
+                ],
+                "lightPixels": 4,
+                "darkPixels": 11
+              }
+            ],
+            "minimumLightBalance": 0.4
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  30
+                ],
+                "lightPixels": 10,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  70,
+                  24,
+                  76,
+                  31
+                ],
+                "lightPixels": 4,
+                "darkPixels": 11
+              }
+            ],
+            "minimumLightBalance": 0.4
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  30
+                ],
+                "lightPixels": 10,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  70,
+                  24,
+                  76,
+                  31
+                ],
+                "lightPixels": 4,
+                "darkPixels": 11
+              }
+            ],
+            "minimumLightBalance": 0.4
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  30
+                ],
+                "lightPixels": 10,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  70,
+                  24,
+                  76,
+                  31
+                ],
+                "lightPixels": 4,
+                "darkPixels": 11
+              }
+            ],
+            "minimumLightBalance": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-navigator-idle",
+      "path": "/assets/staff-v17/staff-navigator-idle.png",
+      "source": "public/assets/staff-v15/staff-navigator-idle.png",
+      "role": "navigator",
+      "motion": "idle",
+      "sha256": "ceb941cdd97094cbd517a6dedd0c86eff41251906349ff6fc79095f24e4c1211",
+      "anchorShiftX": 0,
+      "perFrameShiftX": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 4082,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2138,
+          "components": [
+            {
+              "pixels": 4082,
+              "left": 40,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 4082,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2138,
+          "components": [
+            {
+              "pixels": 4082,
+              "left": 40,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 4082,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2138,
+          "components": [
+            {
+              "pixels": 4082,
+              "left": 40,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 4082,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2138,
+          "components": [
+            {
+              "pixels": 4082,
+              "left": 40,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "blinkBoxes": [
+          {
+            "left": 62,
+            "top": 24,
+            "right": 69,
+            "bottom": 29,
+            "changedPixels": 20
+          },
+          {
+            "left": 73,
+            "top": 24,
+            "right": 78,
+            "bottom": 29,
+            "changedPixels": 12
+          }
+        ],
+        "aperturePixels": [
+          23,
+          13
+        ],
+        "changedPixels": 32
+      },
+      "outlineContract": {
+        "canonical": [
+          24,
+          16,
+          9,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            28,
+            17,
+            11,
+            255
+          ],
+          [
+            18,
+            12,
+            8,
+            255
+          ],
+          [
+            112,
+            12,
+            92,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          539,
+          539,
+          530,
+          539
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  62,
+                  24,
+                  69,
+                  30
+                ],
+                "lightPixels": 7,
+                "darkPixels": 17
+              },
+              {
+                "box": [
+                  73,
+                  24,
+                  78,
+                  30
+                ],
+                "lightPixels": 4,
+                "darkPixels": 12
+              }
+            ],
+            "minimumLightBalance": 0.5714
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  62,
+                  24,
+                  69,
+                  30
+                ],
+                "lightPixels": 7,
+                "darkPixels": 17
+              },
+              {
+                "box": [
+                  73,
+                  24,
+                  78,
+                  30
+                ],
+                "lightPixels": 4,
+                "darkPixels": 12
+              }
+            ],
+            "minimumLightBalance": 0.5714
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  62,
+                  24,
+                  69,
+                  30
+                ],
+                "lightPixels": 7,
+                "darkPixels": 17
+              },
+              {
+                "box": [
+                  73,
+                  24,
+                  78,
+                  30
+                ],
+                "lightPixels": 4,
+                "darkPixels": 12
+              }
+            ],
+            "minimumLightBalance": 0.5714
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-navigator-talk",
+      "path": "/assets/staff-v17/staff-navigator-talk.png",
+      "source": "public/assets/staff-v15/staff-navigator-talk.png",
+      "role": "navigator",
+      "motion": "talk",
+      "sha256": "281e21b1b274f9732205c54c8c08dd241b639ae3087828130844a1dbd88a40b5",
+      "anchorShiftX": 11,
+      "perFrameShiftX": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 109,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4273,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5046,
+          "components": [
+            {
+              "pixels": 4273,
+              "left": 40,
+              "top": 8,
+              "right": 109,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 109,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4273,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5046,
+          "components": [
+            {
+              "pixels": 4273,
+              "left": 40,
+              "top": 8,
+              "right": 109,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 109,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4273,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5046,
+          "components": [
+            {
+              "pixels": 4273,
+              "left": 40,
+              "top": 8,
+              "right": 109,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 109,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4273,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.5046,
+          "components": [
+            {
+              "pixels": 4273,
+              "left": 40,
+              "top": 8,
+              "right": 109,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "mouthBox": {
+          "left": 68,
+          "top": 32,
+          "right": 75,
+          "bottom": 36,
+          "changedPixels": 21
+        },
+        "changedPixels": 21,
+        "eyeReadabilityPatch": {
+          "points": [
+            [
+              74,
+              23
+            ],
+            [
+              74,
+              24
+            ],
+            [
+              74,
+              25
+            ]
+          ],
+          "color": [
+            243,
+            237,
+            211,
+            255
+          ],
+          "scope": "screen-right open-eye light; outside mouth box"
+        }
+      },
+      "outlineContract": {
+        "canonical": [
+          24,
+          16,
+          9,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            28,
+            17,
+            11,
+            255
+          ],
+          [
+            18,
+            12,
+            8,
+            255
+          ],
+          [
+            112,
+            12,
+            92,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          666,
+          664,
+          666,
+          664
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  22,
+                  68,
+                  28
+                ],
+                "lightPixels": 7,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  79,
+                  28
+                ],
+                "lightPixels": 3,
+                "darkPixels": 13
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  22,
+                  68,
+                  28
+                ],
+                "lightPixels": 7,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  79,
+                  28
+                ],
+                "lightPixels": 3,
+                "darkPixels": 13
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  22,
+                  68,
+                  28
+                ],
+                "lightPixels": 7,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  79,
+                  28
+                ],
+                "lightPixels": 3,
+                "darkPixels": 13
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  22,
+                  68,
+                  28
+                ],
+                "lightPixels": 7,
+                "darkPixels": 14
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  79,
+                  28
+                ],
+                "lightPixels": 3,
+                "darkPixels": 13
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-navigator-walk",
+      "path": "/assets/staff-v17/staff-navigator-walk.png",
+      "source": "public/assets/staff-v15/staff-navigator-walk.png",
+      "role": "navigator",
+      "motion": "walk",
+      "sha256": "b104db2ccccabd92e8716acf5ff297e4760ab5ac709ccd157aa51ec46e6d7613",
+      "anchorShiftX": 3,
+      "perFrameShiftX": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 34,
+            "top": 8,
+            "right": 99,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4265,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2278,
+          "components": [
+            {
+              "pixels": 4264,
+              "left": 34,
+              "top": 8,
+              "right": 99,
+              "bottom": 122
+            },
+            {
+              "pixels": 1,
+              "left": 45,
+              "top": 25,
+              "right": 46,
+              "bottom": 26
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 34,
+            "top": 8,
+            "right": 100,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4259,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2278,
+          "components": [
+            {
+              "pixels": 4258,
+              "left": 34,
+              "top": 8,
+              "right": 100,
+              "bottom": 122
+            },
+            {
+              "pixels": 1,
+              "left": 45,
+              "top": 25,
+              "right": 46,
+              "bottom": 26
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 38,
+            "top": 8,
+            "right": 93,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3841,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2278,
+          "components": [
+            {
+              "pixels": 3840,
+              "left": 38,
+              "top": 8,
+              "right": 93,
+              "bottom": 122
+            },
+            {
+              "pixels": 1,
+              "left": 45,
+              "top": 25,
+              "right": 46,
+              "bottom": 26
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 34,
+            "top": 8,
+            "right": 100,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4242,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 62.2278,
+          "components": [
+            {
+              "pixels": 4241,
+              "left": 34,
+              "top": 8,
+              "right": 100,
+              "bottom": 122
+            },
+            {
+              "pixels": 1,
+              "left": 45,
+              "top": 25,
+              "right": 46,
+              "bottom": 26
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "motionRegions": [
+          [
+            29,
+            50,
+            66,
+            88
+          ],
+          [
+            74,
+            50,
+            98,
+            88
+          ],
+          [
+            70,
+            51,
+            87,
+            72
+          ]
+        ],
+        "motionBox": {
+          "left": 34,
+          "top": 50,
+          "right": 100,
+          "bottom": 122,
+          "changedPixels": 2795
+        },
+        "headChangedPixels": 0,
+        "upperBodyChangedPixels": 1642,
+        "lowerBodyChangedPixels": 1153,
+        "upperBodyChangedPixelsAcrossFrames": 3134,
+        "lowerBodyChangedPixelsAcrossFrames": 1877,
+        "measurement": "final normalized output-byte difference; no per-frame global translation",
+        "motionSource": "public/assets/staff-v14/staff-navigator-walk.png"
+      },
+      "outlineContract": {
+        "canonical": [
+          24,
+          16,
+          9,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            28,
+            17,
+            11,
+            255
+          ],
+          [
+            18,
+            12,
+            8,
+            255
+          ],
+          [
+            112,
+            12,
+            92,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          465,
+          447,
+          451,
+          470
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  21,
+                  68,
+                  27
+                ],
+                "lightPixels": 4,
+                "darkPixels": 13
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  78,
+                  27
+                ],
+                "lightPixels": 3,
+                "darkPixels": 9
+              }
+            ],
+            "minimumLightBalance": 0.75
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  21,
+                  68,
+                  27
+                ],
+                "lightPixels": 4,
+                "darkPixels": 13
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  78,
+                  27
+                ],
+                "lightPixels": 3,
+                "darkPixels": 9
+              }
+            ],
+            "minimumLightBalance": 0.75
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  21,
+                  68,
+                  27
+                ],
+                "lightPixels": 4,
+                "darkPixels": 13
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  78,
+                  27
+                ],
+                "lightPixels": 3,
+                "darkPixels": 9
+              }
+            ],
+            "minimumLightBalance": 0.75
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  63,
+                  21,
+                  68,
+                  27
+                ],
+                "lightPixels": 4,
+                "darkPixels": 13
+              },
+              {
+                "box": [
+                  73,
+                  22,
+                  78,
+                  27
+                ],
+                "lightPixels": 3,
+                "darkPixels": 9
+              }
+            ],
+            "minimumLightBalance": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-cardiologist-idle",
+      "path": "/assets/staff-v17/staff-cardiologist-idle.png",
+      "source": "public/assets/staff-v15/staff-cardiologist-idle.png",
+      "role": "cardiologist",
+      "motion": "idle",
+      "sha256": "e20153b6757b13421e1af7b3c8ef072320f8030d498580a631241f9a80858afb",
+      "anchorShiftX": 0,
+      "perFrameShiftX": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 87,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3889,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.2736,
+          "components": [
+            {
+              "pixels": 3889,
+              "left": 40,
+              "top": 9,
+              "right": 87,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 87,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3889,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.2736,
+          "components": [
+            {
+              "pixels": 3889,
+              "left": 40,
+              "top": 9,
+              "right": 87,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 87,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3889,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.2736,
+          "components": [
+            {
+              "pixels": 3889,
+              "left": 40,
+              "top": 9,
+              "right": 87,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 9,
+            "right": 87,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3889,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.2736,
+          "components": [
+            {
+              "pixels": 3889,
+              "left": 40,
+              "top": 9,
+              "right": 87,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "blinkBoxes": [
+          {
+            "left": 60,
+            "top": 25,
+            "right": 65,
+            "bottom": 30,
+            "changedPixels": 15
+          },
+          {
+            "left": 71,
+            "top": 25,
+            "right": 76,
+            "bottom": 31,
+            "changedPixels": 16
+          }
+        ],
+        "aperturePixels": [
+          16,
+          18
+        ],
+        "changedPixels": 31
+      },
+      "outlineContract": {
+        "canonical": [
+          16,
+          11,
+          12,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            17,
+            10,
+            10,
+            255
+          ],
+          [
+            21,
+            13,
+            13,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          361,
+          361,
+          355,
+          361
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  25,
+                  66,
+                  31
+                ],
+                "lightPixels": 6,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  71,
+                  25,
+                  77,
+                  32
+                ],
+                "lightPixels": 4,
+                "darkPixels": 17
+              }
+            ],
+            "minimumLightBalance": 0.6667
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  25,
+                  66,
+                  31
+                ],
+                "lightPixels": 6,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  71,
+                  25,
+                  77,
+                  32
+                ],
+                "lightPixels": 4,
+                "darkPixels": 17
+              }
+            ],
+            "minimumLightBalance": 0.6667
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  25,
+                  66,
+                  31
+                ],
+                "lightPixels": 6,
+                "darkPixels": 15
+              },
+              {
+                "box": [
+                  71,
+                  25,
+                  77,
+                  32
+                ],
+                "lightPixels": 4,
+                "darkPixels": 17
+              }
+            ],
+            "minimumLightBalance": 0.6667
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-cardiologist-talk",
+      "path": "/assets/staff-v17/staff-cardiologist-talk.png",
+      "source": "public/assets/staff-v15/staff-cardiologist-talk.png",
+      "role": "cardiologist",
+      "motion": "talk",
+      "sha256": "a013cd8b1cf11254355c879722b55fb43e527db18780a5379ae5e82e13144846",
+      "anchorShiftX": 10,
+      "perFrameShiftX": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 24,
+            "top": 8,
+            "right": 89,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4072,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.6971,
+          "components": [
+            {
+              "pixels": 4072,
+              "left": 24,
+              "top": 8,
+              "right": 89,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 24,
+            "top": 8,
+            "right": 89,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4072,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.6971,
+          "components": [
+            {
+              "pixels": 4072,
+              "left": 24,
+              "top": 8,
+              "right": 89,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 24,
+            "top": 8,
+            "right": 89,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4072,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.6971,
+          "components": [
+            {
+              "pixels": 4072,
+              "left": 24,
+              "top": 8,
+              "right": 89,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 24,
+            "top": 8,
+            "right": 89,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4072,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.6971,
+          "components": [
+            {
+              "pixels": 4072,
+              "left": 24,
+              "top": 8,
+              "right": 89,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "mouthBox": {
+          "left": 80,
+          "top": 45,
+          "right": 83,
+          "bottom": 48,
+          "changedPixels": 8
+        },
+        "changedPixels": 8
+      },
+      "outlineContract": {
+        "canonical": [
+          16,
+          11,
+          12,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            17,
+            10,
+            10,
+            255
+          ],
+          [
+            21,
+            13,
+            13,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          357,
+          357,
+          357,
+          357
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  23,
+                  66,
+                  29
+                ],
+                "lightPixels": 7,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  71,
+                  23,
+                  76,
+                  29
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-cardiologist-walk",
+      "path": "/assets/staff-v17/staff-cardiologist-walk.png",
+      "source": "public/assets/staff-v15/staff-cardiologist-walk.png",
+      "role": "cardiologist",
+      "motion": "walk",
+      "sha256": "e2ff7a7c8eefb322c30db543e2b12bbae301e29e9699dca39ed0400a35de86e2",
+      "anchorShiftX": 0,
+      "perFrameShiftX": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 33,
+            "top": 8,
+            "right": 94,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4246,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.1013,
+          "components": [
+            {
+              "pixels": 4246,
+              "left": 33,
+              "top": 8,
+              "right": 94,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 36,
+            "top": 8,
+            "right": 91,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 4173,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.1013,
+          "components": [
+            {
+              "pixels": 4173,
+              "left": 36,
+              "top": 8,
+              "right": 91,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 35,
+            "top": 8,
+            "right": 93,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3888,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.1013,
+          "components": [
+            {
+              "pixels": 3888,
+              "left": 35,
+              "top": 8,
+              "right": 93,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 34,
+            "top": 8,
+            "right": 93,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3945,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 63.1013,
+          "components": [
+            {
+              "pixels": 3945,
+              "left": 34,
+              "top": 8,
+              "right": 93,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "motionRegions": [
+          [
+            31,
+            50,
+            53,
+            88
+          ],
+          [
+            75,
+            50,
+            96,
+            88
+          ],
+          [
+            54,
+            50,
+            76,
+            85
+          ]
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 50,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 3135
+        },
+        "headChangedPixels": 0,
+        "upperBodyChangedPixels": 1683,
+        "lowerBodyChangedPixels": 1452,
+        "upperBodyChangedPixelsAcrossFrames": 3993,
+        "lowerBodyChangedPixelsAcrossFrames": 3256,
+        "measurement": "final normalized output-byte difference; no per-frame global translation",
+        "motionSource": "public/assets/staff-v14/staff-cardiologist-walk.png"
+      },
+      "outlineContract": {
+        "canonical": [
+          16,
+          11,
+          12,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            17,
+            10,
+            10,
+            255
+          ],
+          [
+            21,
+            13,
+            13,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          433,
+          423,
+          403,
+          399
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  26,
+                  66,
+                  31
+                ],
+                "lightPixels": 5,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  72,
+                  26,
+                  77,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              }
+            ],
+            "minimumLightBalance": 0.6
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  26,
+                  66,
+                  31
+                ],
+                "lightPixels": 5,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  72,
+                  26,
+                  77,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              }
+            ],
+            "minimumLightBalance": 0.6
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  26,
+                  66,
+                  31
+                ],
+                "lightPixels": 5,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  72,
+                  26,
+                  77,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              }
+            ],
+            "minimumLightBalance": 0.6
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  60,
+                  26,
+                  66,
+                  31
+                ],
+                "lightPixels": 5,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  72,
+                  26,
+                  77,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              }
+            ],
+            "minimumLightBalance": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-technician-idle",
+      "path": "/assets/staff-v17/staff-technician-idle.png",
+      "source": "public/assets/staff-v15/staff-technician-idle.png",
+      "role": "technician",
+      "motion": "idle",
+      "sha256": "573a943cdc369a681faced2c5d3749f37c460b3780cb8032ef834b3dd6ef1368",
+      "anchorShiftX": 0,
+      "perFrameShiftX": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3795,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.4249,
+          "components": [
+            {
+              "pixels": 3795,
+              "left": 40,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3795,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.4249,
+          "components": [
+            {
+              "pixels": 3795,
+              "left": 40,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3795,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.4249,
+          "components": [
+            {
+              "pixels": 3795,
+              "left": 40,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 40,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3795,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.4249,
+          "components": [
+            {
+              "pixels": 3795,
+              "left": 40,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "blinkBoxes": [
+          {
+            "left": 50,
+            "top": 26,
+            "right": 55,
+            "bottom": 32,
+            "changedPixels": 23
+          },
+          {
+            "left": 59,
+            "top": 26,
+            "right": 66,
+            "bottom": 31,
+            "changedPixels": 21
+          }
+        ],
+        "aperturePixels": [
+          24,
+          23
+        ],
+        "changedPixels": 44
+      },
+      "outlineContract": {
+        "canonical": [
+          16,
+          8,
+          7,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            17,
+            9,
+            8,
+            255
+          ],
+          [
+            14,
+            6,
+            6,
+            255
+          ],
+          [
+            117,
+            9,
+            97,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          306,
+          306,
+          296,
+          306
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  50,
+                  26,
+                  56,
+                  32
+                ],
+                "lightPixels": 4,
+                "darkPixels": 20
+              },
+              {
+                "box": [
+                  59,
+                  26,
+                  66,
+                  32
+                ],
+                "lightPixels": 7,
+                "darkPixels": 19
+              }
+            ],
+            "minimumLightBalance": 0.5714
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  50,
+                  26,
+                  56,
+                  32
+                ],
+                "lightPixels": 4,
+                "darkPixels": 20
+              },
+              {
+                "box": [
+                  59,
+                  26,
+                  66,
+                  32
+                ],
+                "lightPixels": 7,
+                "darkPixels": 19
+              }
+            ],
+            "minimumLightBalance": 0.5714
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  50,
+                  26,
+                  56,
+                  32
+                ],
+                "lightPixels": 4,
+                "darkPixels": 20
+              },
+              {
+                "box": [
+                  59,
+                  26,
+                  66,
+                  32
+                ],
+                "lightPixels": 7,
+                "darkPixels": 19
+              }
+            ],
+            "minimumLightBalance": 0.5714
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-technician-talk",
+      "path": "/assets/staff-v17/staff-technician-talk.png",
+      "source": "public/assets/staff-v15/staff-technician-talk.png",
+      "role": "technician",
+      "motion": "talk",
+      "sha256": "d7d53e3662fa05ce72cc1c285b56abe78c95f230d585eede6bdbe7fe59fd369d",
+      "anchorShiftX": -9,
+      "perFrameShiftX": [
+        -9,
+        -9,
+        -9,
+        -9
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 22,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3758,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7409,
+          "components": [
+            {
+              "pixels": 3758,
+              "left": 22,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 22,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3758,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7409,
+          "components": [
+            {
+              "pixels": 3758,
+              "left": 22,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 22,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3758,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7409,
+          "components": [
+            {
+              "pixels": 3758,
+              "left": 22,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 22,
+            "top": 8,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 8,
+          "footline": 121,
+          "opaquePixels": 3758,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7409,
+          "components": [
+            {
+              "pixels": 3758,
+              "left": 22,
+              "top": 8,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "mouthBox": {
+          "left": 52,
+          "top": 34,
+          "right": 61,
+          "bottom": 40,
+          "changedPixels": 37
+        },
+        "changedPixels": 37
+      },
+      "outlineContract": {
+        "canonical": [
+          16,
+          8,
+          7,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            17,
+            9,
+            8,
+            255
+          ],
+          [
+            14,
+            6,
+            6,
+            255
+          ],
+          [
+            117,
+            9,
+            97,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          318,
+          324,
+          318,
+          324
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  51,
+                  26,
+                  56,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  61,
+                  27,
+                  67,
+                  32
+                ],
+                "lightPixels": 3,
+                "darkPixels": 8
+              }
+            ],
+            "minimumLightBalance": 1.0
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  51,
+                  26,
+                  56,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  61,
+                  27,
+                  67,
+                  32
+                ],
+                "lightPixels": 3,
+                "darkPixels": 8
+              }
+            ],
+            "minimumLightBalance": 1.0
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  51,
+                  26,
+                  56,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  61,
+                  27,
+                  67,
+                  32
+                ],
+                "lightPixels": 3,
+                "darkPixels": 8
+              }
+            ],
+            "minimumLightBalance": 1.0
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  51,
+                  26,
+                  56,
+                  31
+                ],
+                "lightPixels": 3,
+                "darkPixels": 12
+              },
+              {
+                "box": [
+                  61,
+                  27,
+                  67,
+                  32
+                ],
+                "lightPixels": 3,
+                "darkPixels": 8
+              }
+            ],
+            "minimumLightBalance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-technician-walk",
+      "path": "/assets/staff-v17/staff-technician-walk.png",
+      "source": "public/assets/staff-v15/staff-technician-walk.png",
+      "role": "technician",
+      "motion": "walk",
+      "sha256": "24b550e31b144914e7ab8a45e597349f7df9f897a01d2093c3b344b33288751c",
+      "anchorShiftX": -3,
+      "perFrameShiftX": [
+        -3,
+        -3,
+        -3,
+        -3
+      ],
+      "frames": [
+        {
+          "bounds": {
+            "left": 33,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3718,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7928,
+          "components": [
+            {
+              "pixels": 3718,
+              "left": 33,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 33,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3749,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7928,
+          "components": [
+            {
+              "pixels": 3749,
+              "left": 33,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 34,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3648,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7928,
+          "components": [
+            {
+              "pixels": 3648,
+              "left": 34,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        },
+        {
+          "bounds": {
+            "left": 34,
+            "top": 9,
+            "right": 88,
+            "bottom": 122
+          },
+          "headClearance": 9,
+          "footline": 121,
+          "opaquePixels": 3680,
+          "alphaLevels": [
+            0,
+            255
+          ],
+          "headCentroidX": 65.7928,
+          "components": [
+            {
+              "pixels": 3680,
+              "left": 34,
+              "top": 9,
+              "right": 88,
+              "bottom": 122
+            }
+          ]
+        }
+      ],
+      "motionContract": {
+        "motionRegions": [
+          [
+            34,
+            50,
+            56,
+            88
+          ],
+          [
+            75,
+            50,
+            93,
+            88
+          ],
+          [
+            54,
+            50,
+            77,
+            84
+          ]
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 50,
+          "right": 88,
+          "bottom": 122,
+          "changedPixels": 1816
+        },
+        "headChangedPixels": 0,
+        "upperBodyChangedPixels": 1052,
+        "lowerBodyChangedPixels": 764,
+        "upperBodyChangedPixelsAcrossFrames": 2333,
+        "lowerBodyChangedPixelsAcrossFrames": 1777,
+        "measurement": "final normalized output-byte difference; no per-frame global translation",
+        "motionSource": "public/assets/staff-v14/staff-technician-walk.png"
+      },
+      "outlineContract": {
+        "canonical": [
+          16,
+          8,
+          7,
+          255
+        ],
+        "normalizedSourceColors": [
+          [
+            17,
+            9,
+            8,
+            255
+          ],
+          [
+            14,
+            6,
+            6,
+            255
+          ],
+          [
+            117,
+            9,
+            97,
+            255
+          ]
+        ],
+        "canonicalPixelsPerFrame": [
+          323,
+          324,
+          307,
+          311
+        ],
+        "legacyOutlinePixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foreignMagentaPixelsPerFrame": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "openFaceContract": {
+        "openFrameIndices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "frames": [
+          {
+            "index": 0,
+            "eyes": [
+              {
+                "box": [
+                  50,
+                  28,
+                  56,
+                  33
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  59,
+                  28,
+                  66,
+                  34
+                ],
+                "lightPixels": 7,
+                "darkPixels": 22
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 1,
+            "eyes": [
+              {
+                "box": [
+                  50,
+                  28,
+                  56,
+                  33
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  59,
+                  28,
+                  66,
+                  34
+                ],
+                "lightPixels": 7,
+                "darkPixels": 22
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 2,
+            "eyes": [
+              {
+                "box": [
+                  50,
+                  28,
+                  56,
+                  33
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  59,
+                  28,
+                  66,
+                  34
+                ],
+                "lightPixels": 7,
+                "darkPixels": 22
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          },
+          {
+            "index": 3,
+            "eyes": [
+              {
+                "box": [
+                  50,
+                  28,
+                  56,
+                  33
+                ],
+                "lightPixels": 3,
+                "darkPixels": 16
+              },
+              {
+                "box": [
+                  59,
+                  28,
+                  66,
+                  34
+                ],
+                "lightPixels": 7,
+                "darkPixels": 22
+              }
+            ],
+            "minimumLightBalance": 0.4286
+          }
+        ]
+      }
+    }
+  ]
+}

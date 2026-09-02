@@ -1,0 +1,27 @@
+THE ROAD TO CARE — CAREGIVER ACTING SPRITE SOURCE
+
+Identity:
+- Same nameable caregiver in every frame.
+- Medium-deep brown skin, dark hair in a low bun.
+- Lavender overshirt, yellow top, navy trousers, coral shoes, turquoise satchel.
+- Warm, capable adult presence with natural posture and restrained emotion.
+
+Sheet layout:
+- Exact 3 columns × 3 rows, read left-to-right and top-to-bottom.
+- Nine continuous acting poses: neutral idle, breathing idle, listening,
+  talking, phone call, holding/reviewing paper, reassuring gesture, tired, and
+  settled idle.
+- One full character per cell; consistent scale, identity, clothes, and feet.
+
+Generation constraints:
+- Crisp side-view / three-quarter pixel-game sprite language.
+- Fixed flat #FF00FF chroma-key background in every cell.
+- No text, UI, frame labels, shadows outside the character, or extra people.
+
+Processing provenance:
+- Generated as a high-resolution source sheet with OpenAI image generation.
+- Processed deterministically with 0x0funky/agent-sprite-forge.
+- Target=npc, 3×3 grid, 64 px cells, shared scale, feet alignment,
+  fit_scale=0.84, trim_border=4, edge_clean_depth=3.
+- Chroma key removed to transparency; edge/clamp quality checks passed.
+

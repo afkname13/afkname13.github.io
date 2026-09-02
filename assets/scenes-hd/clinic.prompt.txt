@@ -1,0 +1,14 @@
+Built-in image_gen production prompt
+
+Use case: stylized-concept
+Asset type: fixed-camera dialogue-game environment background
+Primary request: Regenerate the visible neighborhood clinic exam room immediately above as a cleaner, higher-resolution pixel-art production background designed for a native 640×360 game canvas.
+Input image: the visible image immediately above is the visual composition reference. Preserve its warm window on the left, plants and low cabinet beneath it, compact desk and rolling stool near center-left, exam bed on the right, stethoscope hook and small sink/cabinet area. Keep the room calm, ordinary, friendly, and professional.
+Style/medium: handcrafted contemporary 2D pixel art with crisp square pixels, hard edges, intentional large pixel clusters, clearly readable furniture silhouettes, selective ink outlines, one shadow ramp and one highlight ramp. No one-pixel texture confetti, dense hatching, painterly blur, vector smoothing, 3D, photographic texture, gradients, antialiasing, or noisy dithering.
+Composition/framing: exact 16:9 side-view room. Upper wall and window occupy top half; props stay around the perimeter; leave a broad clean floor acting lane from about 54% to 84% of image height with room for two 104–120-pixel-tall characters facing each other. The exam bed should be large and instantly recognizable at right, but must not consume the acting lane. Include one simple child-height abstract art picture with shapes only, no letters.
+Lighting/mood: soft warm morning light from upper left; safe, caring, bright, lived-in but uncluttered.
+Color palette: restrained 32–48 colors led by cream #FFF5DF, turquoise #38C6BD, coral #FF6F61, sunflower #F6C945, leaf #75BF68, lavender #AD8AE8, sky #8ED8F8, ink #18314F.
+Constraints: no people, characters, faces, readable text, labels, logos, UI, dialogue boxes, borders, watermarks, ominous lighting, threatening equipment, blood, needles, or medical drama. Keep every main prop distinct at 640×360. Leave clear background surfaces suitable for gentle animated sunlight and plant motion overlays.
+Avoid: overpacked shelves, tiny medical clutter, fake text, grain, bloom, harsh white sterility, horror lighting, muddy brown shadows, noisy plant leaves.
+
+Post-processing: center-crop to 16:9, resize to 640×360, median-cut quantize to 48 colors, no dithering.

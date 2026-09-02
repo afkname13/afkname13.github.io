@@ -1,0 +1,15 @@
+Use the two reference images as follows: Image 1 is the visual style and palette reference from the clean HD clinic scene. Image 2 is a layout-only 2×2 geometry guide. Use Image 2 only to understand four equal invisible cells, centering, spacing, and safe padding. Do not reproduce any guide boxes, safe-area rectangles, center marks, labels, borders, or guide background.
+
+Create one production-ready 2×2 pixel-art animation sheet containing exactly four sequential frames of a tiny teal monitor status-light loop for a 640×360 side-view dialogue game. The final frames will be processed into 64×64 transparent cells.
+
+Effect identity: one compact horizontal rounded indicator lamp, built from crisp square pixel clusters, with a deep ink-teal rim, turquoise body, and a tiny cream highlight at peak brightness. Match the visible clinic’s clean contemporary pixel art, restrained palette, hard edges, clear silhouette, and calm professional tone. This is a subtle operational light, not a reward sparkle or warning.
+
+Frame order, read left-to-right across the top row and then left-to-right across the bottom row:
+1. dim turquoise indicator;
+2. gently brighter center;
+3. brightest state with one restrained pale core, no detached halo;
+4. return to the gently dim state, close to frame 1 for a seamless loop.
+
+Keep the lamp’s outer silhouette, size, center, and baseline identical in all four frames. Only two or three interior pixels and their color values may pulse. Center the indicator at 50% width and 55% height in every cell; use roughly 24% of the cell width and 12% of its height. No monitor body, cable, desk, reflection, bloom, detached spark, warning symbol, or scenery.
+
+Background: 100% solid flat #FF00FF in every cell, with no gradients, texture, shadows, lighting variation, or grid separators. Do not use #FF00FF in the indicator. No text, labels, UI, borders, watermark, poster layout, antialiasing, painterly blur, 3D, or noisy dithering. Leave generous flat-magenta padding on every side, and do not let any part cross a cell edge.

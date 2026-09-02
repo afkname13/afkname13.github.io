@@ -1,0 +1,26 @@
+THE ROAD TO CARE — CAREGIVER WALK SPRITE SOURCE
+
+Identity:
+- Match the approved caregiver acting sheet exactly: medium-deep brown skin,
+  low dark bun, lavender overshirt, yellow top, navy trousers, coral shoes, and
+  turquoise satchel.
+
+Sheet layout:
+- Exact 3 columns × 2 rows, read left-to-right and top-to-bottom.
+- Six continuous side-view walk-cycle poses with alternating contact, passing,
+  and recoil motion; satchel follows the body naturally.
+- One full character per cell; stable height, identity, clothing, and feet line.
+
+Generation constraints:
+- Crisp readable pixel-game animation.
+- Fixed flat #FF00FF chroma-key background in every cell.
+- No text, UI, frame labels, floor, cast shadow, or extra objects.
+
+Processing provenance:
+- Generated from the approved caregiver identity/reference with OpenAI image
+  generation.
+- Processed deterministically with 0x0funky/agent-sprite-forge.
+- Target=npc, mode=walk, 2×3 grid, 64 px cells, shared scale, feet alignment,
+  fit_scale=0.84, trim_border=4, edge_clean_depth=3.
+- Chroma key removed to transparency; edge/clamp quality checks passed.
+

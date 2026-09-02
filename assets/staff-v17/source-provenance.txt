@@ -1,0 +1,22 @@
+V17 deterministic staff gameplay-sprite rebuild.
+Approved pixel source: public/assets/staff-v15/.
+Bounded walk-motion donor: public/assets/staff-v14/.
+V16 was inspected as the rejected comparison, but no V16 pixels were copied.
+No image generation was used. No family sprite or dialogue portrait was read or modified.
+The 128 x 128 source pixels are never resized or resampled.
+Idle uses one stable open frame and one localized paired-eye blink.
+Talk uses one stable authored gesture and a mouth-only alternate.
+Walk preserves each authored V15 leg pose and restores only bounded
+V14 arm, outer-coat, and accessory pixels; head and identity core stay V15.
+Talk and walk are aligned horizontally to each role's idle head anchor.
+Every motion is normalized to its role's approved idle outline palette;
+saturated purple V14 walk-outline colors are forbidden in every frame.
+The navigator talk pose restores three stable screen-right eye-light pixels
+outside the mouth box so both open eyes remain readable while speaking.
+All authored sub-10px details are retained except two exact documented artifacts:
+the navigator-idle isolated brown facial speck at source x=80, y=33 and
+the two-pixel cardiologist-talk export crumb at source x=113, y=56..57.
+The only approved detached output component is the authored navigator-walk
+hair glint at registered x=45, y=25; any other detached component fails the build.
+All frames use binary alpha and end on row 121 without head cropping.
+SHA-256 hashes and per-frame geometry are recorded in manifest.json.

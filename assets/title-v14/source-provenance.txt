@@ -1,0 +1,12 @@
+The Road to Care title V14
+
+Built-in image generation produced two original, text-free source scenes:
+- art-source/title-v14/road-to-care-morning-source.png
+- art-source/title-v14/customization-room-source.png
+
+The browser assets are lossless WebP conversions made with Sharp:
+- public/assets/title-v14/road-to-care-morning.webp
+- public/assets/title-v14/customization-room.webp
+
+Exact prompts are recorded in art-source/title-v14/prompts.md.
+Regenerate the browser assets with: node scripts/build-title-v14-assets.mjs

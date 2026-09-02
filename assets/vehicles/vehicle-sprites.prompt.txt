@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: transparent pixel-art vehicle sprites for a 640x360 browser story game
+Primary request: one sprite sheet with a turquoise-and-sunflower intercity bus and a coral compact family car, each in strict side view facing right
+Style: polished hand-authored 2D pixel art, crisp hard clusters, limited warm palette, dark navy outlines
+Composition: bus in the upper half, car in the lower half, generous separation and padding
+Background: perfectly flat #00ff00 chroma key, later removed locally
+Constraints: no people, road, scenery, shadows, reflection, text, logo, watermark, blur, or antialiasing
+
+Generated with the built-in image generation tool, then chroma-keyed, cropped,
+and nearest-neighbor resized into intercity-bus.png and family-car.png.

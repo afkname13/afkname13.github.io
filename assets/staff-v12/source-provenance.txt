@@ -1,0 +1,7 @@
+Staff V12 stage sprites.
+Every role was authored together in one shared idle/talk atlas.
+Idle/talk source: art-source/stage-v12/staff-stage-atlas-v12.png
+Walk sources: art-source/stage-v12/staff-<role>-walk-v12.png
+Generated as whole atlases/strips, then deterministically chroma-cleaned,
+nearest-neighbour normalized to 128x128 cells, 114px adult height,
+binary alpha, and y=121 shoe row.

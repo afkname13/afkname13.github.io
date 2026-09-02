@@ -1,0 +1,2102 @@
+{
+  "version": "staff-v18",
+  "frame": {
+    "width": 128,
+    "height": 128,
+    "footline": 121
+  },
+  "source": "public/assets/staff-v16",
+  "canonical_identity": "each role's V16 idle frame 0",
+  "head_contract": {
+    "replacement_band": {
+      "top": 0,
+      "bottom_exclusive": 50
+    },
+    "open_states": "pixel-identical to canonical idle frame 0",
+    "approved_changes": "paired-eye blink or role-local mouth pixels only"
+  },
+  "roles": {
+    "clinician": {
+      "canonical_palette": [
+        [
+          19,
+          14,
+          13
+        ],
+        [
+          52,
+          30,
+          20
+        ],
+        [
+          79,
+          45,
+          28
+        ],
+        [
+          15,
+          75,
+          81
+        ],
+        [
+          133,
+          64,
+          20
+        ],
+        [
+          113,
+          83,
+          66
+        ],
+        [
+          8,
+          132,
+          139
+        ],
+        [
+          208,
+          112,
+          24
+        ],
+        [
+          15,
+          163,
+          171
+        ],
+        [
+          160,
+          119,
+          71
+        ],
+        [
+          246,
+          157,
+          43
+        ],
+        [
+          204,
+          165,
+          110
+        ],
+        [
+          252,
+          182,
+          70
+        ],
+        [
+          237,
+          199,
+          141
+        ],
+        [
+          253,
+          230,
+          178
+        ],
+        [
+          255,
+          247,
+          225
+        ]
+      ],
+      "canonical_source": "public/assets/staff-v16/staff-clinician-idle.png#frame-0",
+      "blink_changed_pixels": 40,
+      "motions": {
+        "talk": {
+          "source": "public/assets/staff-v16/staff-clinician-talk.png",
+          "integer_x_shift": 10,
+          "palette_map": {
+            "10,133,139": [
+              8,
+              132,
+              139
+            ],
+            "15,163,171": [
+              15,
+              163,
+              171
+            ],
+            "16,70,77": [
+              15,
+              75,
+              81
+            ],
+            "22,14,13": [
+              19,
+              14,
+              13
+            ],
+            "59,35,21": [
+              52,
+              30,
+              20
+            ],
+            "90,47,27": [
+              79,
+              45,
+              28
+            ],
+            "113,85,66": [
+              113,
+              83,
+              66
+            ],
+            "155,72,17": [
+              133,
+              64,
+              20
+            ],
+            "158,125,78": [
+              160,
+              119,
+              71
+            ],
+            "204,164,110": [
+              204,
+              165,
+              110
+            ],
+            "216,118,24": [
+              208,
+              112,
+              24
+            ],
+            "235,196,138": [
+              237,
+              199,
+              141
+            ],
+            "246,158,44": [
+              246,
+              157,
+              43
+            ],
+            "253,184,71": [
+              252,
+              182,
+              70
+            ],
+            "253,229,176": [
+              253,
+              230,
+              178
+            ],
+            "255,247,225": [
+              255,
+              247,
+              225
+            ]
+          },
+          "file": "staff-clinician-talk.png",
+          "sha256": "fc250ef39b72a604cc3a91bb38d8e8f817688c5a0f0041aca6feff6837f1d756",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 105,
+                "bottom": 122
+              },
+              "opaque_pixels": 3696,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 105,
+                "bottom": 122
+              },
+              "opaque_pixels": 3696,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 7,
+              "head_diff_allowed": 8
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 105,
+                "bottom": 122
+              },
+              "opaque_pixels": 3696,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 105,
+                "bottom": 122
+              },
+              "opaque_pixels": 3696,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 7,
+              "head_diff_allowed": 8
+            }
+          ]
+        },
+        "walk": {
+          "source": "public/assets/staff-v16/staff-clinician-walk.png",
+          "integer_x_shift": 2,
+          "palette_map": {
+            "5,131,138": [
+              8,
+              132,
+              139
+            ],
+            "6,164,173": [
+              15,
+              163,
+              171
+            ],
+            "12,78,81": [
+              15,
+              75,
+              81
+            ],
+            "18,11,9": [
+              19,
+              14,
+              13
+            ],
+            "48,32,24": [
+              52,
+              30,
+              20
+            ],
+            "84,47,26": [
+              79,
+              45,
+              28
+            ],
+            "97,82,61": [
+              113,
+              83,
+              66
+            ],
+            "122,35,104": [
+              19,
+              14,
+              13
+            ],
+            "149,96,48": [
+              160,
+              119,
+              71
+            ],
+            "185,146,95": [
+              204,
+              165,
+              110
+            ],
+            "224,177,117": [
+              204,
+              165,
+              110
+            ],
+            "225,128,27": [
+              208,
+              112,
+              24
+            ],
+            "242,202,142": [
+              237,
+              199,
+              141
+            ],
+            "252,178,62": [
+              252,
+              182,
+              70
+            ],
+            "253,231,178": [
+              253,
+              230,
+              178
+            ],
+            "255,247,225": [
+              255,
+              247,
+              225
+            ]
+          },
+          "file": "staff-clinician-walk.png",
+          "sha256": "83612386a2bfbe8963f78b5bd31ae7c8bb723cd70dcc3c87a47951cd2684a71b",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 39,
+                "top": 15,
+                "right": 93,
+                "bottom": 122
+              },
+              "opaque_pixels": 3696,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 39,
+                "top": 15,
+                "right": 93,
+                "bottom": 122
+              },
+              "opaque_pixels": 3744,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 39,
+                "top": 15,
+                "right": 93,
+                "bottom": 122
+              },
+              "opaque_pixels": 3705,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 38,
+                "top": 15,
+                "right": 94,
+                "bottom": 122
+              },
+              "opaque_pixels": 3746,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        },
+        "idle": {
+          "source": "public/assets/staff-v16/staff-clinician-idle.png",
+          "sequence": [
+            "open",
+            "open",
+            "paired-blink",
+            "open"
+          ],
+          "file": "staff-clinician-idle.png",
+          "sha256": "d3808ed58ca5ccdfc71881b2e545ca496c57b5b931c000f0c620d564cff41f63",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 85,
+                "bottom": 122
+              },
+              "opaque_pixels": 3504,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 85,
+                "bottom": 122
+              },
+              "opaque_pixels": 3504,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 85,
+                "bottom": 122
+              },
+              "opaque_pixels": 3504,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 40,
+              "head_diff_allowed": 40
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 42,
+                "top": 15,
+                "right": 85,
+                "bottom": 122
+              },
+              "opaque_pixels": 3504,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        }
+      }
+    },
+    "navigator": {
+      "canonical_palette": [
+        [
+          24,
+          16,
+          9
+        ],
+        [
+          59,
+          31,
+          20
+        ],
+        [
+          41,
+          72,
+          12
+        ],
+        [
+          93,
+          47,
+          24
+        ],
+        [
+          82,
+          122,
+          16
+        ],
+        [
+          125,
+          70,
+          30
+        ],
+        [
+          104,
+          144,
+          20
+        ],
+        [
+          154,
+          95,
+          36
+        ],
+        [
+          119,
+          160,
+          25
+        ],
+        [
+          213,
+          110,
+          18
+        ],
+        [
+          31,
+          169,
+          199
+        ],
+        [
+          245,
+          145,
+          31
+        ],
+        [
+          234,
+          177,
+          90
+        ],
+        [
+          251,
+          210,
+          134
+        ],
+        [
+          246,
+          240,
+          205
+        ],
+        [
+          255,
+          247,
+          225
+        ]
+      ],
+      "canonical_source": "public/assets/staff-v16/staff-navigator-idle.png#frame-0",
+      "blink_changed_pixels": 44,
+      "motions": {
+        "talk": {
+          "source": "public/assets/staff-v16/staff-navigator-talk.png",
+          "integer_x_shift": 10,
+          "palette_map": {
+            "13,155,178": [
+              31,
+              169,
+              199
+            ],
+            "28,17,11": [
+              24,
+              16,
+              9
+            ],
+            "35,67,16": [
+              41,
+              72,
+              12
+            ],
+            "71,33,26": [
+              59,
+              31,
+              20
+            ],
+            "73,112,15": [
+              82,
+              122,
+              16
+            ],
+            "94,135,19": [
+              104,
+              144,
+              20
+            ],
+            "117,158,24": [
+              119,
+              160,
+              25
+            ],
+            "119,64,32": [
+              125,
+              70,
+              30
+            ],
+            "151,93,35": [
+              154,
+              95,
+              36
+            ],
+            "205,146,72": [
+              234,
+              177,
+              90
+            ],
+            "210,107,15": [
+              213,
+              110,
+              18
+            ],
+            "243,237,211": [
+              246,
+              240,
+              205
+            ],
+            "244,144,31": [
+              245,
+              145,
+              31
+            ],
+            "245,190,108": [
+              234,
+              177,
+              90
+            ],
+            "252,216,146": [
+              251,
+              210,
+              134
+            ]
+          },
+          "file": "staff-navigator-talk.png",
+          "sha256": "ccf761677ad3969a600db13b1910a4e390d056ebeafb67796c6f52920561f3f3",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 106,
+                "bottom": 122
+              },
+              "opaque_pixels": 3827,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 106,
+                "bottom": 122
+              },
+              "opaque_pixels": 3827,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 8,
+              "head_diff_allowed": 8
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 106,
+                "bottom": 122
+              },
+              "opaque_pixels": 3827,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 106,
+                "bottom": 122
+              },
+              "opaque_pixels": 3827,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 8,
+              "head_diff_allowed": 8
+            }
+          ]
+        },
+        "walk": {
+          "source": "public/assets/staff-v16/staff-navigator-walk.png",
+          "integer_x_shift": 3,
+          "palette_map": {
+            "18,12,8": [
+              24,
+              16,
+              9
+            ],
+            "28,168,202": [
+              31,
+              169,
+              199
+            ],
+            "52,35,20": [
+              59,
+              31,
+              20
+            ],
+            "69,106,21": [
+              82,
+              122,
+              16
+            ],
+            "93,56,23": [
+              93,
+              47,
+              24
+            ],
+            "97,139,24": [
+              104,
+              144,
+              20
+            ],
+            "112,12,92": [
+              24,
+              16,
+              9
+            ],
+            "124,166,33": [
+              119,
+              160,
+              25
+            ],
+            "132,85,28": [
+              125,
+              70,
+              30
+            ],
+            "164,111,37": [
+              154,
+              95,
+              36
+            ],
+            "205,158,81": [
+              234,
+              177,
+              90
+            ],
+            "213,118,14": [
+              213,
+              110,
+              18
+            ],
+            "247,159,30": [
+              245,
+              145,
+              31
+            ],
+            "248,202,113": [
+              251,
+              210,
+              134
+            ],
+            "249,231,173": [
+              246,
+              240,
+              205
+            ],
+            "255,247,225": [
+              255,
+              247,
+              225
+            ]
+          },
+          "file": "staff-navigator-walk.png",
+          "sha256": "b84a0047516b5308524a38c2e8cd0fa2c023c7df08d28f25ce96055fd8b6477e",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 36,
+                "top": 15,
+                "right": 97,
+                "bottom": 122
+              },
+              "opaque_pixels": 3828,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 36,
+                "top": 15,
+                "right": 97,
+                "bottom": 122
+              },
+              "opaque_pixels": 3821,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 36,
+                "top": 15,
+                "right": 97,
+                "bottom": 122
+              },
+              "opaque_pixels": 3861,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 36,
+                "top": 15,
+                "right": 97,
+                "bottom": 122
+              },
+              "opaque_pixels": 3811,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        },
+        "idle": {
+          "source": "public/assets/staff-v16/staff-navigator-idle.png",
+          "sequence": [
+            "open",
+            "open",
+            "paired-blink",
+            "open"
+          ],
+          "file": "staff-navigator-idle.png",
+          "sha256": "1cb9a18d4cdee443b1f8c3c722b1583968499b6aa42750e01fa43e8a175269ae",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3664,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3664,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3664,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 44,
+              "head_diff_allowed": 44
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3664,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        }
+      }
+    },
+    "cardiologist": {
+      "canonical_palette": [
+        [
+          16,
+          11,
+          12
+        ],
+        [
+          36,
+          39,
+          42
+        ],
+        [
+          73,
+          35,
+          15
+        ],
+        [
+          38,
+          55,
+          64
+        ],
+        [
+          78,
+          60,
+          51
+        ],
+        [
+          131,
+          61,
+          14
+        ],
+        [
+          125,
+          94,
+          66
+        ],
+        [
+          197,
+          96,
+          14
+        ],
+        [
+          18,
+          157,
+          164
+        ],
+        [
+          231,
+          124,
+          20
+        ],
+        [
+          176,
+          140,
+          93
+        ],
+        [
+          244,
+          143,
+          30
+        ],
+        [
+          214,
+          175,
+          119
+        ],
+        [
+          238,
+          198,
+          139
+        ],
+        [
+          253,
+          227,
+          172
+        ],
+        [
+          255,
+          247,
+          225
+        ]
+      ],
+      "canonical_source": "public/assets/staff-v16/staff-cardiologist-idle.png#frame-0",
+      "blink_changed_pixels": 58,
+      "motions": {
+        "talk": {
+          "source": "public/assets/staff-v16/staff-cardiologist-talk.png",
+          "integer_x_shift": 9,
+          "palette_map": {
+            "17,10,10": [
+              16,
+              11,
+              12
+            ],
+            "18,155,162": [
+              18,
+              157,
+              164
+            ],
+            "35,38,41": [
+              36,
+              39,
+              42
+            ],
+            "40,57,64": [
+              38,
+              55,
+              64
+            ],
+            "75,42,24": [
+              73,
+              35,
+              15
+            ],
+            "113,72,71": [
+              125,
+              94,
+              66
+            ],
+            "125,58,15": [
+              131,
+              61,
+              14
+            ],
+            "150,117,73": [
+              125,
+              94,
+              66
+            ],
+            "183,90,15": [
+              197,
+              96,
+              14
+            ],
+            "187,150,99": [
+              176,
+              140,
+              93
+            ],
+            "218,177,119": [
+              214,
+              175,
+              119
+            ],
+            "223,116,17": [
+              231,
+              124,
+              20
+            ],
+            "237,197,137": [
+              238,
+              198,
+              139
+            ],
+            "243,140,30": [
+              244,
+              143,
+              30
+            ],
+            "252,226,171": [
+              253,
+              227,
+              172
+            ],
+            "255,247,225": [
+              255,
+              247,
+              225
+            ]
+          },
+          "file": "staff-cardiologist-talk.png",
+          "sha256": "d14a7e099e69282289f66df64aedcea0d649abd9a42b5c0bc47e0c5dd0aaf591",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 25,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3660,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 25,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3660,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 8,
+              "head_diff_allowed": 8
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 25,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3660,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 25,
+                "top": 15,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3660,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 8,
+              "head_diff_allowed": 8
+            }
+          ]
+        },
+        "walk": {
+          "source": "public/assets/staff-v16/staff-cardiologist-walk.png",
+          "integer_x_shift": 0,
+          "palette_map": {
+            "13,160,177": [
+              18,
+              157,
+              164
+            ],
+            "21,13,13": [
+              16,
+              11,
+              12
+            ],
+            "38,44,47": [
+              36,
+              39,
+              42
+            ],
+            "48,67,73": [
+              38,
+              55,
+              64
+            ],
+            "71,49,40": [
+              78,
+              60,
+              51
+            ],
+            "108,82,71": [
+              125,
+              94,
+              66
+            ],
+            "129,59,17": [
+              131,
+              61,
+              14
+            ],
+            "170,136,93": [
+              176,
+              140,
+              93
+            ],
+            "183,87,11": [
+              197,
+              96,
+              14
+            ],
+            "212,171,118": [
+              214,
+              175,
+              119
+            ],
+            "223,114,11": [
+              231,
+              124,
+              20
+            ],
+            "236,196,139": [
+              238,
+              198,
+              139
+            ],
+            "245,143,23": [
+              244,
+              143,
+              30
+            ],
+            "252,224,171": [
+              253,
+              227,
+              172
+            ],
+            "253,243,213": [
+              255,
+              247,
+              225
+            ],
+            "255,247,225": [
+              255,
+              247,
+              225
+            ]
+          },
+          "file": "staff-cardiologist-walk.png",
+          "sha256": "a6dc0cc05c409078e36d616b84f2b1739c531fc9abe66e429c72302489483b01",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 34,
+                "top": 15,
+                "right": 93,
+                "bottom": 122
+              },
+              "opaque_pixels": 3716,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 34,
+                "top": 15,
+                "right": 93,
+                "bottom": 122
+              },
+              "opaque_pixels": 3808,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 34,
+                "top": 15,
+                "right": 93,
+                "bottom": 122
+              },
+              "opaque_pixels": 3780,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 34,
+                "top": 15,
+                "right": 93,
+                "bottom": 122
+              },
+              "opaque_pixels": 3818,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        },
+        "idle": {
+          "source": "public/assets/staff-v16/staff-cardiologist-idle.png",
+          "sequence": [
+            "open",
+            "open",
+            "paired-blink",
+            "open"
+          ],
+          "file": "staff-cardiologist-idle.png",
+          "sha256": "07c97fa8f6f34d47299f0ba9d36bfc084b822ba4477258843e6efb7804b9d245",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 86,
+                "bottom": 122
+              },
+              "opaque_pixels": 3482,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 86,
+                "bottom": 122
+              },
+              "opaque_pixels": 3482,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 86,
+                "bottom": 122
+              },
+              "opaque_pixels": 3482,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 58,
+              "head_diff_allowed": 58
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 41,
+                "top": 15,
+                "right": 86,
+                "bottom": 122
+              },
+              "opaque_pixels": 3482,
+              "top_clearance": 15,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        }
+      }
+    },
+    "technician": {
+      "canonical_palette": [
+        [
+          16,
+          8,
+          7
+        ],
+        [
+          43,
+          27,
+          20
+        ],
+        [
+          76,
+          29,
+          17
+        ],
+        [
+          119,
+          27,
+          35
+        ],
+        [
+          34,
+          82,
+          78
+        ],
+        [
+          145,
+          57,
+          13
+        ],
+        [
+          185,
+          69,
+          16
+        ],
+        [
+          200,
+          97,
+          12
+        ],
+        [
+          223,
+          78,
+          31
+        ],
+        [
+          215,
+          107,
+          15
+        ],
+        [
+          23,
+          177,
+          185
+        ],
+        [
+          246,
+          100,
+          42
+        ],
+        [
+          249,
+          108,
+          47
+        ],
+        [
+          231,
+          159,
+          77
+        ],
+        [
+          246,
+          235,
+          206
+        ],
+        [
+          255,
+          247,
+          225
+        ]
+      ],
+      "canonical_source": "public/assets/staff-v16/staff-technician-idle.png#frame-0",
+      "blink_changed_pixels": 55,
+      "motions": {
+        "talk": {
+          "source": "public/assets/staff-v16/staff-technician-talk.png",
+          "integer_x_shift": -9,
+          "palette_map": {
+            "15,183,188": [
+              23,
+              177,
+              185
+            ],
+            "17,9,8": [
+              16,
+              8,
+              7
+            ],
+            "47,25,16": [
+              43,
+              27,
+              20
+            ],
+            "48,128,117": [
+              34,
+              82,
+              78
+            ],
+            "53,53,48": [
+              43,
+              27,
+              20
+            ],
+            "81,25,18": [
+              76,
+              29,
+              17
+            ],
+            "125,32,32": [
+              119,
+              27,
+              35
+            ],
+            "164,66,14": [
+              145,
+              57,
+              13
+            ],
+            "195,94,11": [
+              200,
+              97,
+              12
+            ],
+            "206,68,26": [
+              223,
+              78,
+              31
+            ],
+            "211,105,16": [
+              215,
+              107,
+              15
+            ],
+            "227,82,33": [
+              223,
+              78,
+              31
+            ],
+            "246,101,43": [
+              246,
+              100,
+              42
+            ],
+            "248,234,205": [
+              246,
+              235,
+              206
+            ],
+            "249,115,49": [
+              249,
+              108,
+              47
+            ]
+          },
+          "file": "staff-technician-talk.png",
+          "sha256": "587d911dcdc1aa1fbc923a7f5bfc2171b0da856bfd6512e829f8e120cd21a8f1",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 24,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3437,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 24,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3437,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 6,
+              "head_diff_allowed": 6
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 24,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3437,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 24,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3437,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 6,
+              "head_diff_allowed": 6
+            }
+          ]
+        },
+        "walk": {
+          "source": "public/assets/staff-v16/staff-technician-walk.png",
+          "integer_x_shift": -3,
+          "palette_map": {
+            "14,6,6": [
+              16,
+              8,
+              7
+            ],
+            "28,186,203": [
+              23,
+              177,
+              185
+            ],
+            "42,21,17": [
+              43,
+              27,
+              20
+            ],
+            "59,73,68": [
+              34,
+              82,
+              78
+            ],
+            "72,31,22": [
+              76,
+              29,
+              17
+            ],
+            "117,9,97": [
+              16,
+              8,
+              7
+            ],
+            "122,42,13": [
+              119,
+              27,
+              35
+            ],
+            "163,63,15": [
+              145,
+              57,
+              13
+            ],
+            "195,82,17": [
+              185,
+              69,
+              16
+            ],
+            "207,175,126": [
+              231,
+              159,
+              77
+            ],
+            "218,109,16": [
+              215,
+              107,
+              15
+            ],
+            "224,87,36": [
+              223,
+              78,
+              31
+            ],
+            "239,102,43": [
+              246,
+              100,
+              42
+            ],
+            "248,116,48": [
+              249,
+              108,
+              47
+            ],
+            "248,237,206": [
+              246,
+              235,
+              206
+            ],
+            "255,247,225": [
+              255,
+              247,
+              225
+            ]
+          },
+          "file": "staff-technician-walk.png",
+          "sha256": "ef23089366603fc0382d9bf14c071631f3b4cbd48f7fb64d85c77fad26ed0cad",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 34,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3355,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 34,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3383,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 34,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3347,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 34,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3370,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        },
+        "idle": {
+          "source": "public/assets/staff-v16/staff-technician-idle.png",
+          "sequence": [
+            "open",
+            "open",
+            "paired-blink",
+            "open"
+          ],
+          "file": "staff-technician-idle.png",
+          "sha256": "b61234512d9b6ec3807bb787eeeddeea8bf94b386038fd97aa8a2c4209c11172",
+          "frames": [
+            {
+              "index": 0,
+              "bounds": {
+                "left": 41,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3402,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 1,
+              "bounds": {
+                "left": 41,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3402,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            },
+            {
+              "index": 2,
+              "bounds": {
+                "left": 41,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3402,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 15,
+              "connected_components": 1,
+              "head_diff_pixels": 55,
+              "head_diff_allowed": 55
+            },
+            {
+              "index": 3,
+              "bounds": {
+                "left": 41,
+                "top": 14,
+                "right": 87,
+                "bottom": 122
+              },
+              "opaque_pixels": 3402,
+              "top_clearance": 14,
+              "footline": 121,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "palette_size": 16,
+              "connected_components": 1,
+              "head_diff_pixels": 0,
+              "head_diff_allowed": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "machine_summary": {
+    "frame_count": 48,
+    "all_binary_alpha": true,
+    "all_footlines_row_121": true,
+    "all_single_component": true,
+    "all_role_palette_locked": true,
+    "all_open_heads_canonical": true
+  }
+}

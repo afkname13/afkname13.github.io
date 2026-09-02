@@ -1,0 +1,18 @@
+Mode: new image generation
+
+Create an ORIGINAL high-quality 2D pixel-art panoramic background strip for a
+warm narrative browser game, viewed sideways through the large windows of a
+moving intercity bus. Scenery only: no bus interior, people, text, signs with
+letters, or interface. Compose one continuous left-to-right journey: an
+early-morning neighborhood on the left, highway and farm fields in the center,
+and an unmistakable colorful regional city on the right. Keep a consistent
+horizon, warm dawn-to-morning light, crisp pixel clusters, and parallax-friendly
+foreground, middle-ground, and distant layers. Use coral, sunflower yellow,
+turquoise, leaf green, lavender, sky blue, and warm cream. Cinematic, cozy,
+hopeful, and original.
+
+Generated source:
+/Users/danielroh/.codex/generated_images/019f8f4e-ce1f-7712-a6a4-5df4aacaa93f/call_Hvr6Ot4nNb6drgKfnX1D7nye.png
+
+Processed by scripts/process-bus-panorama-v8.mjs into the 1280x240 runtime
+panorama used behind the authored bus-window mask.

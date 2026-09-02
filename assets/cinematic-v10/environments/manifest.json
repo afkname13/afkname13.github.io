@@ -1,0 +1,84 @@
+{
+  "version": "cinematic-v10-2026-08-26-a",
+  "renderer": "sharp nearest-neighbor resize to the locked 640x360 stage",
+  "plates": [
+    {
+      "id": "BG_NEIGHBORHOOD_OFFICE",
+      "source": "art-source/cinematic-v10/generated/bg-neighborhood-office-source.png",
+      "output": "public/assets/cinematic-v10/environments/neighborhood-office.png",
+      "camera": "administrative-office",
+      "footline": 226,
+      "logicalSize": {
+        "width": 640,
+        "height": 360
+      },
+      "sourceSha256": "bbb76e0e59046a65a846b3dc340bcec2b574958f0059419235e710c33516ee8d",
+      "outputSha256": "8deab949205000decda80c240d185058a967b56b7a822fc631733a62f2ad958f"
+    },
+    {
+      "id": "BG_HEART_CLINIC_OFFICE",
+      "source": "art-source/cinematic-v10/generated/bg-heart-clinic-office-source.png",
+      "output": "public/assets/cinematic-v10/environments/heart-clinic-office.png",
+      "camera": "administrative-office",
+      "footline": 226,
+      "logicalSize": {
+        "width": 640,
+        "height": 360
+      },
+      "sourceSha256": "2a0a8ec6c7f76b559b63c2fafc2ed551d56cbd5e688d2ce228f8b3093bc92c60",
+      "outputSha256": "b2fc1fb91ded047b75c8480775e4fce739bc3641a0e85903c712e3d31ae02dda"
+    },
+    {
+      "id": "BG_NEARBY_HEART_CLINIC_EXT",
+      "source": "art-source/cinematic-v10/generated/bg-nearby-heart-clinic-ext-source.png",
+      "output": "public/assets/cinematic-v10/environments/nearby-heart-clinic-ext.png",
+      "camera": "exterior-arrival",
+      "footline": 226,
+      "logicalSize": {
+        "width": 640,
+        "height": 360
+      },
+      "sourceSha256": "5599505ad4113275cfca3cc2a208ab5f0ff014f64b5c9864d593788f811c0da0",
+      "outputSha256": "176d778cbe067005a8cd0c2177794db251454f318dcae327f3b32df6b3de31b2"
+    },
+    {
+      "id": "BG_REGIONAL_HOSPITAL_EXT",
+      "source": "art-source/cinematic-v10/generated/bg-regional-hospital-ext-source.png",
+      "output": "public/assets/cinematic-v10/environments/regional-hospital-ext.png",
+      "camera": "exterior-arrival",
+      "footline": 226,
+      "logicalSize": {
+        "width": 640,
+        "height": 360
+      },
+      "sourceSha256": "16480794989b3f2aded14d03ad663b625891b34d44b1ea7f83f47147a5c38109",
+      "outputSha256": "ddd603ac77be6b5ed366e7f1fb61373a7e04b2f72870e00650369ea17d115293"
+    },
+    {
+      "id": "BG_CAR_INTERIOR",
+      "source": "art-source/cinematic-v10/generated/bg-car-interior-road-source.png",
+      "output": "public/assets/cinematic-v10/environments/car-interior-road.png",
+      "camera": "windshield-road",
+      "footline": null,
+      "logicalSize": {
+        "width": 640,
+        "height": 360
+      },
+      "sourceSha256": "cd2f839e2fc2810b4bffe3ab9107038f3b8a143a08fce428661fce526bc8d189",
+      "outputSha256": "99cd4d3cf5e61ceb8f5afc2c2822b20a231dc67ad281a2ced99b382a3d802a57"
+    },
+    {
+      "id": "BG_CAR_INTERIOR",
+      "source": "art-source/cinematic-v10/generated/bg-car-interior-rear-source.png",
+      "output": "public/assets/cinematic-v10/environments/car-interior-rear.png",
+      "camera": "rear-bench",
+      "footline": null,
+      "logicalSize": {
+        "width": 640,
+        "height": 360
+      },
+      "sourceSha256": "1e829d10dba47901a1bd24766ccca521e3a77fd806c7b188e23c8449e2974d41",
+      "outputSha256": "57cd8f5b2b256ff24a57c1024209ef8ce60bb71571e66aa6235bd2016ed7bfb5"
+    }
+  ]
+}

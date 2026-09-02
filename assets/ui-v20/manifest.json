@@ -1,0 +1,348 @@
+{
+  "version": "ui-v20-imagegen-surfaces",
+  "source": "art-source/ui-v20/generated/dialogue-shells-atlas-source.png",
+  "sourceSha256": "d7ad53b3639ea01ee5102eee338a5009f0c5cf7babce8fe1abaa43e3f6974a65",
+  "sourceSize": [
+    1536,
+    1024
+  ],
+  "sources": [
+    {
+      "id": "dialogue-shells",
+      "source": "art-source/ui-v20/generated/dialogue-shells-atlas-source.png",
+      "sourceSha256": "d7ad53b3639ea01ee5102eee338a5009f0c5cf7babce8fe1abaa43e3f6974a65",
+      "sourceSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "major-shells",
+      "source": "art-source/ui-v20/generated/ui-major-shells-atlas-source.png",
+      "sourceSha256": "0349a5b860c21e96feb5bfaecb81909810e8f60ef556ff074149766343335313",
+      "sourceSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "review-shells",
+      "source": "art-source/ui-v20/generated/ui-review-shells-atlas-source.png",
+      "sourceSha256": "a754916fbebac5c5f40162cfa0121b382a58e51d4c679e933c2badc55966e6d7",
+      "sourceSize": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "control-components",
+      "source": "art-source/ui-v20/generated/ui-control-components-atlas-source.png",
+      "sourceSha256": "936a6d986bfdc52d83073cbda1a9c363efdb3727e1d2cb92fcc0677d87cb7c92",
+      "sourceSize": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "contract": {
+    "visibleArt": "image-generation-only",
+    "runtimeText": true,
+    "uniformScaleOnly": true,
+    "forbidden": [
+      "nine-slice",
+      "border-image",
+      "css-drawn-card",
+      "generated-copy"
+    ]
+  },
+  "surfaces": [
+    {
+      "id": "dialogue-standard",
+      "url": "/assets/ui-v20/dialogue-standard.png",
+      "size": [
+        748,
+        221
+      ],
+      "sourceAtlas": "dialogue-shells",
+      "sourceCell": 0,
+      "sourceBounds": [
+        8,
+        245,
+        756,
+        466
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "7405667f407995158d8b1a82f48bd6e42f30ba8039165662682352040f1a7121"
+    },
+    {
+      "id": "dialogue-choices-2",
+      "url": "/assets/ui-v20/dialogue-choices-2.png",
+      "size": [
+        747,
+        221
+      ],
+      "sourceAtlas": "dialogue-shells",
+      "sourceCell": 1,
+      "sourceBounds": [
+        14,
+        246,
+        761,
+        467
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "03c8aa6b0f82fc4e420894ab5dd2e67ae3298151813b70f54cbab92fe84c4a76"
+    },
+    {
+      "id": "dialogue-choices-3",
+      "url": "/assets/ui-v20/dialogue-choices-3.png",
+      "size": [
+        748,
+        222
+      ],
+      "sourceAtlas": "dialogue-shells",
+      "sourceCell": 2,
+      "sourceBounds": [
+        8,
+        72,
+        756,
+        294
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "8bc4a4c8c12e5d43eb36da7e4959f6ffde14379413d438c448a323d1aa142309"
+    },
+    {
+      "id": "fact-final",
+      "url": "/assets/ui-v20/fact-final.png",
+      "size": [
+        740,
+        233
+      ],
+      "sourceAtlas": "dialogue-shells",
+      "sourceCell": 3,
+      "sourceBounds": [
+        16,
+        71,
+        756,
+        304
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "85177a5b3bdb23cd10ba0ce46f56f61889fb483f453788644d0845e99db1b7ac"
+    },
+    {
+      "id": "opening-shell",
+      "url": "/assets/ui-v20/opening-shell.png",
+      "size": [
+        735,
+        467
+      ],
+      "sourceAtlas": "major-shells",
+      "sourceCell": 0,
+      "sourceBounds": [
+        24,
+        23,
+        759,
+        490
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "37b1fe625fae1f28c27527fce897e74901203b93c8653be842dc26314f1e773f"
+    },
+    {
+      "id": "customization-shell",
+      "url": "/assets/ui-v20/customization-shell.png",
+      "size": [
+        727,
+        467
+      ],
+      "sourceAtlas": "major-shells",
+      "sourceCell": 1,
+      "sourceBounds": [
+        16,
+        45,
+        743,
+        512
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "1cc50609b8d9b219c7543102faead6edf3e75ecaab1baf642907e7693d9b36b2"
+    },
+    {
+      "id": "pause-shell",
+      "url": "/assets/ui-v20/pause-shell.png",
+      "size": [
+        710,
+        466
+      ],
+      "sourceAtlas": "major-shells",
+      "sourceCell": 2,
+      "sourceBounds": [
+        29,
+        13,
+        739,
+        479
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "a904389623758a74b2ea0fdf4dfc34afa65f3d49d4e888d5e392d04fc97d5450"
+    },
+    {
+      "id": "barrier-shell",
+      "url": "/assets/ui-v20/barrier-shell.png",
+      "size": [
+        721,
+        473
+      ],
+      "sourceAtlas": "major-shells",
+      "sourceCell": 3,
+      "sourceBounds": [
+        18,
+        0,
+        739,
+        473
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "1480a6967b51e8c7c14123eef1209d5cd39b045d99c9ff6eb3eeb5a41618bc37"
+    },
+    {
+      "id": "pathway-shell",
+      "url": "/assets/ui-v20/pathway-shell.png",
+      "size": [
+        744,
+        476
+      ],
+      "sourceAtlas": "review-shells",
+      "sourceCell": 0,
+      "sourceBounds": [
+        12,
+        6,
+        756,
+        482
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "61eaf552b087e35889aa75d1cd93f01ff650790effdb096b562b302078e9adce"
+    },
+    {
+      "id": "reform-shell",
+      "url": "/assets/ui-v20/reform-shell.png",
+      "size": [
+        732,
+        473
+      ],
+      "sourceAtlas": "review-shells",
+      "sourceCell": 1,
+      "sourceBounds": [
+        18,
+        12,
+        750,
+        485
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "965fecaed20c8edd8f272c08bf990ade0f2ca60c290bccac15968fecd37ee27b"
+    },
+    {
+      "id": "comparison-shell",
+      "url": "/assets/ui-v20/comparison-shell.png",
+      "size": [
+        741,
+        480
+      ],
+      "sourceAtlas": "review-shells",
+      "sourceCell": 2,
+      "sourceBounds": [
+        13,
+        6,
+        754,
+        486
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "5b49762666de686252445dac47ffcc0038a88a27cfd4f550290aad413359d4f6"
+    },
+    {
+      "id": "complete-shell",
+      "url": "/assets/ui-v20/complete-shell.png",
+      "size": [
+        737,
+        486
+      ],
+      "sourceAtlas": "review-shells",
+      "sourceCell": 3,
+      "sourceBounds": [
+        13,
+        0,
+        750,
+        486
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "cb0c4a1e0d50cd6ae0494934527375d2674474040773e1f4eccfc24795f7536c"
+    },
+    {
+      "id": "caption-bar",
+      "url": "/assets/ui-v20/caption-bar.png",
+      "size": [
+        724,
+        106
+      ],
+      "sourceAtlas": "control-components",
+      "sourceCell": 0,
+      "sourceBounds": [
+        22,
+        203,
+        746,
+        309
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "e7989269d76fd182a36c9f69bc40ad5a15eee1f7ffe54da2a79919fd6dccaaa0"
+    },
+    {
+      "id": "action-button",
+      "url": "/assets/ui-v20/action-button.png",
+      "size": [
+        586,
+        206
+      ],
+      "sourceAtlas": "control-components",
+      "sourceCell": 1,
+      "sourceBounds": [
+        91,
+        153,
+        677,
+        359
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "042d1c1db0ae6592e0bc52e01856485319336f728866d6117f9c290f1e68a338"
+    },
+    {
+      "id": "menu-button",
+      "url": "/assets/ui-v20/menu-button.png",
+      "size": [
+        487,
+        192
+      ],
+      "sourceAtlas": "control-components",
+      "sourceCell": 2,
+      "sourceBounds": [
+        140,
+        160,
+        627,
+        352
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "c45c5867f457585d38a7b4bac62f0534e7a5eeba35e9df14fbbd47a08fa37708"
+    },
+    {
+      "id": "journey-chip",
+      "url": "/assets/ui-v20/journey-chip.png",
+      "size": [
+        364,
+        182
+      ],
+      "sourceAtlas": "control-components",
+      "sourceCell": 3,
+      "sourceBounds": [
+        202,
+        165,
+        566,
+        347
+      ],
+      "allowedResizeAxes": "none",
+      "sha256": "1907ec78cd0227c32d722dfcaec54ca73f801ae1703744452f661e100dac9fc4"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+Use the approved caregiver sprite as the exact identity, palette, clothing,
+face, and silhouette reference. Create one dedicated four-frame CAREGIVER IDLE
+LOOP in an exact 2x2 grid: neutral open eyes, tiny inhale, natural blink without
+turning, then open-eye exhale/settle back to frame one. Preserve the same adult
+caregiver, medium-deep brown skin, dark low bun, large readable eyes, lavender
+overshirt, yellow top, navy pants, coral shoes, and turquoise satchel. Full-body
+three-quarter side view facing right; fixed camera, root, centerline, scale, and
+feet line; subject fills roughly 84-88% of cell height. Only tiny connected
+pixel-cluster motion, never separate acting poses. Polished handcrafted pixel
+art with crisp clusters, clean dark outline, one shadow ramp, one highlight
+ramp, no antialiasing or blur. Exactly four invisible equal cells on perfectly
+flat #FF00FF; no borders, labels, text, props, floor, shadows, UI, extra
+characters, edge crossing, or missing padding.

@@ -1,0 +1,11 @@
+Use the approved high-readability child as the exact identity, face, hair, skin
+tone, turquoise jacket, coral shirt, backpack strap, palette, and rendering
+reference. Create one centered head-and-upper-torso portrait of the same
+9-10-year-old in three-quarter side view facing right, with a warm curious
+neutral expression, eyes toward the conversation partner, readable eyebrows
+and mouth, and a tiny friendly half-smile. Preserve age and identity. Complete
+hair silhouette and chin remain inside a square with generous padding.
+Polished crisp pixel clusters, dark selective outline, one shadow and one
+highlight ramp, no antialiasing, blur, or noisy dithering. Perfectly flat
+#FF00FF background; no frame, circle, UI, text, speech bubble, props, scenery,
+shadow, or extra figures.

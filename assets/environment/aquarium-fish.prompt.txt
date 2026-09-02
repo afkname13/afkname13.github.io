@@ -1,0 +1,12 @@
+Pixel-art production animation sheet on a perfectly flat solid #FF00FF magenta
+chroma-key background. EXACTLY 2 columns by 2 rows, four equal cells, no
+gutters, dividers, labels, or guides. One small friendly turquoise-and-coral
+aquarium fish swims to the right in a seamless four-frame cycle. Same side-view
+fish identity, eye, size, center position, camera, palette, outline, and
+lighting in every frame. Only the tail and two fins change by one or two
+deliberate pixel clusters: tail left, tail center, tail right, tail center. The
+body and face remain stable. Keep the fish inside the central 50% of every cell
+with large magenta clearance. Crisp readable square pixels, dark navy one-pixel
+outline, minimal shading, clean silhouette. No bubbles, water, aquarium,
+shadow, extra fish, text, UI, blur, antialiasing, gradients, partial body, or
+anything crossing a cell edge.

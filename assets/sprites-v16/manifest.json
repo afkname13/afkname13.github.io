@@ -1,0 +1,5883 @@
+{
+  "version": 16,
+  "frame": {
+    "width": 128,
+    "height": 128,
+    "footlineRow": 121,
+    "minimumHeadClearance": 10,
+    "anchor": "bottom-center",
+    "alpha": [
+      0,
+      255
+    ]
+  },
+  "stateContract": {
+    "gender": [
+      "female",
+      "male"
+    ],
+    "skinTone": [
+      "tone-1",
+      "tone-2",
+      "tone-3",
+      "tone-4",
+      "tone-5"
+    ],
+    "caregiverKey": "caregiver-{motion}-{gender}-{skinTone}",
+    "childKey": "child-{motion}-{gender}-{skinTone}",
+    "staffKey": "staff-{role}-{motion}"
+  },
+  "fixedClothing": {
+    "caregiver": "coral jacket, teal undershirt, navy trousers, blue crossbody",
+    "child": "turquoise jacket, coral shirt, navy trousers, coral backpack",
+    "staff": "approved role-specific V15 uniform"
+  },
+  "skinRamps": {
+    "tone-1": [
+      [
+        40,
+        27,
+        29
+      ],
+      [
+        66,
+        40,
+        38
+      ],
+      [
+        103,
+        63,
+        51
+      ],
+      [
+        147,
+        96,
+        73
+      ]
+    ],
+    "tone-2": [
+      [
+        59,
+        36,
+        34
+      ],
+      [
+        91,
+        52,
+        45
+      ],
+      [
+        132,
+        80,
+        62
+      ],
+      [
+        176,
+        119,
+        88
+      ]
+    ],
+    "tone-3": [
+      [
+        82,
+        47,
+        41
+      ],
+      [
+        122,
+        70,
+        55
+      ],
+      [
+        168,
+        105,
+        75
+      ],
+      [
+        211,
+        151,
+        106
+      ]
+    ],
+    "tone-4": [
+      [
+        105,
+        58,
+        48
+      ],
+      [
+        151,
+        88,
+        67
+      ],
+      [
+        198,
+        132,
+        94
+      ],
+      [
+        236,
+        181,
+        135
+      ]
+    ],
+    "tone-5": [
+      [
+        126,
+        72,
+        58
+      ],
+      [
+        174,
+        109,
+        82
+      ],
+      [
+        218,
+        158,
+        118
+      ],
+      [
+        249,
+        207,
+        166
+      ]
+    ]
+  },
+  "family": [
+    {
+      "key": "caregiver-idle-female-tone-1",
+      "path": "/assets/sprites-v16/caregiver-idle-female-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "657e988398c3277eb825f011b3500b771eb300f3eb09de53249a6e76a485e0b9",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-1",
+      "path": "/assets/sprites-v16/caregiver-talk-female-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "b429bf2ead96931acdd17b59fba2e79f5a44f8f41fda827676aa570c63f7f1a3",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-1",
+      "path": "/assets/sprites-v16/caregiver-reaction-female-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "aca6d83e732a2cbda789dfcbac783dee8f562c5ddc976dc2e19d88f3e96c4db7",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-1",
+      "path": "/assets/sprites-v16/caregiver-walk-female-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "82e19bd176aed05fad115e44a649221ae8ffc8dfd8a4a9cf39313818d4f3df66",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-2",
+      "path": "/assets/sprites-v16/caregiver-idle-female-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "8ddd716a09a95ed8fd1c9a8b933581439458f31731b3b26fd872e3f87ebd70f2",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-2",
+      "path": "/assets/sprites-v16/caregiver-talk-female-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "e2ff2e59ca3802881f56245aba7ab6cd015acc524ce53fcb3bca77d84095bb39",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-2",
+      "path": "/assets/sprites-v16/caregiver-reaction-female-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "20d479b04bca07111a7f7405742d5d0a688a75b190143795d11f9e3ae70b9476",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-2",
+      "path": "/assets/sprites-v16/caregiver-walk-female-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "8e919251af0579a614ecf06dd7cbdd0404d37565802db701b95fc13ef27d3360",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-3",
+      "path": "/assets/sprites-v16/caregiver-idle-female-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "475d7a914bc070e1ebe78a3538c931a05beaa7be40205edbe69f9650e0b2f054",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-3",
+      "path": "/assets/sprites-v16/caregiver-talk-female-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "7781326b2fa10849806b0d828426ebe6a0b4c63d1a05eaa453f82d13d4ba709e",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-3",
+      "path": "/assets/sprites-v16/caregiver-reaction-female-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "86ebee32fbf3c6990caa24472fef406fc433a16df4f88d9d0ed790a679018c5d",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-3",
+      "path": "/assets/sprites-v16/caregiver-walk-female-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "379f23d9784745c300a559acd41260f9737897ba71bd8775da6164195440b84f",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-4",
+      "path": "/assets/sprites-v16/caregiver-idle-female-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "6820e98a0abb920bf2c8befbece2491c6f138243b14bf4c643016e88374eaea0",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-4",
+      "path": "/assets/sprites-v16/caregiver-talk-female-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "8dcd44797e241e5037a3d05d85fc4c4d9eb67533a8b15de453e955c1432e5dd4",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-4",
+      "path": "/assets/sprites-v16/caregiver-reaction-female-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "02390717b2b8483a27bc835bd715ddb303c9891ba69a7a65b34c36352461af43",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-4",
+      "path": "/assets/sprites-v16/caregiver-walk-female-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "35415ec3ae7b2903bf2a71d6b76d76808d93af99de5ce141301491462994f8dd",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-female-tone-5",
+      "path": "/assets/sprites-v16/caregiver-idle-female-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "3c4afcad3abb632c4522fa74a3a074c3249ba0ca2dbaec4ac41574cd0311621f",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 43,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-female-tone-5",
+      "path": "/assets/sprites-v16/caregiver-talk-female-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "f490bfdd7f2c521f7047a3da4c52cddeebb81794818fc5385b05f728f21bc5ee",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-female-tone-5",
+      "path": "/assets/sprites-v16/caregiver-reaction-female-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "04c18bbb85d4e82e2e5d43462b23b67e9863b340717dc56d01c30607b93617dc",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-female-tone-5",
+      "path": "/assets/sprites-v16/caregiver-walk-female-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "308021d5bcb5c39df0e58340beef0b7ae8420d51a4d58766766ca09456a41658",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-1",
+      "path": "/assets/sprites-v16/caregiver-idle-male-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "49096d4bfc6733e004207845f276a313a2aa1864c8b1316bf71334fe90a64494",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-1",
+      "path": "/assets/sprites-v16/caregiver-talk-male-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "106e62907ddc3a6983e3a7f8e18cbb8edba7f44cdc5f7b7ab745a9bc4e74b7a2",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-1",
+      "path": "/assets/sprites-v16/caregiver-reaction-male-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "077dd36542ef2481913dfb375756f28b895863385a0fdb6bf0f95b3c12aae275",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-1",
+      "path": "/assets/sprites-v16/caregiver-walk-male-tone-1.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "61b5daeaa58e1d25346b34a0bcb884a5ccebfe7c100bd2042f04ede20f34e13c",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-2",
+      "path": "/assets/sprites-v16/caregiver-idle-male-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "c65fd6d7e52ee8c4d64c44e11196c93e6caec3ab4b3ef2d9b402e9d2ef382ede",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-2",
+      "path": "/assets/sprites-v16/caregiver-talk-male-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "89790ce502530e3f239cdd7eefb00708512c72f96681ad9b1167994227f74bec",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-2",
+      "path": "/assets/sprites-v16/caregiver-reaction-male-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "f00338b17486f02e0bcb2cc7d2c59028fbdf99d6002516952347987e40d4bd51",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-2",
+      "path": "/assets/sprites-v16/caregiver-walk-male-tone-2.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "149f46857f27d70dfde4a66fcda6888b482576cfb1f33d1a4db2d5ff49dae2de",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-3",
+      "path": "/assets/sprites-v16/caregiver-idle-male-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "2aac0bdb78d08ec5470c2754815f9ab2b2921a2fcd6504ca98e81137ecc16854",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-3",
+      "path": "/assets/sprites-v16/caregiver-talk-male-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "d2cf68daa1e1e77620271f363552aa54011a797889e4b705708a1dcc2be139e4",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-3",
+      "path": "/assets/sprites-v16/caregiver-reaction-male-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "f617e98ce5d2440102d751e25647ff16401663ff53a442361454d598c0f4d393",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-3",
+      "path": "/assets/sprites-v16/caregiver-walk-male-tone-3.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "bf20e2a77c4d7e1f32445676a76ffa37e1cfbde4f1c88e49ebfbdb27e71a6148",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-4",
+      "path": "/assets/sprites-v16/caregiver-idle-male-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "46ff3eb8f06cde8747548168552c2b2dbc547104f83eba35bea925f6327d0267",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-4",
+      "path": "/assets/sprites-v16/caregiver-talk-male-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "ff1c1752d8e4a09ac4091310573cd145753942e14941feaa603e58d2cf81d26e",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-4",
+      "path": "/assets/sprites-v16/caregiver-reaction-male-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "58bcdc0b115a1e832a04409cdb49cf02d1600be9ed6f63e6d4015dfc23952616",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-4",
+      "path": "/assets/sprites-v16/caregiver-walk-male-tone-4.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "d5eb9cc687884d39877b8958eb5dc28ea03940de407f81b30d5e463b5e7fa80e",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "caregiver-idle-male-tone-5",
+      "path": "/assets/sprites-v16/caregiver-idle-male-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-idle-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "5139e7530faa5c5646344aaf1c8c0a3e8363da00d7793684ff39b73d1f2e5cdd",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 44,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 66,
+            "top": 30,
+            "right": 72,
+            "bottom": 36,
+            "changedPixels": 31
+          },
+          {
+            "left": 74,
+            "top": 30,
+            "right": 80,
+            "bottom": 36,
+            "changedPixels": 30
+          }
+        ]
+      }
+    },
+    {
+      "key": "caregiver-talk-male-tone-5",
+      "path": "/assets/sprites-v16/caregiver-talk-male-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-talk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "9e8cbc92dc420c2307aa7843fadd0ba871b7a4025e762b6c14eb856484edef2c",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 14,
+            "right": 84,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 66,
+          "top": 45,
+          "right": 90,
+          "bottom": 65,
+          "changedPixels": 343
+        }
+      }
+    },
+    {
+      "key": "caregiver-reaction-male-tone-5",
+      "path": "/assets/sprites-v16/caregiver-reaction-male-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-reaction-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "992d7c24a0f486d482c054feaa09fd52a7de41d9d4937ae4270ff29e9a817d2c",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "caregiver-walk-male-tone-5",
+      "path": "/assets/sprites-v16/caregiver-walk-male-tone-5.png",
+      "source": "public/assets/sprites-v15/caregiver-walk-sunrise.png",
+      "role": "caregiver",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "5aed24788153ee394724f4205b1ca3dcae02c582a1a3c62fc64fa5b39903c119",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 38,
+            "top": 15,
+            "right": 89,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 88,
+            "bottom": 122
+          },
+          {
+            "left": 38,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1465
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-female-tone-1",
+      "path": "/assets/sprites-v16/child-idle-female-tone-1.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "821518aed9ebae15616c60ad0f1c9e63c9b2b92d461a0f49e24bf39137f5a9de",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-female-tone-1",
+      "path": "/assets/sprites-v16/child-talk-female-tone-1.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "67020654bf3d9df735fd1e12481a99f1a7fafce4d56e67290ef6c699c99855da",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-1",
+      "path": "/assets/sprites-v16/child-reaction-female-tone-1.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "0fb9521232d61c8ebb4b7b683577fd2fa0a9e1d1293df650bd6684fad3157466",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-female-tone-1",
+      "path": "/assets/sprites-v16/child-walk-female-tone-1.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "df67c32f33f5f12c16c658f6388efa2e4020b873bad4eb2d7a7ba690050a437d",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-female-tone-2",
+      "path": "/assets/sprites-v16/child-idle-female-tone-2.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "dd3ace069cf010f8c7b380ea938cc9f901ef134881d0f0e34f0f9e15ccf7de58",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-female-tone-2",
+      "path": "/assets/sprites-v16/child-talk-female-tone-2.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "1553228e7746f3aaedd6f23a87e2f5610c50a6341ae8ff015269fd328813f39d",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-2",
+      "path": "/assets/sprites-v16/child-reaction-female-tone-2.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "e4d3fbe705877f41c2d185a006261baa86af8ae02300a8a51e3574a91859fea7",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-female-tone-2",
+      "path": "/assets/sprites-v16/child-walk-female-tone-2.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "e7574da47d46ae5505d00e78dc7e2433ebcb0cc705d14ffbad24029bb53f2726",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-female-tone-3",
+      "path": "/assets/sprites-v16/child-idle-female-tone-3.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "849a6189d498b74d4be22cb2b4f3715df616f250d3a08e41466e4bdaf1c1d8f3",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-female-tone-3",
+      "path": "/assets/sprites-v16/child-talk-female-tone-3.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "0820ff00024a0a9da618d67d5253acb7c5f065a1b9f234b4f63f91012a68f9f2",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-3",
+      "path": "/assets/sprites-v16/child-reaction-female-tone-3.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "29f4b82eb635084f224ebb7f88a9694c1af82a9a9e7e7ef52763489be9c66f2c",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-female-tone-3",
+      "path": "/assets/sprites-v16/child-walk-female-tone-3.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "ea2a9107b8bca78bcc7c1e5a07df63d9eeb70a9437603281202ec78b2e961aa5",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-female-tone-4",
+      "path": "/assets/sprites-v16/child-idle-female-tone-4.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "4e518083b82b5d8467db5630fe16806b97c5e31cbc52beca40198b66ea3c0f32",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-female-tone-4",
+      "path": "/assets/sprites-v16/child-talk-female-tone-4.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "3fb80497364a190a141bb22473e808d81d05f310e8ea8ef189bd59f9c95b3daa",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-4",
+      "path": "/assets/sprites-v16/child-reaction-female-tone-4.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "9598ae2333d895d46a449b5f75d4da1bbd9021ad8f6bb49112cf2d7f9173f3b1",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-female-tone-4",
+      "path": "/assets/sprites-v16/child-walk-female-tone-4.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "348c80716262dbae36e0aae640c41f8caf08a6851ba2093897821cb9968280a4",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-female-tone-5",
+      "path": "/assets/sprites-v16/child-idle-female-tone-5.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "c46f1a231c2975714e83116944d19551c0807a7254685b07d86b057a1145124a",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-female-tone-5",
+      "path": "/assets/sprites-v16/child-talk-female-tone-5.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "2d3cebd56cfe3f1e4e595f585b8f525fa10a0b3fc44af71dea2d2cef1f14addb",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 27,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-female-tone-5",
+      "path": "/assets/sprites-v16/child-reaction-female-tone-5.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "cd3ef2f03152e2449178233046c5e3f21388f6161ff91336a6304d984bf9f01f",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 17,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-female-tone-5",
+      "path": "/assets/sprites-v16/child-walk-female-tone-5.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "female",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "644119ab30153f8978669e5bf9fb7612fc0ca60e4eb1d6023d7b13964bd82318",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-male-tone-1",
+      "path": "/assets/sprites-v16/child-idle-male-tone-1.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "idle",
+      "sha256": "f95222f6698a7a6184bd14c3698361039a2bee1c333cec34e0d1ca80991da651",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-male-tone-1",
+      "path": "/assets/sprites-v16/child-talk-male-tone-1.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "talk",
+      "sha256": "09bec86b1132c3d28dd0647eec90375cb63a1ab3109a188ed95aa3bef01239a9",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-1",
+      "path": "/assets/sprites-v16/child-reaction-male-tone-1.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "reaction",
+      "sha256": "9f4b9286dad6b7e7644822262453f043705a0aea13db794c45720cd2507de84f",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-male-tone-1",
+      "path": "/assets/sprites-v16/child-walk-male-tone-1.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-1",
+      "motion": "walk",
+      "sha256": "257d5fa78b05b3c1cdbeb478fdfd2875db323d8405d7ec2664f30ed9827c0fbc",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-male-tone-2",
+      "path": "/assets/sprites-v16/child-idle-male-tone-2.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "idle",
+      "sha256": "fc743fe578e62cde9e114664de276e2ccccc7684778f9d8ff9d16102ad553728",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-male-tone-2",
+      "path": "/assets/sprites-v16/child-talk-male-tone-2.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "talk",
+      "sha256": "eac0d1e00c76ce2245bc8bddc59459485d9adc6ff99850f274358fb49712f286",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-2",
+      "path": "/assets/sprites-v16/child-reaction-male-tone-2.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "reaction",
+      "sha256": "f0f5339dddc0fda3a6dd27232871d35f7d10c3ce43c12cd2d4f24014b52e4e05",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-male-tone-2",
+      "path": "/assets/sprites-v16/child-walk-male-tone-2.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-2",
+      "motion": "walk",
+      "sha256": "f109b266a62004a88b269951fc28ce6e2a2f59741d4cc13cce01ffaabed83bd0",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-male-tone-3",
+      "path": "/assets/sprites-v16/child-idle-male-tone-3.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "idle",
+      "sha256": "89c2ea5611f46fc9608f4f3d860e074feded5457d04eaa5986df04fe86ef6b45",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-male-tone-3",
+      "path": "/assets/sprites-v16/child-talk-male-tone-3.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "talk",
+      "sha256": "eb4ca9860ad79f00c87ecef530f1391e58bd4a6f26fcc3ee1c6b956265c2e298",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-3",
+      "path": "/assets/sprites-v16/child-reaction-male-tone-3.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "reaction",
+      "sha256": "32e477716b14357c377850cbf98805873bc59fafb1664c3166bfda0f36d35a14",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-male-tone-3",
+      "path": "/assets/sprites-v16/child-walk-male-tone-3.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-3",
+      "motion": "walk",
+      "sha256": "332042db40532bc7251676ed2da28d9652b221d925579244dde351cd8f81c359",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-male-tone-4",
+      "path": "/assets/sprites-v16/child-idle-male-tone-4.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "idle",
+      "sha256": "32381b348b0c7e8052477387d0925374bfe087799773fd768ad6db59ac08be32",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-male-tone-4",
+      "path": "/assets/sprites-v16/child-talk-male-tone-4.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "talk",
+      "sha256": "1ec0ac0f76724718ccebef238561d67c0e75f6bf682db1599e9d2f63f861854a",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-4",
+      "path": "/assets/sprites-v16/child-reaction-male-tone-4.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "reaction",
+      "sha256": "db1e21ca47eb2a3205dde589fc95f6664e45cde1b8900426a33c82b517f9e237",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-male-tone-4",
+      "path": "/assets/sprites-v16/child-walk-male-tone-4.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-4",
+      "motion": "walk",
+      "sha256": "849d325403bde90889a406bab0590680643562eab8c25743ac35208d4ed5a0ee",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "child-idle-male-tone-5",
+      "path": "/assets/sprites-v16/child-idle-male-tone-5.png",
+      "source": "public/assets/sprites-v15/child-idle-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "idle",
+      "sha256": "7d10d3dcab93f173b63645d97085a3c6530250093982035d585a591aa2e47929",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 13,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 65,
+            "top": 37,
+            "right": 73,
+            "bottom": 44,
+            "changedPixels": 54
+          },
+          {
+            "left": 76,
+            "top": 37,
+            "right": 82,
+            "bottom": 45,
+            "changedPixels": 41
+          }
+        ]
+      }
+    },
+    {
+      "key": "child-talk-male-tone-5",
+      "path": "/assets/sprites-v16/child-talk-male-tone-5.png",
+      "source": "public/assets/sprites-v15/child-talk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "talk",
+      "sha256": "bc642cb8146c3669a338c89ed3d2edfcf886b6f1b5d59a6d7bb7276bae313365",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 68,
+          "top": 47,
+          "right": 94,
+          "bottom": 68,
+          "changedPixels": 163
+        }
+      }
+    },
+    {
+      "key": "child-reaction-male-tone-5",
+      "path": "/assets/sprites-v16/child-reaction-male-tone-5.png",
+      "source": "public/assets/sprites-v15/child-reaction-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "reaction",
+      "sha256": "c4f2dcb23f92dcc1b313329bc98681e479bd188007d714547adb4919d2949837",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          },
+          {
+            "left": 26,
+            "top": 13,
+            "right": 101,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          13,
+          13,
+          13,
+          13
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ]
+      }
+    },
+    {
+      "key": "child-walk-male-tone-5",
+      "path": "/assets/sprites-v16/child-walk-male-tone-5.png",
+      "source": "public/assets/sprites-v15/child-walk-sunrise-coral.png",
+      "role": "child",
+      "gender": "male",
+      "skinTone": "tone-5",
+      "motion": "walk",
+      "sha256": "46da4ce55be6f9b54aa6074a80cd631b0202039fbc96c1b08a3ed8c557c7cc26",
+      "contract": {
+        "frameCount": 6,
+        "bounds": [
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 14,
+            "right": 91,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 33,
+          "top": 88,
+          "right": 94,
+          "bottom": 122,
+          "changedPixels": 1577
+        },
+        "firstChangedRow": 88
+      }
+    }
+  ],
+  "staff": [
+    {
+      "key": "staff-clinician-idle",
+      "path": "/assets/staff-v16/staff-clinician-idle.png",
+      "source": "public/assets/staff-v15/staff-clinician-idle.png",
+      "role": "clinician",
+      "motion": "idle",
+      "sha256": "d3808ed58ca5ccdfc71881b2e545ca496c57b5b931c000f0c620d564cff41f63",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 42,
+            "top": 15,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 15,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 15,
+            "right": 85,
+            "bottom": 122
+          },
+          {
+            "left": 42,
+            "top": 15,
+            "right": 85,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 62,
+            "top": 30,
+            "right": 68,
+            "bottom": 34,
+            "changedPixels": 18
+          },
+          {
+            "left": 72,
+            "top": 30,
+            "right": 77,
+            "bottom": 36,
+            "changedPixels": 22
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-clinician-talk",
+      "path": "/assets/staff-v16/staff-clinician-talk.png",
+      "source": "public/assets/staff-v15/staff-clinician-talk.png",
+      "role": "clinician",
+      "motion": "talk",
+      "sha256": "16a3469cd76181808a16f0aca29c9396b47da00bfda7a69a0311bda645fdb413",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 32,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          },
+          {
+            "left": 32,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 67,
+          "top": 47,
+          "right": 71,
+          "bottom": 52,
+          "changedPixels": 12
+        }
+      }
+    },
+    {
+      "key": "staff-clinician-walk",
+      "path": "/assets/staff-v16/staff-clinician-walk.png",
+      "source": "public/assets/staff-v15/staff-clinician-walk.png",
+      "role": "clinician",
+      "motion": "walk",
+      "sha256": "25adf190077dffe646919d34fdedffb8d3085465ba0d63268d5586ccd96c6463",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 15,
+            "right": 91,
+            "bottom": 122
+          },
+          {
+            "left": 36,
+            "top": 15,
+            "right": 92,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1126
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "staff-navigator-idle",
+      "path": "/assets/staff-v16/staff-navigator-idle.png",
+      "source": "public/assets/staff-v15/staff-navigator-idle.png",
+      "role": "navigator",
+      "motion": "idle",
+      "sha256": "1cb9a18d4cdee443b1f8c3c722b1583968499b6aa42750e01fa43e8a175269ae",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 15,
+            "right": 87,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 15,
+            "right": 87,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 15,
+            "right": 87,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 15,
+            "right": 87,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 62,
+            "top": 29,
+            "right": 69,
+            "bottom": 34,
+            "changedPixels": 26
+          },
+          {
+            "left": 73,
+            "top": 29,
+            "right": 78,
+            "bottom": 34,
+            "changedPixels": 18
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-navigator-talk",
+      "path": "/assets/staff-v16/staff-navigator-talk.png",
+      "source": "public/assets/staff-v15/staff-navigator-talk.png",
+      "role": "navigator",
+      "motion": "talk",
+      "sha256": "62b11048068f90d0ed2b987d73bf67855f79d672fd15ecb7e0eed483c24d5263",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 31,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          },
+          {
+            "left": 31,
+            "top": 14,
+            "right": 96,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 57,
+          "top": 37,
+          "right": 63,
+          "bottom": 40,
+          "changedPixels": 14
+        }
+      }
+    },
+    {
+      "key": "staff-navigator-walk",
+      "path": "/assets/staff-v16/staff-navigator-walk.png",
+      "source": "public/assets/staff-v15/staff-navigator-walk.png",
+      "role": "navigator",
+      "motion": "walk",
+      "sha256": "61ca1d68389b41ab6e0fe0082dd6dfc01164129c7c0648e8bce5d119d5b39b3d",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 94,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 36,
+          "top": 88,
+          "right": 91,
+          "bottom": 122,
+          "changedPixels": 1092
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "staff-cardiologist-idle",
+      "path": "/assets/staff-v16/staff-cardiologist-idle.png",
+      "source": "public/assets/staff-v15/staff-cardiologist-idle.png",
+      "role": "cardiologist",
+      "motion": "idle",
+      "sha256": "07c97fa8f6f34d47299f0ba9d36bfc084b822ba4477258843e6efb7804b9d245",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 15,
+            "right": 86,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 60,
+            "top": 30,
+            "right": 67,
+            "bottom": 36,
+            "changedPixels": 30
+          },
+          {
+            "left": 71,
+            "top": 30,
+            "right": 77,
+            "bottom": 36,
+            "changedPixels": 28
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-cardiologist-talk",
+      "path": "/assets/staff-v16/staff-cardiologist-talk.png",
+      "source": "public/assets/staff-v15/staff-cardiologist-talk.png",
+      "role": "cardiologist",
+      "motion": "talk",
+      "sha256": "34cd4c2b7a93fe2f0752e5479c7329e6df574a6e86ff852309a1bae36fb689a0",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 16,
+            "top": 14,
+            "right": 78,
+            "bottom": 122
+          },
+          {
+            "left": 16,
+            "top": 14,
+            "right": 78,
+            "bottom": 122
+          },
+          {
+            "left": 16,
+            "top": 14,
+            "right": 78,
+            "bottom": 122
+          },
+          {
+            "left": 16,
+            "top": 14,
+            "right": 78,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 70,
+          "top": 49,
+          "right": 73,
+          "bottom": 52,
+          "changedPixels": 8
+        }
+      }
+    },
+    {
+      "key": "staff-cardiologist-walk",
+      "path": "/assets/staff-v16/staff-cardiologist-walk.png",
+      "source": "public/assets/staff-v15/staff-cardiologist-walk.png",
+      "role": "cardiologist",
+      "motion": "walk",
+      "sha256": "c31fc5c2e57221c5402965d4ebcdf8cbab194de78412a0d9da2761e2c2ceb5e2",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 34,
+            "top": 14,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 34,
+            "top": 14,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 34,
+            "top": 14,
+            "right": 93,
+            "bottom": 122
+          },
+          {
+            "left": 34,
+            "top": 14,
+            "right": 93,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 34,
+          "top": 88,
+          "right": 92,
+          "bottom": 122,
+          "changedPixels": 1411
+        },
+        "firstChangedRow": 88
+      }
+    },
+    {
+      "key": "staff-technician-idle",
+      "path": "/assets/staff-v16/staff-technician-idle.png",
+      "source": "public/assets/staff-v15/staff-technician-idle.png",
+      "role": "technician",
+      "motion": "idle",
+      "sha256": "b61234512d9b6ec3807bb787eeeddeea8bf94b386038fd97aa8a2c4209c11172",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 41,
+            "top": 14,
+            "right": 87,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 14,
+            "right": 87,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 14,
+            "right": 87,
+            "bottom": 122
+          },
+          {
+            "left": 41,
+            "top": 14,
+            "right": 87,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "blinkBoxes": [
+          {
+            "left": 49,
+            "top": 31,
+            "right": 55,
+            "bottom": 36,
+            "changedPixels": 26
+          },
+          {
+            "left": 59,
+            "top": 31,
+            "right": 66,
+            "bottom": 36,
+            "changedPixels": 29
+          }
+        ]
+      }
+    },
+    {
+      "key": "staff-technician-talk",
+      "path": "/assets/staff-v16/staff-technician-talk.png",
+      "source": "public/assets/staff-v15/staff-technician-talk.png",
+      "role": "technician",
+      "motion": "talk",
+      "sha256": "f2709d62d3b3caa9bde00830d96c9f884f2b702b86abed31a432b62fd1d105da",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 33,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          },
+          {
+            "left": 33,
+            "top": 14,
+            "right": 95,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          14,
+          14,
+          14,
+          14
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "mouthBox": {
+          "left": 64,
+          "top": 44,
+          "right": 72,
+          "bottom": 48,
+          "changedPixels": 24
+        }
+      }
+    },
+    {
+      "key": "staff-technician-walk",
+      "path": "/assets/staff-v16/staff-technician-walk.png",
+      "source": "public/assets/staff-v15/staff-technician-walk.png",
+      "role": "technician",
+      "motion": "walk",
+      "sha256": "b88884564edbbdc6b3ed4ca3a4a2cf992b9c24e860f5eab70c82a2da7024ab2d",
+      "contract": {
+        "frameCount": 4,
+        "bounds": [
+          {
+            "left": 37,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          },
+          {
+            "left": 37,
+            "top": 15,
+            "right": 90,
+            "bottom": 122
+          }
+        ],
+        "headClearance": [
+          15,
+          15,
+          15,
+          15
+        ],
+        "footline": [
+          121,
+          121,
+          121,
+          121
+        ],
+        "motionBox": {
+          "left": 40,
+          "top": 88,
+          "right": 90,
+          "bottom": 122,
+          "changedPixels": 723
+        },
+        "firstChangedRow": 88
+      }
+    }
+  ]
+}

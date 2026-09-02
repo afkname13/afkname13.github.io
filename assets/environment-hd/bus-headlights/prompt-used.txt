@@ -1,0 +1,31 @@
+Use the two reference images as follows: Image 1 is the visual style, palette, and predawn lighting reference from the HD bus-stop scene. Image 2 is a layout-only 2×2 geometry guide. Use Image 2 only to understand four equal invisible cells, centering, spacing, and safe padding. Do not reproduce any guide boxes, safe-area rectangles, center marks, labels, borders, or guide background.
+
+Create one production-ready 2×2 pixel-art animation sheet containing exactly four sequential frames of a tiny paired bus-headlights approach loop for a 640×360 side-view dialogue game. The final frames will be processed into 64×64 transparent cells and placed at the distant street horizon.
+
+Effect identity: exactly two small symmetrical warm sunflower-and-cream headlights with a very restrained lavender/orange reflection immediately beneath them. Match the visible bus-stop scene’s crisp contemporary pixel art, hard square pixels, dark blue-lavender predawn palette, and quiet adventurous mood. The bus itself remains an indistinct two- or three-pixel ink-blue bridge shape between the lights; do not draw a detailed vehicle.
+
+Frame order, read left-to-right across the top row and then left-to-right across the bottom row:
+1. farthest state: two dim close lights, tiny and centered;
+2. slightly nearer: the pair is one cluster step wider and brighter;
+3. nearest loop peak: the pair is one more cluster step wider with cream cores and short restrained reflections;
+4. easing state: pair returns to the frame-2 spacing with lower brightness and shorter reflections, visually bridging back to frame 1.
+
+Keep the pair’s midpoint fixed at 50% cell width and the tire/horizon baseline fixed at 62% cell height. Growth must be subtle and symmetrical; no lateral or vertical jumping. Keep the entire effect inside the central 42% width and 28% height of every cell. Preserve the same pixel-cluster scale and palette. No road, street, buildings, sky, full bus silhouette, motion streaks, lens flare, bloom, dust, rain, particles, or scenery.
+
+Background: 100% solid flat #FF00FF in every cell, with no gradients, texture, shadows, lighting variation, or grid separators. Do not use #FF00FF in the effect. No text, labels, UI, borders, watermark, poster layout, antialiasing, painterly blur, 3D, or noisy dithering. Leave generous flat-magenta padding on every side, and do not let any part cross a cell edge.
+
+Targeted continuity refinement using the initial generated sheet:
+
+Refine the referenced 2×2 bus-headlights animation sheet while preserving its exact pixel-art identity, two symmetrical warm lights, small ink-blue bridge, predawn palette, solid flat #FF00FF background, four equal invisible cells, and fixed center/baseline. Correct only the animation’s size continuity.
+
+The previous sheet jumps too far in scale. Make all four frames much closer in outer dimensions. Read frames left-to-right across the top row, then the bottom row:
+1. a compact dim pair;
+2. the same pair only one small pixel-cluster step wider and one pixel taller;
+3. the same pair only one additional small pixel-cluster step wider and one pixel taller, with slightly brighter cream cores;
+4. return to exactly the frame-2 outer width and height with reduced brightness, so both the frame-3-to-frame-4 transition and the frame-4-to-frame-1 loop transition are subtle.
+
+Hard size contract after processing to 64×64 cells: frame widths should be approximately 18, 22, 26, and 22 pixels; frame heights approximately 7, 8, 9, and 8 pixels. Keep the pair midpoint fixed at 50% cell width and the bottom reflection baseline fixed at 62% cell height. No lateral or vertical movement. Keep headlight shape, spacing symmetry, bridge thickness, palette, and pixel-cluster size stable. No detailed bus body, road, scenery, motion streaks, bloom, lens flare, or particles.
+
+Use Image 2 only for the 2×2 slot geometry and safe padding; do not reproduce guides, boxes, marks, labels, borders, or separators. Background must remain exactly flat #FF00FF. No text, UI, watermark, antialiasing, gradients, painterly blur, 3D, or noisy dithering. Nothing may touch a cell edge.
+
+Final normalization note: the accepted raw refinement retained unwanted generated camera-scale variation. Sprite Forge therefore uses per-frame fit normalization at one common 45% cell occupancy and a shared bottom anchor. This preserves the authored light shapes and brightness changes while removing the generated size jump.

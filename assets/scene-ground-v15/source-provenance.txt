@@ -1,0 +1,7 @@
+Dialogue ground aprons V15.
+Every apron is deterministically tiled from a clean floor sample
+inside the matching approved public/assets/scenes-hd scene.
+No generated scenery and no foreign texture is introduced.
+Every band spans the full 640px scene and begins with a clean
+two-pixel horizon derived from that approved floor palette.
+No translucent checker fade or foreign edge color is used.

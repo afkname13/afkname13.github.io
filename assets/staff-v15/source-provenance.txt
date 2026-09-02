@@ -1,0 +1,8 @@
+Staff V15 deterministic stage sprites.
+Approved seed pixels: public/assets/staff-v14/.
+The V14 whole-body breath/gaze frame is removed.
+Both eyes blink in one explicit paired box for one brief frame.
+Talk locks one pose and changes only an explicit mouth box.
+Walk locks head, face, torso, outfit, and arms to frame 1 while
+retaining the authored leg cycle. Binary alpha and y=121 shoes
+are enforced for every frame.

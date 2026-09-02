@@ -1,0 +1,6 @@
+Family V14 stage sprites.
+Approved whole-strip motion masters: public/assets/sprites-hd/.
+All appearance presets reuse identical silhouettes and anchors.
+Skin, hair, clothing, and backpack accent regions are palette locked.
+Each identity uses one fixed semantic palette, binary alpha,
+128x128 frames, and the shared y=121 shoe row.

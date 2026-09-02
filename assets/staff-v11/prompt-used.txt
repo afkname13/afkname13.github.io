@@ -1,0 +1,24 @@
+Mode: Built-in image generation plus deterministic sprite-sheet assembly.
+
+Generation direction for work/generated-art-v10/staff-stage-atlas-v10.png:
+
+Create one coherent pixel-art stage-character atlas with four distinct caring
+healthcare workers: neighborhood clinician, patient navigator, pediatric
+cardiologist, and pediatric test technician. Give each role a stable,
+recognizable identity that matches its dialogue portrait and cannot be mistaken
+for another role. Show an idle source pose and a talking source pose for each
+person at the same full-body camera distance, body scale, outline weight,
+lighting, and feet line. Characters face left toward the family, use warm
+professional expressions, age-appropriate proportions, role-readable clothing,
+clean continuous silhouettes, natural skin and eye colors, and crisp intentional
+pixel clusters. No split-color faces, cyan skin, text, labels, UI, props,
+scenery, floor shadows, blur, or extra figures. Arrange the eight separated
+cells on a flat chroma-magenta background with wide extraction gutters.
+
+scripts/process-staff-v10.mjs extracts the four role columns and two motion
+rows, removes chroma, normalizes every figure onto 128 by 128 frames with the
+y=121 footline, and assembles deterministic four-frame idle and talk sheets.
+scripts/process-role-portraits-v10.mjs also takes the dialogue bust for each
+in-person role from this exact atlas so clothing, face, hair, and identity match
+the worker standing in the scene. The role-specific outputs must remain
+separate; the runtime must never replace them with one generic staff identity.

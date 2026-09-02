@@ -1,0 +1,7 @@
+Family V15 deterministic stage sprites.
+Approved seed pixels: public/assets/sprites-v14/.
+Idle, talk, and reaction lock one complete body and change only
+explicit paired-eye or mouth boxes. Walk locks the complete upper
+body and preserves only the authored lower-leg cycle.
+Favourite-colour variants remain confined to Maya's backpack.
+Binary alpha, 128x128 cells, and y=121 shoe row are enforced.

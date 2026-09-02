@@ -1,0 +1,6 @@
+V18 isolated staff gameplay-sprite recovery.
+Canonical identity and palette: each role's public/assets/staff-v16/ idle frame 0.
+Talk and walk bodies: public/assets/staff-v16/, integer registered and mapped only to the role's canonical palette.
+Every obsolete motion head is discarded; every V18 open head is copied pixel-for-pixel from the canonical idle.
+Idle frame 2 copies only the reviewed paired-eye blink pixels. Talk frames 1 and 3 change only a role-local mouth aperture.
+No family sprite, dialogue portrait, V14 donor, runtime, UI, or test asset was read or modified.

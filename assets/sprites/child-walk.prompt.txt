@@ -1,0 +1,27 @@
+THE ROAD TO CARE — CHILD WALK SPRITE SOURCE
+
+Identity:
+- Match the approved child acting sheet exactly: age 9–10, medium-brown skin,
+  short dark curly hair, teal jacket, coral shirt, navy trousers, yellow shoes,
+  and small backpack.
+
+Sheet layout:
+- Exact 3 columns × 2 rows, read left-to-right and top-to-bottom.
+- Six continuous side-view walk-cycle poses with alternating contact, passing,
+  and recoil motion.
+- One full character per cell; stable height, face, clothing, backpack, and
+  common feet line. No camera rotation between frames.
+
+Generation constraints:
+- Crisp readable pixel-game animation.
+- Fixed flat #FF00FF chroma-key background in every cell.
+- No text, UI, frame labels, floor, cast shadow, or extra objects.
+
+Processing provenance:
+- Generated from the approved child identity/reference with OpenAI image
+  generation.
+- Processed deterministically with 0x0funky/agent-sprite-forge.
+- Target=npc, mode=walk, 2×3 grid, 64 px cells, shared scale, feet alignment,
+  fit_scale=0.84, trim_border=4, edge_clean_depth=3.
+- Chroma key removed to transparency; edge/clamp quality checks passed.
+

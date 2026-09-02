@@ -1,0 +1,53 @@
+{
+  "description": "Scene-matched authoring masks plus sparse four-frame wind patches. Runtime patches replace changed edge pixels instead of shifting foliage already baked into the scene.",
+  "layers": [
+    {
+      "id": "neighborhood-left-canopy",
+      "scene": "neighborhood.png",
+      "crop": [0, 0, 190, 148],
+      "placement": [0, 0],
+      "periodMs": 1800,
+      "file": "neighborhood-left-canopy.png",
+      "runtimeFile": "neighborhood-left-canopy-wind-strip.png",
+      "runtimeFrames": 4,
+      "movingRows": 58,
+      "motion": "transparent, +1px coherent upper-band shear, transparent, -1px coherent upper-band shear",
+      "size": [190, 148],
+      "selectedPixels": 11705,
+      "alpha": "hard 0/255",
+      "source": "public/assets/scenes-hd/neighborhood.png"
+    },
+    {
+      "id": "neighborhood-right-canopy",
+      "scene": "neighborhood.png",
+      "crop": [458, 0, 640, 145],
+      "placement": [458, 0],
+      "periodMs": 2100,
+      "file": "neighborhood-right-canopy.png",
+      "runtimeFile": "neighborhood-right-canopy-wind-strip.png",
+      "runtimeFrames": 4,
+      "movingRows": 60,
+      "motion": "transparent, +1px coherent upper-band shear, transparent, -1px coherent upper-band shear",
+      "size": [182, 145],
+      "selectedPixels": 11570,
+      "alpha": "hard 0/255",
+      "source": "public/assets/scenes-hd/neighborhood.png"
+    },
+    {
+      "id": "bus-stop-canopy",
+      "scene": "bus-stop.png",
+      "crop": [0, 0, 258, 263],
+      "placement": [0, 0],
+      "periodMs": 2300,
+      "file": "bus-stop-canopy.png",
+      "runtimeFile": "bus-stop-canopy-wind-strip.png",
+      "runtimeFrames": 4,
+      "movingRows": 54,
+      "motion": "transparent, +1px coherent upper-band shear, transparent, -1px coherent upper-band shear",
+      "size": [258, 263],
+      "selectedPixels": 18560,
+      "alpha": "hard 0/255",
+      "source": "public/assets/scenes-hd/bus-stop.png"
+    }
+  ]
+}

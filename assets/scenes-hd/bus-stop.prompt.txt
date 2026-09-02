@@ -1,0 +1,14 @@
+Built-in image_gen production prompt
+
+Use case: stylized-concept
+Asset type: fixed-camera dialogue-game environment background
+Primary request: Regenerate the visible predawn neighborhood bus stop immediately above as a cleaner, higher-resolution pixel-art production background designed for a native 640×360 game canvas.
+Input image: the visible image immediately above is the visual composition reference. Preserve its left-side illuminated shelter, blue-lavender street, neighborhood buildings receding toward a glowing horizon, a packed travel bag at the shelter, and tiny distant bus headlights. Keep the mood adventurous and calm, not threatening.
+Style/medium: handcrafted contemporary 2D pixel art with crisp square pixels, hard edges, large deliberate pixel clusters, strong readable silhouettes, selective dark ink outlines, one shadow ramp and one highlight ramp. Separate shelter glass, frame, bench, bag, trees, road, buildings, clouds, and distant light into clean value groups that can support later layer animation. No painterly blur, vector smoothing, 3D, photography, gradients, antialiasing, micro-speckle, or noisy dithering.
+Composition/framing: exact 16:9 side-view wide street. Shelter occupies left third; keep a broad empty pavement acting lane across the lower-middle for two 104–120-pixel-tall actors and luggage. Keep the horizon centered slightly right, with distant bus lights small but clearly paired. Put a simple blank timetable panel inside the shelter with large blocks only—no letters or numbers. Keep tree canopies away from actor heads and do not clutter the foreground.
+Lighting/mood: blue-lavender predawn ambient light with a warm sunflower/coral shelter glow and soft sunrise band; quiet anticipation and mild adventure.
+Color palette: restrained 32–48 colors led by lavender #AD8AE8, sky #8ED8F8, ink #18314F, turquoise #38C6BD, coral #FF6F61, sunflower #F6C945, leaf #75BF68, cream #FFF5DF.
+Constraints: no people, characters, faces, readable words, numbers, labels, logos, UI, dialogue boxes, borders, watermarks, cars, ominous shadows, threatening emptiness, or horror lighting. Every key prop—shelter, bench, bag, timetable panel, street, buildings, distant paired headlights—must be recognizable at 640×360. Do not bake falling leaves, birds, moving vehicles, streaks, or other motion cues into the base.
+Avoid: random light streaks, huge empty flat road, fake text, over-detailed windows, black shadows, neon cyberpunk look, grain, bloom, muddy purple noise.
+
+Post-processing: center-crop to 16:9, resize to 640×360, median-cut quantize to 48 colors, no dithering.

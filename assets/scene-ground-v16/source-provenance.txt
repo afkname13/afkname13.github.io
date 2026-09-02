@@ -1,0 +1,13 @@
+Dialogue grounding patches V16.
+Each 640x32 transparent patch is deterministically sampled from the
+matching approved public/assets/scenes-hd background.
+Only the authored actor lane contains floor pixels. The five-row top
+and eight-column sides use a shallow alpha blend; no full-width
+replacement horizon, generated scenery, or foreign texture is used.
+referral-home: sample=0,320,128,38 coverage=430-640
+calendar-home: sample=0,320,128,38 coverage=420-620
+bus: sample=240,288,128,38 coverage=250-420
+records-desk: sample=244,286,128,58 coverage=284-558
+test-room: sample=0,320,128,38 coverage=190-570
+home-evening: sample=0,326,128,32 coverage=430-640
+pathway: sample=240,326,128,32 coverage=450-640

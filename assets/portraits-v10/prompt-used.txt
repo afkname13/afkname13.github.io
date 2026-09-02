@@ -1,0 +1,39 @@
+Mode: Built-in image generation plus deterministic accent recoloring.
+
+Generation direction for
+work/generated-art-v10/family-portrait-atlas-v10.png:
+
+Create one coherent 3 by 2 pixel-art family portrait atlas for a warm narrative
+game. Top row: the same adult caregiver in Sunrise, Meadow, and Starlight
+appearance presets. Bottom row: the same 9-10-year-old child in the matching
+three presets. Every cell is a head-and-upper-torso three-quarter portrait
+facing right toward dialogue, at one camera distance, scale, outline weight,
+and lighting direction. Keep full hair silhouettes and chins inside each cell.
+Faces must remain clean and human: natural warm skin ramps, neutral eye whites,
+dark readable irises, no cyan or blue skin, no split-color faces, and no
+favorite-color tint on facial features. Use crisp deliberate pixel clusters,
+selective dark outlines, one shadow ramp and one highlight ramp, with no text,
+frame, props, scenery, blur, or extra figures. Separate cells with generous
+gutters on a flat chroma-magenta background.
+
+scripts/process-ui-v10.mjs extracts each portrait to a common 384 by 384 RGBA
+canvas. The five child favorite-color variants are deterministic edits of only
+the lower backpack region; their face, eyes, skin, hair, jacket, and identity
+remain unchanged.
+
+Generation direction for
+work/generated-art-v10/role-portrait-atlas-v10.png:
+
+Create one coherent 4 by 2 atlas of warm pixel-art dialogue portraits for the
+clinic clinician, patient navigator, pediatric cardiologist, test technician,
+children's-center phone staff, appointment scheduler, a route-notebook narrator
+icon, and one unused decorative placeholder. Use one head-and-shoulders crop,
+camera distance, lighting direction, outline weight, and natural dark-eye
+policy. Keep every cell text-free and separated on chroma magenta.
+
+For exact scene-to-dialogue identity, scripts/process-role-portraits-v10.mjs
+derives the four in-person healthcare portraits directly from the matching idle
+figures in work/generated-art-v10/staff-stage-atlas-v10.png. It uses the
+role-portrait atlas for the two phone-only workers and narrator icon, removes
+chroma spill, zeros transparent RGB, and exports every result on the same
+384 by 384 RGBA canvas.

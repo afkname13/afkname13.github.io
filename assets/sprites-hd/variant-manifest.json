@@ -1,0 +1,1165 @@
+{
+  "assets": [
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2702,
+        "hair": 244,
+        "skin": 2526
+      },
+      "file": "caregiver-idle-sunrise.png",
+      "motion": "idle",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2548,
+        "hair": 212,
+        "skin": 2541
+      },
+      "file": "caregiver-talk-sunrise.png",
+      "motion": "talk",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 4172,
+        "hair": 1036,
+        "skin": 3661
+      },
+      "file": "caregiver-walk-sunrise.png",
+      "motion": "walk",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2523,
+        "hair": 257,
+        "skin": 2443
+      },
+      "file": "caregiver-reaction-sunrise.png",
+      "motion": "reaction",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 4175,
+        "hair": 65,
+        "skin": 2693
+      },
+      "file": "caregiver-portrait-sunrise.png",
+      "motion": "portrait",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "coral",
+      "file": "child-idle-sunrise-coral.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "coral",
+      "file": "child-talk-sunrise-coral.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "coral",
+      "file": "child-walk-sunrise-coral.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "coral",
+      "file": "child-reaction-sunrise-coral.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "coral",
+      "file": "child-portrait-sunrise-coral.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "sunflower",
+      "file": "child-idle-sunrise-sunflower.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "sunflower",
+      "file": "child-talk-sunrise-sunflower.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "sunflower",
+      "file": "child-walk-sunrise-sunflower.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "sunflower",
+      "file": "child-reaction-sunrise-sunflower.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "sunflower",
+      "file": "child-portrait-sunrise-sunflower.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "turquoise",
+      "file": "child-idle-sunrise-turquoise.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "turquoise",
+      "file": "child-talk-sunrise-turquoise.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "turquoise",
+      "file": "child-walk-sunrise-turquoise.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "turquoise",
+      "file": "child-reaction-sunrise-turquoise.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "turquoise",
+      "file": "child-portrait-sunrise-turquoise.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "leaf",
+      "file": "child-idle-sunrise-leaf.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "leaf",
+      "file": "child-talk-sunrise-leaf.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "leaf",
+      "file": "child-walk-sunrise-leaf.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "leaf",
+      "file": "child-reaction-sunrise-leaf.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "leaf",
+      "file": "child-portrait-sunrise-leaf.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "lavender",
+      "file": "child-idle-sunrise-lavender.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "lavender",
+      "file": "child-talk-sunrise-lavender.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "lavender",
+      "file": "child-walk-sunrise-lavender.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "lavender",
+      "file": "child-reaction-sunrise-lavender.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "lavender",
+      "file": "child-portrait-sunrise-lavender.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2702,
+        "hair": 244,
+        "skin": 2526
+      },
+      "file": "caregiver-idle-meadow.png",
+      "motion": "idle",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2548,
+        "hair": 212,
+        "skin": 2541
+      },
+      "file": "caregiver-talk-meadow.png",
+      "motion": "talk",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 4172,
+        "hair": 1036,
+        "skin": 3661
+      },
+      "file": "caregiver-walk-meadow.png",
+      "motion": "walk",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2523,
+        "hair": 257,
+        "skin": 2443
+      },
+      "file": "caregiver-reaction-meadow.png",
+      "motion": "reaction",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 4175,
+        "hair": 65,
+        "skin": 2693
+      },
+      "file": "caregiver-portrait-meadow.png",
+      "motion": "portrait",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "coral",
+      "file": "child-idle-meadow-coral.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "coral",
+      "file": "child-talk-meadow-coral.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "coral",
+      "file": "child-walk-meadow-coral.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "coral",
+      "file": "child-reaction-meadow-coral.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "coral",
+      "file": "child-portrait-meadow-coral.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "sunflower",
+      "file": "child-idle-meadow-sunflower.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "sunflower",
+      "file": "child-talk-meadow-sunflower.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "sunflower",
+      "file": "child-walk-meadow-sunflower.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "sunflower",
+      "file": "child-reaction-meadow-sunflower.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "sunflower",
+      "file": "child-portrait-meadow-sunflower.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "turquoise",
+      "file": "child-idle-meadow-turquoise.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "turquoise",
+      "file": "child-talk-meadow-turquoise.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "turquoise",
+      "file": "child-walk-meadow-turquoise.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "turquoise",
+      "file": "child-reaction-meadow-turquoise.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "turquoise",
+      "file": "child-portrait-meadow-turquoise.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "leaf",
+      "file": "child-idle-meadow-leaf.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "leaf",
+      "file": "child-talk-meadow-leaf.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "leaf",
+      "file": "child-walk-meadow-leaf.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "leaf",
+      "file": "child-reaction-meadow-leaf.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "leaf",
+      "file": "child-portrait-meadow-leaf.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "lavender",
+      "file": "child-idle-meadow-lavender.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "lavender",
+      "file": "child-talk-meadow-lavender.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "lavender",
+      "file": "child-walk-meadow-lavender.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "lavender",
+      "file": "child-reaction-meadow-lavender.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "lavender",
+      "file": "child-portrait-meadow-lavender.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2702,
+        "hair": 244,
+        "skin": 2526
+      },
+      "file": "caregiver-idle-starlight.png",
+      "motion": "idle",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2548,
+        "hair": 212,
+        "skin": 2541
+      },
+      "file": "caregiver-talk-starlight.png",
+      "motion": "talk",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 4172,
+        "hair": 1036,
+        "skin": 3661
+      },
+      "file": "caregiver-walk-starlight.png",
+      "motion": "walk",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 2523,
+        "hair": 257,
+        "skin": 2443
+      },
+      "file": "caregiver-reaction-starlight.png",
+      "motion": "reaction",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 4175,
+        "hair": 65,
+        "skin": 2693
+      },
+      "file": "caregiver-portrait-starlight.png",
+      "motion": "portrait",
+      "role": "caregiver"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "coral",
+      "file": "child-idle-starlight-coral.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "coral",
+      "file": "child-talk-starlight-coral.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "coral",
+      "file": "child-walk-starlight-coral.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "coral",
+      "file": "child-reaction-starlight-coral.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "coral",
+      "file": "child-portrait-starlight-coral.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "sunflower",
+      "file": "child-idle-starlight-sunflower.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "sunflower",
+      "file": "child-talk-starlight-sunflower.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "sunflower",
+      "file": "child-walk-starlight-sunflower.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "sunflower",
+      "file": "child-reaction-starlight-sunflower.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "sunflower",
+      "file": "child-portrait-starlight-sunflower.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "turquoise",
+      "file": "child-idle-starlight-turquoise.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "turquoise",
+      "file": "child-talk-starlight-turquoise.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "turquoise",
+      "file": "child-walk-starlight-turquoise.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "turquoise",
+      "file": "child-reaction-starlight-turquoise.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "turquoise",
+      "file": "child-portrait-starlight-turquoise.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "leaf",
+      "file": "child-idle-starlight-leaf.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "leaf",
+      "file": "child-talk-starlight-leaf.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "leaf",
+      "file": "child-walk-starlight-leaf.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "leaf",
+      "file": "child-reaction-starlight-leaf.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "leaf",
+      "file": "child-portrait-starlight-leaf.png",
+      "motion": "portrait",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2818,
+        "clothes": 0,
+        "hair": 1848,
+        "skin": 3355
+      },
+      "favorite": "lavender",
+      "file": "child-idle-starlight-lavender.png",
+      "motion": "idle",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3209,
+        "clothes": 0,
+        "hair": 1479,
+        "skin": 4011
+      },
+      "favorite": "lavender",
+      "file": "child-talk-starlight-lavender.png",
+      "motion": "talk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 4271,
+        "clothes": 0,
+        "hair": 2375,
+        "skin": 5347
+      },
+      "favorite": "lavender",
+      "file": "child-walk-starlight-lavender.png",
+      "motion": "walk",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 3253,
+        "clothes": 0,
+        "hair": 1690,
+        "skin": 3703
+      },
+      "favorite": "lavender",
+      "file": "child-reaction-starlight-lavender.png",
+      "motion": "reaction",
+      "role": "child"
+    },
+    {
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 2544,
+        "clothes": 0,
+        "hair": 2347,
+        "skin": 3017
+      },
+      "favorite": "lavender",
+      "file": "child-portrait-starlight-lavender.png",
+      "motion": "portrait",
+      "role": "child"
+    }
+  ],
+  "frameSize": 128,
+  "hardAlphaThreshold": 96,
+  "paletteLimit": 56,
+  "semanticMaskPurpose": "Keep warm clothing separate from skin and prevent split-color face seams.",
+  "semanticMaskVersion": 1,
+  "version": 3
+}

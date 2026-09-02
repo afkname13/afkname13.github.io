@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: reusable 16:9 pixel-art UI backing board
+Primary request: One large handmade cream paper sheet centered over deep navy, occupying about 88% width and 72% height, with irregular torn-pixel edges, a navy pixel shadow, coral and sunflower tape, a turquoise paperclip, sparse childlike route doodles, and a calm nearly blank center for live HTML content.
+Style: handcrafted contemporary pixel art; crisp square pixels; hard stepped edges; large intentional clusters; selective ink outlines; no antialiasing, blur, vector smoothing, gradients, 3D, or photographic texture.
+Palette: coral #FF6F61, sunflower #F6C945, turquoise #38C6BD, leaf #75BF68, lavender #AD8AE8, sky #8ED8F8, cream #FFF5DF, ink #18314F, navy #10243C.
+Constraints: no people, faces, characters, buildings, readable words, letters, numbers, labels, buttons, center icons, medical crosses, logos, watermarks, or dialogue box.

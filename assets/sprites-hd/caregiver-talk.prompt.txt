@@ -1,0 +1,14 @@
+Use the accepted high-readability caregiver as the exact identity, face, scale,
+palette, and rendering reference. Create one dedicated four-frame CAREGIVER
+TALK LOOP in an exact 2x2 grid: warm mouth-closed stance with near hand at
+waist, mouth slightly open with a tiny wrist lift, mouth a little wider with a
+gentle eyebrow lift and small reassuring palm turn, then mouth and hand easing
+toward frame one. Preserve medium-deep brown skin, dark low bun, readable eyes,
+lavender overshirt, yellow top, navy pants, coral shoes, and turquoise satchel.
+Full-body three-quarter side view facing right; fixed camera, feet, pelvis, root,
+scale, and centerline; subject fills roughly 84-88% of cell height. Adjacent
+frames change only mouth, eyebrows, wrist, and a tiny shoulder shift. No phone,
+paper, walking, pointing, waving, dramatic sweep, head turn, pose jump, or
+emotion jump. Crisp handcrafted pixel art with no antialiasing or blur. Flat
+#FF00FF background; no visible grid, labels, text, props, floor, shadows, UI,
+extra characters, or edge crossing.

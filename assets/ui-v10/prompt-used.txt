@@ -1,0 +1,24 @@
+Mode: Built-in image generation plus deterministic asset extraction.
+
+Generation direction for work/generated-art-v10/ui-component-atlas-v10.png:
+
+Create one original, text-free pixel-art UI component atlas for a warm,
+child-centered healthcare journey game. Use large readable shapes inspired by
+cozy story RPG interfaces without copying any existing game's layout,
+ornament, characters, or symbols. The atlas must include a wide dialogue
+frame, separate portrait frame, nameplate, wide and compact buttons, one
+choice-card frame, a three-part journey-status frame, a compact status strip,
+and an information card. Keep generous uninterrupted text-safe interiors.
+Visual language: honey-colored wood, warm cream paper, turquoise and coral
+inlays, restrained leaf and stitched-route details, deep navy-brown outlines,
+crisp intentional pixel clusters, and consistent corner treatment. No words,
+letters, numbers, icons that resemble text, screenshots, scenes, characters,
+blur, gradients, or soft drop shadows. Arrange separated components on a flat
+chroma-magenta background with clear extraction gutters.
+
+scripts/process-ui-v10.mjs crops the nine generated components, removes only
+edge-connected chroma pixels plus exact chroma remnants, trims transparent
+padding, and exports RGBA PNGs. setup-panel.png, menu-panel.png,
+story-ribbon.png, and menu-button.png retain the approved V8 image-generated
+art because those source panels already matched the same text-free production
+direction. All visible labels and controls remain real DOM text.

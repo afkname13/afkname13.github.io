@@ -1,0 +1,14 @@
+Pixel-art production animation sheet on a perfectly flat solid #FF00FF magenta
+chroma-key background. EXACTLY 2 columns by 2 rows, four equal cells, no
+gutters, no dividers, no labels. A single compact leafy tree-canopy cluster in a
+seamless gentle-wind loop, reading order left-to-right then top-to-bottom. It is
+the exact same leaf cluster in all frames: dark ink-green outline, layered
+leaf-green and turquoise-shadow clusters, a few warm highlights. Frame 1 rests,
+frame 2 only the outer leaf tips lean one or two pixels right, frame 3 rests
+slightly compressed, frame 4 outer leaf tips lean one or two pixels left. The
+central mass, scale, lighting, palette, and anchor never change. Motion must be
+subtle, not a wobble or morph. Keep the cluster within the central 60% of every
+cell with generous magenta clearance. Crisp large square pixel clusters, hard
+edges, no micro-noise. No trunk, scenery, people, extra objects, text, UI,
+shadows outside the leaves, blur, antialiasing, gradients, guide boxes, or edge
+crossing.

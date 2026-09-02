@@ -1,0 +1,13 @@
+Use the approved child sprite as the exact identity, palette, clothing, face, and
+silhouette reference. Create one dedicated four-frame CHILD IDLE LOOP in an
+exact 2x2 grid: neutral open eyes, tiny inhale, natural blink without turning,
+then open-eye exhale/settle back to frame one. Keep the same 9-10-year-old
+child, medium-brown skin, short dark curls, large readable eyes, turquoise
+jacket, coral shirt, navy pants, yellow shoes, and backpack in every frame.
+Full-body three-quarter side view facing right; fixed camera, root, centerline,
+scale, and feet line; subject fills roughly 82-86% of each cell height. Only
+tiny connected pixel-cluster motion, never separate acting poses. Polished
+handcrafted pixel art with crisp clusters, clean dark outline, one shadow ramp,
+one highlight ramp, no antialiasing or blur. Exactly four invisible equal cells
+on a perfectly flat #FF00FF background; no borders, labels, text, props, floor,
+shadows, UI, extra characters, edge crossing, or missing padding.

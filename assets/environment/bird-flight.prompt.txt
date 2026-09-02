@@ -1,0 +1,13 @@
+Use the reference only to preserve the exact small dark-blue city bird identity,
+palette, face, outline style, and wing shapes. Reformat it as a pixel-art
+production animation sheet on a perfectly flat solid #FF00FF magenta chroma-key
+background. EXACTLY 2 columns by 2 rows, four equal cells, no gutters, no
+dividers, no labels. Reading order is left-to-right then top-to-bottom. The same
+bird flies to the right in a seamless four-frame wing cycle: frame 1 wings high,
+frame 2 wings level, frame 3 wings down, frame 4 wings level returning toward
+frame 1. Strict identity lock, same body scale, side view, center position, and
+camera in every cell. Keep the entire bird within the central 55% of each cell
+with generous magenta clearance. Crisp square pixel clusters, hard dark outline,
+minimal shading. No text, UI, shadows outside bird, scenery, extra objects,
+blur, antialiasing, gradients, partial bodies, guide boxes, or duplicated birds
+in a cell.

@@ -1,0 +1,9 @@
+Use case: precise-object-edit
+Asset type: 640x360 side-view pixel-art browser game background
+Input image: the prior public/assets/scenes-hd/test-room.png, used to preserve the room architecture, palette, lighting, and pixel-art style while replacing medically incorrect equipment.
+Primary request: Replace the large donut-shaped CT/MRI scanner with a medically recognizable pediatric transthoracic echocardiography setup: a low examination bed with pillow and folded blanket, a compact wheeled ultrasound/echo console, a monitor angled toward the technician, and a visible handheld ultrasound probe in its holder with a cable. Keep the room empty.
+Style/medium: match the source scene's crisp high-quality 2D pixel art, pixel density, cluster shapes, outlines, warm bright palette, lighting, and side-view perspective.
+Composition/framing: preserve the 16:9 composition, window, curtains, plant, cabinet, shelves, hanging mobile, turquoise door, floor, walls, and open acting space. Keep the echo bed and console legible at game scale without dominating the room.
+Lighting/mood: warm, welcoming, professional pediatric hospital; bright rather than ominous.
+Constraints: no people, text, logos, watermark, photorealism, smooth vector gradients, CT ring, MRI bore, X-ray equipment, or giant tunnel-shaped scanner.
+Final generation: built-in image generation edit, then nearest-neighbor normalization to the required 640x360 runtime size.

@@ -1,0 +1,20 @@
+Built-in image_gen production prompts
+
+Initial generation:
+
+Use case: stylized-concept
+Asset type: fixed-camera dialogue-game environment background
+Primary request: Regenerate the visible warm family kitchen immediately above as a cleaner, higher-resolution pixel-art production background designed for a native 640×360 game canvas. This is the morning referral-phone-call scene.
+Input image: the visible image immediately above is the visual composition reference. Preserve the same home identity: centered sunlit window above turquoise counter and sink, refrigerator at right with abstract child drawings, plants, wooden dining table, two mismatched chairs, wall shelves, oven/cabinet area on the left. Preserve a phone and one child drawing on the table as clearly legible story props, but no written words.
+Style/medium: handcrafted contemporary 2D pixel art, crisp square pixels, hard edges, intentional large pixel clusters, strong readable silhouettes, selective ink outlines, one shadow ramp and one highlight ramp. Fewer but larger props, cleaner surfaces, and much less visual noise than the reference. No painterly blur, vector smoothing, 3D, photography, gradients, antialiasing, high-frequency brick/wood grain, or noisy dithering.
+Composition/framing: exact 16:9 side-view theatrical kitchen. Center the table slightly below mid-frame but keep its front edge low enough that two 104–120-pixel-tall actors can stand/sit around it without being hidden. Leave a broad open floor acting lane across the lower-middle and clear negative space around the phone/drawing. Keep window light as a simple readable shape.
+Lighting/mood: warm ordinary morning light from upper left, cozy, human, hopeful, not idealized.
+Color palette: restrained 32–48 colors led by coral #FF6F61, sunflower #F6C945, turquoise #38C6BD, leaf #75BF68, lavender #AD8AE8, sky #8ED8F8, cream #FFF5DF, ink #18314F.
+Constraints: no people, characters, faces, readable text, letters, labels, logos, UI, dialogue boxes, borders, watermarks, clocks with numbers, or dramatic sadness. Refrigerator art must be simple color shapes only. Every key prop—phone, paper drawing, table, chairs, window, fridge—must read instantly at 640×360. Leave simple surfaces suitable for subtle animated sunlight and plant-leaf overlays.
+Avoid: clutter piles, dozens of plants, tiny knickknacks, fake text, grain, bloom, over-detailed tile patterns, micro-textured wood, muddy orange-on-brown shapes.
+
+Targeted refinement using the initial generated image:
+
+Refine the referenced pixel-art kitchen image as the final native 640×360 dialogue-game background. Preserve the exact home identity, coral/cream/turquoise palette, centered window, turquoise counter, left stove, right refrigerator with abstract drawings, morning light, phone, child drawing, and crisp clean pixel-cluster style. Make one targeted compositional correction: pull the camera back significantly and move the dining table farther into the room so it is about 35% smaller in both width and height. The table should sit in the lower middle around 54%–72% of image height, not dominate the foreground. Reduce the chairs proportionally and move them slightly outward. Leave a broad, visually simple open floor acting lane across the lower-middle/foreground, with unobstructed standing space for two 104–120-pixel-tall actors on either side of the table and clear silhouettes. Keep the phone and one drawing legible on the smaller table with no written text. Simplify foliage and surface details further into larger separable shapes; do not add small motion cues. Exact 16:9 side-view framing. No people, characters, faces, readable text, labels, logos, UI, dialogue box, border, watermark, gradients, antialiasing, painterly blur, 3D, or microtexture. Keep hard square pixels, selective ink outlines, 32–48-color look, strong value grouping, warm ordinary morning light.
+
+Post-processing: center-crop to 16:9, resize to 640×360, median-cut quantize to 48 colors, no dithering.

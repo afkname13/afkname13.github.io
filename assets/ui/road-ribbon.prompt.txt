@@ -1,0 +1,6 @@
+Use case: stylized-concept
+Asset type: reusable horizontal pixel-art healthcare route ribbon
+Primary request: A slim cream torn-paper strip on deep navy with seven bold pictorial journey stations: clinic and referral paper; calendar and clock; bus; children’s hospital; disconnected record folders; echocardiogram bed, monitor, and probe; and two care buildings with a handoff gap. Connect the stations with one coral dotted road and use sparse colored tape.
+Style: crisp contemporary pixel art with square pixels, hard stepped edges, broad clusters, bold silhouettes, selective ink outlines, and a restrained warm palette.
+Constraints: no readable text, letters, numbers, labels, arrows, buttons, people, faces, logos, watermarks, gradients, blur, antialiasing, vector rendering, or 3D.
+Integration note: generated as a centered route strip on a 16:9 navy canvas, then mechanically cropped and nearest-neighbor normalized to 1280×180 for the live pathway band.

@@ -1,0 +1,1008 @@
+{
+  "version": "portrait-emotions-v15",
+  "policy": {
+    "neutral": "byte-identical copy of approved V12 portrait",
+    "expressionTransfer": "generated reference deltas inside explicit face regions only",
+    "alpha": "pixel-identical to approved V12 portrait",
+    "resampling": "nearest-neighbor"
+  },
+  "portraits": {
+    "child-sunrise-coral": {
+      "base": "public/assets/ui-v12/child-sunrise-coral.png",
+      "baseSha256": "6f0aae81c2817f59544b4b073529b30aa590ee51e5669c2eea20b53924062986",
+      "source": "art-source/portraits-v15/child-sunrise-expressions-source.png",
+      "sourceSha256": "a19897e4eb5340ebff6c1159b7d7c951729edaf682bb1663648eb84355be95ae",
+      "subjectBounds": [
+        78,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.835474,
+        "translateX": 34.74,
+        "translateY": 3.628,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "6f0aae81c2817f59544b4b073529b30aa590ee51e5669c2eea20b53924062986",
+        "playful": "df3a6cf5759344e8a399904e04e11d3662ea77ac39d6442b2e072138118b3ff0",
+        "curious": "276a8b996789e46948f6c1dd64cca092ccdddc95f21e0d9f3b53f750a9018d17",
+        "concerned": "691b961ac79635cef0c2c630a6135d5ba521fd39c2239566ff90f80cbfcbb345",
+        "thoughtful": "b8d498fb5789efa2dc1d5ce3ec02a057de99bc7e1bf98c4778f7cd27ef756023",
+        "annoyed": "8a13fcb906f466278b834d55da77487bf7d91b4d788668537c1bc96dd69c117f",
+        "disappointed": "caeb5e75f4508440e453506e883d081c09f307f56f8c2e22d4ea96708065a7d1",
+        "tired": "9ea8246c438b382f8ba9ac116593ee9a75b80a28d1432f2fba1c30f449b23916",
+        "hopeful": "df3a6cf5759344e8a399904e04e11d3662ea77ac39d6442b2e072138118b3ff0",
+        "reassuring": "b8d498fb5789efa2dc1d5ce3ec02a057de99bc7e1bf98c4778f7cd27ef756023"
+      }
+    },
+    "child-sunrise-sunflower": {
+      "base": "public/assets/ui-v12/child-sunrise-sunflower.png",
+      "baseSha256": "1589d2da7aaae6f3187010ca79ab71412a1d2f4ad1adc85cd3aa6331067704be",
+      "source": "art-source/portraits-v15/child-sunrise-expressions-source.png",
+      "sourceSha256": "a19897e4eb5340ebff6c1159b7d7c951729edaf682bb1663648eb84355be95ae",
+      "subjectBounds": [
+        78,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.835474,
+        "translateX": 34.74,
+        "translateY": 3.628,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "1589d2da7aaae6f3187010ca79ab71412a1d2f4ad1adc85cd3aa6331067704be",
+        "playful": "c4d40dd279c92bc50e69bbe12b5ebc7054816341a88f17e91451a6a60f5323f0",
+        "curious": "8d28480af7655fefdec168980b0a44613c7a955c13d1aff552303c2672bea842",
+        "concerned": "ce0789150cb3547fa383015173573d9165cd013695d2a5386ee89f8d7362b3a2",
+        "thoughtful": "35e3c5c21e51633c23660d0784212eaf6f42cb3b5f57ed4791df47b83ef29414",
+        "annoyed": "166346a9bd8c042127e5b8ca458d215ebf51a15adfa0b7b7be9d84895c0c29f4",
+        "disappointed": "56527b5ac7843aec23d7a0d825321d21720354125ce0ffed76826a1c8ab5f944",
+        "tired": "f23b0b117ba84e7c5baab81af8d1ac17658dd9f455727e6a63292d47b0f9d953",
+        "hopeful": "c4d40dd279c92bc50e69bbe12b5ebc7054816341a88f17e91451a6a60f5323f0",
+        "reassuring": "35e3c5c21e51633c23660d0784212eaf6f42cb3b5f57ed4791df47b83ef29414"
+      }
+    },
+    "child-sunrise-turquoise": {
+      "base": "public/assets/ui-v12/child-sunrise-turquoise.png",
+      "baseSha256": "7143d1d2d11d2fc01c8881be4be0b60a855e895ed207d7db2f58bfe42260c19e",
+      "source": "art-source/portraits-v15/child-sunrise-expressions-source.png",
+      "sourceSha256": "a19897e4eb5340ebff6c1159b7d7c951729edaf682bb1663648eb84355be95ae",
+      "subjectBounds": [
+        78,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.835474,
+        "translateX": 34.74,
+        "translateY": 3.628,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "7143d1d2d11d2fc01c8881be4be0b60a855e895ed207d7db2f58bfe42260c19e",
+        "playful": "1c9ee550c92bdea9adca91839ebdb2f8dd733a9594c2b8c12a0b2796219e8f6a",
+        "curious": "5805eddf812d00a27e57f8bd4137acbd7947a31e889d54df567923d492b48baa",
+        "concerned": "3f7aecc2909f5aaa5ca3a0284893f0d70c9a3654414763c01267d40d563dfaf4",
+        "thoughtful": "939e21522cd3a01c9d9b3a6a94d4231b4bebe272931c7f852638f8307cbeb435",
+        "annoyed": "05b867889c4358804ae505a22052b6534ba5651ac72d9875851df8bb6609b489",
+        "disappointed": "87bd2de64f534723e55c9421a27e3ba791838a1211fff73795befb282e739769",
+        "tired": "8940c25223eeb682d7ece0a78c02bcd2b33df1c394be5a60998e73d53166758a",
+        "hopeful": "1c9ee550c92bdea9adca91839ebdb2f8dd733a9594c2b8c12a0b2796219e8f6a",
+        "reassuring": "939e21522cd3a01c9d9b3a6a94d4231b4bebe272931c7f852638f8307cbeb435"
+      }
+    },
+    "child-sunrise-leaf": {
+      "base": "public/assets/ui-v12/child-sunrise-leaf.png",
+      "baseSha256": "53b9535ecd3b5c2f63c2f79de3d7e4a957e8be4ef847dd629cfe13d5b462f057",
+      "source": "art-source/portraits-v15/child-sunrise-expressions-source.png",
+      "sourceSha256": "a19897e4eb5340ebff6c1159b7d7c951729edaf682bb1663648eb84355be95ae",
+      "subjectBounds": [
+        78,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.835474,
+        "translateX": 34.74,
+        "translateY": 3.628,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "53b9535ecd3b5c2f63c2f79de3d7e4a957e8be4ef847dd629cfe13d5b462f057",
+        "playful": "2d4e73d13503c93633135f4783cd92aad49778d3cf510d2da53cd8dc2cc86788",
+        "curious": "72d5ec4a19691a2c472062b3015f852ba4e1865324057122658b8b8260d6b239",
+        "concerned": "22de35c5ea22155fc620a47b22da745a0251a200cc77f52d47b7d4ddd70b5e42",
+        "thoughtful": "5d54b9bfb6fe75cb743b5cfe1f0a75662382ec9d8c4863fdfcda9f85910d2d62",
+        "annoyed": "0db062f77caa963d3993e370637ebf24288dc08ab02f370a880beabde487e3a0",
+        "disappointed": "08b24e354d473d16835e2bc1035aa544280f420e04c91ae7e5a8fc11ca117d46",
+        "tired": "00eaf7ca1ed82623cae1635105e2eec277904a8a10bb75796645bb800b7ddfa3",
+        "hopeful": "2d4e73d13503c93633135f4783cd92aad49778d3cf510d2da53cd8dc2cc86788",
+        "reassuring": "5d54b9bfb6fe75cb743b5cfe1f0a75662382ec9d8c4863fdfcda9f85910d2d62"
+      }
+    },
+    "child-sunrise-lavender": {
+      "base": "public/assets/ui-v12/child-sunrise-lavender.png",
+      "baseSha256": "4adc8d436ed7c3dbf531884a97dd30622c584960e183f75ea60b2ff90f2c147d",
+      "source": "art-source/portraits-v15/child-sunrise-expressions-source.png",
+      "sourceSha256": "a19897e4eb5340ebff6c1159b7d7c951729edaf682bb1663648eb84355be95ae",
+      "subjectBounds": [
+        78,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.835474,
+        "translateX": 34.74,
+        "translateY": 3.628,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "4adc8d436ed7c3dbf531884a97dd30622c584960e183f75ea60b2ff90f2c147d",
+        "playful": "ba9ae18a0930acde8fe9f9e0035f8014bcd49ee0ee0e876577fc70ed73ad1e0e",
+        "curious": "4731ff751c40ad89386140fcfc470fcd675bbc51ff42334018b80bfc849d5af2",
+        "concerned": "b88fe7d90a9e9c312fbe4246a426107fc79ac569ff618b937ddea84527b06cc7",
+        "thoughtful": "0bc6c3de17e3a1f3be10336211519b9826d6c2e2c1959bfedd41a4e30b3972f2",
+        "annoyed": "01d56b750c11ad989c0ca588cc764a3fce4d0610e356ef05fe3b305207b0b9c9",
+        "disappointed": "91fb6f7012df3d7055d08d58b9491e8c5ea38bef009156a4ac037d9803f6d3c4",
+        "tired": "e92058ce292e80b5e4fd38bc30a092806c5c42fb69c49166cc69a2bd0f1be922",
+        "hopeful": "ba9ae18a0930acde8fe9f9e0035f8014bcd49ee0ee0e876577fc70ed73ad1e0e",
+        "reassuring": "0bc6c3de17e3a1f3be10336211519b9826d6c2e2c1959bfedd41a4e30b3972f2"
+      }
+    },
+    "caregiver-sunrise": {
+      "base": "public/assets/ui-v12/caregiver-sunrise.png",
+      "baseSha256": "4d4c63d907a7e759100a456550cad2c0dc8fb08e54d0fb28053a8bdfd60090ba",
+      "source": "art-source/portraits-v15/caregiver-sunrise-expressions-source.png",
+      "sourceSha256": "5bf3ecdfd787eaf97479e7a3bee3adf8dbf2b9fd54bd2dde7065ea1a04d9f64e",
+      "subjectBounds": [
+        68,
+        24,
+        364,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          186,
+          101,
+          334,
+          197
+        ],
+        [
+          240,
+          189,
+          323,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.916005,
+        "translateX": 17.474,
+        "translateY": 3.007,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "4d4c63d907a7e759100a456550cad2c0dc8fb08e54d0fb28053a8bdfd60090ba",
+        "playful": "d9ac506d4f0854e2dcff79666b2102f5080ccd9fcb99a70161ba0813a20e92ab",
+        "curious": "7b80b9cf229a348fa35962a9ebb945eb7146e4a77997cc4c52ba9a700af8a848",
+        "concerned": "b854ef7881e1c29eaf69ab5ebbb2f17b6a348d0cc509a9544d85b7d834f76e86",
+        "thoughtful": "7c947bba1063d2372d09825b95fd63700dc0233fd9806f7e58c65f18ecd47335",
+        "annoyed": "7c947bba1063d2372d09825b95fd63700dc0233fd9806f7e58c65f18ecd47335",
+        "disappointed": "9b41f9c0ea68c2c5c0f308c4fe66be98aa070d19baf272e4cd321f77aeb87642",
+        "tired": "9b41f9c0ea68c2c5c0f308c4fe66be98aa070d19baf272e4cd321f77aeb87642",
+        "hopeful": "07138c36447d612d0c405758dbaa1954ddcc9bfd36feaa3a2e5b11cd60bc3cc3",
+        "reassuring": "d9ac506d4f0854e2dcff79666b2102f5080ccd9fcb99a70161ba0813a20e92ab"
+      }
+    },
+    "child-meadow-coral": {
+      "base": "public/assets/ui-v12/child-meadow-coral.png",
+      "baseSha256": "30d65e67c8b5e2034db67c101c48b9b5e853f9beaa5a0910b98326f9daa997c0",
+      "source": "art-source/portraits-v15/child-meadow-expressions-source.png",
+      "sourceSha256": "c74c31a92eb3a841582fa417e32337ddd546d49e1dab68ff49fba29ec38a248d",
+      "subjectBounds": [
+        81,
+        24,
+        351,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          189,
+          101,
+          324,
+          197
+        ],
+        [
+          238,
+          189,
+          313,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.807587,
+        "translateX": 41.461,
+        "translateY": 14.309,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "30d65e67c8b5e2034db67c101c48b9b5e853f9beaa5a0910b98326f9daa997c0",
+        "playful": "f5a5f0738a26ba5db87b865d80476f8ad2a8793c55913346d823d8b83d1ff25b",
+        "curious": "2ab9a14ddc39676122aa233930a854fef2c5bda6bea59f31eca2963ec7ce926c",
+        "concerned": "e50204083c11d3bbd83a30a5b5ff14fd96a9a5489fd7c01d4135164bc6cc6c07",
+        "thoughtful": "8ade37a7af62f85771eb1ae7c2b4dd4c1c00c2121bc820f66112bc34b393a838",
+        "annoyed": "7d17ba1f2c9a6f04cdc4bc902939733b9de840d4e184bc7ab2e7d1c5f453d794",
+        "disappointed": "f32ed20f5f4884a2e0c88c02b774e6897a746c0c0afbc08fae1d2083651a9ba3",
+        "tired": "66507a0ad83a9bf8bfa2d9bfb0d09695838db085d9f4dba25f07c1925d7de4c7",
+        "hopeful": "f5a5f0738a26ba5db87b865d80476f8ad2a8793c55913346d823d8b83d1ff25b",
+        "reassuring": "8ade37a7af62f85771eb1ae7c2b4dd4c1c00c2121bc820f66112bc34b393a838"
+      }
+    },
+    "child-meadow-sunflower": {
+      "base": "public/assets/ui-v12/child-meadow-sunflower.png",
+      "baseSha256": "ceacf66cc98683e814ded84750e616a860656891e932d63dedafe206fd519475",
+      "source": "art-source/portraits-v15/child-meadow-expressions-source.png",
+      "sourceSha256": "c74c31a92eb3a841582fa417e32337ddd546d49e1dab68ff49fba29ec38a248d",
+      "subjectBounds": [
+        81,
+        24,
+        351,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          189,
+          101,
+          324,
+          197
+        ],
+        [
+          238,
+          189,
+          313,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.807587,
+        "translateX": 41.461,
+        "translateY": 14.309,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "ceacf66cc98683e814ded84750e616a860656891e932d63dedafe206fd519475",
+        "playful": "64008cfa48475d4fb041fa31f277861f43cbd26156da8b2cbcd9a80811ab0efc",
+        "curious": "b850a1923ca9b7685a64a485e52f64eeb3af2b137a4b552fdd050c94ed61b937",
+        "concerned": "9c4eaf5aca1db764c366412ca207c0a7395d35ace94477df7ed9894211d4c560",
+        "thoughtful": "b9b6ee09b7984253112502a4d7e0ffed7feceed17b71fb105f284710205dd63d",
+        "annoyed": "15c4884a861bd6a98dc711a89131a8a232953120ae889f0763a90e2e2fe9e0ca",
+        "disappointed": "72440e6c3403195f6ce5ff6bb01c318b1e7a27cd4a0296d15b712ddda1e48e69",
+        "tired": "74dbfb673ccfbb160902917968192484bab25a58f56dd8b923ef36a43693d340",
+        "hopeful": "64008cfa48475d4fb041fa31f277861f43cbd26156da8b2cbcd9a80811ab0efc",
+        "reassuring": "b9b6ee09b7984253112502a4d7e0ffed7feceed17b71fb105f284710205dd63d"
+      }
+    },
+    "child-meadow-turquoise": {
+      "base": "public/assets/ui-v12/child-meadow-turquoise.png",
+      "baseSha256": "fd69a4c7932a185dd37b81c10cbd4e96bb917a3586ac957e3b6a4439837a1cb9",
+      "source": "art-source/portraits-v15/child-meadow-expressions-source.png",
+      "sourceSha256": "c74c31a92eb3a841582fa417e32337ddd546d49e1dab68ff49fba29ec38a248d",
+      "subjectBounds": [
+        81,
+        24,
+        351,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          189,
+          101,
+          324,
+          197
+        ],
+        [
+          238,
+          189,
+          313,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.807587,
+        "translateX": 41.461,
+        "translateY": 14.309,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "fd69a4c7932a185dd37b81c10cbd4e96bb917a3586ac957e3b6a4439837a1cb9",
+        "playful": "229a06e192d8299db13b818d41644b8181c84a4552151e123256ee0269ebe8c0",
+        "curious": "38d511c968f3dcb34f1991da7cd339a726f09056a4f87d2197728c1b310d36ea",
+        "concerned": "766ea968099008cdacbd11e72ff34adcaabb40bbe668081841627f118ce607da",
+        "thoughtful": "c1947bc21265ad886e17672b3ec499c5fd363108e103a9cd8c51d7eb25645496",
+        "annoyed": "2b82f02a7c9f3b2e5ed39be3ae23aef0b2ea80d69a055922ff1afd807d45cb1a",
+        "disappointed": "6987c043bed46eef9b551ae5298ae2b67c906c486c3181fa3682ed0244de1bda",
+        "tired": "6e4dcd87e0aa58b8b0c9702e08160eefaa54da20d1f099d9b78d2c8b3fb6a89c",
+        "hopeful": "229a06e192d8299db13b818d41644b8181c84a4552151e123256ee0269ebe8c0",
+        "reassuring": "c1947bc21265ad886e17672b3ec499c5fd363108e103a9cd8c51d7eb25645496"
+      }
+    },
+    "child-meadow-leaf": {
+      "base": "public/assets/ui-v12/child-meadow-leaf.png",
+      "baseSha256": "7edf39f4e073ec7c971207f17461d7df3e07c5978465a7ce3244cab31611489d",
+      "source": "art-source/portraits-v15/child-meadow-expressions-source.png",
+      "sourceSha256": "c74c31a92eb3a841582fa417e32337ddd546d49e1dab68ff49fba29ec38a248d",
+      "subjectBounds": [
+        81,
+        24,
+        351,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          189,
+          101,
+          324,
+          197
+        ],
+        [
+          238,
+          189,
+          313,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.807587,
+        "translateX": 41.461,
+        "translateY": 14.309,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "7edf39f4e073ec7c971207f17461d7df3e07c5978465a7ce3244cab31611489d",
+        "playful": "2f5a3423ec73fb576bc88d755e0e3fc45da6ab36ad5c82e4124937837c71270b",
+        "curious": "b48b47a5e82a21613cff02b63ff0603841b0c295befa46268aa226f0433c1734",
+        "concerned": "72a01c76679d0d45d6bb1b7cbca573ddfbad264b534627d06c7acfd50dcc6b74",
+        "thoughtful": "29d634a4dd00e93daef0ec641f2d8ec9d63aa19c76d8abbf95a340dddaeca0ee",
+        "annoyed": "93b0ed1fa7cd531769c8c12317dfee36751e8476f6cdeaf948ab6cc940b58703",
+        "disappointed": "6aec8686b3d02dc8a94ace913f406252259152c18436249fb03bc3234c0aec73",
+        "tired": "f5d3f1f15a8b756fec5ca1dce4f303e433be439904264bbeb3bacbdc6585097a",
+        "hopeful": "2f5a3423ec73fb576bc88d755e0e3fc45da6ab36ad5c82e4124937837c71270b",
+        "reassuring": "29d634a4dd00e93daef0ec641f2d8ec9d63aa19c76d8abbf95a340dddaeca0ee"
+      }
+    },
+    "child-meadow-lavender": {
+      "base": "public/assets/ui-v12/child-meadow-lavender.png",
+      "baseSha256": "374d24134a85650133c7d20ebee0344e7e948449443aa34696da20648e99e216",
+      "source": "art-source/portraits-v15/child-meadow-expressions-source.png",
+      "sourceSha256": "c74c31a92eb3a841582fa417e32337ddd546d49e1dab68ff49fba29ec38a248d",
+      "subjectBounds": [
+        81,
+        24,
+        351,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          189,
+          101,
+          324,
+          197
+        ],
+        [
+          238,
+          189,
+          313,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.807587,
+        "translateX": 41.461,
+        "translateY": 14.309,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "374d24134a85650133c7d20ebee0344e7e948449443aa34696da20648e99e216",
+        "playful": "fae7be1bc212ff2c09424fb194f9b94c6235d49b5dda84d24a58895f04d6c795",
+        "curious": "41266bc1e25f538fc3d3f1bc23c1cdd167bb0972e0dc2b94caddef13374d5f03",
+        "concerned": "d4452d0c93f5d2c7f5922170fba6b80bb07087c8619400e4850b3a32e7dd9ec0",
+        "thoughtful": "b038979c123ea02c635f6f5e7f3ae04ca5c507dc7ed072bb90e217644f7ba29c",
+        "annoyed": "a28a59a792de7d7cf5a85f83d808873da4fd4bc871ac8f74932edd3f8604ee83",
+        "disappointed": "538125e89074ef0550b46ea6016bed785177721b8aecc4d9bbc9b0d126cee142",
+        "tired": "fcdd294afc5f91012c57371f95489e41b6ed04afe92c3decdacecdc020686636",
+        "hopeful": "fae7be1bc212ff2c09424fb194f9b94c6235d49b5dda84d24a58895f04d6c795",
+        "reassuring": "b038979c123ea02c635f6f5e7f3ae04ca5c507dc7ed072bb90e217644f7ba29c"
+      }
+    },
+    "caregiver-meadow": {
+      "base": "public/assets/ui-v12/caregiver-meadow.png",
+      "baseSha256": "4ce92262af5a164c210402fa84cf75dbedefc7bf3273be8eb5d373f247f0f8c9",
+      "source": "art-source/portraits-v15/caregiver-meadow-expressions-source.png",
+      "sourceSha256": "8576ef351f9f04f3fa634f7f3a382f0c1733f342f9a11bb7ff6e50dff4ca1678",
+      "subjectBounds": [
+        68,
+        24,
+        364,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          186,
+          101,
+          334,
+          197
+        ],
+        [
+          240,
+          189,
+          323,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.852829,
+        "translateX": 29.867,
+        "translateY": 4.311,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "4ce92262af5a164c210402fa84cf75dbedefc7bf3273be8eb5d373f247f0f8c9",
+        "playful": "ddd041f58fe2116425980d3b0d19cac881e53e951486a4df6240d04bd02d3e3d",
+        "curious": "3d701107ebff86febd580f27d91c06bff94df142e8bee60a034ce9fe565257e2",
+        "concerned": "3760248e5a8acbed2ef1a61da8a6e10f8d15bd07f302c5174f262ebb57adbd10",
+        "thoughtful": "b5622d6e22a6375c20dee17775eb9d12ae55e9b64687004051f39080255a8f66",
+        "annoyed": "b5622d6e22a6375c20dee17775eb9d12ae55e9b64687004051f39080255a8f66",
+        "disappointed": "560e34f7b5245b7991e767b77513b2777dd5ba70ab8309619cec69d5040886f6",
+        "tired": "560e34f7b5245b7991e767b77513b2777dd5ba70ab8309619cec69d5040886f6",
+        "hopeful": "73205cbe3270268650cf4df9891ab5eb7fb52f47eae0c534ae244d5f5a80d936",
+        "reassuring": "ddd041f58fe2116425980d3b0d19cac881e53e951486a4df6240d04bd02d3e3d"
+      }
+    },
+    "child-starlight-coral": {
+      "base": "public/assets/ui-v12/child-starlight-coral.png",
+      "baseSha256": "dc45976a2caee7ee50684e0841ac90ad57be2459879e48eda71d0d40d919a8b3",
+      "source": "art-source/portraits-v15/child-starlight-expressions-source.png",
+      "sourceSha256": "64f28c1b913ec65a9845fc3d33633a23aea6da54339c750fc39c3d898d1db9ee",
+      "subjectBounds": [
+        77,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.867454,
+        "translateX": 26.151,
+        "translateY": 2.787,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "dc45976a2caee7ee50684e0841ac90ad57be2459879e48eda71d0d40d919a8b3",
+        "playful": "b00dfa79643110c38d5ff6bfa828e48c48b9025c5fdd46233dcb6ef9054fcfd3",
+        "curious": "6d72b7a83af3ac88e4c3b4975ba42edd2d5659b19ed706b1fdaf1a40c66b49d5",
+        "concerned": "d258f7125c38be22e069562d5f88fe30fccc254917a7015c1ce090e23734ca97",
+        "thoughtful": "fdbabc4a0ed1e0487456f3cb5face7ae892020bbc826a1eae9cfb7430ec5f0e2",
+        "annoyed": "98ed47a297ddf50f8798aa9df6509cb948dee50891741fad178a268f23f908f3",
+        "disappointed": "633ff6439267388bea42b047f3494e8b16499e7eae7ade13c4142d66d24a52b9",
+        "tired": "c4430397ad7be67adf7e9da592c57ed2e0c0d34834e7a21607d77fd582fe78a2",
+        "hopeful": "b00dfa79643110c38d5ff6bfa828e48c48b9025c5fdd46233dcb6ef9054fcfd3",
+        "reassuring": "fdbabc4a0ed1e0487456f3cb5face7ae892020bbc826a1eae9cfb7430ec5f0e2"
+      }
+    },
+    "child-starlight-sunflower": {
+      "base": "public/assets/ui-v12/child-starlight-sunflower.png",
+      "baseSha256": "6254c18b2f28926456b2b1a4600cf3bd791ce0fb51e9c57e2ddf667c685aafda",
+      "source": "art-source/portraits-v15/child-starlight-expressions-source.png",
+      "sourceSha256": "64f28c1b913ec65a9845fc3d33633a23aea6da54339c750fc39c3d898d1db9ee",
+      "subjectBounds": [
+        77,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.867454,
+        "translateX": 26.151,
+        "translateY": 2.787,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "6254c18b2f28926456b2b1a4600cf3bd791ce0fb51e9c57e2ddf667c685aafda",
+        "playful": "b7fccdb790c4f803b2f4b7ea2177a719436c387f2cc21c46500a5fdcbef0a807",
+        "curious": "3a1920f729a8e82ac3735bef51993753bdb9a5ee1b97f4e900a7f12dd12a09b6",
+        "concerned": "d1e95cd88d1115e3e6464889c75451d79ad6bdb0f99df7852b1d1a5da3570546",
+        "thoughtful": "bc07756028124ae31192f6a03e35a0681fd990211fa0ada5df8fd7ce29426d3c",
+        "annoyed": "92c67f0d4026a53d074556224fd6fe12c855a8a3052cd32bd2f93125b5907ce0",
+        "disappointed": "9aa3dbb23d20d5595ef7fb0825141139c9d325bb3653380b02dc7e1da3f1cc4e",
+        "tired": "3c217fb22f57f37ca7e8def4d98975f534470b3734947843695ae28229985fc8",
+        "hopeful": "b7fccdb790c4f803b2f4b7ea2177a719436c387f2cc21c46500a5fdcbef0a807",
+        "reassuring": "bc07756028124ae31192f6a03e35a0681fd990211fa0ada5df8fd7ce29426d3c"
+      }
+    },
+    "child-starlight-turquoise": {
+      "base": "public/assets/ui-v12/child-starlight-turquoise.png",
+      "baseSha256": "fc71a756086e53ebafdae0cb49e8f1e803662fcce15d34d4e630737607a46b62",
+      "source": "art-source/portraits-v15/child-starlight-expressions-source.png",
+      "sourceSha256": "64f28c1b913ec65a9845fc3d33633a23aea6da54339c750fc39c3d898d1db9ee",
+      "subjectBounds": [
+        77,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.867454,
+        "translateX": 26.151,
+        "translateY": 2.787,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "fc71a756086e53ebafdae0cb49e8f1e803662fcce15d34d4e630737607a46b62",
+        "playful": "07c327a404e322defdb8920dee8df668e18c05338afb26b2baa219f11f218063",
+        "curious": "b6147103ff8bd98de12c5e3149667478d7849cb5a8b6d35f8e8658ced69e6ec1",
+        "concerned": "bd54cc05d1b518222e307107ab755d6ce62b1bd4219de072ad6715edbfc2adeb",
+        "thoughtful": "4b4ec7d6aac0505c9ffb97e6452cfaf826d85b2b2a730a89a6cee8b8bcf932e5",
+        "annoyed": "0b81af45ebff07a319f07786b2bd556ecda2236c7b954f212651ea1d887153db",
+        "disappointed": "e4b992c56a9af9bb3321521c844940377c25e44957d0157038d127a847be0f6d",
+        "tired": "ead333e80619bf9a5d0634d6505b0abb414a19408b05d39539579414a3f39c3d",
+        "hopeful": "07c327a404e322defdb8920dee8df668e18c05338afb26b2baa219f11f218063",
+        "reassuring": "4b4ec7d6aac0505c9ffb97e6452cfaf826d85b2b2a730a89a6cee8b8bcf932e5"
+      }
+    },
+    "child-starlight-leaf": {
+      "base": "public/assets/ui-v12/child-starlight-leaf.png",
+      "baseSha256": "f5048a2484ea5ce0eb17b9fdfa5f48bdf4f14c38fbc2fe7468f2ed3a764bfdae",
+      "source": "art-source/portraits-v15/child-starlight-expressions-source.png",
+      "sourceSha256": "64f28c1b913ec65a9845fc3d33633a23aea6da54339c750fc39c3d898d1db9ee",
+      "subjectBounds": [
+        77,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.867454,
+        "translateX": 26.151,
+        "translateY": 2.787,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "f5048a2484ea5ce0eb17b9fdfa5f48bdf4f14c38fbc2fe7468f2ed3a764bfdae",
+        "playful": "c31678de93d383a17d863fe908ceb7972bf12344728dc8b26cb9dfdfb760dfff",
+        "curious": "ec057052c4ec1f1b072377e51f9644ceb6d70dd70e664831121cf9eeedbfb4f2",
+        "concerned": "f6da2a0aaefb96c40124e34867388a13d52e8a2b3be63264664687ae9042ba62",
+        "thoughtful": "5a326c91341924005882de58333f6f6190aebfde2d0de66e9d9ac9c2ba2823e7",
+        "annoyed": "c0518f851c9b6d7844c2f0dfce35e502666d675b2c5cdb579c5abd3b4e09e98b",
+        "disappointed": "6c7a63d2722a23037c90d0a20e6e8cec518758b420f2a3551b79c622b116176f",
+        "tired": "779e342d3ae5e4196a251b5250a3e426cc49bf6f5f02894ae5d6134efd05f760",
+        "hopeful": "c31678de93d383a17d863fe908ceb7972bf12344728dc8b26cb9dfdfb760dfff",
+        "reassuring": "5a326c91341924005882de58333f6f6190aebfde2d0de66e9d9ac9c2ba2823e7"
+      }
+    },
+    "child-starlight-lavender": {
+      "base": "public/assets/ui-v12/child-starlight-lavender.png",
+      "baseSha256": "0ea85120fbd207206dbea7f26637eb71cf7ede2413318cc0de73ebba669e8594",
+      "source": "art-source/portraits-v15/child-starlight-expressions-source.png",
+      "sourceSha256": "64f28c1b913ec65a9845fc3d33633a23aea6da54339c750fc39c3d898d1db9ee",
+      "subjectBounds": [
+        77,
+        24,
+        354,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          188,
+          101,
+          326,
+          197
+        ],
+        [
+          238,
+          189,
+          315,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.867454,
+        "translateX": 26.151,
+        "translateY": 2.787,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "0ea85120fbd207206dbea7f26637eb71cf7ede2413318cc0de73ebba669e8594",
+        "playful": "74019445c03883047633096a0d4fd7cc661b43039f0e2e316fdb5a9f6c47b50a",
+        "curious": "c4813a08e65c74f8f4b93df7967878aacdfb25963e7d776fd2a89887404026a5",
+        "concerned": "6b9f8643fad8c5bf02d613925e786523252aaba1cfb1c7eabecb4fc00671a092",
+        "thoughtful": "4219928740f3e7959ab0754084c6a9c4ac9b02c0b73510b3f4076efa1cbd3072",
+        "annoyed": "659531d5b8be9b32e6e6e6ec74c00e0ad37ef176cc83517f241f9ddf79b23119",
+        "disappointed": "e7d13f133043f3887db713cea116311ba5c4edb5d51ff943b7c8150662d717dd",
+        "tired": "a3803f793fa6c35f8b6ad950de0146c17cdba773c9a50bbd693ef7da37cfc9c3",
+        "hopeful": "74019445c03883047633096a0d4fd7cc661b43039f0e2e316fdb5a9f6c47b50a",
+        "reassuring": "4219928740f3e7959ab0754084c6a9c4ac9b02c0b73510b3f4076efa1cbd3072"
+      }
+    },
+    "caregiver-starlight": {
+      "base": "public/assets/ui-v12/caregiver-starlight.png",
+      "baseSha256": "9120acbd00b1bc0329890558834cbf607002f30df5b297ce015d2049f758e13f",
+      "source": "art-source/portraits-v15/caregiver-starlight-expressions-source.png",
+      "sourceSha256": "ceaf7252d16f59e242448ab4917e19d7db08f68257a6b2af4b23afc90b517667",
+      "subjectBounds": [
+        69,
+        24,
+        362,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          186,
+          101,
+          333,
+          197
+        ],
+        [
+          239,
+          189,
+          321,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.864095,
+        "translateX": 11.546,
+        "translateY": 1.261,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "9120acbd00b1bc0329890558834cbf607002f30df5b297ce015d2049f758e13f",
+        "playful": "6cf27b1d2831495e7f46db12fb3b1c1ab25e6438a5cec6554fbf1d10a5fe556e",
+        "curious": "f77666f41a42dacf98f455901b00cb1ad64078969880b5cb0b1a6cf6e2fb9327",
+        "concerned": "ecfbfade72dc9e1a749a9b740f3b5a8ca15697e64e466168dc319a18b9cf1ade",
+        "thoughtful": "cde7bac0acbeedf90bc2138752e11c4367b9d8ce1e4103c155da200551a944f9",
+        "annoyed": "cde7bac0acbeedf90bc2138752e11c4367b9d8ce1e4103c155da200551a944f9",
+        "disappointed": "bcdf51d36193b97bb43365527493c40b1c1addf179b24978bb9726a446db81e6",
+        "tired": "bcdf51d36193b97bb43365527493c40b1c1addf179b24978bb9726a446db81e6",
+        "hopeful": "f5569d923874061f202a224174850b13460c1adf25797d3a4e77a0689d04f6e3",
+        "reassuring": "6cf27b1d2831495e7f46db12fb3b1c1ab25e6438a5cec6554fbf1d10a5fe556e"
+      }
+    },
+    "children-center": {
+      "base": "public/assets/ui-v12/children-center.png",
+      "baseSha256": "1a8753a8e66136d0888c456875c2063fbe95c03ad0c527538e3141c5a00405da",
+      "source": "art-source/portraits-v15/children-center-expressions-source.png",
+      "sourceSha256": "49f3a9b0b7122484ca1f1b06dfaefde41612784a53bc4ae2ef43c8e3e5f5d576",
+      "subjectBounds": [
+        43,
+        24,
+        388,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          181,
+          101,
+          354,
+          197
+        ],
+        [
+          243,
+          189,
+          340,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.749834,
+        "translateX": 33.636,
+        "translateY": 3.062,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "1a8753a8e66136d0888c456875c2063fbe95c03ad0c527538e3141c5a00405da",
+        "reassuring": "818e630fa568b15b392e15a3d22bb4480cecfb7f630a6c9aed0181a6c236e08c",
+        "explaining": "868d641dc8a7cc46673f74b6f4a820dfcfb6ca1c38407bef4fd62fa411ab2069",
+        "concerned": "fa42413f51321167aa4ce5a31729546b7c50865c10121525dcf725ed4535e02a",
+        "apologetic": "fa42413f51321167aa4ce5a31729546b7c50865c10121525dcf725ed4535e02a",
+        "thoughtful": "818e630fa568b15b392e15a3d22bb4480cecfb7f630a6c9aed0181a6c236e08c",
+        "hopeful": "1bd3de3432a75873efe9a00ea73412c60283d24f491752c14e2e04373b4a6494"
+      }
+    },
+    "scheduler": {
+      "base": "public/assets/ui-v12/scheduler.png",
+      "baseSha256": "2100ad6a7df89a11d2ee968bc636a4790f8e140569f291fb00a818139bff2547",
+      "source": "art-source/portraits-v15/scheduler-expressions-source.png",
+      "sourceSha256": "3049a30210a466be734684445b4ddb75e883b8feb4c0657896a02058b6b71343",
+      "subjectBounds": [
+        59,
+        24,
+        372,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          184,
+          101,
+          341,
+          197
+        ],
+        [
+          241,
+          189,
+          328,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.807198,
+        "translateX": -17.426,
+        "translateY": -0.215,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "2100ad6a7df89a11d2ee968bc636a4790f8e140569f291fb00a818139bff2547",
+        "reassuring": "4a64fba2b4684f2f88ba0e54c43f1c4c8a11f5a40ae658f7cf92cb23be54ff8f",
+        "explaining": "01f79c3160577d424500d1c3380059d7d11c0138241d0b4d2ae839fc0c4760b2",
+        "concerned": "a59b2ed850f09700d6dafcd2469a8f78d262a505d1d66296ec09efbbd85003df",
+        "apologetic": "a59b2ed850f09700d6dafcd2469a8f78d262a505d1d66296ec09efbbd85003df",
+        "thoughtful": "4a64fba2b4684f2f88ba0e54c43f1c4c8a11f5a40ae658f7cf92cb23be54ff8f",
+        "hopeful": "dd3d05360d91dca623d1d22b5b210eb1ed7210128318fc909582d1b91c2614d4"
+      }
+    },
+    "navigator": {
+      "base": "public/assets/ui-v12/navigator.png",
+      "baseSha256": "d86f0533a3a3fd06928961cf4b17aec3e67c2e9d218f339559a4cbfb928de3f7",
+      "source": "art-source/portraits-v15/navigator-expressions-source.png",
+      "sourceSha256": "929a707a7fcca6ff67fbd5a6efbe17afcfe08019e2756a858fab290c22e820b9",
+      "subjectBounds": [
+        65,
+        24,
+        367,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          186,
+          101,
+          337,
+          197
+        ],
+        [
+          240,
+          189,
+          325,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.864445,
+        "translateX": -29.906,
+        "translateY": -11.081,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "d86f0533a3a3fd06928961cf4b17aec3e67c2e9d218f339559a4cbfb928de3f7",
+        "reassuring": "59c16030f92cbbe919660426370878cd1e961c87976a9ed0116b640c81965050",
+        "explaining": "df20cfe2285fa3492ba8f8408850fb33f86c743fbfccd9075048bf3638a09298",
+        "concerned": "00dc7245cf264a04cb6da910b75e433213ca61c8052be5118f1d2926512d1e0b",
+        "apologetic": "00dc7245cf264a04cb6da910b75e433213ca61c8052be5118f1d2926512d1e0b",
+        "thoughtful": "59c16030f92cbbe919660426370878cd1e961c87976a9ed0116b640c81965050",
+        "hopeful": "f42f4843a928d85762adebb924e945232130232c72fcaae494331aeba8328d98"
+      }
+    },
+    "cardiologist": {
+      "base": "public/assets/ui-v12/cardiologist.png",
+      "baseSha256": "a33e6b0606a9e712544cf5da54e363582f5d295b3533503e6214222fc3eb5e6a",
+      "source": "art-source/portraits-v15/cardiologist-expressions-source.png",
+      "sourceSha256": "cefa037edc1a6ea13ccb83abe5c57d363b15526c2fc8254aa61fac0b15aca09a",
+      "subjectBounds": [
+        46,
+        24,
+        386,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          182,
+          101,
+          352,
+          197
+        ],
+        [
+          243,
+          189,
+          338,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.812182,
+        "translateX": 5.873,
+        "translateY": -6.281,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "a33e6b0606a9e712544cf5da54e363582f5d295b3533503e6214222fc3eb5e6a",
+        "reassuring": "face391c485454a61f81366ca191c6bda2dd3bff8d24e9003c52d46f5cb903ac",
+        "explaining": "ceef1820c19e2da87a612f1a2baf19259767a183b83ad07c136afce0c7994d30",
+        "concerned": "68bd95805296e3992dc2e3731565ab1cc532b574231f0edb5955edbbb86a823e",
+        "apologetic": "68bd95805296e3992dc2e3731565ab1cc532b574231f0edb5955edbbb86a823e",
+        "thoughtful": "face391c485454a61f81366ca191c6bda2dd3bff8d24e9003c52d46f5cb903ac",
+        "hopeful": "9589caa19010075651a7923c12db0849bfe5d6278caca6b7aaaaa2ef9fd9fe72"
+      }
+    },
+    "clinician": {
+      "base": "public/assets/ui-v12/clinician.png",
+      "baseSha256": "00c1354a4885bfc803ff711202e2c43cdc9b963c594ae78540c922c22882e49a",
+      "source": "art-source/portraits-v15/clinician-expressions-source.png",
+      "sourceSha256": "f87c831d05e42b4e568f45905680a97916bf033f21b4a515aebf57279a1c77af",
+      "subjectBounds": [
+        71,
+        24,
+        361,
+        408
+      ],
+      "editableFaceRegions": [
+        [
+          187,
+          101,
+          332,
+          197
+        ],
+        [
+          239,
+          189,
+          320,
+          243
+        ]
+      ],
+      "alignment": {
+        "scale": 0.794665,
+        "translateX": -2.3,
+        "translateY": -6.761,
+        "registeredBy": "paired eye highlights in neutral reference"
+      },
+      "outputs": {
+        "neutral": "00c1354a4885bfc803ff711202e2c43cdc9b963c594ae78540c922c22882e49a",
+        "reassuring": "77c90ed21572cb0903dfddff926640273dfc7badcacccbfedf9eb7a3377aae1e",
+        "explaining": "4948043e2d8021cadfb75ea0f9d322dfe055de26273624243ccd712f7253b8ae",
+        "concerned": "2a60d3e68e58a6286deac839f9b2062ed2fb3c9301c12503460bdab17755a830",
+        "apologetic": "2a60d3e68e58a6286deac839f9b2062ed2fb3c9301c12503460bdab17755a830",
+        "thoughtful": "77c90ed21572cb0903dfddff926640273dfc7badcacccbfedf9eb7a3377aae1e",
+        "hopeful": "3d55f148a3852d893d8e2bd497de9efc632581acded8d7f9c106b6e6bc6ae1e5"
+      }
+    }
+  }
+}

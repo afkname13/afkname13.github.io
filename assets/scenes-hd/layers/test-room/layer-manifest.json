@@ -1,0 +1,13 @@
+{
+  "canvas": { "width": 640, "height": 360 },
+  "source": "../../test-room.png",
+  "base": "base-without-mobile.png",
+  "overlay": "mobile-sway.png",
+  "derivation": "The mobile region was isolated from the current echocardiogram-room background using nearby authored wall pixels so the transparent overlay can sway without a doubled static copy.",
+  "overlayPosition": { "x": 324, "y": 18 },
+  "pivotInOverlay": { "x": 42, "y": 9 },
+  "motionHint": {
+    "rotationDegrees": 1.25,
+    "periodMs": 2400
+  }
+}

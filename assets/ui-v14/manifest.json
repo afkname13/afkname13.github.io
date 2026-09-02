@@ -1,0 +1,57 @@
+{
+  "version": 14,
+  "assets": [
+    {
+      "id": "journey-medallion",
+      "path": "/assets/ui-v14/journey-medallion.png",
+      "width": 104,
+      "height": 104,
+      "alphaBounds": {
+        "x": 4,
+        "y": 4,
+        "width": 96,
+        "height": 95
+      },
+      "sha256": "c1649c170c2e3718ebe35893a2ed2d69c5b92760d09a6158063164d320d3a702"
+    },
+    {
+      "id": "selection-check",
+      "path": "/assets/ui-v14/selection-check.png",
+      "width": 56,
+      "height": 56,
+      "alphaBounds": {
+        "x": 5,
+        "y": 4,
+        "width": 46,
+        "height": 48
+      },
+      "sha256": "603e537b5052d7f885978429a5936043f6e83e813329578fcc39edc4eec0bd75"
+    },
+    {
+      "id": "rewind-icon",
+      "path": "/assets/ui-v14/rewind-icon.png",
+      "width": 56,
+      "height": 56,
+      "alphaBounds": {
+        "x": 5,
+        "y": 4,
+        "width": 45,
+        "height": 48
+      },
+      "sha256": "0d3db503b0df1e651d8fbb5b3dd08084ea263b2b0b0ce772f8a0f23812dc7aa0"
+    },
+    {
+      "id": "journey-time",
+      "path": "/assets/ui-v14/journey-time.png",
+      "width": 256,
+      "height": 72,
+      "alphaBounds": {
+        "x": 4,
+        "y": 5,
+        "width": 247,
+        "height": 62
+      },
+      "sha256": "de887fe23aed8797ea744e1f5d21f7cdf519f15563942e88198cd776d2fed761"
+    }
+  ]
+}

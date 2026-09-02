@@ -1,0 +1,14 @@
+Built-in image_gen production prompt
+
+Use case: stylized-concept
+Asset type: fixed-camera dialogue-game environment background
+Primary request: Regenerate the visible neighborhood scene immediately above as a substantially cleaner, higher-resolution pixel-art production background designed for a native 640×360 game canvas.
+Input image: the visible image immediately above is the visual composition reference. Preserve its sunny side-view street framing, colorful row houses across the middle distance, blue mailbox left of center, bicycle near the right, flower beds, two framing trees, and a small neighborhood clinic suggested farther right. Preserve the broad open sidewalk/street acting lane across the lower-middle.
+Style/medium: handcrafted contemporary 2D pixel art, crisp square pixels, hard edges, carefully authored large pixel clusters, strong readable silhouettes, selective dark ink outlines, one shadow ramp and one highlight ramp. More facial/prop-scale legibility than a 320×180 image, but do not add people. Use larger clean clusters rather than dense one-pixel texture or confetti. No painterly blur, vector smoothing, 3D, photography, gradients, antialiasing, or noisy dithering.
+Composition/framing: exact 16:9 wide side-view theatrical composition. Distant roofs and sky in upper third; row houses in middle; a wide uncluttered pavement acting lane from about 57% to 82% of image height with room for two 104–120-pixel-tall actors; restrained foreground flowers along the bottom edge where dialogue UI may cover it. Make the clinic direction readable at far right without written signage.
+Lighting/mood: warm clear morning light from upper left, lively and hopeful, bright but not sugary.
+Color palette: restrained 32–48 color palette led by coral #FF6F61, sunflower #F6C945, turquoise #38C6BD, leaf #75BF68, lavender #AD8AE8, sky #8ED8F8, cream #FFF5DF, ink #18314F.
+Constraints: no people, characters, faces, readable words, labels, signs with legible text, logos, UI, dialogue boxes, borders, watermarks, cars blocking the acting lane, or medical drama. Every main prop should be clearly recognizable at 640×360. Keep sky, houses, mailbox, bicycle, sidewalk, trees, and flower beds separated by clear value shapes.
+Avoid: micro-detail speckling, tiny repeated bricks, muddy foliage, overgrown foreground, excessive birds, fake text, film grain, bloom, painterly lighting.
+
+Post-processing: center-crop to 16:9, resize to 640×360, median-cut quantize to 48 colors, no dithering.

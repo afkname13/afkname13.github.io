@@ -1,0 +1,12 @@
+Use the approved supporting staff sprite as the exact character identity,
+palette, clothing, hairstyle, and silhouette reference, rendered larger with a
+readable face. Create one dedicated four-frame STAFF IDLE LOOP in an exact 2x2
+grid: relaxed open eyes, tiny inhale, natural blink without turning, then
+open-eye exhale/settle toward frame one. Preserve the same caring adult worker,
+light-medium warm skin, short dark-brown bob, readable eyes, cream short coat,
+turquoise scrub top, navy pants, coral shoes, and blank badge. Full-body
+three-quarter view facing left; fixed camera, root, centerline, scale, and feet
+line; roughly 84-88% of cell height. Only tiny connected motion, never separate
+acting poses. Crisp handcrafted pixel art with no antialiasing or blur.
+Perfectly flat #FF00FF background; no borders, labels, text, UI, bubbles,
+clipboard, phone, props, floor, shadows, extra characters, or edge crossing.

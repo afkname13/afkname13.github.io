@@ -1,0 +1,14 @@
+Use the accepted high-readability staff idle as the exact identity, face, scale,
+palette, clothing, and rendering reference. Create one dedicated four-frame
+STAFF TALK LOOP in an exact 2x2 grid: warm mouth-closed stance with hand
+relaxed; mouth slightly opens and wrist lifts a few pixels; mouth opens a little
+wider with gentle eyebrow lift and a small explanatory palm turn; then mouth
+and hand ease toward frame one. Preserve the same caring adult worker,
+light-medium warm skin, short dark-brown bob, readable eyes, cream short coat,
+turquoise scrub top, navy pants, coral shoes, and blank badge. Full-body
+three-quarter view facing left; fixed camera, root, centerline, scale, and feet
+line; roughly 84-88% of cell height. No clipboard, phone, walking, pointing,
+waving, dramatic sweep, head turn, pose jump, or emotion jump. Crisp handcrafted
+pixel art with no antialiasing or blur. Perfectly flat #FF00FF background; no
+borders, labels, text, UI, bubbles, props, floor, shadows, extra characters, or
+edge crossing.

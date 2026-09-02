@@ -1,0 +1,7 @@
+Use case: stylized-concept
+Asset type: wide pixel-art geographic-access map for the specialist chapter
+Primary request: On a handmade cream paper map, show one home and its neighborhood, one nearby modest clinic reached by a visibly short turquoise route, and one much larger regional children’s hospital reached by a visibly long coral road across fields, hills, a river bridge, and a tiny bus. Keep a school near home as subordinate context and leave calm label spaces beneath the three main locations.
+Style: authentic contemporary pixel art with crisp square pixels, hard stepped edges, broad deliberate clusters, bold silhouettes, selective ink outlines, and a restrained warm palette.
+Palette: coral #FF6F61, sunflower #F6C945, turquoise #38C6BD, leaf #75BF68, lavender #AD8AE8, sky #8ED8F8, cream #FFF5DF, ink #18314F.
+Constraints: no readable text, letters, numbers, labels, arrows, people, faces, logos, watermarks, gradients, blur, antialiasing, vector rendering, or 3D.
+Integration note: generated as a 16:9 composition, then mechanically cropped and nearest-neighbor normalized to 768×240 so the map stays legible in the live calendar card.

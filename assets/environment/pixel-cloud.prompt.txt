@@ -1,0 +1,10 @@
+Derived authored pixel layer for The Road to Care neighborhood sky.
+
+One 64x32 RGBA cloud using only crisp rectangular pixel clusters in warm
+cream, pale sky-blue, and a single blue-gray undershadow. Fully transparent
+outside the cloud. No blur, anti-aliasing, gradients, outlines, text,
+characters, or opaque background.
+
+Method: procedurally drawn from the cream and pale-blue colors already present
+in the authored neighborhood sky. Normalized as an RGBA PNG with FFmpeg; no
+generative model was used.

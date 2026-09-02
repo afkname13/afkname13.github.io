@@ -1,0 +1,9 @@
+Use case: stylized-concept
+Asset type: final baked 2D pixel-game environment background
+Primary request: an original predawn city bus-stop scene for a warm child-centered healthcare journey
+Scene/backdrop: a blue-lavender street just before sunrise; a small lit shelter with a bench and unreadable color-block timetable; one packed travel bag tucked beneath the bench; low row houses, trees, utility poles, and tiny distant bus headlights; the setting feels adventurous and quietly expectant, never threatening
+Style/medium: handcrafted contemporary pixel art with crisp square pixels, hard edges, readable silhouettes, deliberate pixel clusters, selective dark-ink outlines, one compact shadow ramp and one highlight ramp; no painterly rendering, no vector smoothing, no antialiasing, no gradients, no 3D, no photographic texture
+Composition/framing: exactly one 16:9 landscape scene, fixed-camera theatrical side view; four depth bands from distant sky and buildings to midground shelter and near curb; a broad uncluttered horizontal acting lane across the lower-middle for two full-body sprites; key props remain legible after reduction to 320 by 180 pixels; leave the very bottom visually calm for an overlaid dialogue box
+Lighting/mood: cool predawn ambient light with warm sunflower and coral shelter light from the upper left; hopeful, lived-in, calm
+Color palette: restrained 24 to 32 colors led by coral #FF6F61, sunflower #F6C945, turquoise #38C6BD, leaf #75BF68, lavender #AD8AE8, sky #8ED8F8, cream #FFF5DF, and ink #18314F
+Constraints: original design; no people, no characters, no silhouettes of people, no readable words, no letters, no numbers, no labels, no logos, no watermark, no interface, no dialogue box, no border, no collage, no split screen, no concept sheet; preserve generous empty space for actors

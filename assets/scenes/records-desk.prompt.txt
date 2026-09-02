@@ -1,0 +1,5 @@
+Use case: precise-object-edit
+Asset type: final baked 2D pixel-game environment background
+Input images: Image 1 is the edit target, an original children's-hospital records-desk pixel scene
+Primary request: remove only the two heart-like symbols: remove the coral heart and four colored squares from the front of the reception counter and replace them with uninterrupted plain cream and turquoise counter panels; replace the small framed heart picture in the right-hand corridor with a tiny abstract leaf picture that contains no letters, numbers, medical mark, heart, logo, or recognizable symbol
+Constraints: change only those two areas; preserve the exact 16:9 framing, dimensions, side-view composition, empty acting lane, aquarium, three chairs, plants, idle printer with blank paper, monitor with disconnected color blocks, stacked folders, corridor, wall pictures, lighting, colors, pixel scale, deliberate pixel clusters, and every other object unchanged; keep crisp hard-edged contemporary pixel art; no people, no characters, no text, no labels, no logos, no watermark, no interface, no dialogue box, no border, no extra objects

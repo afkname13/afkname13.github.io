@@ -1,0 +1,10 @@
+V16 deterministic gameplay actor pipeline.
+Family whole-strip sources: public/assets/sprites-v15/ caregiver sunrise
+and child sunrise-coral. Staff sources: public/assets/staff-v15/.
+No image generation was used. No dialogue portrait was read or modified.
+Gender presentation changes only reviewed hair silhouettes.
+Skin tone changes only explicit face, neck, and hand masks.
+Caregiver and child clothing palettes are fixed across every selection.
+All frames use binary alpha, bottom-center anchoring, y=121 shoes,
+and at least ten transparent rows above the head.
+Machine contracts and SHA-256 hashes are in manifest.json.

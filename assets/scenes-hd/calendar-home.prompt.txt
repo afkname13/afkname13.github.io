@@ -1,0 +1,20 @@
+Built-in image_gen production prompts
+
+Initial generation:
+
+Use case: stylized-concept
+Asset type: fixed-camera dialogue-game environment background
+Primary request: Regenerate the visible family kitchen scheduling scene immediately above as a cleaner, higher-resolution pixel-art production background designed for a native 640×360 game canvas. It must clearly share the same home identity as the referral kitchen: coral walls/cabinets, turquoise counter, warm wood table, centered window, cream refrigerator, and plants.
+Input image: the visible image immediately above is the visual composition reference. Preserve its wider table view, wall calendar at the right, simple school notice and bus timetable papers nearby, pencils and two mugs, window and fridge art. Turn all notices into bold abstract blocks and grid shapes without readable letters or numbers.
+Style/medium: handcrafted contemporary 2D pixel art, crisp square pixels, hard edges, intentionally large clean pixel clusters, selective ink outlines, one shadow ramp and one highlight ramp. Fewer clearer objects, strong value grouping, minimal texture. No painterly blur, vector smoothing, 3D, photography, gradients, antialiasing, micro-detail, or noisy dithering.
+Composition/framing: exact 16:9 side-view theatrical kitchen, slightly wider than the referral-phone scene. Place the table in lower middle but keep it visually light and not oversized; leave clear space around and behind two 104–120-pixel-tall actors. Keep the calendar board large and immediately recognizable on the right wall through a simple blank grid, with two separate paper rectangles below it. Maintain an open floor/acting lane across the lower-middle and clear sight lines to the window, calendar, and table.
+Lighting/mood: bright late-morning daylight from upper left, practical family planning, warm and lively rather than stressful.
+Color palette: restrained 32–48 colors led by coral #FF6F61, sunflower #F6C945, turquoise #38C6BD, leaf #75BF68, lavender #AD8AE8, sky #8ED8F8, cream #FFF5DF, ink #18314F.
+Constraints: no people, characters, faces, readable words, letters, numbers, labels, logos, UI, dialogue boxes, borders, watermarks, clocks, or dramatic sadness. Every key prop—blank-grid calendar, two separate papers, pencils, mugs, table, window, fridge—must be clearly readable at 640×360. Leave simple areas for subtle animated window-light and plant overlays.
+Avoid: fake text, intricate calendar marks, clutter piles, excessive plants, wood-grain noise, over-detailed tiles, grain, bloom, muddy orange-brown forms.
+
+Targeted refinement using the initial generated image:
+
+Refine the referenced scheduling-kitchen pixel-art image as the final native 640×360 dialogue-game background. Preserve the exact home identity, coral wall/cabinet color, turquoise counter, cream refrigerator, centered window, large blank lavender-grid calendar on the right, two separate abstract papers below it, mugs, pencils, and warm daylight. Make one targeted compositional correction: pull the camera back and reduce the table and chairs by about 30–35%, placing the table farther into the room around 55%–72% of image height. Keep the calendar large enough to read as a blank grid, but slightly reduce it so it does not compete with actors. Create an uncluttered open floor acting lane across the lower-middle/foreground, with standing room for two 104–120-pixel-tall actors and clear sight lines to the table and calendar. Keep the mugs, pencils, and blank planning sheet clear on the smaller tabletop, with no written words or numbers. Simplify plant leaves and kitchen surfaces into larger separable shapes; do not add motion cues. Exact 16:9 side-view framing. No people, characters, faces, readable text, letters, numbers, labels, logos, UI, dialogue box, border, watermark, gradients, antialiasing, painterly blur, 3D, or microtexture. Keep crisp hard square pixels, selective ink outlines, a 32–48-color look, strong value grouping, and a warm lively late-morning mood.
+
+Post-processing: center-crop to 16:9, resize to 640×360, median-cut quantize to 48 colors, no dithering.

@@ -1,0 +1,553 @@
+{
+  "appearances": [
+    "sunrise",
+    "meadow",
+    "starlight"
+  ],
+  "assets": [
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 1251,
+        "hair": 369,
+        "skin": 1385
+      },
+      "file": "caregiver-acting-sunrise.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "caregiver"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 857,
+        "hair": 291,
+        "skin": 1022
+      },
+      "file": "caregiver-walk-sunrise.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "caregiver"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "coral",
+      "file": "child-acting-sunrise-coral.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "coral",
+      "file": "child-walk-sunrise-coral.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "sunflower",
+      "file": "child-acting-sunrise-sunflower.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "sunflower",
+      "file": "child-walk-sunrise-sunflower.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "turquoise",
+      "file": "child-acting-sunrise-turquoise.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "turquoise",
+      "file": "child-walk-sunrise-turquoise.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "leaf",
+      "file": "child-acting-sunrise-leaf.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "leaf",
+      "file": "child-walk-sunrise-leaf.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "lavender",
+      "file": "child-acting-sunrise-lavender.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "sunrise",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "lavender",
+      "file": "child-walk-sunrise-lavender.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 1251,
+        "hair": 369,
+        "skin": 1385
+      },
+      "file": "caregiver-acting-meadow.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "caregiver"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 857,
+        "hair": 291,
+        "skin": 1022
+      },
+      "file": "caregiver-walk-meadow.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "caregiver"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "coral",
+      "file": "child-acting-meadow-coral.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "coral",
+      "file": "child-walk-meadow-coral.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "sunflower",
+      "file": "child-acting-meadow-sunflower.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "sunflower",
+      "file": "child-walk-meadow-sunflower.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "turquoise",
+      "file": "child-acting-meadow-turquoise.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "turquoise",
+      "file": "child-walk-meadow-turquoise.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "leaf",
+      "file": "child-acting-meadow-leaf.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "leaf",
+      "file": "child-walk-meadow-leaf.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "lavender",
+      "file": "child-acting-meadow-lavender.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "meadow",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "lavender",
+      "file": "child-walk-meadow-lavender.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 1251,
+        "hair": 369,
+        "skin": 1385
+      },
+      "file": "caregiver-acting-starlight.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "caregiver"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 0,
+        "clothes": 857,
+        "hair": 291,
+        "skin": 1022
+      },
+      "file": "caregiver-walk-starlight.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "caregiver"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "coral",
+      "file": "child-acting-starlight-coral.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "coral",
+      "file": "child-walk-starlight-coral.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "sunflower",
+      "file": "child-acting-starlight-sunflower.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "sunflower",
+      "file": "child-walk-starlight-sunflower.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "turquoise",
+      "file": "child-acting-starlight-turquoise.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "turquoise",
+      "file": "child-walk-starlight-turquoise.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "leaf",
+      "file": "child-acting-starlight-leaf.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "leaf",
+      "file": "child-walk-starlight-leaf.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 1252,
+        "clothes": 0,
+        "hair": 968,
+        "skin": 1760
+      },
+      "favorite": "lavender",
+      "file": "child-acting-starlight-lavender.png",
+      "motion": "acting",
+      "outline_changes": 0,
+      "role": "child"
+    },
+    {
+      "alpha_changes": 0,
+      "appearance": "starlight",
+      "changedPixels": {
+        "accent": 943,
+        "clothes": 0,
+        "hair": 742,
+        "skin": 1125
+      },
+      "favorite": "lavender",
+      "file": "child-walk-starlight-lavender.png",
+      "motion": "walk",
+      "outline_changes": 0,
+      "role": "child"
+    }
+  ],
+  "favorites": [
+    "coral",
+    "sunflower",
+    "turquoise",
+    "leaf",
+    "lavender"
+  ],
+  "frameSize": 64,
+  "method": "Deterministic HSV-region tint; alpha and near-black outline preserved",
+  "version": 1
+}

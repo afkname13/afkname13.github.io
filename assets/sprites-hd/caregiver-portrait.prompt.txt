@@ -1,0 +1,11 @@
+Use the approved high-readability caregiver as the exact identity, face, hair,
+skin tone, lavender overshirt, yellow top, turquoise strap, palette, and
+rendering reference. Create one centered head-and-upper-torso portrait of the
+same adult in three-quarter side view facing right, with a warm attentive
+neutral expression, eyes toward the conversation partner, readable eyebrows
+and mouth, and a soft reassuring half-smile. Preserve identity and adult
+proportions. Complete bun, hair, and chin remain inside a square with generous
+padding. Polished crisp pixel clusters, dark selective outline, one shadow and
+one highlight ramp, no antialiasing, blur, or noisy dithering. Perfectly flat
+#FF00FF background; no frame, circle, UI, text, speech bubble, props, scenery,
+shadow, or extra figures.

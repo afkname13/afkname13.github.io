@@ -1,0 +1,25 @@
+Mode: built-in image generation, lighting-weather edit.
+
+Edit target:
+public/assets/scenes-hd/neighborhood.png
+
+Shared production request:
+Create matching 2D pixel-game cinematic backgrounds that preserve the exact
+street, houses, clinic, trees, flowers, road, camera angle, framing, object
+placement, silhouettes, and perspective lines of the edit target. Change only
+the time-of-day lighting, sky, window illumination, and shadows. Keep crisp
+pixel clusters suitable for a 640x360 browser game. Add no people, vehicles,
+buildings, text, UI, border, or watermark.
+
+Dawn plate:
+Blue-violet pre-sunrise sky with a warm coral horizon, softly illuminated
+windows and clinic sign, and long cool shadows. Hopeful rather than ominous.
+
+Evening plate:
+Sunflower-gold low sun, coral and lavender sky, long warm shadows crossing the
+road, and a few windows beginning to glow.
+
+Night plate:
+Deep navy and indigo sky with a small moon and stars, warm windows and clinic
+entrance lights, and soft pools of light on the sidewalk. Colorful, safe, and
+peaceful rather than threatening.

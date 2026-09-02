@@ -1,0 +1,14 @@
+Use the accepted high-readability caregiver as the exact identity, face, scale,
+palette, and rendering reference. Create one dedicated six-frame in-place
+CAREGIVER WALK CYCLE in an exact 3-column by 2-row grid, read left-to-right then
+continue on row two. Animate right heel contact, pass, left-foot pass, left heel
+contact, pass, right-foot pass, returning to frame one. Alternate arms naturally
+and keep the satchel on the same side with only a tiny delayed sway. Preserve
+medium-deep brown skin, dark low bun, readable eyes, lavender overshirt, yellow
+top, navy pants, coral shoes, and turquoise satchel throughout. Full-body
+three-quarter side view facing right; true grounded walk, fixed camera, root,
+torso scale, anatomy, and stable ground line, with a small vertical bob and no
+skating or translation across cells. Subject fills roughly 82-86% of cell
+height. Crisp handcrafted pixel art with no antialiasing or blur. Perfectly
+flat #FF00FF background; no visible grid, labels, text, props, floor, shadows,
+dust, detached effects, extra characters, or edge crossing.

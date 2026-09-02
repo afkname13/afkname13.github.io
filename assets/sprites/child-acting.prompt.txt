@@ -1,0 +1,26 @@
+THE ROAD TO CARE — CHILD ACTING SPRITE SOURCE
+
+Identity:
+- Same nameable child in every frame, age 9–10.
+- Medium-brown skin, short dark curly hair.
+- Teal jacket over a coral shirt, navy trousers, yellow shoes, small backpack.
+- Warm, readable pixel-art proportions; expressive without exaggerated sadness.
+
+Sheet layout:
+- Exact 3 columns × 3 rows, read left-to-right and top-to-bottom.
+- Nine continuous acting poses: neutral idle, breathing idle, talking, pointing,
+  laughing, fidgeting, drawing/creative action, tired, and settled idle.
+- One full character per cell; consistent scale, face, clothing, and feet line.
+
+Generation constraints:
+- Crisp side-view / three-quarter pixel-game sprite language.
+- Fixed flat #FF00FF chroma-key background in every cell.
+- No text, UI, frame labels, shadows outside the character, or extra objects.
+
+Processing provenance:
+- Generated as a high-resolution source sheet with OpenAI image generation.
+- Processed deterministically with 0x0funky/agent-sprite-forge.
+- Target=npc, 3×3 grid, 64 px cells, shared scale, feet alignment,
+  fit_scale=0.84, trim_border=4, edge_clean_depth=3.
+- Chroma key removed to transparency; edge/clamp quality checks passed.
+

@@ -1,0 +1,10 @@
+Derived authored pixel layer for The Road to Care hospital aquarium.
+
+Four 16x16 RGBA frames in one 64x16 horizontal spritesheet. Each frame uses
+only hard-edged 1x1 white and pale-cyan pixels on a fully transparent
+background. Two small bubble clusters rise between frames. No blur,
+anti-aliasing, gradients, text, characters, scenery, or opaque background.
+
+Method: procedurally drawn from the white and pale-cyan bubble colors already
+present in the authored hospital-lobby aquarium. Normalized as an RGBA PNG with
+FFmpeg; no generative model was used.
