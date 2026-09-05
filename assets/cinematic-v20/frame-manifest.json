@@ -4792,15 +4792,15 @@
     },
     {
       "id": "cp34-exam-stethoscope-smooth-16frame",
-      "source": "art-source/cinematic-v20/generated/cp34-exam-stethoscope-smooth-atlas-source-v2.png",
-      "sourceSha256": "7e2caf917f8173015c568eea1e93a06044bdf546b00dafc87fd2a2314cbf9c2c",
+      "source": "art-source/cinematic-v20/generated/cp34-exam-stethoscope-grounded-atlas-source-v3.png",
+      "sourceSha256": "8071252529a202bd510aac8f44de2f01c8ea0d39885360867fde52fe0f41eb30",
       "sourceSize": [
         1672,
         941
       ],
       "normalizedGridSize": [
         1672,
-        940
+        941
       ],
       "sourceGrid": [
         2,
@@ -4816,18 +4816,18 @@
         836,
         470
       ],
-      "normalization": "minimal-aspect-crop-nearest-neighbor",
+      "normalization": "explicit-cell-boxes-minimal-aspect-crop-nearest-neighbor",
       "sources": [
         {
-          "source": "art-source/cinematic-v20/generated/cp34-exam-stethoscope-smooth-atlas-source-v2.png",
-          "sourceSha256": "7e2caf917f8173015c568eea1e93a06044bdf546b00dafc87fd2a2314cbf9c2c",
+          "source": "art-source/cinematic-v20/generated/cp34-exam-stethoscope-grounded-atlas-source-v3.png",
+          "sourceSha256": "8071252529a202bd510aac8f44de2f01c8ea0d39885360867fde52fe0f41eb30",
           "sourceSize": [
             1672,
             941
           ],
           "normalizedGridSize": [
             1672,
-            940
+            941
           ],
           "sourceGrid": [
             2,
@@ -4843,7 +4843,33 @@
             836,
             470
           ],
-          "normalization": "minimal-aspect-crop-nearest-neighbor"
+          "sourceCellBoxes": [
+            [
+              0,
+              0,
+              832,
+              471
+            ],
+            [
+              834,
+              0,
+              1672,
+              471
+            ],
+            [
+              0,
+              473,
+              832,
+              941
+            ],
+            [
+              834,
+              473,
+              1672,
+              941
+            ]
+          ],
+          "normalization": "explicit-cell-boxes-minimal-aspect-crop-nearest-neighbor"
         }
       ],
       "frameOrder": [
@@ -4877,15 +4903,15 @@
       ],
       "actorLayout": {
         "caregiver": {
-          "x": 120,
+          "x": 220,
           "footline": 228,
-          "scale": 1.12,
+          "scale": 1.08,
           "facing": "right"
         },
         "child": {
-          "x": 275,
+          "x": 350,
           "footline": 228,
-          "scale": 1.02,
+          "scale": 0.98,
           "facing": "right"
         }
       },
@@ -4900,10 +4926,10 @@
           "frameDurationMs": 650,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.136267
+              0.102062
             ],
             "meanAbsoluteDeltas": [
-              12.48361
+              8.273529
             ]
           }
         },
@@ -4917,10 +4943,10 @@
           "frameDurationMs": 650,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.201801
+              0.129891
             ],
             "meanAbsoluteDeltas": [
-              16.990734
+              10.234689
             ]
           }
         },
@@ -4972,16 +4998,9 @@
             "meanAbsoluteDeltas": []
           },
           "compositeRoles": [
+            "caregiver",
             "child"
-          ],
-          "actorLayout": {
-            "child": {
-              "x": 245,
-              "footline": 228,
-              "scale": 1.02,
-              "facing": "right"
-            }
-          }
+          ]
         },
         {
           "shotId": "PRO-02-S06",
@@ -4995,49 +5014,42 @@
             "meanAbsoluteDeltas": []
           },
           "compositeRoles": [
+            "caregiver",
             "child"
-          ],
-          "actorLayout": {
-            "child": {
-              "x": 245,
-              "footline": 228,
-              "scale": 1.02,
-              "facing": "right"
-            }
-          }
+          ]
         }
       ],
       "frames": [
         {
           "index": 0,
           "url": "/assets/cinematic-v20/frames/cp34-exam-stethoscope-smooth-16frame/01.png",
-          "sha256": "b53a8b0dcd9fff52fbc574f1f3db66800bee3cd714600ea59f088dc23dd41d20"
+          "sha256": "7626db135d2c6254878da51e98211ee65ac48e1933fdcc6c784b09debc622780"
         },
         {
           "index": 1,
           "url": "/assets/cinematic-v20/frames/cp34-exam-stethoscope-smooth-16frame/02.png",
-          "sha256": "31b8edb107a13f0bb75f6c351aed410101e6ec98479d9c718df55de3561103bf"
+          "sha256": "bd4cdbf19cb0ba2219004adfc0127ba650864b0822dca9fd077e79fee461aa1d"
         },
         {
           "index": 2,
           "url": "/assets/cinematic-v20/frames/cp34-exam-stethoscope-smooth-16frame/03.png",
-          "sha256": "2cce81e3b732f839a99978d42fc71763687afc4c4a7cc7c642b7aa7f918b0a8c"
+          "sha256": "31a30d17fb4d30c8214f618caa2f0d7d877866bd5ddfe2bee387eee756be7605"
         },
         {
           "index": 3,
           "url": "/assets/cinematic-v20/frames/cp34-exam-stethoscope-smooth-16frame/04.png",
-          "sha256": "46320b6249d946f28090ef5479cfe5136d89b42496af33355283f5bfdacf795a"
+          "sha256": "e35262665a9112232f7c4a8c32e6648158e94734b0c6b24c20d256b96cfc73eb"
         }
       ],
       "adjacentFramePerceptualChangeRatios": [
-        0.136267,
-        0.201801,
-        0.105265
+        0.102062,
+        0.129891,
+        0.057222
       ],
       "adjacentFrameMeanAbsoluteDeltas": [
-        12.48361,
-        16.990734,
-        9.948547
+        8.273529,
+        10.234689,
+        6.295538
       ]
     },
     {
