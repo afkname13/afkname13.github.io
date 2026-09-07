@@ -13893,13 +13893,13 @@
               ],
               "actorLayout": {
                 "caregiver": {
-                  "x": 300,
+                  "x": 400,
                   "footline": 228,
                   "scale": 1.02,
                   "facing": "left"
                 },
                 "child": {
-                  "x": 400,
+                  "x": 300,
                   "footline": 228,
                   "scale": 0.94,
                   "facing": "left"
@@ -13940,13 +13940,13 @@
               ],
               "actorLayout": {
                 "caregiver": {
-                  "x": 300,
+                  "x": 400,
                   "footline": 228,
                   "scale": 1.02,
                   "facing": "left"
                 },
                 "child": {
-                  "x": 400,
+                  "x": 300,
                   "footline": 228,
                   "scale": 0.94,
                   "facing": "left"
@@ -13972,13 +13972,13 @@
               "compositeRoles": [],
               "actorLayout": {
                 "caregiver": {
-                  "x": 300,
+                  "x": 400,
                   "footline": 228,
                   "scale": 1.02,
                   "facing": "left"
                 },
                 "child": {
-                  "x": 400,
+                  "x": 300,
                   "footline": 228,
                   "scale": 0.94,
                   "facing": "left"
@@ -14167,13 +14167,13 @@
               ],
               "actorLayout": {
                 "caregiver": {
-                  "x": 300,
+                  "x": 400,
                   "footline": 228,
                   "scale": 1.02,
                   "facing": "left"
                 },
                 "child": {
-                  "x": 400,
+                  "x": 300,
                   "footline": 228,
                   "scale": 0.94,
                   "facing": "left"
