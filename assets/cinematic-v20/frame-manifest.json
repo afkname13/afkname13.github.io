@@ -1611,36 +1611,13 @@
         {
           "shotId": "SPC-A-S04",
           "frameIndices": [
-            0,
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7
+            0
           ],
-          "playback": "once",
+          "playback": "hold",
           "frameDurationMs": 250,
           "motionAudit": {
-            "perceptualChangeRatios": [
-              0.061181,
-              0.137656,
-              0.252882,
-              0.921671,
-              0.933754,
-              0.201632,
-              0.871398
-            ],
-            "meanAbsoluteDeltas": [
-              6.809933,
-              10.718481,
-              9.443157,
-              42.152901,
-              36.242481,
-              13.348767,
-              29.659903
-            ]
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
           },
           "frameActorContracts": {
             "0": {
