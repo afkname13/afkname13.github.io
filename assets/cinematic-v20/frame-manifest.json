@@ -5561,42 +5561,6 @@
           }
         },
         {
-          "shotId": "TST-99-S02",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "TST-99-S03",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "FUP-00-S04",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
           "shotId": "FUP-C-S03",
           "frameIndices": [
             2
@@ -5658,18 +5622,6 @@
         },
         {
           "shotId": "TST-N-C-S03",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "TST-99-S05",
           "frameIndices": [
             2
           ],
@@ -6446,7 +6398,7 @@
           "frameDurationMs": 450,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.375681
+              0.382083
             ],
             "meanAbsoluteDeltas": [
               32.207229
@@ -6464,8 +6416,8 @@
           "frameDurationMs": 450,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.366419,
-              0.288563
+              0.374236,
+              0.294253
             ],
             "meanAbsoluteDeltas": [
               28.315013,
@@ -6484,8 +6436,8 @@
           "frameDurationMs": 450,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.366419,
-              0.288563
+              0.374236,
+              0.294253
             ],
             "meanAbsoluteDeltas": [
               28.315013,
@@ -6495,18 +6447,6 @@
         },
         {
           "shotId": "INF-02-S01",
-          "frameIndices": [
-            0
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "FUP-01-S01",
           "frameIndices": [
             0
           ],
@@ -6554,42 +6494,6 @@
           }
         },
         {
-          "shotId": "FUP-01-S02",
-          "frameIndices": [
-            1
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "FUP-B-S02",
-          "frameIndices": [
-            1
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "FUP-C-S02",
-          "frameIndices": [
-            1
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
           "shotId": "INF-A-S01",
           "frameIndices": [
             2
@@ -6611,10 +6515,132 @@
           "frameDurationMs": 450,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.288563
+              0.294253
             ],
             "meanAbsoluteDeltas": [
               21.739113
+            ]
+          }
+        },
+        {
+          "shotId": "TST-99-S02",
+          "frameIndices": [
+            0,
+            2,
+            3
+          ],
+          "playback": "once",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [
+              0.281367,
+              0.294253
+            ],
+            "meanAbsoluteDeltas": [
+              21.192847,
+              21.739113
+            ]
+          }
+        },
+        {
+          "shotId": "TST-99-S03",
+          "frameIndices": [
+            3
+          ],
+          "playback": "hold",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "TST-99-S05",
+          "frameIndices": [
+            0
+          ],
+          "playback": "hold",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-00-S04",
+          "frameIndices": [
+            0,
+            2
+          ],
+          "playback": "once",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [
+              0.281367
+            ],
+            "meanAbsoluteDeltas": [
+              21.192847
+            ]
+          }
+        },
+        {
+          "shotId": "FUP-00-S05",
+          "frameIndices": [
+            2
+          ],
+          "playback": "hold",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-01-S01",
+          "frameIndices": [
+            2
+          ],
+          "playback": "hold",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-01-S02",
+          "frameIndices": [
+            2
+          ],
+          "playback": "hold",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-A-S02",
+          "frameIndices": [
+            0,
+            2
+          ],
+          "playback": "once",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [
+              0.281367
+            ],
+            "meanAbsoluteDeltas": [
+              21.192847
             ]
           }
         },
@@ -6624,7 +6650,21 @@
             3
           ],
           "playback": "hold",
-          "frameDurationMs": 250,
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-B-S02",
+          "frameIndices": [
+            2
+          ],
+          "playback": "hold",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
           "motionAudit": {
             "perceptualChangeRatios": [],
             "meanAbsoluteDeltas": []
@@ -6636,7 +6676,21 @@
             3
           ],
           "playback": "hold",
-          "frameDurationMs": 250,
+          "frameDurationMs": 800,
+          "compositeRoles": [],
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-C-S02",
+          "frameIndices": [
+            2
+          ],
+          "playback": "hold",
+          "frameDurationMs": 800,
+          "compositeRoles": [],
           "motionAudit": {
             "perceptualChangeRatios": [],
             "meanAbsoluteDeltas": []
@@ -6666,9 +6720,9 @@
         }
       ],
       "adjacentFramePerceptualChangeRatios": [
-        0.375681,
-        0.366419,
-        0.288563
+        0.382083,
+        0.374236,
+        0.294253
       ],
       "adjacentFrameMeanAbsoluteDeltas": [
         32.207229,
@@ -11643,137 +11697,6 @@
           }
         },
         {
-          "shotId": "FUP-00-S05",
-          "frameIndices": [
-            3
-          ],
-          "playback": "hold",
-          "frameDurationMs": 760,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          },
-          "compositeRoles": [],
-          "frameActorContracts": {
-            "3": {
-              "compositeRoles": [],
-              "actorLayout": {
-                "staff": {
-                  "x": 155,
-                  "footline": 228,
-                  "scale": 1,
-                  "facing": "right"
-                },
-                "caregiver": {
-                  "x": 570,
-                  "footline": 228,
-                  "scale": 1.04,
-                  "facing": "left"
-                }
-              },
-              "groundPlateId": "world-ground-v1:cp37-referral-report-handoff:3"
-            }
-          }
-        },
-        {
-          "shotId": "FUP-A-S02",
-          "frameIndices": [
-            4,
-            5,
-            6,
-            7
-          ],
-          "playback": "once",
-          "frameDurationMs": 760,
-          "motionAudit": {
-            "perceptualChangeRatios": [
-              0.177938,
-              0.221693,
-              0.183255
-            ],
-            "meanAbsoluteDeltas": [
-              12.57599,
-              15.614061,
-              12.644355
-            ]
-          },
-          "compositeRoles": [],
-          "frameActorContracts": {
-            "4": {
-              "compositeRoles": [],
-              "actorLayout": {
-                "staff": {
-                  "x": 155,
-                  "footline": 228,
-                  "scale": 1,
-                  "facing": "right"
-                },
-                "caregiver": {
-                  "x": 570,
-                  "footline": 228,
-                  "scale": 1.04,
-                  "facing": "left"
-                }
-              },
-              "groundPlateId": "world-ground-v1:cp37-referral-report-handoff:4"
-            },
-            "5": {
-              "compositeRoles": [],
-              "actorLayout": {
-                "staff": {
-                  "x": 155,
-                  "footline": 228,
-                  "scale": 1,
-                  "facing": "right"
-                },
-                "caregiver": {
-                  "x": 570,
-                  "footline": 228,
-                  "scale": 1.04,
-                  "facing": "left"
-                }
-              },
-              "groundPlateId": "world-ground-v1:cp37-referral-report-handoff:5"
-            },
-            "6": {
-              "compositeRoles": [],
-              "actorLayout": {
-                "staff": {
-                  "x": 155,
-                  "footline": 228,
-                  "scale": 1,
-                  "facing": "right"
-                },
-                "caregiver": {
-                  "x": 570,
-                  "footline": 228,
-                  "scale": 1.04,
-                  "facing": "left"
-                }
-              },
-              "groundPlateId": "world-ground-v1:cp37-referral-report-handoff:6"
-            },
-            "7": {
-              "compositeRoles": [],
-              "actorLayout": {
-                "staff": {
-                  "x": 155,
-                  "footline": 228,
-                  "scale": 1,
-                  "facing": "right"
-                },
-                "caregiver": {
-                  "x": 570,
-                  "footline": 228,
-                  "scale": 1.04,
-                  "facing": "left"
-                }
-              },
-              "groundPlateId": "world-ground-v1:cp37-referral-report-handoff:7"
-            }
-          }
-        },
-        {
           "shotId": "FUP-B-S01",
           "frameIndices": [
             0
@@ -12726,8 +12649,8 @@
     },
     {
       "id": "cp30-school-work-montage-cinematic",
-      "source": "art-source/cinematic-v20/generated/cp30-specialist-result-review-cinematic-atlas-source-v3.png",
-      "sourceSha256": "4ce7c3c3934c6cd6dc1befaf0b854b344501bb6e208317f3f812e78928c46775",
+      "source": "art-source/cinematic-v20/generated/cp30-specialist-result-review-cinematic-atlas-source-v4.png",
+      "sourceSha256": "9cc77cb25ecc2c55229c8373b8b4301a7ad57ec83f3e4d33f1abcb4848edc343",
       "sourceSize": [
         1672,
         941
@@ -12745,16 +12668,16 @@
         470
       ],
       "cropWithinCell": [
-        0,
-        0,
-        836,
-        470
+        4,
+        2,
+        828,
+        466
       ],
       "normalization": "minimal-aspect-crop-nearest-neighbor",
       "sources": [
         {
-          "source": "art-source/cinematic-v20/generated/cp30-specialist-result-review-cinematic-atlas-source-v3.png",
-          "sourceSha256": "4ce7c3c3934c6cd6dc1befaf0b854b344501bb6e208317f3f812e78928c46775",
+          "source": "art-source/cinematic-v20/generated/cp30-specialist-result-review-cinematic-atlas-source-v4.png",
+          "sourceSha256": "9cc77cb25ecc2c55229c8373b8b4301a7ad57ec83f3e4d33f1abcb4848edc343",
           "sourceSize": [
             1672,
             941
@@ -12772,10 +12695,10 @@
             470
           ],
           "cropWithinCell": [
-            0,
-            0,
-            836,
-            470
+            4,
+            2,
+            828,
+            466
           ],
           "normalization": "minimal-aspect-crop-nearest-neighbor"
         }
@@ -12819,14 +12742,14 @@
           "frameDurationMs": 800,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.89181,
-              0.934436,
-              0.931163
+              0.011914,
+              0.135308,
+              0.011155
             ],
             "meanAbsoluteDeltas": [
-              66.261609,
-              76.024837,
-              73.583193
+              2.437833,
+              8.512681,
+              2.359132
             ]
           }
         }
@@ -12834,34 +12757,34 @@
       "frames": [
         {
           "index": 0,
-          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/01.png",
-          "sha256": "7eacd057ced4618d1996ee44684a26ada62143b000b1dfee9b8d66aca8809b3e"
+          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/review-v4-01.png",
+          "sha256": "46885eee2c979c7cdd2c38daab97a885869429bab8b31c8053b291bd8d1103f2"
         },
         {
           "index": 1,
-          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/02.png",
-          "sha256": "2084d6b98a7ccad1ea5b783fefea5b1c0dce707dc980506bd4b76ef812b35413"
+          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/review-v4-02.png",
+          "sha256": "e56645dc1c7771cfcda6e406f36f441632113624c1ba0c2b0a3e48fb8c68c110"
         },
         {
           "index": 2,
-          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/03.png",
-          "sha256": "b92528f2584f4ca838615050c19b0a86e6072160447b88e5ffbb306a32f5cdd2"
+          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/review-v4-03.png",
+          "sha256": "824e0773d3b4330271f57868feb7f9885b9f4b77f20e7a7dc6537077df7ef721"
         },
         {
           "index": 3,
-          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/04.png",
-          "sha256": "13d2fd9b46e6a9872d0fe0aaa990eb98b1dbb009d6c62f2d450dfe5b142a7254"
+          "url": "/assets/cinematic-v20/frames/cp30-school-work-montage-cinematic/review-v4-04.png",
+          "sha256": "f1e2e730b15f50869a2663add94e1f6bd2ab7305465850e9ff2a0fb408105c6b"
         }
       ],
       "adjacentFramePerceptualChangeRatios": [
-        0.89181,
-        0.934436,
-        0.931163
+        0.011914,
+        0.135308,
+        0.011155
       ],
       "adjacentFrameMeanAbsoluteDeltas": [
-        66.261609,
-        76.024837,
-        73.583193
+        2.437833,
+        8.512681,
+        2.359132
       ]
     },
     {
