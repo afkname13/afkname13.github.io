@@ -2841,59 +2841,6 @@
               "groundPlateId": "world-ground-v1:cp02-home-time-passage:0"
             }
           }
-        },
-        {
-          "shotId": "REF-C-S07",
-          "frameIndices": [
-            0
-          ],
-          "playback": "hold",
-          "frameDurationMs": 600,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          },
-          "compositeRoles": [
-            "caregiver",
-            "child"
-          ],
-          "actorLayout": {
-            "caregiver": {
-              "x": 200,
-              "footline": 228,
-              "scale": 1.12,
-              "facing": "right"
-            },
-            "child": {
-              "x": 305,
-              "footline": 228,
-              "scale": 1.02,
-              "facing": "left"
-            }
-          },
-          "frameActorContracts": {
-            "0": {
-              "compositeRoles": [
-                "caregiver",
-                "child"
-              ],
-              "actorLayout": {
-                "caregiver": {
-                  "x": 230,
-                  "footline": 228,
-                  "scale": 1.04,
-                  "facing": "right"
-                },
-                "child": {
-                  "x": 365,
-                  "footline": 228,
-                  "scale": 0.96,
-                  "facing": "left"
-                }
-              },
-              "groundPlateId": "world-ground-v1:cp02-home-time-passage:0"
-            }
-          }
         }
       ],
       "frames": [
@@ -5613,42 +5560,6 @@
           }
         },
         {
-          "shotId": "REF-A-S05",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "REF-B-S05",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "REF-C-S06",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
           "shotId": "SPC-B-S04",
           "frameIndices": [
             2
@@ -5686,30 +5597,6 @@
         },
         {
           "shotId": "FUP-00-S04",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "FUP-A-S05",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "FUP-B-S05",
           "frameIndices": [
             2
           ],
@@ -5842,18 +5729,6 @@
         },
         {
           "shotId": "FUP-C-S04",
-          "frameIndices": [
-            2
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          }
-        },
-        {
-          "shotId": "FUP-C-S06",
           "frameIndices": [
             2
           ],
@@ -6011,24 +5886,117 @@
         {
           "shotId": "FUP-C-S05",
           "frameIndices": [
-            3,
             2,
             1,
             0
           ],
           "playback": "once",
-          "frameDurationMs": 700,
+          "frameDurationMs": 1000,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.101324,
-              0.065122,
-              0.046645
+              0.067196,
+              0.048181
             ],
             "meanAbsoluteDeltas": [
-              11.010709,
               8.543024,
               7.160211
             ]
+          },
+          "compositeRoles": []
+        },
+        {
+          "shotId": "FUP-C-S06",
+          "frameIndices": [
+            0
+          ],
+          "playback": "hold",
+          "frameDurationMs": 1000,
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          },
+          "compositeRoles": []
+        },
+        {
+          "shotId": "REF-C-S07",
+          "frameIndices": [
+            0
+          ],
+          "playback": "hold",
+          "frameDurationMs": 1000,
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          },
+          "compositeRoles": []
+        },
+        {
+          "shotId": "REF-C-S06",
+          "frameIndices": [
+            2,
+            1,
+            0
+          ],
+          "playback": "once",
+          "frameDurationMs": 1000,
+          "motionAudit": {
+            "perceptualChangeRatios": [
+              0.067196,
+              0.048181
+            ],
+            "meanAbsoluteDeltas": [
+              8.543024,
+              7.160211
+            ]
+          },
+          "compositeRoles": []
+        },
+        {
+          "shotId": "REF-A-S05",
+          "frameIndices": [
+            1
+          ],
+          "playback": "hold",
+          "frameDurationMs": 250,
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "REF-B-S05",
+          "frameIndices": [
+            1
+          ],
+          "playback": "hold",
+          "frameDurationMs": 250,
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-A-S05",
+          "frameIndices": [
+            1
+          ],
+          "playback": "hold",
+          "frameDurationMs": 250,
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          }
+        },
+        {
+          "shotId": "FUP-B-S05",
+          "frameIndices": [
+            1
+          ],
+          "playback": "hold",
+          "frameDurationMs": 250,
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
           }
         }
       ],
@@ -6055,9 +6023,9 @@
         }
       ],
       "adjacentFramePerceptualChangeRatios": [
-        0.046645,
-        0.065122,
-        0.101324
+        0.048181,
+        0.067196,
+        0.103003
       ],
       "adjacentFrameMeanAbsoluteDeltas": [
         7.160211,
