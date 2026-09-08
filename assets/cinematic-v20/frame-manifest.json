@@ -3704,44 +3704,6 @@
           }
         },
         {
-          "shotId": "TRV-A-S09",
-          "frameIndices": [
-            0
-          ],
-          "playback": "hold",
-          "frameDurationMs": 250,
-          "motionAudit": {
-            "perceptualChangeRatios": [],
-            "meanAbsoluteDeltas": []
-          },
-          "frameActorContracts": {
-            "0": {
-              "compositeRoles": [],
-              "actorLayout": {
-                "caregiver": {
-                  "x": 240,
-                  "footline": 228,
-                  "scale": 1,
-                  "facing": "right"
-                },
-                "child": {
-                  "x": 350,
-                  "footline": 228,
-                  "scale": 0.94,
-                  "facing": "right"
-                },
-                "staff": {
-                  "x": 460,
-                  "footline": 228,
-                  "scale": 1,
-                  "facing": "left"
-                }
-              },
-              "groundPlateId": "world-ground-v1:cp05-regional-hospital-time:0"
-            }
-          }
-        },
-        {
           "shotId": "INF-01-S02",
           "frameIndices": [
             0
@@ -9954,14 +9916,14 @@
           "frameDurationMs": 250,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.229957,
-              0.227834,
-              0.144744
+              0.015022,
+              0.044453,
+              0.014635
             ],
             "meanAbsoluteDeltas": [
-              16.135767,
-              17.676045,
-              10.091095
+              2.535314,
+              3.816963,
+              2.418749
             ]
           },
           "frameActorContracts": {
@@ -10063,14 +10025,14 @@
           "frameDurationMs": 250,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.229957,
-              0.227834,
-              0.144744
+              0.015022,
+              0.044453,
+              0.014635
             ],
             "meanAbsoluteDeltas": [
-              16.135767,
-              17.676045,
-              10.091095
+              2.535314,
+              3.816963,
+              2.418749
             ]
           },
           "frameActorContracts": {
@@ -10172,14 +10134,14 @@
           "frameDurationMs": 250,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.229957,
-              0.227834,
-              0.144744
+              0.015022,
+              0.044453,
+              0.014635
             ],
             "meanAbsoluteDeltas": [
-              16.135767,
-              17.676045,
-              10.091095
+              2.535314,
+              3.816963,
+              2.418749
             ]
           },
           "frameActorContracts": {
@@ -10266,6 +10228,41 @@
                 }
               },
               "groundPlateId": "world-ground-v1:cp27-hospital-entry-cinematic:3"
+            }
+          }
+        },
+        {
+          "shotId": "TRV-A-S09",
+          "frameIndices": [
+            0
+          ],
+          "playback": "hold",
+          "frameDurationMs": 250,
+          "motionAudit": {
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
+          },
+          "frameActorContracts": {
+            "0": {
+              "compositeRoles": [
+                "caregiver",
+                "child"
+              ],
+              "actorLayout": {
+                "caregiver": {
+                  "x": 270,
+                  "footline": 228,
+                  "scale": 0.96,
+                  "facing": "right"
+                },
+                "child": {
+                  "x": 365,
+                  "footline": 228,
+                  "scale": 0.9,
+                  "facing": "right"
+                }
+              },
+              "groundPlateId": "world-ground-v1:cp27-hospital-entry-cinematic:0"
             }
           }
         },
@@ -10377,7 +10374,7 @@
         {
           "shotId": "INF-01-S01",
           "frameIndices": [
-            0
+            3
           ],
           "playback": "hold",
           "frameDurationMs": 250,
@@ -10386,7 +10383,7 @@
             "meanAbsoluteDeltas": []
           },
           "frameActorContracts": {
-            "0": {
+            "3": {
               "compositeRoles": [
                 "caregiver",
                 "child"
@@ -10405,7 +10402,7 @@
                   "facing": "right"
                 }
               },
-              "groundPlateId": "world-ground-v1:cp27-hospital-entry-cinematic:0"
+              "groundPlateId": "world-ground-v1:cp27-hospital-entry-cinematic:3"
             }
           }
         }
@@ -10413,11 +10410,11 @@
       "frames": [
         {
           "index": 0,
-          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/01.png",
-          "sha256": "bf4a1fd6cbfd8e4137fad52dcaf6b41808d3f30d1cdb1952148df53e8f64baae",
+          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/doors-v2-01.png",
+          "sha256": "186fa7efa6877356b3386bca0aacfc949df58e3dbf119115a203329998c226ed",
           "groundPlateSource": {
-            "source": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-source.png",
-            "sourceSha256": "95d0970e2b79969694a86931fd2a4e4298629a0c81d1c612ae7cb1e35fd6abc0",
+            "source": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-source.png",
+            "sourceSha256": "87042668692b9b3738193a4be73afa756b61b469190cdb7576199d0f3092ad57",
             "cell": 0,
             "cellBox": [
               2,
@@ -10432,16 +10429,16 @@
               466
             ],
             "normalization": "guarded-cell-minimal-aspect-crop-nearest-neighbor",
-            "prompt": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-prompt.md"
+            "prompt": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-prompt.md"
           }
         },
         {
           "index": 1,
-          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/02.png",
-          "sha256": "f0660129ef7fcfb43e08db7f355536b08a701645781db3066a798a4b6b91aee9",
+          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/doors-v2-02.png",
+          "sha256": "1a03b760c3563f636106aebb470d12a254a4b7236ef926e53c9955ea9c5c767c",
           "groundPlateSource": {
-            "source": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-source.png",
-            "sourceSha256": "95d0970e2b79969694a86931fd2a4e4298629a0c81d1c612ae7cb1e35fd6abc0",
+            "source": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-source.png",
+            "sourceSha256": "87042668692b9b3738193a4be73afa756b61b469190cdb7576199d0f3092ad57",
             "cell": 1,
             "cellBox": [
               838,
@@ -10456,67 +10453,67 @@
               466
             ],
             "normalization": "guarded-cell-minimal-aspect-crop-nearest-neighbor",
-            "prompt": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-prompt.md"
+            "prompt": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-prompt.md"
           }
         },
         {
           "index": 2,
-          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/03.png",
-          "sha256": "582bc86e5b1fed41453a0777d7ced9adffe05dc17bb5945830e1736127ddcc13",
+          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/doors-v2-03.png",
+          "sha256": "3dc45c5922862c0f0646fd969327c5bddf0ff5532dc42c216eabf8287323da57",
           "groundPlateSource": {
-            "source": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-source.png",
-            "sourceSha256": "95d0970e2b79969694a86931fd2a4e4298629a0c81d1c612ae7cb1e35fd6abc0",
+            "source": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-source.png",
+            "sourceSha256": "87042668692b9b3738193a4be73afa756b61b469190cdb7576199d0f3092ad57",
             "cell": 2,
             "cellBox": [
               2,
               472,
               834,
-              939
+              938
             ],
             "cropWithinCell": [
-              1,
+              2,
               0,
-              831,
-              467
+              830,
+              466
             ],
             "normalization": "guarded-cell-minimal-aspect-crop-nearest-neighbor",
-            "prompt": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-prompt.md"
+            "prompt": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-prompt.md"
           }
         },
         {
           "index": 3,
-          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/04.png",
-          "sha256": "c3d0d46733fd1984e8355781690888dee68f3a59e22915e343b902f38ff1dae7",
+          "url": "/assets/cinematic-v20/frames/cp27-hospital-entry-cinematic/doors-v2-04.png",
+          "sha256": "dffda0ec7877035f51322983894ab178592c66c332ad31ac1f885961e8e5ca60",
           "groundPlateSource": {
-            "source": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-source.png",
-            "sourceSha256": "95d0970e2b79969694a86931fd2a4e4298629a0c81d1c612ae7cb1e35fd6abc0",
+            "source": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-source.png",
+            "sourceSha256": "87042668692b9b3738193a4be73afa756b61b469190cdb7576199d0f3092ad57",
             "cell": 3,
             "cellBox": [
               838,
               472,
               1670,
-              939
+              938
             ],
             "cropWithinCell": [
-              1,
+              2,
               0,
-              831,
-              467
+              830,
+              466
             ],
             "normalization": "guarded-cell-minimal-aspect-crop-nearest-neighbor",
-            "prompt": "art-source/cinematic-v20/grounding-2026-09-05/hospital-entry-prompt.md"
+            "prompt": "art-source/cinematic-v20/grounding-2026-09-08/hospital-doors-prompt.md"
           }
         }
       ],
       "adjacentFramePerceptualChangeRatios": [
-        0.229957,
-        0.227834,
-        0.144744
+        0.015022,
+        0.044453,
+        0.014635
       ],
       "adjacentFrameMeanAbsoluteDeltas": [
-        16.135767,
-        17.676045,
-        10.091095
+        2.535314,
+        3.816963,
+        2.418749
       ]
     },
     {
