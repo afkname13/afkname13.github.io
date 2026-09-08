@@ -4387,31 +4387,22 @@
           "shotId": "TRV-B-S03",
           "frameIndices": [
             0,
-            1,
-            2,
-            3
+            1
           ],
-          "playback": "loop",
+          "playback": "once",
           "frameDurationMs": 250,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.084918,
-              0.15717,
-              0.087483,
-              0.159818
+              0.084918
             ],
             "meanAbsoluteDeltas": [
-              5.657501,
-              9.191029,
-              5.877655,
-              9.32887
+              5.657501
             ]
           }
         },
         {
           "shotId": "TRV-B-S04",
           "frameIndices": [
-            0,
             1,
             2,
             3
@@ -4420,12 +4411,10 @@
           "frameDurationMs": 250,
           "motionAudit": {
             "perceptualChangeRatios": [
-              0.084918,
               0.15717,
               0.087483
             ],
             "meanAbsoluteDeltas": [
-              5.657501,
               9.191029,
               5.877655
             ]
@@ -7900,7 +7889,7 @@
             2,
             3
           ],
-          "playback": "burst",
+          "playback": "once",
           "frameDurationMs": 450,
           "motionAudit": {
             "perceptualChangeRatios": [
@@ -7918,24 +7907,13 @@
         {
           "shotId": "TRV-B-S05",
           "frameIndices": [
-            0,
-            1,
-            2,
             3
           ],
-          "playback": "burst",
+          "playback": "hold",
           "frameDurationMs": 450,
           "motionAudit": {
-            "perceptualChangeRatios": [
-              0.1476,
-              0.126411,
-              0.178112
-            ],
-            "meanAbsoluteDeltas": [
-              12.004225,
-              10.214486,
-              15.062086
-            ]
+            "perceptualChangeRatios": [],
+            "meanAbsoluteDeltas": []
           }
         }
       ],
@@ -8106,7 +8084,7 @@
         {
           "shotId": "TST-N-B-S04",
           "frameIndices": [
-            3
+            0
           ],
           "playback": "hold",
           "frameDurationMs": 250,
