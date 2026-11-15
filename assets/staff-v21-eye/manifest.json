@@ -1,0 +1,108 @@
+{
+  "source": "art-source/cinematic-v21/physician/eye-repair-source.png",
+  "sourceSha256": "d57b5918d96f22beddc4e977261d298199ba900836439747653fc4e8d636486b",
+  "method": "Only the generated eye rectangle is normalized to each original eye position; every other pixel and alpha silhouette remains original.",
+  "masterBox": {
+    "left": 122,
+    "top": 61,
+    "width": 28,
+    "height": 12
+  },
+  "assets": [
+    {
+      "path": "public/assets/staff-v21-eye/staff-cardiologist-idle.png",
+      "original": "public/assets/staff-v20-hd/staff-cardiologist-idle.png",
+      "sha256": "63add0e8ef245e696c575f7b88917d31a4f2234284495ea6926c0b7cdf72d6d5",
+      "bounds": [
+        {
+          "left": 123,
+          "top": 60,
+          "width": 30,
+          "height": 12
+        },
+        {
+          "left": 379,
+          "top": 60,
+          "width": 30,
+          "height": 12
+        },
+        {
+          "left": 123,
+          "top": 316,
+          "width": 30,
+          "height": 12
+        },
+        {
+          "left": 378,
+          "top": 315,
+          "width": 30,
+          "height": 12
+        }
+      ]
+    },
+    {
+      "path": "public/assets/staff-v21-eye/staff-cardiologist-talk.png",
+      "original": "public/assets/staff-v20-hd/staff-cardiologist-talk.png",
+      "sha256": "b4ff7d150b33605d60212a855707f02506085fef34f4d3b9dc984a955a3ff2e1",
+      "bounds": [
+        {
+          "left": 139,
+          "top": 61,
+          "width": 10,
+          "height": 11,
+          "unchangedBlink": true
+        },
+        {
+          "left": 386,
+          "top": 59,
+          "width": 31,
+          "height": 13
+        },
+        {
+          "left": 123,
+          "top": 315,
+          "width": 26,
+          "height": 13
+        },
+        {
+          "left": 379,
+          "top": 315,
+          "width": 11,
+          "height": 8,
+          "unchangedBlink": true
+        }
+      ]
+    },
+    {
+      "path": "public/assets/staff-v21-eye/staff-cardiologist-walk.png",
+      "original": "public/assets/staff-v20-hd/staff-cardiologist-walk.png",
+      "sha256": "2721672c76880e5c7a01612282a5202e3e39fd488fc5f39d654968b255371cb0",
+      "bounds": [
+        {
+          "left": 128,
+          "top": 59,
+          "width": 24,
+          "height": 11
+        },
+        {
+          "left": 385,
+          "top": 58,
+          "width": 23,
+          "height": 12
+        },
+        {
+          "left": 128,
+          "top": 314,
+          "width": 23,
+          "height": 11
+        },
+        {
+          "left": 385,
+          "top": 313,
+          "width": 23,
+          "height": 13
+        }
+      ]
+    }
+  ]
+}
