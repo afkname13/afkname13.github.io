@@ -1,0 +1,2127 @@
+{
+  "policy": "alpha-only; outside-connected family matte and distant tiny islands; unchanged dimensions and retained RGBA",
+  "scannedFiles": 340,
+  "scannedCells": 625,
+  "modifiedFiles": 242,
+  "entries": [
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-annoyed.png",
+      "removedByCell": [
+        12
+      ],
+      "sha256": "6b43de7456b547d9d94c7c297852756dedc3cb752d18ef961f64009d131c4dea"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-concerned.png",
+      "removedByCell": [
+        60
+      ],
+      "sha256": "75b98e2bde84cdd1acab9cf392e01b6c28087b286bff0642f72c50d60a4ebb41"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-curious.png",
+      "removedByCell": [
+        79
+      ],
+      "sha256": "278026bc3e9cec444b9ca81ac2c417adbda7bc4cc40ba123340ff36a79c57911"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-disappointed.png",
+      "removedByCell": [
+        5
+      ],
+      "sha256": "caf53cda8037875dc36c1006cfed346a63299a3048d287f54f2870f1adf74369"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-hopeful.png",
+      "removedByCell": [
+        113
+      ],
+      "sha256": "2a68b2086efc7d602483b3945591f8678d6aac6268bb6b2a4e2bceae7e984bf9"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-neutral.png",
+      "removedByCell": [
+        93
+      ],
+      "sha256": "a53f58f9d0d2f3f17afc5e22f242bfd9d8278fb70945eb183dfa067cd97df65d"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-playful.png",
+      "removedByCell": [
+        91
+      ],
+      "sha256": "d5e5ee3aeb666e2d74fc6d3f23f6c6b60fa503dfb7d6f49f99f6515d096e62bb"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-reassuring.png",
+      "removedByCell": [
+        9
+      ],
+      "sha256": "a1b1320e7e1860d021889a930c9fadac6acf047ec38dd7386f540b683cd6801b"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-thoughtful.png",
+      "removedByCell": [
+        6
+      ],
+      "sha256": "ebe5087c16f715052eeeac4e9b655efd1364e9c665fa5e0bdee60ab457961e8f"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-2-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-2-tired.png",
+      "removedByCell": [
+        15
+      ],
+      "sha256": "e085ec849856da54095d3d812e2913957a66fe1d201d7a7db36cc3840384dcbb"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-annoyed.png",
+      "removedByCell": [
+        8
+      ],
+      "sha256": "b92631925852081eb758505752f7e952b08327b108e63f9112feb46f29b30c7c"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-concerned.png",
+      "removedByCell": [
+        179
+      ],
+      "sha256": "eb70261e3a5985ba7f993328da3784a118a2be82690cdd0016ff2de0e75a2413"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-curious.png",
+      "removedByCell": [
+        129
+      ],
+      "sha256": "7497abda6db0213a5f2427b375de7c808b79bb405eb50f4c8462680fa29c67db"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-disappointed.png",
+      "removedByCell": [
+        82
+      ],
+      "sha256": "203036482620b7a4b7a1e63e579bbdf5fc99ade16a6c6d8655d08e61734a6da1"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-hopeful.png",
+      "removedByCell": [
+        110
+      ],
+      "sha256": "6c346aac846b1fb680bf04e791b86dd73f4ba3eb4b38e80a4b3f8822369d6c90"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-neutral.png",
+      "removedByCell": [
+        249
+      ],
+      "sha256": "d1fdd1987b24ae8bef4dd08f880cfbe4c01477141f1412998c13f6b32df04a82"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-playful.png",
+      "removedByCell": [
+        168
+      ],
+      "sha256": "9d04bdb1c739118b9f2b25e9095c3e602bd75a69e451e7e96dcb7462fcaf77b4"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-reassuring.png",
+      "removedByCell": [
+        142
+      ],
+      "sha256": "7965bd9a3afab7e55516e00bc187f290789e89de7ced1421b9030d2293a2b6d9"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-thoughtful.png",
+      "removedByCell": [
+        9
+      ],
+      "sha256": "73458c5d85b5e033e95acd4989529ce3cd097985e2e770a155dce205122d1a25"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-4-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-4-tired.png",
+      "removedByCell": [
+        70
+      ],
+      "sha256": "0d87f819dcadbd7630df7d9582d7604376307c153c5d91a8819116b07fcb91c8"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-annoyed.png",
+      "removedByCell": [
+        28
+      ],
+      "sha256": "b119d3363c4c7a6719b7374a1d853d9dedfdc0f8a879cf3bfe63091e05e228b7"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-concerned.png",
+      "removedByCell": [
+        96
+      ],
+      "sha256": "40ddf92f4f2bf26e31f0f142968666054ca778678554f33b568b8b9d26c25b42"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-curious.png",
+      "removedByCell": [
+        131
+      ],
+      "sha256": "3ca3a63292a0e7be210fe0f4ec78b246ac89d79d271716fbbc5c641cb73a12fa"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-disappointed.png",
+      "removedByCell": [
+        40
+      ],
+      "sha256": "cdc8a1a1bdf131b1c338b8da09b395b9a6a11e2dcffd54d135299e555b6aa4a1"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-hopeful.png",
+      "removedByCell": [
+        108
+      ],
+      "sha256": "1fe226e2b161363a06ae1afaeab681d930c08a50e7152df66042315ae3061c19"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-neutral.png",
+      "removedByCell": [
+        93
+      ],
+      "sha256": "71723a6fa2b8d11a900466440c68b8f2d1b51bb08ef5eeea6f94afb975fa9628"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-playful.png",
+      "removedByCell": [
+        98
+      ],
+      "sha256": "a53d7e7d991d18a15d0b66d4e8eec688c96bead4497ef97d87a164e49406ef69"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-reassuring.png",
+      "removedByCell": [
+        88
+      ],
+      "sha256": "2b6edfa6a275824fdeb87a29b67715eabddd2eff901e8f410c624c96b7433847"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-female-tone-5-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-female-tone-5-thoughtful.png",
+      "removedByCell": [
+        168
+      ],
+      "sha256": "d41dd4ce8a5a9bb57bbffb2c189f01da67010fa68a76a0db83ed583252224a78"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-annoyed.png",
+      "removedByCell": [
+        39
+      ],
+      "sha256": "80db38db6768e48535cbc0c4fcdec0d4aafb491efb8777b93da49b5a872cb826"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-concerned.png",
+      "removedByCell": [
+        37
+      ],
+      "sha256": "c05ff9f9a29288c7d6e3cbbfeedde566c404e687a9334ae3ce97a2bac1de446c"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-curious.png",
+      "removedByCell": [
+        118
+      ],
+      "sha256": "cd39f87a7b79510f2fe503263f6f0f0951e17f1ce89aea5b7586da5b2b196c32"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-disappointed.png",
+      "removedByCell": [
+        43
+      ],
+      "sha256": "8536a133f5a9fa483cad1c65af95686eee4365729eaaafc60687c59813ac3a83"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-hopeful.png",
+      "removedByCell": [
+        303
+      ],
+      "sha256": "f5fe426031dde74171062a0142396d28e6eb3a1a89d7d3533f69f94949375fee"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-neutral.png",
+      "removedByCell": [
+        18
+      ],
+      "sha256": "5c187b0dd03780cbd7f0d0751da19461b8852671fc64e79fab3016f620dae761"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-playful.png",
+      "removedByCell": [
+        47
+      ],
+      "sha256": "8cc9f0f7a3c7f6a3a5c7938a073693580fe17688adf9f92427e54d7bb9e4d764"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-reassuring.png",
+      "removedByCell": [
+        143
+      ],
+      "sha256": "2d99846f334f07ecb74a77813e55533d1202284e7766819cd0b3a31d7b79f5f7"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-thoughtful.png",
+      "removedByCell": [
+        58
+      ],
+      "sha256": "1ac6dae63ae09b5fc57fbe01fd10080710e38613189c69cab5a5d6f5343dc931"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-1-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-1-tired.png",
+      "removedByCell": [
+        204
+      ],
+      "sha256": "64e9e3ea2648454aa5d33ac031b1f8ebd973dfa535db73978dabd1a50c1941be"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-annoyed.png",
+      "removedByCell": [
+        52
+      ],
+      "sha256": "e4f3d5c2c715f3bab5894b02aa489f94a89ec59d085562f84167f086cb4bc357"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-concerned.png",
+      "removedByCell": [
+        28
+      ],
+      "sha256": "c4b276ea9a36641214404ba5f9fd810e1f83d5f367bbb582876d265e1737acde"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-curious.png",
+      "removedByCell": [
+        41
+      ],
+      "sha256": "686d51efc3272f9fff22b3b32db43c3e1a1e019c1ca3b564023f3d40ca79c323"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-disappointed.png",
+      "removedByCell": [
+        40
+      ],
+      "sha256": "dfc60b2b83719d2f6a0d0b3e1404e9f40d7816c157bdc33e843f8d10b2f3ab6f"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-hopeful.png",
+      "removedByCell": [
+        44
+      ],
+      "sha256": "4c17e11a3699cc93f82c717d2592bc322033765a1df7f86b5eff20d1b6070beb"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-neutral.png",
+      "removedByCell": [
+        225
+      ],
+      "sha256": "f450aa80ca6ac8d28582bb6090890ca25bb59021cc1c367ae47b9b3101470f88"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-playful.png",
+      "removedByCell": [
+        77
+      ],
+      "sha256": "871f348f7c050acfcb4aceb1f7aca940145b02cb748389901ea1e12b3a6b1723"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-reassuring.png",
+      "removedByCell": [
+        83
+      ],
+      "sha256": "780b0f1b64e6156cdef437be77727c42111befa615b59a5cf468e5e9695601ac"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-thoughtful.png",
+      "removedByCell": [
+        42
+      ],
+      "sha256": "6c6766a29ba6e672586ac62bc9b2c29ed32adbe20a2da606d891750115344cb7"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-2-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-2-tired.png",
+      "removedByCell": [
+        28
+      ],
+      "sha256": "072c42004b479d33bb2e406b0dfb7c28f33ea12c563a813411bf2459aa8393d5"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-annoyed.png",
+      "removedByCell": [
+        56
+      ],
+      "sha256": "09f77529fa7010a11c0ba9780eed4a171c3875f4502d682c9bde18ea8569178d"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-concerned.png",
+      "removedByCell": [
+        88
+      ],
+      "sha256": "38527a1ba42c65f12261fc5f1c18e95c60efeccec01b1dace22c541bc884feb0"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-curious.png",
+      "removedByCell": [
+        130
+      ],
+      "sha256": "efa3a7088477f0eeb8c0ddc70b78a6339ef9f6345ffb9e894107149338896c6a"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-disappointed.png",
+      "removedByCell": [
+        133
+      ],
+      "sha256": "e87cc7eaf83ca9a3f01c9b2a9c1ba2f15d4d8975c3669e93f9e15017ff4a7863"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-hopeful.png",
+      "removedByCell": [
+        109
+      ],
+      "sha256": "c1c2ffb1574b1d07a0d62e8c349a7aa2ec9542a5c874e0fbdecd35b388283a97"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-neutral.png",
+      "removedByCell": [
+        244
+      ],
+      "sha256": "08bc1141b2d7cedc1a1eed4e3a27ddcc744ebcc0b37d9e49426b655642380185"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-playful.png",
+      "removedByCell": [
+        31
+      ],
+      "sha256": "b4472b6f35701515a6240500a70c9a3eca0ae7f5b4d2e68969efc3c8fb6f14a8"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-reassuring.png",
+      "removedByCell": [
+        86
+      ],
+      "sha256": "9df338489b04b16346a234d82a86520f5c6f817ad79d611d0c01f5d3b0ac612b"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-thoughtful.png",
+      "removedByCell": [
+        252
+      ],
+      "sha256": "805598c44877d57e1a632010a5556d587443ecdc7ceffb9e03aa485f79f95d80"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-3-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-3-tired.png",
+      "removedByCell": [
+        264
+      ],
+      "sha256": "20b2b5b0e96a5220bbc6ae78b05381e34f074c69c9e4bf581faf49c1a998b324"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-annoyed.png",
+      "removedByCell": [
+        74
+      ],
+      "sha256": "d05999af1c15a06ce9f4d57d04220ca649920642c63d1d4b66123642b77b0bc4"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-concerned.png",
+      "removedByCell": [
+        39
+      ],
+      "sha256": "88af57b81695fada9b68ca3707ebf66940227f6425194f8603d45e81e36f3f50"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-curious.png",
+      "removedByCell": [
+        46
+      ],
+      "sha256": "6665d6f7ae7e65d4a4868d6b9955b2955c0fdec9583c849ad81183019bfc4469"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-disappointed.png",
+      "removedByCell": [
+        91
+      ],
+      "sha256": "5f2121b7ac002c1c06fb69882b2c5fb65a806c3fa77c2b84e43861b787d209e4"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-hopeful.png",
+      "removedByCell": [
+        36
+      ],
+      "sha256": "046ca60bd7fb8c3e87a734eb5250d7807bda23913844f9a4f0c4138c18e23aeb"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-neutral.png",
+      "removedByCell": [
+        67
+      ],
+      "sha256": "92efff6d48693e8e58cc0ce823a64787570a33f3466e846ef80957a0b02593e3"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-playful.png",
+      "removedByCell": [
+        42
+      ],
+      "sha256": "b93418a324d0913ff5b2fb5b65451d3de9f933210119c5604a8e14f812374411"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-reassuring.png",
+      "removedByCell": [
+        19
+      ],
+      "sha256": "fb23cdd417b44f06c2eaf158529abcac4ff4b723dd538aa438895392bdd78e69"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-thoughtful.png",
+      "removedByCell": [
+        43
+      ],
+      "sha256": "c5d7d8a8ec66da8251541966c96e8f0b85d6bfe7b5c50d677bdab847aa72c90c"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-4-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-4-tired.png",
+      "removedByCell": [
+        66
+      ],
+      "sha256": "777c513cbfd7c432eb5c1a91f9a1c318c31e69a876602c43946803059c90f556"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-annoyed.png",
+      "removedByCell": [
+        82
+      ],
+      "sha256": "d753302e2d784ad0284b366b6412c7e9ade8ef2dc4bcd96f1db798df590a1195"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-concerned.png",
+      "removedByCell": [
+        40
+      ],
+      "sha256": "2a5b688340721e8c59ad9d7b4a01bf3e150c9fe191b2ec377595b96f421f8346"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-curious.png",
+      "removedByCell": [
+        57
+      ],
+      "sha256": "f605af4eadba5557866d8e4920b40b219b90bed002ed3a4202ad010f7b30c50e"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-disappointed.png",
+      "removedByCell": [
+        47
+      ],
+      "sha256": "7388d49bc2eac0d86a444074f59000733917ce8450ceba2bcb8a60591051d2a4"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-hopeful.png",
+      "removedByCell": [
+        47
+      ],
+      "sha256": "41b4fbbf6805782a954a08abd00d827e7f68f7bf8f9dfcbd5d4cea8da73b0cad"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-neutral.png",
+      "removedByCell": [
+        29
+      ],
+      "sha256": "fd5a3b48ac1925d2c63332d3d67e58dab9c20ad7fcb93009332787c82025a25b"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-playful.png",
+      "removedByCell": [
+        254
+      ],
+      "sha256": "8f9255391a58143564f863fc40e6693a68198c77dff0b2dad9401e2afdabdfc5"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-reassuring.png",
+      "removedByCell": [
+        45
+      ],
+      "sha256": "c6dd640095ff98a3c335129761f5feaa964d524f64433ed08a873910854492e1"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-thoughtful.png",
+      "removedByCell": [
+        22
+      ],
+      "sha256": "8fa97553f1398f1f27b3f92cf3fffe4944d0f36dc753dc2a731e6e680d8f3264"
+    },
+    {
+      "source": "/assets/portraits-v19/caregiver-male-tone-5-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/caregiver-male-tone-5-tired.png",
+      "removedByCell": [
+        44
+      ],
+      "sha256": "fa3405cf393ec97d16ff20c1a3ce3f679711121a796f78fd324e5ad61ee56a64"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-annoyed.png",
+      "removedByCell": [
+        109
+      ],
+      "sha256": "34cb96fda447f0ec9f5718bebe406a628e4b3a25f25070ae868979309ba6ad12"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-concerned.png",
+      "removedByCell": [
+        77
+      ],
+      "sha256": "fe2b396f0436e8629a535114e965ac048e7f991477decca37a4f12a476e2ae8a"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-curious.png",
+      "removedByCell": [
+        159
+      ],
+      "sha256": "ab3779fb28d0fe46f1b9643492692d84af11b6e0637a720464bee97e4e712c02"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-disappointed.png",
+      "removedByCell": [
+        54
+      ],
+      "sha256": "44e6fce8797169b5107e1255b7ab7c614f9f15b6ad2b73f5863688f07488868d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-hopeful.png",
+      "removedByCell": [
+        77
+      ],
+      "sha256": "3220881ba8e5c2621030ac3f755666dd6ed5fcef1513233dabad8b844f11588e"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-neutral.png",
+      "removedByCell": [
+        112
+      ],
+      "sha256": "a74161c2fa20f5cb1af25f99f27289c8743a40d1f0c1b082db97521624c69fb7"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-playful.png",
+      "removedByCell": [
+        108
+      ],
+      "sha256": "a7602f9499fe038051b4e8dfa131850b08fe3c426583e7a1fa4207d576797cab"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-reassuring.png",
+      "removedByCell": [
+        63
+      ],
+      "sha256": "d633484527e2bca959b064ba1dacdc4fa7b8e8528352a076e8db507ad4ef774a"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-thoughtful.png",
+      "removedByCell": [
+        154
+      ],
+      "sha256": "66ec18fde230b0194b35a19303359589763f8441663e8a73b98cab4f19cd0e27"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-1-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-1-tired.png",
+      "removedByCell": [
+        88
+      ],
+      "sha256": "f4d998fa1f09e02724f9c2f4d8b607e0e6d7c912cdc442c6a4768606737a11a1"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-annoyed.png",
+      "removedByCell": [
+        100
+      ],
+      "sha256": "272c80646ee244f33bdda8cde1697b991b56024b4c202d3705c88e23da7f44f1"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-concerned.png",
+      "removedByCell": [
+        95
+      ],
+      "sha256": "504649671af039b62dba46a81ecfdacbf3076319f9723ab5a2b0f6a4a5045363"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-curious.png",
+      "removedByCell": [
+        113
+      ],
+      "sha256": "fe1bb493b0f6323d6359f076954b06fb47bf33939586ff67f07389928ce8e99d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-disappointed.png",
+      "removedByCell": [
+        56
+      ],
+      "sha256": "32a420ec98ea76fb5096cc8b3e60772745e2f048bc49f82d0f985137a68f36ae"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-hopeful.png",
+      "removedByCell": [
+        98
+      ],
+      "sha256": "73994a0cf8300f183c8195d0fdacbaf6177645497e11acba2145769b0d42c93b"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-neutral.png",
+      "removedByCell": [
+        212
+      ],
+      "sha256": "1963844a9e21a677a67abda0410976faef00ea28b439eb07b481bf5241b72d76"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-playful.png",
+      "removedByCell": [
+        219
+      ],
+      "sha256": "8c441a9f1ef5750f43ac08fe4534b97f111966f905e2b6d284e7b52fb56b09dd"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-reassuring.png",
+      "removedByCell": [
+        75
+      ],
+      "sha256": "09a4c9eb74ad462e74bcaa40f4e969a086946281f4873c7315734646c3d3b6c2"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-thoughtful.png",
+      "removedByCell": [
+        200
+      ],
+      "sha256": "2ef5d8a4e8b9e6e057a31171e33863956ef174122352b889d4e07d6c7be0b1cd"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-2-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-2-tired.png",
+      "removedByCell": [
+        71
+      ],
+      "sha256": "70d6b596d674cf632ad0bdffe03d3f63e830fff5cbc5f78c095db429af0f97a8"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-annoyed.png",
+      "removedByCell": [
+        168
+      ],
+      "sha256": "3fc3eca9209334c769b7d096f3f5572469341d90408bc8c910b3ee5ce160b868"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-concerned.png",
+      "removedByCell": [
+        47
+      ],
+      "sha256": "72129d251f774ec064919a3e310febdbef4be407b82debcf3e0b50f388491af6"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-curious.png",
+      "removedByCell": [
+        99
+      ],
+      "sha256": "6a3a2918816f0bd19ef996d2d0af2dd608ce2fd7bdca5bd4368d4ac4a2623bc0"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-disappointed.png",
+      "removedByCell": [
+        158
+      ],
+      "sha256": "66d3527f66f4d4528a50fc418a2553bec9b590c5aa8937f62ad2567bc8652369"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-hopeful.png",
+      "removedByCell": [
+        157
+      ],
+      "sha256": "475f6e8d83e4f7f63aa2b68e5d0c7a1e733f8177ae18db450dfd237f27612823"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-neutral.png",
+      "removedByCell": [
+        215
+      ],
+      "sha256": "867c0e87239aad963259d4c5fa5768a3b8ccada3fe5ae601088a859ca1fba695"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-playful.png",
+      "removedByCell": [
+        113
+      ],
+      "sha256": "8adbc463968a517fb9539b4eae5a60c82ee60a540d96be1b35582e64eccd9c1d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-reassuring.png",
+      "removedByCell": [
+        140
+      ],
+      "sha256": "e4a14a3b67d34f0b3aa5c471e6eb0327f312fcfb5450d4d714c05f3fea12c13d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-thoughtful.png",
+      "removedByCell": [
+        40
+      ],
+      "sha256": "75ddd9c4fff2128e5b09bf215ea1d26433879184e20fa83758ff2d9fdb7c931b"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-3-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-3-tired.png",
+      "removedByCell": [
+        139
+      ],
+      "sha256": "f8d4db555c3db0c6ce0d8879c1d1da5af7dcb92b23adb94b74ce3d7f7e109c9c"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-annoyed.png",
+      "removedByCell": [
+        90
+      ],
+      "sha256": "b7c9273bb78482eb6cc596ec486450730412bb9eb27e37072f2f09f5694574d0"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-concerned.png",
+      "removedByCell": [
+        75
+      ],
+      "sha256": "e2903bf4ac60dd6bc9ae3e5d5f509725b2cdedb3421418370d17ca32cbb89fb5"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-curious.png",
+      "removedByCell": [
+        44
+      ],
+      "sha256": "0e3ed890eb8b3336d20fa07a24fc577344d2348cf7016b422fe28fedc43e0df3"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-disappointed.png",
+      "removedByCell": [
+        132
+      ],
+      "sha256": "d06dc56d119c4c1a6e2ac62777bd11d3916b85f68b3c59f78f5fc9b8a55eaf88"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-hopeful.png",
+      "removedByCell": [
+        61
+      ],
+      "sha256": "da1e1742b76d21f1eb0f0ad71bdc0726e189fda520bfa755df9d3ca4f3153ef3"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-neutral.png",
+      "removedByCell": [
+        68
+      ],
+      "sha256": "5e29bfe1becb404c6c9f0f1baa0e42475b24686a01732762fa27c0218c39447d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-playful.png",
+      "removedByCell": [
+        66
+      ],
+      "sha256": "ef04325c2d2a31365fcd2398bec77634221128288222a6c2df80f68c3940e45d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-reassuring.png",
+      "removedByCell": [
+        48
+      ],
+      "sha256": "5d7093cca352b078650b5886713762a64d6da545280ca4a21d6650eba4eefd04"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-thoughtful.png",
+      "removedByCell": [
+        50
+      ],
+      "sha256": "aeec8b8115f1574d0fc983dd9698e32e28b18853bf18bf65bf1bdf4e3e51f85a"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-4-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-4-tired.png",
+      "removedByCell": [
+        80
+      ],
+      "sha256": "f51984d2a1e975cf6537a90204fe1e3ff0559fa3dd11ef088a55912aa321fb06"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-annoyed.png",
+      "removedByCell": [
+        100
+      ],
+      "sha256": "0dfb1cfdac77f5e36122a1a6d2ec0750f1e72edbe1d964f31bb05990dd2a43af"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-concerned.png",
+      "removedByCell": [
+        55
+      ],
+      "sha256": "dd7f8257892343f0e0319ca12fc6faae8beaf44917bbe2e42a1a07360f481cbb"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-curious.png",
+      "removedByCell": [
+        50
+      ],
+      "sha256": "cb3d3ec3895dabab85510e8b0801418dc87c4d1799b1c82a11b9f5e6465d44cb"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-disappointed.png",
+      "removedByCell": [
+        101
+      ],
+      "sha256": "17a2e47e29a2604eebeb02fd00eb0d4c23d1e36bcf75cf56009e842f3991300d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-hopeful.png",
+      "removedByCell": [
+        39
+      ],
+      "sha256": "cd447ead61ec3b51d2251b006df462ac273c26b5b692b1ca6014c1f0f6a7bd6c"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-neutral.png",
+      "removedByCell": [
+        59
+      ],
+      "sha256": "84b11b35235d3f09b2f0b11175b81a08ebe82f2fbdcf1acde1e00a67bdcc7eec"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-playful.png",
+      "removedByCell": [
+        162
+      ],
+      "sha256": "4d531fc03e22a7a4ddb6f8c470c9940fd68d5a3648640bbb3d08fd81cd231907"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-reassuring.png",
+      "removedByCell": [
+        111
+      ],
+      "sha256": "9e1ba7257febb589f3e27e38cc13e6b04561d02e18ffaf3df224bf837a03710e"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-thoughtful.png",
+      "removedByCell": [
+        48
+      ],
+      "sha256": "853b9e71eaf114979e68d8c51bf70140ee1cb39d19ea9774ca7750adfcfdf9a4"
+    },
+    {
+      "source": "/assets/portraits-v19/child-female-tone-5-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-female-tone-5-tired.png",
+      "removedByCell": [
+        141
+      ],
+      "sha256": "25898baf6840bc7a77782979ee20ccf4c69e41a87a169b5b59b9acb9076f68c0"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-annoyed.png",
+      "removedByCell": [
+        44
+      ],
+      "sha256": "a27fecf34bd428399c07dfabfcb8072727e323ac1b7f05db865f387cb02906e5"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-concerned.png",
+      "removedByCell": [
+        18
+      ],
+      "sha256": "a0f37a1d5f87f5ab2b5dea55950542f085f69d17cf99075b751f2117df7dafcd"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-curious.png",
+      "removedByCell": [
+        48
+      ],
+      "sha256": "32f9ff374b2719f61e0efd83330f4f077fd3242156638d12711e4131570148eb"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-disappointed.png",
+      "removedByCell": [
+        100
+      ],
+      "sha256": "af4ebacba3ec70e5df9aa0421f8e249698ae8104e744bb33ef44689ebd03eeec"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-hopeful.png",
+      "removedByCell": [
+        21
+      ],
+      "sha256": "a67c771f577510ab5b504da929ddea45a32e53455e616e51239372b73e4024e2"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-neutral.png",
+      "removedByCell": [
+        90
+      ],
+      "sha256": "b3917ac7d0b9218221ba5d1fdb6b5a7c858ee86a0ee052fd151ae5fb36b966b9"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-playful.png",
+      "removedByCell": [
+        66
+      ],
+      "sha256": "1b4314f44bedbc494b81dc598a21adbcdb9ab95850af81480cd4282b2daa3e0d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-reassuring.png",
+      "removedByCell": [
+        40
+      ],
+      "sha256": "234b8fe920ed812f2d33181ef4e4ff07201364bf389098aef812ae00376bc6d9"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-thoughtful.png",
+      "removedByCell": [
+        84
+      ],
+      "sha256": "740a31d0e6044427f179ce7de18436bc1e4f3a5fe0fca5c9fff9c9a1d347ffba"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-1-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-1-tired.png",
+      "removedByCell": [
+        86
+      ],
+      "sha256": "a040a4bc5fc36f7422774e5494ad78b94186386aa8b3adcb9fc350aec512e7f3"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-annoyed.png",
+      "removedByCell": [
+        37
+      ],
+      "sha256": "77b4841ebf17ff1a28825dabc95291ab808059355ce28da2abad83b1e2bf9c1d"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-concerned.png",
+      "removedByCell": [
+        49
+      ],
+      "sha256": "d3204ff6ad2998a6d3c0f054381a55b196bc1abde9213165e7f9a7b39e39947a"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-curious.png",
+      "removedByCell": [
+        40
+      ],
+      "sha256": "1b1a491a5794dc73668ad586dc16216965ed5cc14f69fa94430a350fa32ad6a5"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-disappointed.png",
+      "removedByCell": [
+        80
+      ],
+      "sha256": "1523f710d3bc241602a4ece5caca171ca15a5ddcec4476ae0b95c9cc0859fb9b"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-hopeful.png",
+      "removedByCell": [
+        32
+      ],
+      "sha256": "9822dd9a9ef2413aa634152b18e0a8a8b74372df7e280687b8535b45dbae34b9"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-neutral.png",
+      "removedByCell": [
+        63
+      ],
+      "sha256": "07b38494d847c511dba88f62d5e4566fa6ca104424ca89a0dfc0af67e9f65c85"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-playful.png",
+      "removedByCell": [
+        74
+      ],
+      "sha256": "ebe2bf0492bc4d85a802fc885ed6a4152c23aaaaea2c08e7d6e7571e6a380acd"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-reassuring.png",
+      "removedByCell": [
+        39
+      ],
+      "sha256": "83488ea91177c7839761f3b3c8f50b4ef9a72b8b208d82cf355d040a14d3d701"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-thoughtful.png",
+      "removedByCell": [
+        58
+      ],
+      "sha256": "40d009ae344cdb263b43ea00cd922ac88ec139c291ed60c3e2cf68576f675cca"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-2-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-2-tired.png",
+      "removedByCell": [
+        80
+      ],
+      "sha256": "b622f03c1177f7462e433e03d1abb21a0fb27f85e8296ee5265a237b4129b151"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-annoyed.png",
+      "removedByCell": [
+        107
+      ],
+      "sha256": "f8c3594ef3ff66bd1bdefc61e2cb185a40f2ee842d6317523a89e76b77f731de"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-concerned.png",
+      "removedByCell": [
+        96
+      ],
+      "sha256": "80478577d961ee692907f7debc4ea0f6d38d865a34a57ec0bc9d1c756d3a5dc9"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-curious.png",
+      "removedByCell": [
+        63
+      ],
+      "sha256": "18a7097be25deb1012f84a5b4c4d346dc6b22e2e70133e1e0a8445d1b59070f7"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-disappointed.png",
+      "removedByCell": [
+        79
+      ],
+      "sha256": "41feacc6d90fedd6e02bd0cce838ab55b2a71d27062dcd390fae5b1b743b69c8"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-hopeful.png",
+      "removedByCell": [
+        97
+      ],
+      "sha256": "995595763686c3f53432d8597a08a6249286e5b5c8834267c17de9eb51ab0a7a"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-neutral.png",
+      "removedByCell": [
+        80
+      ],
+      "sha256": "db5b82aa3584d021acf121677ba31c1241076418c02ce2f598cfe4bfd0909791"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-playful.png",
+      "removedByCell": [
+        62
+      ],
+      "sha256": "260b1c38c5bc55c8cbc6f9004f7ff052989c6fffedfb04c15cfc999c1cb4bd03"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-reassuring.png",
+      "removedByCell": [
+        89
+      ],
+      "sha256": "799610848b887caa82538970737100de197c9f2a03b64cde967dbef57ebb8a73"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-thoughtful.png",
+      "removedByCell": [
+        65
+      ],
+      "sha256": "f27d403d9b023e7bd93c00e6923eea1c464cfdfacb0d7aeebed262f12c1ed2c2"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-3-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-3-tired.png",
+      "removedByCell": [
+        82
+      ],
+      "sha256": "f86a62db29ea2be908d809938229fbd6a4b226fe893349333b98d70a60f7cb1e"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-annoyed.png",
+      "removedByCell": [
+        54
+      ],
+      "sha256": "a5855f33d051fcd23a557bb40b433bf4c40953fe3b7d21098095af1aa98c4710"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-concerned.png",
+      "removedByCell": [
+        18
+      ],
+      "sha256": "b92d8c2a1493a5438b7fdc9bf76f2d62ac7e541823cf3dfa5c3714d41b1c4fc2"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-curious.png",
+      "removedByCell": [
+        31
+      ],
+      "sha256": "5e1c7bb306b4a76fd5c97a35c78377e451cae2b93bf850a09ceb52eb2c12d091"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-disappointed.png",
+      "removedByCell": [
+        101
+      ],
+      "sha256": "687b8b74badd887a2893ef80507dca9cc2dfc31b8bf6d2ab85812225153dc9e4"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-hopeful.png",
+      "removedByCell": [
+        46
+      ],
+      "sha256": "f14e61f94de0fa27169faeaca5b4dd5dfda6cacec73869e23451f6ae67256916"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-neutral.png",
+      "removedByCell": [
+        52
+      ],
+      "sha256": "3698e402fc853de3c5be7ae066da1ff0bdfd722f6f27c1ee396034c162808273"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-playful.png",
+      "removedByCell": [
+        62
+      ],
+      "sha256": "146eda528461af54c16af7059401d794daab1298730721efde29287cf3762195"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-reassuring.png",
+      "removedByCell": [
+        64
+      ],
+      "sha256": "66844f6b6340f0621e8c01d1f1d028016c2427b695a9247bd2faa8a139155d67"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-thoughtful.png",
+      "removedByCell": [
+        88
+      ],
+      "sha256": "0464d23f65e35b477c3730a132c76da2268ee5a34af4fd7098d5ff2a9ca9dd18"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-4-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-4-tired.png",
+      "removedByCell": [
+        74
+      ],
+      "sha256": "ad173518d06c3ebdbd0fdc2fa64b851d1ca84e2161865db563b5aa107ac23ffa"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-annoyed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-annoyed.png",
+      "removedByCell": [
+        51
+      ],
+      "sha256": "ea3aa63dd2faad67d9d403bb9cc3dc85a840f7d8f66492c4da3131d3f07eb908"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-concerned.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-concerned.png",
+      "removedByCell": [
+        32
+      ],
+      "sha256": "0fe7757bf746850d7ee579f441446db41fd1fc336b51e851c9e536dbf8c90376"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-curious.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-curious.png",
+      "removedByCell": [
+        36
+      ],
+      "sha256": "bc18220a81fbb2b714a20d1a3489d1122bfe554765c9b75f6966759b04d2b353"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-disappointed.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-disappointed.png",
+      "removedByCell": [
+        109
+      ],
+      "sha256": "015a1178cdf4757f2c25faca9e16f037bc2a536ebcb197f6b264027e89656246"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-hopeful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-hopeful.png",
+      "removedByCell": [
+        62
+      ],
+      "sha256": "925b69b1609130eb552a72d5414c75939bbb728176ccb3bc09e7c7014344b522"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-neutral.png",
+      "removedByCell": [
+        59
+      ],
+      "sha256": "6bde7000be9a81cec0ca3fa5e7436f639b5fd8dbfe18b312255c339041aac03e"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-playful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-playful.png",
+      "removedByCell": [
+        36
+      ],
+      "sha256": "be42e6e1b3f864d366e65b9ef6dc38b5e2ae533e23ad1fe309672b946d86c598"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-reassuring.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-reassuring.png",
+      "removedByCell": [
+        82
+      ],
+      "sha256": "ad4c47c84aeb14a23edf5b2009792edabde23e866bf0955c1b2c7e33c0e2dc7c"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-thoughtful.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-thoughtful.png",
+      "removedByCell": [
+        36
+      ],
+      "sha256": "0685fe02b4fbcbdb612803e2cf7ba31509cf14e86e94820dbe0a56dffb852d63"
+    },
+    {
+      "source": "/assets/portraits-v19/child-male-tone-5-tired.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/child-male-tone-5-tired.png",
+      "removedByCell": [
+        29
+      ],
+      "sha256": "ecf35bb78ba5194521149602b25f7f69f735d321c0196e4ce85cfab6df163df4"
+    },
+    {
+      "source": "/assets/portraits-v19/staff-navigator-neutral.png",
+      "output": "/assets/characters-v23-clean/portraits-v19/staff-navigator-neutral.png",
+      "removedByCell": [
+        8
+      ],
+      "sha256": "379766fc25d869d1771c5afe06dd943d2398e7291b56dd3d0c2205c0a0da1a43"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-idle-female-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-idle-female-tone-2.png",
+      "removedByCell": [
+        1,
+        10,
+        7,
+        0
+      ],
+      "sha256": "1d58e71991f4762509af5d07248cd1895893f5b726f85f3a3f8d3065a096b78f"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-idle-female-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-idle-female-tone-4.png",
+      "removedByCell": [
+        0,
+        3,
+        17,
+        0
+      ],
+      "sha256": "eb1274a17c7498d490046244f54d43071499075111cdb89e7fa0e29ffa3e8075"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-idle-female-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-idle-female-tone-5.png",
+      "removedByCell": [
+        1,
+        0,
+        7,
+        3
+      ],
+      "sha256": "64e3293c579092f9d73d1931d66e9f7792a038a5730ee5a2aed61f99123e251d"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-idle-male-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-idle-male-tone-2.png",
+      "removedByCell": [
+        0,
+        2,
+        0,
+        8
+      ],
+      "sha256": "dccaf80a5f24c2c0235ca9f0cf514f5ad0874d083affedfd438fbaedded9767b"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-idle-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-idle-male-tone-3.png",
+      "removedByCell": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "sha256": "a28ca656d2437da6637faab8c9801964819d6c26cfab07c36913d72332380790"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-idle-male-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-idle-male-tone-4.png",
+      "removedByCell": [
+        2,
+        0,
+        1,
+        1
+      ],
+      "sha256": "2bcdbd7687640748ad6aba1a4f9e375015be0e2bd7f643217823b7193245400c"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-idle-male-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-idle-male-tone-5.png",
+      "removedByCell": [
+        0,
+        8,
+        6,
+        6
+      ],
+      "sha256": "0ba671c5b5bf03bf6384573ca14da1164b34252b296836fc2bda15856e6bdf61"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-female-tone-2.png",
+      "removedByCell": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "sha256": "79b531faab1cf1fcef5e9e8fbbbbaceea43ce941ea76f8bfbb81cd5cde7fc4f0"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-female-tone-4.png",
+      "removedByCell": [
+        2,
+        0,
+        7,
+        0
+      ],
+      "sha256": "983bf43d98dd60afc2ffca11273a2923eca36c5fe289cc6d1744217e69bdd0e0"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-female-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-female-tone-5.png",
+      "removedByCell": [
+        11,
+        0,
+        1,
+        1
+      ],
+      "sha256": "3fd80702cfad50d8eb8bc3a6db00335df537b19781b7ee226e421da396d74f2e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-male-tone-1.png",
+      "removedByCell": [
+        0,
+        3,
+        0,
+        1
+      ],
+      "sha256": "28d8b660d88620a639f0ecff3be9de5d3e751d21587d9b9e4d3694b731a8eff7"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-male-tone-2.png",
+      "removedByCell": [
+        8,
+        0,
+        9,
+        20
+      ],
+      "sha256": "a00268ffcf02dd888d77b8be049fb528c2f584504478bb9145089b6355c2e727"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-male-tone-3.png",
+      "removedByCell": [
+        0,
+        2,
+        0,
+        5
+      ],
+      "sha256": "3fc349c480d0cf2f64b0a299867b87a0524db5b71cc2502551b439f1bd42d56c"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-male-tone-4.png",
+      "removedByCell": [
+        0,
+        0,
+        12,
+        0
+      ],
+      "sha256": "7781c72ebf6b154f995b12be6710909bd13c2060758aa879e42392b2feec0b2b"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-reaction-male-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-reaction-male-tone-5.png",
+      "removedByCell": [
+        16,
+        0,
+        0,
+        6
+      ],
+      "sha256": "a10fc9b39ae606e6726bf8adbcea3af04b6b6674acc48f910da4e4aa46915e6e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-female-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-female-tone-2.png",
+      "removedByCell": [
+        0,
+        1,
+        3,
+        0
+      ],
+      "sha256": "edae302a3486ecfb30ecdab0786ce9833b1f8f788658e6c1ec80a108b204ea9b"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-female-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-female-tone-4.png",
+      "removedByCell": [
+        4,
+        0,
+        12,
+        0
+      ],
+      "sha256": "66e6b4fba4d8f94da05e6779e31bf536d2cd496910a424d093dfe75d48d55b87"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-female-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-female-tone-5.png",
+      "removedByCell": [
+        0,
+        0,
+        2,
+        3
+      ],
+      "sha256": "4a9601a4b74f52a569f8eb5d2a383a02ff043d03334cd6eb0e18d75d5991bec5"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-male-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-male-tone-1.png",
+      "removedByCell": [
+        6,
+        9,
+        0,
+        0
+      ],
+      "sha256": "e9081b88703688ffb08f3643e269fe2208a42fa6bd3829197ab030c27e0bdb48"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-male-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-male-tone-2.png",
+      "removedByCell": [
+        1,
+        0,
+        0,
+        21
+      ],
+      "sha256": "dff2bd53f704954956a5835dd3a1c234c6ca34dd5bd226aa3976bd2c43137b07"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-male-tone-3.png",
+      "removedByCell": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "sha256": "c30ec07266fc6b755c498540d1c49647dd728c09062120da9655ff89c80f683d"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-male-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-male-tone-4.png",
+      "removedByCell": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "sha256": "3d96a341997f3746d1cac5843aa62d0b75b4303cb1b48656daeefe747b255ad2"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-talk-male-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-talk-male-tone-5.png",
+      "removedByCell": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "sha256": "6242efe35ab3e7d5267550fcd0896dacc1c399f0fa0de9b2ae1cc06d1fe23d5e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-female-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-female-tone-2.png",
+      "removedByCell": [
+        7,
+        10,
+        0,
+        2
+      ],
+      "sha256": "23aee93755ba3e0670014ed6b2f4dd02b6d246534b7147a2362d892f3e4407fb"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-female-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-female-tone-4.png",
+      "removedByCell": [
+        40,
+        0,
+        2,
+        0
+      ],
+      "sha256": "074dfdb2ba24258f2693604fcc61c86f00b277e6183f48794998512d990fa25d"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-female-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-female-tone-5.png",
+      "removedByCell": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "sha256": "a4dae5dee9af6ffa4473f5515361df2e08c11ee68604f73d371090d18f81de84"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-male-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-male-tone-1.png",
+      "removedByCell": [
+        0,
+        0,
+        47,
+        4
+      ],
+      "sha256": "99232b3d52e50e4146cdb719762663c95ff0b99424d4a6abe33f5b9f7f2d54e1"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-male-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-male-tone-2.png",
+      "removedByCell": [
+        45,
+        12,
+        0,
+        6
+      ],
+      "sha256": "0cfe54423d407a17170e316d7961452d1e2a802a53d19f9986239de2daaf24fe"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-male-tone-3.png",
+      "removedByCell": [
+        3,
+        0,
+        3,
+        0
+      ],
+      "sha256": "95c7fcfc350349a76c6135745f947cb46b8091abb411da422abc80b8b1396a70"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-male-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-male-tone-4.png",
+      "removedByCell": [
+        1,
+        0,
+        27,
+        0
+      ],
+      "sha256": "999bc2b49635a89184b8852f8568d549663819383a2f06ae68b03ad56750956e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/caregiver-walk-male-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/caregiver-walk-male-tone-5.png",
+      "removedByCell": [
+        0,
+        8,
+        0,
+        16
+      ],
+      "sha256": "3abdad0380f3073d62aecf5f7bfd440ac8dc6c429d6395434758e6bb61818ef0"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-idle-female-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-idle-female-tone-1.png",
+      "removedByCell": [
+        1,
+        5,
+        1,
+        2
+      ],
+      "sha256": "d96828c404b9d747fb10e1b62fa73c4c1367b14d597a5277a056bf33a5b9f1bd"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-idle-female-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-idle-female-tone-2.png",
+      "removedByCell": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "sha256": "4c46bf1f0303eb7639ceaabc5f17176a0cee27b34fde818336ea270e6b5e173f"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-idle-female-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-idle-female-tone-3.png",
+      "removedByCell": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "sha256": "b9202a95cd00eb67dbb20e7ea0a05979bed65af9be6aed8b0d259c15a2582827"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-idle-female-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-idle-female-tone-4.png",
+      "removedByCell": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "sha256": "974396288c4d34f9111884ff8fe8b7eebcafd38a1cce204ffc7473ef5c4cf966"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-idle-female-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-idle-female-tone-5.png",
+      "removedByCell": [
+        3,
+        0,
+        0,
+        0
+      ],
+      "sha256": "f7d7ce6a261e3f3e3023278b37e6ed3a92d0e7f3b8cd74992bfb13ab1d4b3a7e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-idle-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-idle-male-tone-3.png",
+      "removedByCell": [
+        0,
+        0,
+        0,
+        14
+      ],
+      "sha256": "997f6d4f850fff31e1a0c759ad7d336617be521c500bd369ecc34beebd06af13"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-reaction-female-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-reaction-female-tone-4.png",
+      "removedByCell": [
+        0,
+        3,
+        2,
+        2
+      ],
+      "sha256": "e8b77a3b9e52ac7e11eef6003ea16140c6ee91edebbbbb5b51cc0c51c758fc0e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-reaction-female-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-reaction-female-tone-5.png",
+      "removedByCell": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "sha256": "c4a3861a0ed78374296cef892e4be2dd13830b2b50995bc63f50bf7dd11e532e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-reaction-male-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-reaction-male-tone-1.png",
+      "removedByCell": [
+        0,
+        3,
+        0,
+        0
+      ],
+      "sha256": "d1c388aad65300b3fcd14747dd5053d89dc4dcaf3a085aee0b13fcbdba327911"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-reaction-male-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-reaction-male-tone-2.png",
+      "removedByCell": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "sha256": "9b96b7f69f77777f3cf14a707f561ad9fecf62b80cb63158aafb1fdc9d50d994"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-reaction-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-reaction-male-tone-3.png",
+      "removedByCell": [
+        4,
+        3,
+        0,
+        12
+      ],
+      "sha256": "9844ee65821caf21b42ff4be1d7eb259c6489990d9546136df705c334c2ec250"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-reaction-male-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-reaction-male-tone-4.png",
+      "removedByCell": [
+        0,
+        4,
+        3,
+        0
+      ],
+      "sha256": "060863901a743a5f202ecf7f05a96a1d8045a51b1d35521f16ef9a2d664493eb"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-reaction-male-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-reaction-male-tone-5.png",
+      "removedByCell": [
+        0,
+        5,
+        0,
+        0
+      ],
+      "sha256": "168f0c9e4e8c0bad452ffb18ae8bdde23bf3e8a7e88bf271e8eeb79756df6ab8"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-talk-female-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-talk-female-tone-1.png",
+      "removedByCell": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "sha256": "30b5964d45b016b027c0cecb18c83ca84e9bbde679a12d4a3909748a142930d8"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-talk-female-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-talk-female-tone-3.png",
+      "removedByCell": [
+        2,
+        4,
+        0,
+        0
+      ],
+      "sha256": "a43951314a535d7f3221396f43c5842f35005df0b1ccd1123ca8fd1657ad09ce"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-talk-male-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-talk-male-tone-1.png",
+      "removedByCell": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "sha256": "bd747c94c0b048d8708c47e49a1d1ef4de5ebb02b64eefedf9f4e6db3d294c92"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-talk-male-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-talk-male-tone-2.png",
+      "removedByCell": [
+        6,
+        2,
+        0,
+        0
+      ],
+      "sha256": "944b827d5fbbd5d1dba21053bfaaf10dd918e47d40f459c3eb8c41da8b04bb76"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-talk-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-talk-male-tone-3.png",
+      "removedByCell": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "sha256": "c9ae5392ba9216165e0e703fc7549fe4e2a3035266e00386b808917eb50b44b6"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-talk-male-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-talk-male-tone-4.png",
+      "removedByCell": [
+        10,
+        6,
+        0,
+        0
+      ],
+      "sha256": "6a800c0cb437ec1417284565cf7a4f7a69c8ca8fc521c90e028e9d65d0392a87"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-talk-male-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-talk-male-tone-5.png",
+      "removedByCell": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "sha256": "0e3079a03bd37419da02f4fa85749328791e337d6f9cfe86ed2297d0ae8307d1"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-female-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-female-tone-1.png",
+      "removedByCell": [
+        59,
+        19,
+        4,
+        0
+      ],
+      "sha256": "57e63196f8850f03c478bca2a1eaea295596e51471bc9463fe18c5e8695ed763"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-female-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-female-tone-2.png",
+      "removedByCell": [
+        3,
+        54,
+        12,
+        6
+      ],
+      "sha256": "cb28ef2ea83835152464debcd009094efffa63c8dd7de71401d972a7ae735abc"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-female-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-female-tone-3.png",
+      "removedByCell": [
+        65,
+        11,
+        48,
+        0
+      ],
+      "sha256": "da15847ff958c01b196f81d28fc800382468455f8c1048e1bf6414880f0b5a6e"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-female-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-female-tone-4.png",
+      "removedByCell": [
+        0,
+        61,
+        0,
+        59
+      ],
+      "sha256": "5cdff07eeb284949df5c1c8bd98e1a3127f75f5b4310ac9dcd3c633aedc4a750"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-female-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-female-tone-5.png",
+      "removedByCell": [
+        17,
+        61,
+        71,
+        1
+      ],
+      "sha256": "ecf00a9cb0a0b48f15ca98ec2562150e25084ee8ff42048510ac1cb2b22108ae"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-male-tone-1.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-male-tone-1.png",
+      "removedByCell": [
+        0,
+        1,
+        10,
+        1
+      ],
+      "sha256": "a95c7744b48f845ab42ebe26feafe52cbc7b2152a843e5ff956001194e4b986a"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-male-tone-2.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-male-tone-2.png",
+      "removedByCell": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "sha256": "f490076a67c43b2e4431395ceb7520544555928bb0287e6c962e327bb03ea19c"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-male-tone-3.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-male-tone-3.png",
+      "removedByCell": [
+        0,
+        2,
+        8,
+        0
+      ],
+      "sha256": "89ba8f062d041bdccaad432f92d4f754b305b0796efca0233c75a3e2c85dc8b4"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-male-tone-4.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-male-tone-4.png",
+      "removedByCell": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "sha256": "b6dfb2f6ae7c3cf42101a6ecf795ce99bc30eaba047a2b7402c97ac032817110"
+    },
+    {
+      "source": "/assets/sprites-v20-hd/child-walk-male-tone-5.png",
+      "output": "/assets/characters-v23-clean/sprites-v20-hd/child-walk-male-tone-5.png",
+      "removedByCell": [
+        0,
+        3,
+        9,
+        0
+      ],
+      "sha256": "44df36a024d40655c6a1eb46c3b783f4725c7758e75bf3a9d00885e9c10c8751"
+    },
+    {
+      "source": "/assets/cinematic-v22/travel/sam-standing.png",
+      "output": "/assets/characters-v23-clean/cinematic-v22/travel/sam-standing.png",
+      "removedByCell": [
+        238
+      ],
+      "sha256": "5473127e114a5b21b3295052dcf842420abd2ecd446f5e19ad8c8e95581b7f9f"
+    }
+  ]
+}
