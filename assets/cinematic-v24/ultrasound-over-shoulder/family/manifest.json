@@ -1,0 +1,1493 @@
+{
+  "version": "ultrasound-closeups-v24",
+  "frameSize": 640,
+  "frameOrder": [
+    "concerned",
+    "afraid",
+    "calm",
+    "blink"
+  ],
+  "normalization": "one shared nearest-neighbor scale per identity; hair-top and head-center anchors; binary exterior alpha; no facial recoloring or drawing",
+  "assets": [
+    {
+      "key": "child-male-tone-1",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-1.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-1-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-male-tone-1-neutral.png",
+      "originalReferenceSha256": "f52a9c1267040a688932a73df4f009558574140230d6011d6b9fbc856ffa6df0",
+      "sourceSha256": "b67c2379d09ee7be423396b3a4971f2aa60567731767a602c0907624bb75e3a3",
+      "sha256": "73a52637714021b3cf48f1864eccc8306b1f7956c57dbc3eea0eb5df6c23397a",
+      "scale": 1.0331588132635252,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          26,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            74,
+            24,
+            566,
+            615
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            74,
+            24,
+            566,
+            616
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            74,
+            24,
+            566,
+            615
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            74,
+            24,
+            566,
+            615
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-male-tone-2",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-2.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-2-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-male-tone-2-neutral.png",
+      "originalReferenceSha256": "8a0e4bd88de73cff44354144e755c09aa8ff740a79cb5c72d5f1002893c565a1",
+      "sourceSha256": "f7c0118fb04db8b1f334bccb60af36efec66544d9f53eded000c550899a25bdc",
+      "sha256": "58f9df5492fe0c22b36e08d864f803317a3ea13af507fd663fbc9a92de0c7aa3",
+      "scale": 1.0367775831873904,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            80,
+            24,
+            560,
+            616
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            80,
+            24,
+            560,
+            615
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            80,
+            24,
+            560,
+            615
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            80,
+            24,
+            560,
+            615
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-male-tone-3",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-3.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-3-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-male-tone-3-neutral.png",
+      "originalReferenceSha256": "5d030a00fc41edc139b0c187929acd8779a982ddf895abc231dedf47ab64896e",
+      "sourceSha256": "ca96f2c06136d90aaafbae6c133da04125da239783295aa744b5b3c3a6f8d200",
+      "sha256": "10e4eba4af49117626bd4fb598eca81c236a7a7a8a3caa9c94cad5a7e8ec32eb",
+      "scale": 1.0154373927958833,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            74,
+            24,
+            566,
+            616
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            74,
+            24,
+            566,
+            616
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            74,
+            24,
+            565,
+            615
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            74,
+            24,
+            566,
+            615
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-male-tone-4",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-4.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-4-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-male-tone-4-neutral.png",
+      "originalReferenceSha256": "e8d0770c6c5ac10d73eef924bcc97860459781a6eda46bd7ce535bd3138227da",
+      "sourceSha256": "c27b2ddc4057d00ba04d1e5fbb94d4059379d354de29f002885994c19aa747cc",
+      "sha256": "f572d86d9e09c9206768c05059b6017e23ddbf29b156ad1a0087966bf2ef3f0a",
+      "scale": 1.0189328743545611,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          -3,
+          1
+        ],
+        [
+          24,
+          1
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            74,
+            24,
+            567,
+            616
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            72,
+            24,
+            565,
+            616
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            72,
+            24,
+            567,
+            616
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            71,
+            24,
+            568,
+            616
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-male-tone-5",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-5.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-male-tone-5-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-male-tone-5-neutral.png",
+      "originalReferenceSha256": "c21b2676e44e8e7f003a56ced80d90e6a6fac54e373c672d355b71f241c92ca1",
+      "sourceSha256": "2f34912b0fabd07cab18332dfcf60e34d8e71b6f0230ab240cb45ffb70951a4d",
+      "sha256": "8c7a98a9ff0004b4948faaa0ef9c7586d72818d520d9ff5a7c4b7ef5c177f04b",
+      "scale": 1.0295652173913044,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          -1,
+          7
+        ],
+        [
+          18,
+          8
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            85,
+            24,
+            556,
+            612
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            85,
+            24,
+            557,
+            612
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            83,
+            24,
+            556,
+            615
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            83,
+            24,
+            555,
+            616
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-female-tone-1",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-1.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-1-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-female-tone-1-neutral.png",
+      "originalReferenceSha256": "0806eeef098c11cb5df7347510294a4747d6e38adbbd3c027ec99d96ccdf1bc6",
+      "sourceSha256": "8d7cffd10536d59b106a7d2daf9fc5e0c5e21dab4bc532695486e7db6a526f9c",
+      "sha256": "d43970f0139f25d76370d12b12ef21cfb7722008f4e2841bb331e72c67e861ae",
+      "scale": 1.0459363957597174,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          1
+        ],
+        [
+          -1,
+          5
+        ],
+        [
+          17,
+          5
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            52,
+            24,
+            588,
+            615
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            51,
+            24,
+            589,
+            616
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            51,
+            24,
+            589,
+            615
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            51,
+            24,
+            589,
+            615
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-female-tone-2",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-2.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-2-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-female-tone-2-neutral.png",
+      "originalReferenceSha256": "628a91df18fc05c2154dff7f9c6d966093a79b3cbb0a234c4a450cbbcd310ecc",
+      "sourceSha256": "f443f3fd8a7f5b48a0bb7276366d14a5367c7a831cb3b2727b76a0bb169ad80e",
+      "sha256": "a8cbc54bd1b6eb0e68620fb01f107f0a58b7f4cea58584be40721838fa599cd9",
+      "scale": 1.0802919708029197,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            48,
+            24,
+            591,
+            616
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            48,
+            24,
+            592,
+            616
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            48,
+            24,
+            591,
+            616
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            48,
+            24,
+            592,
+            616
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-female-tone-3",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-3.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-3-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-female-tone-3-neutral.png",
+      "originalReferenceSha256": "2e102a6275e320f321eb204fd8b8432291afc54e2b7c094c08f8908e34e7e782",
+      "sourceSha256": "519fde693189a0c0423477a29676a3f07aad8f673f89d6f4e87ef75e3c7edfe9",
+      "sha256": "157c19b6b3f453e9bd6497d096c09c4f65359c3c9404414be56496e0ba4e67fa",
+      "scale": 1.064748201438849,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          27,
+          0
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          26,
+          11
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            53,
+            24,
+            587,
+            614
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            53,
+            24,
+            587,
+            614
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            54,
+            24,
+            586,
+            616
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            52,
+            24,
+            587,
+            616
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-female-tone-4",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-4.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-4-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-female-tone-4-neutral.png",
+      "originalReferenceSha256": "df644c26f396c80c72e25ac970999003f975e2a04de3bc1d7eb2baf1ccc63177",
+      "sourceSha256": "fbaa1246374cbc9fdf9e90f51968b93de3d77131a8eada8553e098e847a489c3",
+      "sha256": "fc1512cfe26abcaeadbaef1e67b42deeabcacfe64c8a27db9c7a5668d85145f4",
+      "scale": 1.0367775831873904,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            40,
+            24,
+            599,
+            616
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            40,
+            24,
+            600,
+            616
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            40,
+            24,
+            599,
+            615
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            40,
+            24,
+            600,
+            615
+          ]
+        }
+      ]
+    },
+    {
+      "key": "child-female-tone-5",
+      "frameWidth": 640,
+      "frameHeight": 640,
+      "frameOrder": [
+        "concerned",
+        "afraid",
+        "calm",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-5.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/child-female-tone-5-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/child-female-tone-5-neutral.png",
+      "originalReferenceSha256": "01f4e8ff827275be8bb5426db7b02078de56ed15f9e19b4eeb876cbdad636605",
+      "sourceSha256": "5de057352542a7adcbbfc702f61ceb950bb31387b21b5485a23babcccca6b996",
+      "sha256": "597a99a541e61cbdfbe400c666a0a2af2b68069fe5ec35bcd5cea5780ee7df47",
+      "scale": 1.0705244122965643,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          18,
+          5
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            52,
+            24,
+            586,
+            615
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            53,
+            24,
+            585,
+            615
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            52,
+            24,
+            587,
+            616
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            53,
+            24,
+            585,
+            616
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-male-tone-1",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-1.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-1-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-male-tone-1-neutral.png",
+      "originalReferenceSha256": "86bd2a7a9a4bb75a6a9de3609665730c54f123215de76614425df80be3141393",
+      "sourceSha256": "0d5579ea75f9aeaf2b816c4c5be891a048a55cdb2a0529669b5aa807f24ff365",
+      "sha256": "e5aecc5c50dfcf5f404ceffa41d22f795b236c729bc8f2cd23412df0441a104b",
+      "scale": 1.2527472527472527,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            54,
+            24,
+            585,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            55,
+            24,
+            585,
+            936
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            54,
+            24,
+            585,
+            935
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            55,
+            24,
+            585,
+            935
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-male-tone-2",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-2.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-2-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-male-tone-2-neutral.png",
+      "originalReferenceSha256": "549b803d3a19de32b5a1db99d3a2c9d79c8b6470abe6ef0eaae50eb02693c0c7",
+      "sourceSha256": "31c40a2542b27cb26e29936817e296f7f5e3713083d57e1cc46b249d74b30954",
+      "sha256": "ea76e144205de93dbc4389f2dcf8b332d4a50bd615193d2c76debd2df49b55fd",
+      "scale": 1.2649098474341194,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            40,
+            24,
+            600,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            40,
+            24,
+            600,
+            935
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            40,
+            24,
+            600,
+            936
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            40,
+            24,
+            600,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-male-tone-3",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-3.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-3-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-male-tone-3-neutral.png",
+      "originalReferenceSha256": "11092d9e23c013bff481edb680c85ad3ebd172ce2d65c2ada8aec133b928a951",
+      "sourceSha256": "5181449861adae157a80e3e28f7bb175a6c8d7e54e2b4865e50fb5d29e90cbf9",
+      "sha256": "8341eac2dfd41300fd8dee3e3b174ca564b68a8caa42a0fc6c8b2ec587acebe4",
+      "scale": 1.2614107883817427,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            54,
+            24,
+            585,
+            935
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            55,
+            24,
+            584,
+            935
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            54,
+            24,
+            585,
+            935
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            55,
+            24,
+            584,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-male-tone-4",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-4.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-4-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-male-tone-4-neutral.png",
+      "originalReferenceSha256": "ac9e5817723267f413b8f1bf33a48c00e243a2177f7596c0b9be23200bb97553",
+      "sourceSha256": "836e1fb4062f5b83017afc5f397ff175b6820d8eed0754e24faf53e794b86e16",
+      "sha256": "122cf6993366514e4e8f207a7e36899463c73a49d6ae96c97b06470e9e926cf0",
+      "scale": 1.2755244755244755,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            44,
+            24,
+            594,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            45,
+            24,
+            595,
+            936
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            44,
+            24,
+            594,
+            935
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            45,
+            24,
+            595,
+            935
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-male-tone-5",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-5.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-male-tone-5-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-male-tone-5-neutral.png",
+      "originalReferenceSha256": "6751794216c39f690874d30049c7cc120cd40cff0d2a13efea42d1bc7e04de91",
+      "sourceSha256": "6d12912a0f4d55f9873607f3ce9ed9becdd0ac49a3f702e4bbe7f69f338ddc34",
+      "sha256": "5f063bed287c3805ff34fd0788507d7750d66df71420c3cdaa43cc177aa6ab79",
+      "scale": 1.2649098474341194,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          32,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            47,
+            24,
+            592,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            47,
+            24,
+            592,
+            936
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            47,
+            24,
+            592,
+            936
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            47,
+            24,
+            592,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-female-tone-1",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-1.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-1-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-female-tone-1-neutral.png",
+      "originalReferenceSha256": "324d4452b91f299a3206722bcc74c3ced6f930e07a83eb1a16f44cdab13655c7",
+      "sourceSha256": "e007b5b2c2aeb613513478b393dba197426ea17921962067ab8b1fc0fba5ed4b",
+      "sha256": "c64cd4a438ca8cc87bc50dcbb900d02ead97d6f9710037b65b3b8fdea5f5dd5a",
+      "scale": 1.2827004219409284,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            52,
+            24,
+            588,
+            935
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            52,
+            24,
+            588,
+            935
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            52,
+            24,
+            588,
+            936
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            52,
+            24,
+            588,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-female-tone-2",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-2.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-2-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-female-tone-2-neutral.png",
+      "originalReferenceSha256": "f1427371f2be2ddb9f0e53d8a2e2573f7acf77c1e6693a30976905fadb96a5ef",
+      "sourceSha256": "1515cad2cb5157e1cae1ee0a79b67cf145da8df6a9f23f18693b5196b40118d8",
+      "sha256": "19c29c0ee89a6abc08ce1ecd2239f3754868aa849ce18e25840731de0ba9fd04",
+      "scale": 1.2863187588152327,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            46,
+            24,
+            593,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            46,
+            24,
+            593,
+            936
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            46,
+            24,
+            593,
+            936
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            46,
+            24,
+            593,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-female-tone-3",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-3.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-3-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-female-tone-3-neutral.png",
+      "originalReferenceSha256": "2f699d227fa8688ba61d6081585a29550d7b21bdc03786662e8ac77af34bdf62",
+      "sourceSha256": "e80824068ee8146641b02b7df02e41cdb1e8300184769e1c9dd373171bc8b69e",
+      "sha256": "0068a3f1aaecdc5b647676cbfc094a93a2be920dc1558165f1debe5a08f51ca1",
+      "scale": 1.2863187588152327,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            50,
+            24,
+            590,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            49,
+            24,
+            591,
+            936
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            50,
+            24,
+            590,
+            936
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            50,
+            24,
+            591,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-female-tone-4",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-4.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-4-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-female-tone-4-neutral.png",
+      "originalReferenceSha256": "2837c7a7781dfed066766f4c088d5332938a9d986db4233ba672313f9c061770",
+      "sourceSha256": "c87f699dafd14df6dc8b94ce6b86111d630b2d2cddddec572f8d77fd1ed66c26",
+      "sha256": "3b6c27014b675722858476d79e110362eb0d4a5ae942f6f850ec2f5f3aaf6d0b",
+      "scale": 1.2808988764044944,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            54,
+            24,
+            586,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            53,
+            24,
+            586,
+            936
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            54,
+            24,
+            586,
+            936
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            54,
+            24,
+            586,
+            936
+          ]
+        }
+      ]
+    },
+    {
+      "key": "caregiver-female-tone-5",
+      "frameWidth": 640,
+      "frameHeight": 960,
+      "frameOrder": [
+        "neutral",
+        "half-blink",
+        "neutral",
+        "blink"
+      ],
+      "path": "/assets/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-5.png",
+      "source": "art-source/cinematic-v24/ultrasound-over-shoulder/family/caregiver-female-tone-5-source.png",
+      "originalIdentityReference": "public/assets/portraits-v19/caregiver-female-tone-5-neutral.png",
+      "originalReferenceSha256": "f985e6a3d5db1644a3ff88611bd0144826158e9c19dce0221d0ef2f960b53235",
+      "sourceSha256": "fb9ce4ce70137d081356dafba80dde0bb6d2163f4d0a7e802bbe16905fd022dd",
+      "sha256": "a663bcf9f8c9dd1227ca10fb70064d0cf66081b518b1a0322231dc85ced8b147",
+      "scale": 1.2881355932203389,
+      "translations": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "alphaBounds": [
+            51,
+            24,
+            588,
+            936
+          ]
+        },
+        {
+          "index": 1,
+          "alphaBounds": [
+            51,
+            24,
+            588,
+            936
+          ]
+        },
+        {
+          "index": 2,
+          "alphaBounds": [
+            52,
+            24,
+            588,
+            936
+          ]
+        },
+        {
+          "index": 3,
+          "alphaBounds": [
+            51,
+            24,
+            588,
+            936
+          ]
+        }
+      ]
+    }
+  ]
+}
