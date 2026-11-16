@@ -1,0 +1,36 @@
+{
+  "version": "cinematic-v27",
+  "normalization": "Full-frame nearest-neighbor resize only; generated lighting; no runtime tint or fake window rectangles",
+  "assets": {
+    "sunset": {
+      "url": "/assets/cinematic-v27/clinic-sunset.png",
+      "sha256": "ae06ec22089a08905424643652f2ab98ed296e1987efa16299cdfe756eae0dc5",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v27/clinic-sunset-source.png",
+      "sourceSha256": "09d04efb7b2ca632a961b763415161ac13822b06aa47337145960243043e4db7"
+    },
+    "dusk": {
+      "url": "/assets/cinematic-v27/clinic-dusk.png",
+      "sha256": "9a6f6cc5d341cb25d62796d45648e8e965b1f20c3dea8f3e0e407500ac152c62",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v27/clinic-dusk-source.png",
+      "sourceSha256": "13a93ac181347780a6041ce56bd39faeae3a1968f4fb7cbc0622d8c64c1eca01"
+    },
+    "night": {
+      "url": "/assets/cinematic-v27/clinic-night.png",
+      "sha256": "d314dfe2469f9412a5d993383f2811334ada13ab74ddb29072b5a7d29f4b5ffe",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v27/clinic-night-source.png",
+      "sourceSha256": "b15068d254a404ccb1fc4bc365e0f0b39b4da0ffd0923652f11907096d5fe36a"
+    }
+  }
+}
