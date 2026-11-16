@@ -1,0 +1,42 @@
+{
+  "version": "sam-v25",
+  "policy": "new identity-consistent art; binary exterior alpha; nearest-neighbor scaling; fixed sole/bust anchors",
+  "assets": [
+    {
+      "key": "sam-standing",
+      "path": "/assets/cinematic-v25/sam/sam-standing.png",
+      "source": "art-source/cinematic-v25/sam/sam-standing-source.png",
+      "sourceSha256": "ee51399740815bcbecf36424d7566ea20dcb309d0ce12de8941498fcb267000e",
+      "sha256": "26293966e6b1ae01901ea43a4a8725da593b04cd73f2b777cc25047f8246ddd2",
+      "size": [
+        256,
+        256
+      ],
+      "alphaBounds": [
+        69,
+        24,
+        169,
+        244
+      ],
+      "scale": 0.21505376344086022
+    },
+    {
+      "key": "sam-neutral",
+      "path": "/assets/cinematic-v25/sam/sam-neutral.png",
+      "source": "art-source/cinematic-v25/sam/sam-neutral-source.png",
+      "sourceSha256": "1aca70983748d28fc2edb4721f04cd8ca2df62dd92058dc39479f49ce04fa533",
+      "sha256": "8fc78d0cd8bfa157de4b7edb5c7fc6d116dd7fa6993d98d392e832153898c77c",
+      "size": [
+        432,
+        432
+      ],
+      "alphaBounds": [
+        49,
+        24,
+        383,
+        408
+      ],
+      "scale": 0.34072759538598046
+    }
+  ]
+}
