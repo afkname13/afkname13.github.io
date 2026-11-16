@@ -1,0 +1,1083 @@
+{
+  "version": "cinematic-v26",
+  "normalization": "generated layers; largest opaque alpha component, one shared nearest-neighbor scale per animation, stable foot/head anchors; no facial recoloring or drawing",
+  "assets": {
+    "clinic-room": {
+      "url": "/assets/cinematic-v26/clinic-room.png",
+      "sha256": "fb89b1900d2ddd17814ffd58661e23d8820d3764431fc993c3ae4d6c92da0434",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v26/clinic-room-source.png",
+      "sourceSha256": "2f65ebeec494377621710164e2c10af5a5c646fe127226f881fe98093833f777"
+    },
+    "clinic-exterior": {
+      "url": "/assets/cinematic-v26/clinic-exterior.png",
+      "sha256": "b5268ebb59e7bd84b0aa1d859cef10ca2a665555168a5580c11078cedb7bd9d2",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v26/clinic-exterior-source.png",
+      "sourceSha256": "76c2490c17c655a61af246a91d6e965d5e27c39a4613192492715b6180495315"
+    },
+    "bus-interior": {
+      "url": "/assets/cinematic-v26/bus-interior.png",
+      "sha256": "63a0b1efa942799ce72dd6fdecb94dc6fdf63707c2176b636f2e6a6a6c18aded",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v26/bus-interior-source.png",
+      "sourceSha256": "880afc358169fc3dcf2467350ff6c1b37addb8fa6162a55d50d11a1a97ea3c6a"
+    },
+    "bus-street": {
+      "url": "/assets/cinematic-v26/bus-street.png",
+      "sha256": "f30ff3d71f051864aea70cdb04b0efe6c45e484ae20f27f6312885f032694621",
+      "size": [
+        1600,
+        800
+      ],
+      "source": "art-source/cinematic-v26/bus-street-source.png",
+      "sourceSha256": "bdc0ce093b431f5dc78d6db8019a7da4af691c49645e29039e2ff231aac6152e"
+    },
+    "referral-office-0": {
+      "url": "/assets/cinematic-v26/referral-office-0.png",
+      "sha256": "57a25d170303b1aad56f24a742b6476d8a69199725114514fc4ccfffe1df5e91",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v26/referral-office-0-source.png",
+      "sourceSha256": "cd8241c024fc3d4a08f92b1e846cf92ff00b6673afc6c4fd4a134b7f98582903"
+    },
+    "referral-office-1": {
+      "url": "/assets/cinematic-v26/referral-office-1.png",
+      "sha256": "b10823ae54bed287603181243e18ee319324d177a73dff0cb7c20a30afb49ce8",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v26/referral-office-1-source.png",
+      "sourceSha256": "7c9c20eabdfa12a834aac0b6f001cf1a8e0d33ed964a580ce584d31512f55038"
+    },
+    "referral-office-2": {
+      "url": "/assets/cinematic-v26/referral-office-2.png",
+      "sha256": "249191d44ad5db399309854209c8b15dea31ae05544c80c129d8d786d1fdb5fd",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v26/referral-office-2-source.png",
+      "sourceSha256": "453d419ddac8c04a9f4f027608af81fd11776d3709671451b2e144fb2a7c074d"
+    },
+    "referral-office-3": {
+      "url": "/assets/cinematic-v26/referral-office-3.png",
+      "sha256": "8f9d2ff17ce1ff5e0f0881739ac08e25afd256b6bf623a6ebd8021ff6300777a",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "art-source/cinematic-v26/referral-office-3-source.png",
+      "sourceSha256": "3ca06c72911db993d0325189774f8097e0490c7589307559f6fde6ca7cad8d50"
+    },
+    "clinician-actions": {
+      "url": "/assets/cinematic-v26/clinician-actions.png",
+      "sha256": "16c5bfe75883042379a93fbae47db80fa139b5aaaee9b1f3dbac9359579960c3",
+      "size": [
+        1024,
+        1280
+      ],
+      "source": "art-source/cinematic-v26/clinician-actions-source.png",
+      "sourceSha256": "61a2665fc7bd8354b17fcc596d09f572f2f693f47860adcaa7d56626d2b19362",
+      "frameWidth": 512,
+      "frameHeight": 640,
+      "columns": 2,
+      "rows": 2,
+      "scale": 0.9507640067911715,
+      "frames": [
+        {
+          "bounds": [
+            215,
+            65,
+            449,
+            624
+          ],
+          "anchor": [
+            320,
+            624
+          ]
+        },
+        {
+          "bounds": [
+            140,
+            64,
+            450,
+            624
+          ],
+          "anchor": [
+            320,
+            624
+          ]
+        },
+        {
+          "bounds": [
+            140,
+            66,
+            450,
+            624
+          ],
+          "anchor": [
+            320,
+            624
+          ]
+        },
+        {
+          "bounds": [
+            157,
+            65,
+            450,
+            624
+          ],
+          "anchor": [
+            320,
+            624
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-female-tone-1": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-female-tone-1.png",
+      "sha256": "ca4e533ba94cd50f92f784f3427e8d6034f2d30496a34a3e972b7a2dc90fc578",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-female-source.png",
+      "sourceSha256": "df695f443929eab8a63132ff4a81b793df6ae364bca7acc859ee594c840a3c16",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9667774086378738,
+      "frames": [
+        {
+          "bounds": [
+            33,
+            24,
+            397,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            33,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            33,
+            24,
+            397,
+            614
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-female-tone-2": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-female-tone-2.png",
+      "sha256": "c65917d1d6154ce53461a2dc2bb1a45eb27bd8a277501921177fb4e962da9775",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-female-source.png",
+      "sourceSha256": "df695f443929eab8a63132ff4a81b793df6ae364bca7acc859ee594c840a3c16",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9733333333333334,
+      "frames": [
+        {
+          "bounds": [
+            31,
+            24,
+            398,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            31,
+            24,
+            400,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            31,
+            24,
+            398,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-female-tone-3": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-female-tone-3.png",
+      "sha256": "66e49bb138b5e13e8091c58256f946fe54984fd0676539ed1f38d583c972d72d",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-female-source.png",
+      "sourceSha256": "df695f443929eab8a63132ff4a81b793df6ae364bca7acc859ee594c840a3c16",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9667774086378738,
+      "frames": [
+        {
+          "bounds": [
+            33,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            31,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            33,
+            24,
+            401,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-female-tone-4": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-female-tone-4.png",
+      "sha256": "9e61136bd7fa19800fc63aea879b254327b4ec91e8d17e165abf3889d987ad74",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-female-source.png",
+      "sourceSha256": "df695f443929eab8a63132ff4a81b793df6ae364bca7acc859ee594c840a3c16",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9733333333333334,
+      "frames": [
+        {
+          "bounds": [
+            31,
+            24,
+            402,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            29,
+            24,
+            402,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            29,
+            24,
+            402,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-female-tone-5": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-female-tone-5.png",
+      "sha256": "742e490cecfaf1545789d4593fb74795ce44f0e7322b2e5bd157297b160f897f",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-female-source.png",
+      "sourceSha256": "df695f443929eab8a63132ff4a81b793df6ae364bca7acc859ee594c840a3c16",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.979933110367893,
+      "frames": [
+        {
+          "bounds": [
+            30,
+            24,
+            402,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            28,
+            24,
+            404,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            32,
+            24,
+            404,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-male-tone-1": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-male-tone-1.png",
+      "sha256": "68f51b0ddf6e2f41ceef4e46ced5ed3e2dbb82f794e711d8c0cd37f491877478",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-male-source.png",
+      "sourceSha256": "aebaea258ada9abdff2c7b9c1e63dee101d4de8d78cc618c28c5409255a0e2b5",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9283387622149837,
+      "frames": [
+        {
+          "bounds": [
+            24,
+            24,
+            408,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            26,
+            24,
+            408,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            24,
+            24,
+            408,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-male-tone-2": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-male-tone-2.png",
+      "sha256": "eb42e5e6bd4fd58399eee4769a626bd6b7e34792fc70a6e9592a384f0ca6fef1",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-male-source.png",
+      "sourceSha256": "aebaea258ada9abdff2c7b9c1e63dee101d4de8d78cc618c28c5409255a0e2b5",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9283387622149837,
+      "frames": [
+        {
+          "bounds": [
+            24,
+            24,
+            408,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            26,
+            24,
+            408,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            24,
+            24,
+            408,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-male-tone-3": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-male-tone-3.png",
+      "sha256": "1489df69eb2101e71cc880060553b61acf807d6a1dc7343e7db92db307d65fe5",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-male-source.png",
+      "sourceSha256": "aebaea258ada9abdff2c7b9c1e63dee101d4de8d78cc618c28c5409255a0e2b5",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9283387622149837,
+      "frames": [
+        {
+          "bounds": [
+            23,
+            26,
+            407,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            25,
+            24,
+            407,
+            612
+          ]
+        },
+        {
+          "bounds": [
+            23,
+            24,
+            409,
+            612
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-male-tone-4": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-male-tone-4.png",
+      "sha256": "885485b3ac4673aa192ea423006d686cdade9f35497806588b31571bf12b5500",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-male-source.png",
+      "sourceSha256": "aebaea258ada9abdff2c7b9c1e63dee101d4de8d78cc618c28c5409255a0e2b5",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9283387622149837,
+      "frames": [
+        {
+          "bounds": [
+            23,
+            24,
+            407,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            23,
+            24,
+            407,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            25,
+            24,
+            409,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/caregiver-male-tone-5": {
+      "url": "/assets/cinematic-v26/bus-family/caregiver-male-tone-5.png",
+      "sha256": "e363ba4fa714af3a4cd6f84a45e18b82051f8e2ff4278fe2b1e28d1f9c5b8787",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-caregiver-male-source.png",
+      "sourceSha256": "aebaea258ada9abdff2c7b9c1e63dee101d4de8d78cc618c28c5409255a0e2b5",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.9409836065573771,
+      "frames": [
+        {
+          "bounds": [
+            22,
+            24,
+            408,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            22,
+            24,
+            408,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            24,
+            24,
+            410,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/child-female-tone-1": {
+      "url": "/assets/cinematic-v26/bus-family/child-female-tone-1.png",
+      "sha256": "0149134e452d64c981989b96ef48a2bf25f007736b855212f20e495667cb9e74",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-female-source.png",
+      "sourceSha256": "3a17e5492505885d62f210810e5b7dc80eebb6c31bfa4d82a8cbc2b70bc7782f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6914285714285715,
+      "frames": [
+        {
+          "bounds": [
+            32,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            35,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            32,
+            26,
+            399,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/child-female-tone-2": {
+      "url": "/assets/cinematic-v26/bus-family/child-female-tone-2.png",
+      "sha256": "232df8d41224284551e880afca2c5e32c48a891943104923ad3a51c0eecbfdfe",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-female-source.png",
+      "sourceSha256": "3a17e5492505885d62f210810e5b7dc80eebb6c31bfa4d82a8cbc2b70bc7782f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6914285714285715,
+      "frames": [
+        {
+          "bounds": [
+            32,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            35,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            32,
+            24,
+            399,
+            614
+          ]
+        }
+      ]
+    },
+    "bus-family/child-female-tone-3": {
+      "url": "/assets/cinematic-v26/bus-family/child-female-tone-3.png",
+      "sha256": "d64f8e827f1daeb6ac7b54cdbb7e456cc89b0d54cf232a68104d8cf8717ea894",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-female-source.png",
+      "sourceSha256": "3a17e5492505885d62f210810e5b7dc80eebb6c31bfa4d82a8cbc2b70bc7782f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6914285714285715,
+      "frames": [
+        {
+          "bounds": [
+            32,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            34,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            32,
+            24,
+            399,
+            614
+          ]
+        }
+      ]
+    },
+    "bus-family/child-female-tone-4": {
+      "url": "/assets/cinematic-v26/bus-family/child-female-tone-4.png",
+      "sha256": "d8696f28380904a478830e404f3bbfaab6d0fc1e92c55adb4e1cf1acce41a016",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-female-source.png",
+      "sourceSha256": "3a17e5492505885d62f210810e5b7dc80eebb6c31bfa4d82a8cbc2b70bc7782f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6914285714285715,
+      "frames": [
+        {
+          "bounds": [
+            32,
+            24,
+            399,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            35,
+            24,
+            399,
+            614
+          ]
+        },
+        {
+          "bounds": [
+            32,
+            24,
+            399,
+            614
+          ]
+        }
+      ]
+    },
+    "bus-family/child-female-tone-5": {
+      "url": "/assets/cinematic-v26/bus-family/child-female-tone-5.png",
+      "sha256": "b833f3a10a1d29bff81ed2d470f2065e2057cbf63e603541991518ad2f0d5456",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-female-source.png",
+      "sourceSha256": "3a17e5492505885d62f210810e5b7dc80eebb6c31bfa4d82a8cbc2b70bc7782f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6962750716332378,
+      "frames": [
+        {
+          "bounds": [
+            32,
+            24,
+            400,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            34,
+            24,
+            400,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            32,
+            24,
+            398,
+            616
+          ]
+        }
+      ]
+    },
+    "bus-family/child-male-tone-1": {
+      "url": "/assets/cinematic-v26/bus-family/child-male-tone-1.png",
+      "sha256": "e07d72be29a676660d8319c53cf55ec88b10724e1f148af225a7ce035df28531",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-male-source.png",
+      "sourceSha256": "bfd2727dd977ffb290ac6becb2d39c44ef6c580e02a5564b5aa425e5f7c97d6f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.608695652173913,
+      "frames": [
+        {
+          "bounds": [
+            56,
+            24,
+            374,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            56,
+            26,
+            376,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            56,
+            24,
+            374,
+            613
+          ]
+        }
+      ]
+    },
+    "bus-family/child-male-tone-2": {
+      "url": "/assets/cinematic-v26/bus-family/child-male-tone-2.png",
+      "sha256": "bcf9f43ef132e80a33ded568c016dce3de4fbdefd1567a2c6c61e65d20c6530f",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-male-source.png",
+      "sourceSha256": "bfd2727dd977ffb290ac6becb2d39c44ef6c580e02a5564b5aa425e5f7c97d6f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6130790190735695,
+      "frames": [
+        {
+          "bounds": [
+            55,
+            24,
+            374,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            57,
+            24,
+            374,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            55,
+            24,
+            376,
+            614
+          ]
+        }
+      ]
+    },
+    "bus-family/child-male-tone-3": {
+      "url": "/assets/cinematic-v26/bus-family/child-male-tone-3.png",
+      "sha256": "8f8fe7f04f26b48aa854fac6146822eb3b4575bc005438b002500636ddbfe9c1",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-male-source.png",
+      "sourceSha256": "bfd2727dd977ffb290ac6becb2d39c44ef6c580e02a5564b5aa425e5f7c97d6f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6043360433604337,
+      "frames": [
+        {
+          "bounds": [
+            56,
+            24,
+            373,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            56,
+            24,
+            373,
+            613
+          ]
+        },
+        {
+          "bounds": [
+            56,
+            24,
+            375,
+            613
+          ]
+        }
+      ]
+    },
+    "bus-family/child-male-tone-4": {
+      "url": "/assets/cinematic-v26/bus-family/child-male-tone-4.png",
+      "sha256": "ea1c8b7993ac4405186e69a47e3eddc23d452c1057d695578b8f026b7bcdd156",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-male-source.png",
+      "sourceSha256": "bfd2727dd977ffb290ac6becb2d39c44ef6c580e02a5564b5aa425e5f7c97d6f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6174863387978142,
+      "frames": [
+        {
+          "bounds": [
+            54,
+            24,
+            374,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            54,
+            24,
+            374,
+            614
+          ]
+        },
+        {
+          "bounds": [
+            54,
+            24,
+            377,
+            611
+          ]
+        }
+      ]
+    },
+    "bus-family/child-male-tone-5": {
+      "url": "/assets/cinematic-v26/bus-family/child-male-tone-5.png",
+      "sha256": "f1d227df124cb2ef1ab9eccf756e447fdace18f0052ba54b3e1c77eb0cea7e63",
+      "size": [
+        1296,
+        640
+      ],
+      "source": "art-source/cinematic-v26/bus-child-male-source.png",
+      "sourceSha256": "bfd2727dd977ffb290ac6becb2d39c44ef6c580e02a5564b5aa425e5f7c97d6f",
+      "frameWidth": 432,
+      "frameHeight": 640,
+      "columns": 3,
+      "rows": 1,
+      "scale": 1.6174863387978142,
+      "frames": [
+        {
+          "bounds": [
+            56,
+            24,
+            376,
+            616
+          ]
+        },
+        {
+          "bounds": [
+            56,
+            24,
+            376,
+            613
+          ]
+        },
+        {
+          "bounds": [
+            56,
+            26,
+            376,
+            613
+          ]
+        }
+      ]
+    },
+    "clinician-portraits/neutral": {
+      "url": "/assets/cinematic-v26/clinician-portraits/neutral.png",
+      "sha256": "ee6078f4c1424c2da0ccaf3550e1d149414861f3473b32449646112cb37a2631",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    },
+    "clinician-portraits/reassuring": {
+      "url": "/assets/cinematic-v26/clinician-portraits/reassuring.png",
+      "sha256": "406f85e4e41b5716bb3ac30c537447b9b9f6cff5f822e551d8bf0a5c1792ad78",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    },
+    "clinician-portraits/explaining": {
+      "url": "/assets/cinematic-v26/clinician-portraits/explaining.png",
+      "sha256": "3b61471587554bcc7cfea1475bb3d42ddf37b1845a8a312dcdb22f7ee6b1be06",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    },
+    "clinician-portraits/concerned": {
+      "url": "/assets/cinematic-v26/clinician-portraits/concerned.png",
+      "sha256": "4e7460b776250f69b81d94d9c70d7a78c812daa6fc4123bb92ff3953826ca3d6",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    },
+    "clinician-portraits/apologetic": {
+      "url": "/assets/cinematic-v26/clinician-portraits/apologetic.png",
+      "sha256": "dee00831d02d6a51d93ca8812c33db4e9e4b5e33ec097403fa94d9395af00839",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    },
+    "clinician-portraits/thoughtful": {
+      "url": "/assets/cinematic-v26/clinician-portraits/thoughtful.png",
+      "sha256": "7cfcf6bef7575bd8a3a5a43c10f45cc65f1c98661a5dcce3963098273656e4ee",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    },
+    "clinician-portraits/hopeful": {
+      "url": "/assets/cinematic-v26/clinician-portraits/hopeful.png",
+      "sha256": "c7d0ad63f8a670ca99c9ada5ad51fbf810e77890b88dec7cc5435ead0ed02e12",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    },
+    "clinician-portraits/blink": {
+      "url": "/assets/cinematic-v26/clinician-portraits/blink.png",
+      "sha256": "525cf4390e8e2928798dc913ec9673a6e5dc42900ff2caec2332d12a9cd33d15",
+      "size": [
+        432,
+        432
+      ],
+      "source": "art-source/cinematic-v26/clinician-portraits-source.png",
+      "sourceSha256": "abe8dd44cb1eff70872b3ef9a68f66d52ecb83d189744f2b519a75396b18b505",
+      "frameWidth": 432,
+      "frameHeight": 432,
+      "columns": 1,
+      "rows": 1
+    }
+  }
+}
