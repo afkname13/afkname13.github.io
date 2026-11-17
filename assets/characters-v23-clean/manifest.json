@@ -1,8 +1,8 @@
 {
   "policy": "alpha-only; outside-connected family matte and distant tiny islands; unchanged dimensions and retained RGBA",
-  "scannedFiles": 340,
-  "scannedCells": 625,
-  "modifiedFiles": 242,
+  "scannedFiles": 339,
+  "scannedCells": 624,
+  "modifiedFiles": 241,
   "entries": [
     {
       "source": "/assets/portraits-v19/caregiver-female-tone-2-annoyed.png",
@@ -2114,14 +2114,6 @@
         0
       ],
       "sha256": "44df36a024d40655c6a1eb46c3b783f4725c7758e75bf3a9d00885e9c10c8751"
-    },
-    {
-      "source": "/assets/cinematic-v22/travel/sam-standing.png",
-      "output": "/assets/characters-v23-clean/cinematic-v22/travel/sam-standing.png",
-      "removedByCell": [
-        238
-      ],
-      "sha256": "5473127e114a5b21b3295052dcf842420abd2ecd446f5e19ad8c8e95581b7f9f"
     }
   ]
 }
